@@ -6,7 +6,26 @@ f_long-description: >-
 
   This recipe is a set of codemods that will upgrade your project from using msw v1 to v2.
 
-  The recipe includes the following codemods: -   [imports](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/imports) -   [type-args](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/type-args) -   [request-changes](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/request-changes) -   [ctx-fetch](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/ctx-fetch) -   [req-passthrough](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/req-passthrough) -   [response-usages](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/response-usages) -   [callback-signature](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/callback-signature) -   [lifecycle-events-signature](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/lifecycle-events-signature) -   [print-handler](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/print-handler)
+  The recipe includes the following codemods:
+
+
+  * imports
+
+  * type-args
+
+  * request-changes
+
+  * ctx-fetch
+
+  * req-passthrough
+
+  * response-usages
+
+  * callback-signature
+
+  * lifecycle-events-signature
+
+  * print-handler
 
 
   ### FNs
@@ -15,7 +34,7 @@ f_long-description: >-
   This recipe does not change the signatures of MSW handlers, if they were called using a custom factory function, for example to provide more type-safety or else. For example, the following code will only be partially updated:
 
 
-  ```ts
+  ```typescript
 
   export function mockFactory<T extends MyComplexType>(
     url: string,
