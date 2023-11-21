@@ -9,23 +9,23 @@ f_long-description: >-
   The recipe includes the following codemods:
 
 
-  * imports
+  * [imports](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/imports)
 
-  * type-args
+  * [type-args](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/type-args)
 
-  * request-changes
+  * [request-changes](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/request-changes)
 
-  * ctx-fetch
+  * [ctx-fetch](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/ctx-fetch)
 
-  * req-passthrough
+  * [req-passthrough](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/req-passthrough)
 
-  * response-usages
+  * [response-usages](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/response-usages)
 
-  * callback-signature
+  * [callback-signature](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/callback-signature)
 
-  * lifecycle-events-signature
+  * [lifecycle-events-signature](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/lifecycle-events-signature)
 
-  * print-handler
+  * [print-handler](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/print-handler)
 
 
   ### FNs
