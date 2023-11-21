@@ -6,6 +6,7 @@ f_long-description: >-
 
   To send a response from MSW handler, one would previously use something like `res(ctx.text("Hello world"))`. In msw v2, this is achieved by returning a native WebAPI Response object. msw v2 conveniently exposes a `HttpResponse` function that has useful methods for creating just that object with a desired body. This codemod replaces the old `res` calls with the new `HttpResponse` function calls and a bunch of ctx utilities that usually go with it. See examples below.
 
+
   This codemod does not remove unused properties on the callback signature due to the fact that there are more changes in other codemods included in the `upgrade-recipe` that rely on it. To apply these changes, you will have to run the recipe or run a `callback-signature` codemod that will do only that and replace all the references of old signature arguments.
 
 
@@ -191,6 +192,12 @@ f_long-description: >-
   -   [msw v1 to v2 migration guide -> response usages](https://mswjs.io/docs/migrations/1.x-to-2.x/#request-changes)
 
   ````
+
+
+  ### Links for more info
+
+
+  * [msw v1 to v2 migration guide -> request changes](https://mswjs.io/docs/migrations/1.x-to-2.x/#request-changes)
 f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/response-usages
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=xAFwkrXvZOF0QbeiBWcvwm8WpDI
 f_cli-command: intuita msw/2/response-usages
@@ -200,7 +207,7 @@ f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: msw-response-usages
-title: Update Response Function
+title: Update Response Usages
 updated-on: 2023-11-17T15:17:39.056Z
 published-on: 2023-11-17T15:18:58.613Z
 f_slug-name: msw-response-usages
