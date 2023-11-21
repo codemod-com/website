@@ -1293,6 +1293,10 @@ collections:
             label: Text
             name: '-677aa219'
             widget: string
+          - hint: 'Original text: Automations, key: -2097c9e4'
+            label: Text
+            name: '-2097c9e4'
+            widget: string
           - hint: >-
               Original text: Learn more about the Codemod Registry., key:
               507888d5
@@ -1424,6 +1428,14 @@ collections:
             label: Text
             name: '-1272519c'
             widget: string
+          - hint: 'Original text: + more migrations, key: -5a0f8de5'
+            label: Text
+            name: '-5a0f8de5'
+            widget: string
+          - hint: 'Original text: Explore all migrations →, key: -4815d33d'
+            label: Text
+            name: '-4815d33d'
+            widget: string
           - hint: 'Original text: + more , key: 1f7b3736'
             label: Text
             name: 1f7b3736
@@ -1475,10 +1487,6 @@ collections:
           - hint: 'Original text: Run, key: 1426b'
             label: Text
             name: 1426b
-            widget: string
-          - hint: 'Original text: Next.js App Router Migration, key: 4b7dc892'
-            label: Text
-            name: 4b7dc892
             widget: string
           - hint: >-
               Original text: automations straight into your IDE using the
@@ -1629,14 +1637,6 @@ collections:
           - hint: 'Original text: Get Started →, key: 28cb9929'
             label: Text
             name: 28cb9929
-            widget: string
-          - hint: 'Original text: + more migrations, key: -5a0f8de5'
-            label: Text
-            name: '-5a0f8de5'
-            widget: string
-          - hint: 'Original text: Explore all migrations →, key: -4815d33d'
-            label: Text
-            name: '-4815d33d'
             widget: string
           - hint: >-
               Original text: The end-to-end platform for code automation at
@@ -3060,6 +3060,10 @@ collections:
             label: Text
             name: b33a771
             widget: string
+          - hint: 'Original text: Next.js App Router Migration, key: 4b7dc892'
+            label: Text
+            name: 4b7dc892
+            widget: string
           - hint: >-
               Original text: Migrate from Next.js V12 Pages Router to the latest
               V14 App Router., key: -642121b
@@ -3454,10 +3458,6 @@ collections:
               key: 7421f34c
             label: Text
             name: 7421f34c
-            widget: string
-          - hint: 'Original text: Automations, key: -2097c9e4'
-            label: Text
-            name: '-2097c9e4'
             widget: string
           - hint: 'Original text: Labels, key: -78cab3e1'
             label: Text
@@ -4131,6 +4131,19 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: '-3cb3d212'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: '-178a07a7'
             widget: object
             fields:
@@ -4210,19 +4223,6 @@ collections:
                 required: false
           - label: Image
             name: '-4741a959'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-3cb3d212'
             widget: object
             fields:
               - name: url

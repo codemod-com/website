@@ -80,20 +80,24 @@
       <div class="divider correct-row-gap"></div>
       {%- assign collection = collections.ctas | filter: "f_featured-in-registry-sidebar,eq,true", "ALL", page.inputPath | sort: "-created-on" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="posters-flex-wrapper w-dyn-items">
-          {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
+          {%- for item in collection -%}<div role="listitem" class="grow w-dyn-item">
             <div class="w-embed"><style>
 #{{ item.data.slug }} {
 	background-image: linear-gradient(214deg, {{ item.data.f_background-color-1 }}, {{ item.data.f_background-color-2 }} 82%, {{ item.data.f_background-color-3 }});
 }
 </style></div>
-            <div class="poster-wrapper dream-migration">{%- if item.data.f_cta-icon -%}<img loading="lazy" src="{{ item.data.f_cta-icon.url }}" alt="{{ item.data.f_cta-icon.alt }}" class="poster-decorative-circle">{%- endif -%}{%- unless item.data.f_cta-icon -%}<img src="{{ images.55e4d5a0.url }}" loading="lazy" alt="{{ images.55e4d5a0.alt | trim | escape }}" class="poster-decorative-circle">{%- endunless -%}
-              <div class="posted-description-wrapper">
-                <div class="poster-heading-title">{{ item.data.f_title }}</div>
-                <div class="poster-subtitle w-richtext">{{ item.templateContent | markdown | markdown }}</div>
+            <div class="poster-wrapper dream-migration">
+              <div class="poster-top-wrapper">{%- if item.data.f_cta-icon -%}<img loading="lazy" src="{{ item.data.f_cta-icon.url }}" alt="{{ item.data.f_cta-icon.alt }}" class="poster-decorative-circle">{%- endif -%}{%- unless item.data.f_cta-icon -%}<img src="{{ images.55e4d5a0.url }}" loading="lazy" alt="{{ images.55e4d5a0.alt | trim | escape }}" class="poster-decorative-circle">{%- endunless -%}
+                <div class="posted-description-wrapper">
+                  <div class="poster-heading-title">{{ item.data.f_title }}</div>
+                  <div class="poster-subtitle w-richtext">{{ item.templateContent | markdown | markdown }}</div>
+                </div>
               </div>
-              <a target="_blank" href="{{ item.data.f_cta-link }}" class="primary-button w-inline-block">
-                <div class="engine-label-text">{{ item.data.f_button-cta }}</div>
-              </a>
+              <div class="poster-bottom-wrapper">
+                <a target="_blank" href="{{ item.data.f_cta-link }}" class="primary-button w-inline-block">
+                  <div class="engine-label-text">{{ item.data.f_button-cta }}</div>
+                </a>
+              </div>
             </div>
           </div>{%- endfor -%}
         </div>{%- endunless -%}
@@ -268,7 +272,7 @@
                   {%- if item.data.f_vs-code-link -%}<a href="{{ item.url }}" class="action-badge-wrapper codemod-page w-inline-block">
                     <div class="engine-label-text">{{ texts.-4e24ed94 }}</div>
                   </a>{%- endif -%}
-                  <div class="action-items-wrapper full-width">
+                  <div class="action-items-wrapper full-width hide">
                     <div class="divider"></div>
                     {%- if item.data.f_github-link -%}<a target="_blank" href="{{ item.data.f_github-link }}" class="primary-button small grow github w-inline-block"><img src="{{ images.-3644a220.url }}" loading="lazy" alt="{{ images.-3644a220.alt | trim | escape }}" class="github-icon">
                       <div class="engine-label-text">{{ texts.305bd5f6 }}</div>
@@ -279,8 +283,8 @@
                   </div>
                   <div class="author-wrapper margin-top">
                     <div class="author-name-flex-wrapper">
-                      <div>{{ texts.c57 }}</div>
-                      {%- assign authorsOfAutomations = item.data.f_author | resolveReference -%}<div fs-cmsfilter-field="author">{{ authorsOfAutomations.data.title }}</div>
+                      <div class="in-line">{{ texts.c57 }}</div>
+                      {%- assign authorsOfAutomations = item.data.f_author | resolveReference -%}<div fs-cmsfilter-field="author" class="in-line">{{ authorsOfAutomations.data.title }}</div>
                     </div>
                     {%- assign authorsOfAutomations = item.data.f_author | resolveReference -%}<a href="{{ authorsOfAutomations.data.f_github-profile }}" class="author-icon-wrapper w-inline-block">{%- assign authorsOfAutomations = item.data.f_author | resolveReference -%}<img loading="lazy" src="{{ authorsOfAutomations.data.f_author-image.url }}" alt="{{ authorsOfAutomations.data.title }}" class="author-icon"></a>
                   </div>
@@ -543,4 +547,4 @@ p code {
 }
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
