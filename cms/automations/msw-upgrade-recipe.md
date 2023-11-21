@@ -27,6 +27,8 @@ f_long-description: >-
 
   * print-handler
 
+  * [imports](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/imports) -   [type-args](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/type-args) -   [request-changes](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/request-changes) -   [ctx-fetch](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/ctx-fetch) -   [req-passthrough](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/req-passthrough) -   [response-usages](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/response-usages) -   [callback-signature](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/callback-signature) -   [lifecycle-events-signature](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/lifecycle-events-signature) -   [print-handler](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/print-handler)
+
 
   ### FNs
 
