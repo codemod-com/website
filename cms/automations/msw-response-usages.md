@@ -56,7 +56,7 @@ f_long-description: >-
       ctx.status(401)
     );
   });
-  
+
   ```
 
   ### After
@@ -72,7 +72,7 @@ f_long-description: >-
       status: 401,
     });
   });
-  
+
   ```
 
   ### Before
@@ -87,7 +87,7 @@ f_long-description: >-
       ctx.set('Content-Type', 'text/plain'),
     );
   });
-  
+
   ```
 
   ### After
@@ -99,7 +99,7 @@ f_long-description: >-
   rest.get('/user', (req, res, ctx) => {
     return HttpResponse.text("Hello world");
   });
-  
+
   ```
 
   ### Before
@@ -111,7 +111,7 @@ f_long-description: >-
   rest.get('/user', (req, res, ctx) => {
     return res(ctx.text('Hello world!'));
   });
-  
+
   ```
 
   ### After
@@ -123,7 +123,7 @@ f_long-description: >-
   rest.get('/user', (req, res, ctx) => {
     return HttpResponse.text("Hello world");
   });
-  
+
   ```
 
   ### Before
@@ -143,7 +143,7 @@ f_long-description: >-
       })
     )
   })
-  
+
   ```
 
   ### After
@@ -163,21 +163,20 @@ f_long-description: >-
       },
     )
   })
-  
-  ```
-  ### Links for more info
+
+  ``` ### Links for more info
 
   -   [msw v1 to v2 migration guide -> response usages](https://mswjs.io/docs/migrations/1.x-to-2.x/#request-changes)
 f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/response-usages
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=xAFwkrXvZOF0QbeiBWcvwm8WpDI
 f_cli-command: intuita msw/2/response-usages
 f_framework: cms/framework/msw.md
-f_applicability-criteria: "MSW version >= 1.0.0"
+f_applicability-criteria: MSW version >= 1.0.0
 f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: msw-response-usages
-title: Apply request changes
+title: Update Response Function
 updated-on: 2023-11-17T15:17:39.056Z
 published-on: 2023-11-17T15:18:58.613Z
 f_slug-name: msw-response-usages
@@ -189,4 +188,4 @@ f_labels:
 tags: automations
 date: 2023-11-20T14:53:04.294Z
 ---
-This codemod replaces the old `res` calls with the new `HttpResponse` function calls ctx utilities that usually go with it.
+This codemod updates MSW handlers to use the new HttpResponse function for responses, replacing old `res` calls with this new method in msw v2.
