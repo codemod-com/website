@@ -1,15 +1,13 @@
 ---
-title: MSW
-slug: msw
+created-on: 2023-11-15T18:55:15.027Z
 f_image:
-  url: >-
-    https://uploads-ssl.webflow.com/65428e9a3a9d943b973390e7/655514100a008a854cdf0d6d_msw-logo.png
+  url: /assets/images/msw-logo.svg
   alt: null
-updated-on: '2023-11-15T18:55:15.027Z'
-created-on: '2023-11-15T18:55:15.027Z'
-published-on: '2023-11-16T13:52:58.707Z'
-layout: '[framework].html'
+layout: "[framework].html"
+slug: msw
+title: MSW
+updated-on: 2023-11-15T18:55:15.027Z
+published-on: 2023-11-16T13:52:58.707Z
 tags: framework
+date: 2023-11-22T15:08:46.818Z
 ---
-
-
