@@ -1158,9 +1158,9 @@ collections:
             label: Text
             name: 20965b
             widget: string
-          - hint: "Original text: More\_Resources, key: 3501329a"
+          - hint: 'Original text: More, key: 24af75'
             label: Text
-            name: 3501329a
+            name: 24af75
             widget: string
           - hint: 'Original text: Careers, key: -7bc27f6b'
             label: Text
@@ -1173,6 +1173,10 @@ collections:
           - hint: 'Original text: GitHub, key: 7f258fe3'
             label: Text
             name: 7f258fe3
+            widget: string
+          - hint: 'Original text: Contact, key: -64104400'
+            label: Text
+            name: '-64104400'
             widget: string
           - hint: >-
               Original text: Save days of manual work by running automation
@@ -1491,10 +1495,6 @@ collections:
             label: Text
             name: '-64202ba3'
             widget: string
-          - hint: 'Original text: Contact, key: -64104400'
-            label: Text
-            name: '-64104400'
-            widget: string
           - hint: 'Original text: Privacy Policy, key: -3fbde6f6'
             label: Text
             name: '-3fbde6f6'
@@ -1510,6 +1510,10 @@ collections:
           - hint: 'Original text: Quick Link, key: -289a8973'
             label: Text
             name: '-289a8973'
+            widget: string
+          - hint: "Original text: Automation\_Registry, key: -76f38e5a"
+            label: Text
+            name: '-76f38e5a'
             widget: string
           - hint: 'Original text: © 2023 Intuita. All rights reserved, key: -78dddcc6'
             label: Text
@@ -3605,6 +3609,10 @@ collections:
             label: Link
             name: 20f6ac18
             widget: string
+          - hint: 'Original link: /contact/, key: 16bdc13e'
+            label: Link
+            name: 16bdc13e
+            widget: string
           - hint: 'Original link: #codemod-studio-section, key: 3fe998a9'
             label: Link
             name: 3fe998a9
@@ -3648,10 +3656,6 @@ collections:
           - hint: 'Original link: #, key: 23'
             label: Link
             name: '23'
-            widget: string
-          - hint: 'Original link: /contact/, key: 16bdc13e'
-            label: Link
-            name: 16bdc13e
             widget: string
           - hint: 'Original link: /company/privacy-policy/, key: 52569957'
             label: Link

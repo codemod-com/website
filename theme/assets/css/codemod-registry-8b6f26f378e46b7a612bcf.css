@@ -1049,7 +1049,7 @@ ul {
 }
 
 .dropdown-list.right-side.w--open {
-  left: -100%;
+  left: 0%;
 }
 
 .navbar-container-2 {
