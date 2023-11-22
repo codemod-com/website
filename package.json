@@ -1,5 +1,5 @@
 {
-  "name": "codemod-registry",
+  "name": "codemod-registry-8b6f26f378e46b7a612bcf",
   "dependencies": {
     "@11ty/eleventy": "2.0.1",
     "@11ty/eleventy-img": "2.0.0",
