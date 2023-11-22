@@ -1638,74 +1638,6 @@ collections:
             label: Text
             name: '-677aa219'
             widget: string
-          - hint: "Original text: Need help with migrating your project?\_Get in touch with our migration experts that will help your team adopt the latest cutting-edge stacks., key: 4e6283a6"
-            label: Text
-            name: 4e6283a6
-            widget: text
-          - hint: 'Original text: You build., key: -43d993f'
-            label: Text
-            name: '-43d993f'
-            widget: string
-          - hint: 'Original text: We migrate., key: 26c620d5'
-            label: Text
-            name: 26c620d5
-            widget: string
-          - hint: >-
-              Original text: Engineers' time matters. Focus on your product
-              while we help you adopt the cutting-edge stack., key: -63d040c3
-            label: Text
-            name: '-63d040c3'
-            widget: text
-          - hint: 'Original text: Name, key: 24eeab'
-            label: Text
-            name: 24eeab
-            widget: string
-          - hint: 'Original text: Select framework.., key: -3d628cc6'
-            label: Text
-            name: '-3d628cc6'
-            widget: string
-          - hint: 'Original text: Other, key: 48f8ef0'
-            label: Text
-            name: 48f8ef0
-            widget: string
-          - hint: 'Original text: Leave us a message, key: 51b6cf2f'
-            label: Text
-            name: 51b6cf2f
-            widget: string
-          - hint: >-
-              Original text: Thanks for reaching out. We will get back to you
-              soon., key: 616f2143
-            label: Text
-            name: 616f2143
-            widget: string
-          - hint: 'Original text: Or contact us directly, key: -79f0f325'
-            label: Text
-            name: '-79f0f325'
-            widget: string
-          - hint: 'Original text: Email:, key: 7bec143e'
-            label: Text
-            name: 7bec143e
-            widget: string
-          - hint: 'Original text: migrate@intuita.io, key: 585f0519'
-            label: Text
-            name: 585f0519
-            widget: string
-          - hint: 'Original text: Chat:, key: 3e0e7c2'
-            label: Text
-            name: 3e0e7c2
-            widget: string
-          - hint: 'Original text: Get in touch with us on Slack, key: 7035c089'
-            label: Text
-            name: 7035c089
-            widget: string
-          - hint: 'Original text: Live call:, key: 52bb1188'
-            label: Text
-            name: 52bb1188
-            widget: string
-          - hint: 'Original text: Book a quick call with us, key: 372d869f'
-            label: Text
-            name: 372d869f
-            widget: string
           - hint: >-
               Original text: Learn more about the Codemod Registry., key:
               507888d5
@@ -1967,6 +1899,62 @@ collections:
           - hint: 'Original text: Become our next success story., key: 5dd1ef56'
             label: Text
             name: 5dd1ef56
+            widget: string
+          - hint: 'Original text: You build., key: -43d993f'
+            label: Text
+            name: '-43d993f'
+            widget: string
+          - hint: 'Original text: We migrate., key: 26c620d5'
+            label: Text
+            name: 26c620d5
+            widget: string
+          - hint: >-
+              Original text: Engineers' time matters. Focus on your product
+              while we help you adopt the cutting-edge stack., key: -63d040c3
+            label: Text
+            name: '-63d040c3'
+            widget: text
+          - hint: 'Original text: Name, key: 24eeab'
+            label: Text
+            name: 24eeab
+            widget: string
+          - hint: 'Original text: Leave us a message, key: 51b6cf2f'
+            label: Text
+            name: 51b6cf2f
+            widget: string
+          - hint: >-
+              Original text: Thanks for reaching out. We will get back to you
+              soon., key: 616f2143
+            label: Text
+            name: 616f2143
+            widget: string
+          - hint: 'Original text: Or contact us directly, key: -79f0f325'
+            label: Text
+            name: '-79f0f325'
+            widget: string
+          - hint: 'Original text: Email:, key: 7bec143e'
+            label: Text
+            name: 7bec143e
+            widget: string
+          - hint: 'Original text: migrate@intuita.io, key: 585f0519'
+            label: Text
+            name: 585f0519
+            widget: string
+          - hint: 'Original text: Chat:, key: 3e0e7c2'
+            label: Text
+            name: 3e0e7c2
+            widget: string
+          - hint: 'Original text: Get in touch with us on Slack, key: 7035c089'
+            label: Text
+            name: 7035c089
+            widget: string
+          - hint: 'Original text: Live call:, key: 52bb1188'
+            label: Text
+            name: 52bb1188
+            widget: string
+          - hint: 'Original text: Book a quick call with us, key: 372d869f'
+            label: Text
+            name: 372d869f
             widget: string
           - hint: 'Original text: Migrate Now, key: -447a915f'
             label: Text
@@ -3545,6 +3533,18 @@ collections:
             label: Text
             name: '-514ac1ee'
             widget: string
+          - hint: "Original text: Need help with migrating your project?\_Get in touch with our migration experts that will help your team adopt the latest cutting-edge stacks., key: 4e6283a6"
+            label: Text
+            name: 4e6283a6
+            widget: text
+          - hint: 'Original text: Select framework.., key: -3d628cc6'
+            label: Text
+            name: '-3d628cc6'
+            widget: string
+          - hint: 'Original text: Other, key: 48f8ef0'
+            label: Text
+            name: 48f8ef0
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3605,9 +3605,9 @@ collections:
             label: Link
             name: 20f6ac18
             widget: string
-          - hint: 'Original link: /contact-us/, key: 6bfbaa95'
+          - hint: 'Original link: /contact/, key: 16bdc13e'
             label: Link
-            name: 6bfbaa95
+            name: 16bdc13e
             widget: string
           - hint: 'Original link: #codemod-studio-section, key: 3fe998a9'
             label: Link
@@ -3691,18 +3691,6 @@ collections:
             label: Link
             name: 77e5bfff
             widget: string
-          - hint: 'Original link: mailto:migrate@intuita.io, key: 95edf21'
-            label: Link
-            name: 95edf21
-            widget: string
-          - hint: 'Original link: https://intuita.io/community, key: -4abbf7b3'
-            label: Link
-            name: '-4abbf7b3'
-            widget: string
-          - hint: 'Original link: https://cal.com/intuita, key: -36ff12ed'
-            label: Link
-            name: '-36ff12ed'
-            widget: string
           - hint: >-
               Original link:
               https://docs.intuita.io/docs/cli/quickstart#install-cli, key:
@@ -3723,6 +3711,18 @@ collections:
               key: -2ab382d3
             label: Link
             name: '-2ab382d3'
+            widget: string
+          - hint: 'Original link: mailto:migrate@intuita.io, key: 95edf21'
+            label: Link
+            name: 95edf21
+            widget: string
+          - hint: 'Original link: https://intuita.io/community, key: -4abbf7b3'
+            label: Link
+            name: '-4abbf7b3'
+            widget: string
+          - hint: 'Original link: https://cal.com/intuita, key: -36ff12ed'
+            label: Link
+            name: '-36ff12ed'
             widget: string
           - hint: >-
               Original link:
@@ -4512,58 +4512,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-3b599675'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '2173831'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-3f06943'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 59f51b3b
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: '-38eea61f'
             widget: object
             fields:
@@ -4617,6 +4565,58 @@ collections:
                 required: false
           - label: Image
             name: '-59d0a9be'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-3b599675'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '2173831'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-3f06943'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 59f51b3b
             widget: object
             fields:
               - name: url
