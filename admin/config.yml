@@ -1138,6 +1138,10 @@ collections:
             label: Text
             name: 596486a1
             widget: string
+          - hint: 'Original text: Codemod Registry, key: -699f9b8'
+            label: Text
+            name: '-699f9b8'
+            widget: string
           - hint: "Original text: VS\_Code Extension, key: -77e9fdf1"
             label: Text
             name: '-77e9fdf1'
@@ -1514,10 +1518,6 @@ collections:
           - hint: 'Original text: Automations, key: -2097c9e4'
             label: Text
             name: '-2097c9e4'
-            widget: string
-          - hint: 'Original text: Codemod Registry, key: -699f9b8'
-            label: Text
-            name: '-699f9b8'
             widget: string
           - hint: 'Original text: Popular and , key: 3cc9f230'
             label: Text
@@ -3565,6 +3565,10 @@ collections:
             label: Link
             name: '-5be4108f'
             widget: string
+          - hint: 'Original link: /automations/, key: -321e94de'
+            label: Link
+            name: '-321e94de'
+            widget: string
           - hint: >-
               Original link:
               https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension,
@@ -3663,10 +3667,6 @@ collections:
               key: 7fe45151
             label: Link
             name: 7fe45151
-            widget: string
-          - hint: 'Original link: /automations/, key: -321e94de'
-            label: Link
-            name: '-321e94de'
             widget: string
           - hint: >-
               Original link:
