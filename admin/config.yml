@@ -1402,6 +1402,18 @@ collections:
             label: Text
             name: '-7a916317'
             widget: string
+          - hint: 'Original text: Automation Registry, key: 66d4f126'
+            label: Text
+            name: 66d4f126
+            widget: string
+          - hint: 'Original text: Contact Us, key: 7f2746de'
+            label: Text
+            name: 7f2746de
+            widget: string
+          - hint: 'Original text: More, key: 24af75'
+            label: Text
+            name: 24af75
+            widget: string
           - hint: 'Original text: Migrate Your Project with Intuita →, key: 98447'
             label: Text
             name: '98447'
@@ -1939,6 +1951,10 @@ collections:
           - hint: 'Original text: hello@intuita.io, key: 6f631392'
             label: Text
             name: 6f631392
+            widget: string
+          - hint: "Original text: Automation\_Registry, key: -76f38e5a"
+            label: Text
+            name: '-76f38e5a'
             widget: string
           - hint: 'Original text: Last updated: January 14, 2023, key: 5cd6f1a3'
             label: Text
@@ -2710,10 +2726,6 @@ collections:
             label: Text
             name: '-19e4ed89'
             widget: text
-          - hint: 'Original text: Contact Us, key: 7f2746de'
-            label: Text
-            name: 7f2746de
-            widget: string
           - hint: >-
               Original text: If you have any questions about this Privacy
               Policy, You can contact us:, key: 6c58319
@@ -3617,6 +3629,10 @@ collections:
           - hint: 'Original link: https://feedback.intuita.io/, key: -ab64f'
             label: Link
             name: '-ab64f'
+            widget: string
+          - hint: 'Original link: /contact-us/, key: 6bfbaa95'
+            label: Link
+            name: 6bfbaa95
             widget: string
           - hint: 'Original link: #migrations-section, key: 5539d0e0'
             label: Link

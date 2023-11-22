@@ -1044,6 +1044,14 @@ ul {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, .05);
 }
 
+.dropdown-list.right-side {
+  min-width: 200px;
+}
+
+.dropdown-list.right-side.w--open {
+  left: -100%;
+}
+
 .navbar-container-2 {
   width: 100%;
   height: 100%;
