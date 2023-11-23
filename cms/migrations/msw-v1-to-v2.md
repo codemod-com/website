@@ -29,6 +29,14 @@ f_migrate-from-image:
   alt: null
 tags: migrations
 date: 2023-11-22T15:09:23.981Z
+seo:
+  title: MSW V1 to V2 Migration | Intuita
+  description: Migrate your project from Model Service Worker (MSW) v1 to V2 with
+    the help of the Intuita migration automations platform.
+  og:title: MSW V1 to V2 Migration | Intuita
+  twitter:title: MSW V1 to V2 Migration | Intuita
+  twitter:card: MSW V1 to V2 Migration | Intuita
+  og:image: /assets/images/msw-migration-og.jpg
 ---
 
 Put your MSW project migration on autopilot with our MSW-tailored automations. Each automation lands a specific large-scale change to help you safely and incrementally adopt the MSW v2.
