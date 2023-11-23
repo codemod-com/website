@@ -12,4 +12,4 @@ f_feature-image:
 tags: migration-features
 date: 2023-11-23T17:52:48.556Z
 ---
-Adopting the app router allows you to reap significant performance improvements. In some cases, the app router can [increase your app speed by up to 200%](https://vercel.com/customers/how-whop-improved-their-real-experience-score-by-200-with-the-next-js-app).
+Adopting the app router allows you to reap significant performance improvements. In some cases, the app router can increase your app speed by up to 200%.
