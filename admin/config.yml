@@ -3535,13 +3535,9 @@ collections:
             label: Text
             name: 4e6283a6
             widget: text
-          - hint: 'Original text: Select framework.., key: -3d628cc6'
+          - hint: 'Original text: Select one, key: 14066d62'
             label: Text
-            name: '-3d628cc6'
-            widget: string
-          - hint: 'Original text: Other, key: 48f8ef0'
-            label: Text
-            name: 48f8ef0
+            name: 14066d62
             widget: string
       - label: Links
         name: links

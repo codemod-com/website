@@ -4360,7 +4360,7 @@ ul {
 }
 
 .hidden-frameworks-wrapper {
-  display: none;
+  display: block;
 }
 
 .migration-name {
@@ -4399,6 +4399,19 @@ ul {
 
 .form-label {
   margin-top: 10px;
+}
+
+.select-field {
+  background-color: #fff;
+  border: 1px solid #eff0f6;
+  border-radius: 100px;
+  transition: border .3s, box-shadow .3s;
+  box-shadow: 0 2px 7px rgba(20, 20, 43, .08);
+}
+
+.select-field:hover {
+  border-color: #000;
+  box-shadow: 0 2px 12px rgba(20, 20, 43, .08);
 }
 
 @media screen and (min-width: 1440px) {
