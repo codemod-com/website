@@ -1930,9 +1930,9 @@ collections:
             label: Text
             name: 616f2143
             widget: string
-          - hint: 'Original text: Or contact us directly, key: -79f0f325'
+          - hint: 'Original text: Or reach us at:, key: -30376fd1'
             label: Text
-            name: '-79f0f325'
+            name: '-30376fd1'
             widget: string
           - hint: 'Original text: Email:, key: 7bec143e'
             label: Text
@@ -1946,17 +1946,17 @@ collections:
             label: Text
             name: 3e0e7c2
             widget: string
-          - hint: 'Original text: Get in touch with us on Slack, key: 7035c089'
+          - hint: 'Original text: Chat with us, key: -73d87c70'
             label: Text
-            name: 7035c089
+            name: '-73d87c70'
             widget: string
           - hint: 'Original text: Live call:, key: 52bb1188'
             label: Text
             name: 52bb1188
             widget: string
-          - hint: 'Original text: Book a quick call with us, key: 372d869f'
+          - hint: 'Original text: Hop on a zoom call for a demo, key: e4e4eb7'
             label: Text
-            name: 372d869f
+            name: e4e4eb7
             widget: string
           - hint: "Original text: Learn\_More →, key: -265dfa5d"
             label: Text
@@ -1985,35 +1985,31 @@ collections:
             label: Text
             name: 752cddff
             widget: string
-          - hint: 'Original text: Starter, key: -ddc2791'
+          - hint: 'Original text: Developer, key: 72a307aa'
             label: Text
-            name: '-ddc2791'
+            name: 72a307aa
             widget: string
           - hint: 'Original text: For developers and individual use, key: -61aa9cb7'
             label: Text
             name: '-61aa9cb7'
             widget: string
-          - hint: 'Original text: Free Intuita Platform Access, key: 44a1884d'
+          - hint: >-
+              Original text: Intuita AI (free GPT4 with monthly limit), key:
+              7ecce778
             label: Text
-            name: 44a1884d
+            name: 7ecce778
             widget: string
-          - hint: 'Original text: AI Codemod Studio, key: 628b7199'
+          - hint: "Original text: Private &\_Public Codemods, key: 1cda46fe"
             label: Text
-            name: 628b7199
-            widget: string
-          - hint: "Original text: Private &\_Public Codemod Registries, key: 5960eea6"
-            label: Text
-            name: 5960eea6
+            name: 1cda46fe
             widget: string
           - hint: "Original text: CLI &\_IDE\_Extension, key: 13c96f6f"
             label: Text
             name: 13c96f6f
             widget: string
-          - hint: >-
-              Original text: Access to Public Slack Community Help, key:
-              2eb34f36
+          - hint: 'Original text: Slack Community support, key: -41b6f638'
             label: Text
-            name: 2eb34f36
+            name: '-41b6f638'
             widget: string
           - hint: >-
               Original text: Includes access to all our open-source resources,
@@ -2047,9 +2043,9 @@ collections:
             label: Text
             name: '-6a68a66'
             widget: string
-          - hint: 'Original text: Full Access to Pro Automations, key: 6e8a934f'
+          - hint: 'Original text: Up to 500 developers, key: 75ac14'
             label: Text
-            name: 6e8a934f
+            name: 75ac14
             widget: string
           - hint: >-
               Original text: Get access to premium pro codemods made for
@@ -2057,17 +2053,23 @@ collections:
             label: Text
             name: 23be3213
             widget: string
-          - hint: 'Original text: In-house Team Migration Support, key: 27d30ee2'
+          - hint: 'Original text: Intuita AI, key: 575675f8'
             label: Text
-            name: 27d30ee2
+            name: 575675f8
             widget: string
-          - hint: 'Original text: Access to Private Expert Community, key: 1dd8aff9'
+          - hint: 'Original text: Pro Codemods by Intuita, key: -13ec406a'
             label: Text
-            name: 1dd8aff9
+            name: '-13ec406a'
             widget: string
-          - hint: "Original text: CI/CD\_Integrations, key: -2bf1c08b"
+          - hint: 'Original text: Private Slack Support, key: -1e5b44fe'
             label: Text
-            name: '-2bf1c08b'
+            name: '-1e5b44fe'
+            widget: string
+          - hint: >-
+              Original text: Github, Jira, Linear, Slack Integrations, key:
+              -1db084df
+            label: Text
+            name: '-1db084df'
             widget: string
           - hint: >-
               Original text: Suitable for teams looking for partial ownership of
@@ -2101,27 +2103,21 @@ collections:
             label: Text
             name: '-5a6c6075'
             widget: string
-          - hint: 'Original text: Intuita Full Migration Ownership, key: -428e07c4'
+          - hint: 'Original text: 500+ devs, key: 62e0d308'
             label: Text
-            name: '-428e07c4'
+            name: 62e0d308
             widget: string
-          - hint: 'Original text: Migration Success Guarantee, key: -3da21d87'
+          - hint: 'Original text: Fully managed migrations, key: -40672644'
             label: Text
-            name: '-3da21d87'
+            name: '-40672644'
             widget: string
-          - hint: 'Original text: On-demand Automation Development, key: -34f7227'
+          - hint: 'Original text: Leadership dashboard, key: -25583ce7'
             label: Text
-            name: '-34f7227'
+            name: '-25583ce7'
             widget: string
-          - hint: >-
-              Original text: Early-access to Automations & New Features, key:
-              -161f2972
+          - hint: 'Original text: Custom integrations, key: 6740314e'
             label: Text
-            name: '-161f2972'
-            widget: string
-          - hint: 'Original text: Voting on Product Roadmap, key: 5a239b03'
-            label: Text
-            name: 5a239b03
+            name: 6740314e
             widget: string
           - hint: >-
               Original text: Suitable for teams looking for full Intuita-owned
@@ -3539,6 +3535,18 @@ collections:
             label: Text
             name: 14066d62
             widget: string
+          - hint: 'Original text: Or contact us directly, key: -79f0f325'
+            label: Text
+            name: '-79f0f325'
+            widget: string
+          - hint: 'Original text: Get in touch with us on Slack, key: 7035c089'
+            label: Text
+            name: 7035c089
+            widget: string
+          - hint: 'Original text: Book a quick call with us, key: 372d869f'
+            label: Text
+            name: 372d869f
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3692,9 +3700,9 @@ collections:
             label: Link
             name: '-ab64f'
             widget: string
-          - hint: 'Original link: #contact-form, key: -1ab17e0c'
+          - hint: 'Original link: #contact-section, key: 48d6bbb5'
             label: Link
-            name: '-1ab17e0c'
+            name: 48d6bbb5
             widget: string
           - hint: >-
               Original link: https://github.com/intuita-inc/codemod-registry,

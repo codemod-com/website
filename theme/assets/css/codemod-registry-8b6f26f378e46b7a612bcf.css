@@ -939,6 +939,11 @@ ul {
   min-width: 200px;
 }
 
+.search-field-wrapper.full-width {
+  width: 100%;
+  min-width: 200px;
+}
+
 .search-icon {
   width: 18px;
   height: 18px;
@@ -4198,7 +4203,7 @@ ul {
 
 .grid-2-columns.contact-v1 {
   grid-column-gap: 60px;
-  grid-row-gap: 10px;
+  grid-row-gap: 5px;
   border: 1px solid var(--border-grey);
   border-radius: var(--card-radius);
   background-image: radial-gradient(circle at 100% 0, #7d778a, #000 50%);
@@ -4239,9 +4244,10 @@ ul {
 }
 
 .square-icon.mg-right-16px.mg-bottom-16px-mb {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border: 2px solid var(--border-grey);
+  border-radius: 10px;
 }
 
 .card {
@@ -4252,11 +4258,10 @@ ul {
 }
 
 .card.form {
-  min-height: 620px;
   border-radius: 12px;
   flex-direction: column;
   margin-bottom: 0;
-  padding: 40px;
+  padding: 25px 40px;
   display: flex;
 }
 
@@ -4291,7 +4296,7 @@ ul {
 
 .text-300.bold.footer-title {
   color: #afafaf;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .color-neutral-300 {
@@ -5653,7 +5658,7 @@ ul {
     flex-direction: column;
   }
 
-  .search-field-wrapper.wide {
+  .search-field-wrapper.wide, .search-field-wrapper.full-width {
     width: 100%;
     min-width: auto;
   }

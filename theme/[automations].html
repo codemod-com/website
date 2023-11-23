@@ -21,6 +21,12 @@ p code {
 	padding: 2px 4px 2px;
 	font-size: 0.9rem;
 }
+pre {
+	line-height: 120% !important;
+}
+pre code {
+	font-size: 12px !important;
+}
 </style>
 {{ settings.site.header_additional_content }}{%- include "partials/_site-css-variables" -%}<style>.w-video.w-embed {
             aspect-ratio: 16 / 9;
@@ -54,7 +60,7 @@ p code {
           <nav class="dropdown-list w-dropdown-list">
             <div class="dropdown-grid">
               <a href="{{ links.-5be4108f }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.596486a1 }}</a>
-              <a href="{{ links.-321e94de }}" class="dropdown-link w-dropdown-link">{{ texts.-699f9b8 }}</a>
+              <a href="{{ links.-321e94de }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.-699f9b8 }}</a>
               <a href="{{ links.-3f316fbd }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.-77e9fdf1 }}</a>
               <a href="{{ links.52ce7af1 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.10500 }}</a>
             </div>
@@ -62,9 +68,20 @@ p code {
         </div>
         <a href="{{ links.-d9445a8 }}" class="navbar-link w-nav-link">{{ texts.507137a6 }}</a>
         <a href="{{ links.-599fd5b8 }}" target="_blank" class="navbar-link w-nav-link">{{ texts.20965b }}</a>
-        <a href="{{ links.7ecb8309 }}" target="_blank" class="navbar-link w-nav-link">{{ texts.1fa3c2 }}</a>
-        <a href="{{ links.20f6ac18 }}" target="_blank" class="navbar-link w-nav-link">{{ texts.7f258fe3 }}</a>
-        <a href="{{ links.6dcf58d9 }}" rel="" target="_blank" class="navbar-link w-nav-link">{{ texts.-7bc27f6b }}</a>
+        <div data-hover="true" data-delay="0" class="dropdown w-dropdown">
+          <div class="navbar-link for-dropdown w-dropdown-toggle">
+            <div class="icon-dropdown w-icon-dropdown-toggle"></div>
+            <div>{{ texts.24af75 }}</div>
+          </div>
+          <nav class="dropdown-list right-side w-dropdown-list">
+            <div class="dropdown-grid">
+              <a href="{{ links.6dcf58d9 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.-7bc27f6b }}</a>
+              <a href="{{ links.7ecb8309 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.1fa3c2 }}</a>
+              <a href="{{ links.20f6ac18 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.7f258fe3 }}</a>
+            </div>
+          </nav>
+        </div>
+        <a href="{{ links.16bdc13e }}" class="navbar-link w-nav-link">{{ texts.-64104400 }}</a>
       </nav>
     </div>
   </div>
@@ -92,7 +109,7 @@ p code {
           </div>{%- endfor -%}
         </div>{%- endunless -%}
         {%- if collection.length == 0 -%}<div class="no-ctas-found w-dyn-empty">
-          <div class="poster-wrapper"><img src="{{ images.55e4d5a0.url }}" loading="lazy" alt="{{ images.55e4d5a0.alt | trim | escape }}" class="poster-decorative-circle">
+          <div class="poster-wrapper"><img src="{{ images.55e4d5a0.url }}" loading="lazy" alt="{{ images.55e4d5a0.alt | trim | escape }}" class="poster-decorative-circle hidden">
             <div class="posted-description-wrapper">
               <div class="poster-heading-title">{{ texts.3766ef65 }}</div>
               <p class="poster-subtitle">{{ texts.507888d5 }}</p>
@@ -222,8 +239,8 @@ p code {
               </div>
               <div class="author-wrapper">
                 <div class="author-name-flex-wrapper">
-                  <div>{{ texts.c57 }}</div>
-                  {%- assign authorsOfAutomations = f_author | resolveReference -%}<div fs-cmsfilter-field="author">{{ authorsOfAutomations.data.title }}</div>
+                  <div class="in-line">{{ texts.c57 }}</div>
+                  {%- assign authorsOfAutomations = f_author | resolveReference -%}<div fs-cmsfilter-field="author" class="in-line">{{ authorsOfAutomations.data.title }}</div>
                 </div>
                 {%- assign authorsOfAutomations = f_author | resolveReference -%}<a target="_blank" href="{{ authorsOfAutomations.data.f_github-profile }}" class="author-icon-wrapper w-inline-block">{%- assign authorsOfAutomations = f_author | resolveReference -%}<img loading="lazy" src="{{ authorsOfAutomations.data.f_author-image.url }}" alt="{{ authorsOfAutomations.data.title }}" class="author-icon"></a>
               </div>
@@ -299,7 +316,7 @@ p code {
         </div>
         {%- if f_long-description -%}<div class="codemod-body-row-wrapper long-description">
           <div class="codemod-item-top-wrapper">
-            <div class="codemod-description-header-wrapper border-strong">
+            <div class="codemod-description-header-wrapper border-strong hidden">
               <h2>{{ texts.5037fbe3 }}</h2>
             </div>
             <div class="codemod-item-body-wrapper">
@@ -565,4 +582,4 @@ p code {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-javascript.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/unescaped-markup/prism-unescaped-markup.min.js"></script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
