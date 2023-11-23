@@ -12,7 +12,7 @@ f_title: Dream Migration
 f_button-cta: Read Article
 f_cta-link: https://docs.intuita.io/blog/dream-migration
 f_cta-icon:
-  url: https://uploads-ssl.webflow.com/65428e9a3a9d943b973390e7/654b9e7e63aac5060e02f4e2_poster-circle-icon.svg
+  url: ""
   alt: null
 f_labels:
   - cms/labels/migration.md
