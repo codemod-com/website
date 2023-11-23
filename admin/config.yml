@@ -1916,9 +1916,9 @@ collections:
             label: Text
             name: 24eeab
             widget: string
-          - hint: 'Original text: Migration, key: 44a853ae'
+          - hint: 'Original text: Issue, key: 43ab8b9'
             label: Text
-            name: 44a853ae
+            name: 43ab8b9
             widget: string
           - hint: 'Original text: Leave us a message, key: 51b6cf2f'
             label: Text
