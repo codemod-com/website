@@ -1413,15 +1413,23 @@ collections:
             label: Text
             name: '-16db01c1'
             widget: string
-          - hint: >-
-              Original text: What framework should we support next?, key:
-              -14012948
+          - hint: 'Original text: You build., key: -43d993f'
             label: Text
-            name: '-14012948'
+            name: '-43d993f'
             widget: string
-          - hint: 'Original text: Let us know, key: -4c8dc258'
+          - hint: 'Original text: We migrate., key: 26c620d5'
             label: Text
-            name: '-4c8dc258'
+            name: 26c620d5
+            widget: string
+          - hint: >-
+              Original text: Engineers' time matters. Focus on your product
+              while we help you adopt the cutting-edge stack., key: -63d040c3
+            label: Text
+            name: '-63d040c3'
+            widget: text
+          - hint: 'Original text: Migrate Now, key: -447a915f'
+            label: Text
+            name: '-447a915f'
             widget: string
           - hint: 'Original text: →, key: 2192'
             label: Text
@@ -1904,20 +1912,6 @@ collections:
             label: Text
             name: 5dd1ef56
             widget: string
-          - hint: 'Original text: You build., key: -43d993f'
-            label: Text
-            name: '-43d993f'
-            widget: string
-          - hint: 'Original text: We migrate., key: 26c620d5'
-            label: Text
-            name: 26c620d5
-            widget: string
-          - hint: >-
-              Original text: Engineers' time matters. Focus on your product
-              while we help you adopt the cutting-edge stack., key: -63d040c3
-            label: Text
-            name: '-63d040c3'
-            widget: text
           - hint: 'Original text: Name, key: 24eeab'
             label: Text
             name: 24eeab
@@ -1959,10 +1953,6 @@ collections:
           - hint: 'Original text: Book a quick call with us, key: 372d869f'
             label: Text
             name: 372d869f
-            widget: string
-          - hint: 'Original text: Migrate Now, key: -447a915f'
-            label: Text
-            name: '-447a915f'
             widget: string
           - hint: "Original text: Learn\_More →, key: -265dfa5d"
             label: Text
@@ -3645,10 +3635,6 @@ collections:
             label: Link
             name: '-402fab7e'
             widget: string
-          - hint: 'Original link: https://feedback.intuita.io, key: 6b5a7e3e'
-            label: Link
-            name: 6b5a7e3e
-            widget: string
           - hint: 'Original link: https://www.intuita.io/community, key: -68d3b33c'
             label: Link
             name: '-68d3b33c'
@@ -3706,9 +3692,9 @@ collections:
             label: Link
             name: '-ab64f'
             widget: string
-          - hint: 'Original link: #migrations-section, key: 5539d0e0'
+          - hint: 'Original link: #contact-form, key: -1ab17e0c'
             label: Link
-            name: 5539d0e0
+            name: '-1ab17e0c'
             widget: string
           - hint: >-
               Original link: https://github.com/intuita-inc/codemod-registry,
