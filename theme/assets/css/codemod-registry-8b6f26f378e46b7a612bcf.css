@@ -345,6 +345,11 @@ ul {
   font-weight: 500;
 }
 
+.codemod-badge-wrapper {
+  align-items: center;
+  display: flex;
+}
+
 .verified-codemod-icon {
   width: 30px;
   height: 30px;
@@ -709,6 +714,19 @@ ul {
 
 .tooltip-diamond._2-3-right-corner.cli {
   right: 6%;
+}
+
+.tooltip-diamond.github-tooltip {
+  left: auto;
+  right: 8%;
+}
+
+.tooltip-diamond.github-tooltip.cli {
+  right: 6%;
+}
+
+.tooltip-diamond.github-tooltip.pricing {
+  right: 9%;
 }
 
 .tooltip-title {
@@ -4417,6 +4435,25 @@ ul {
 .select-field:hover {
   border-color: #000;
   box-shadow: 0 2px 12px rgba(20, 20, 43, .08);
+}
+
+.github-source-bage-wrapper {
+  align-items: center;
+  display: flex;
+}
+
+.github-source-icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--border-grey);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.flex-horizontal-wrapper {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  display: flex;
 }
 
 @media screen and (min-width: 1440px) {

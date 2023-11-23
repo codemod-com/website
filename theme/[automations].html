@@ -124,7 +124,7 @@ pre code {
     <div class="codemod-menu-wrapper">
       <div class="header-bar-wrapper">
         <a href="{{ links.-321e94de }}" class="primary-button w-inline-block">
-          <div class="engine-label-text">{{ texts.44e5b7e8 }}</div>
+          <div class="engine-label-text">{{ texts.74911332 }}</div>
         </a>
       </div>
       <div class="codemod-body-wrapper">
@@ -251,6 +251,21 @@ pre code {
             <div class="codemod-item-top-wrapper">
               <div class="codemod-description-header-wrapper">
                 <h4>{{ texts.5a3656b3 }}</h4>
+                {%- if f_github-link -%}<div class="github-source-bage-wrapper">
+                  <div data-hover="true" data-delay="0" class="tooltip-dropdown github w-dropdown">
+                    <div class="tooltip-content w-dropdown-toggle">
+                      <a target="_blank" href="{{ f_github-link }}" class="github-source-link-wrapper w-inline-block"><img src="{{ images.-775b37d0.url }}" loading="lazy" alt="{{ images.-775b37d0.alt | trim | escape }}" class="github-source-icon"></a>
+                    </div>
+                    <nav class="tooltip-anchor w-dropdown-list">
+                      <div data-cy="step5" class="tooltip-wrapper _200 shift-left">
+                        <div class="tooltip-container">
+                          <div class="relative">{{ texts.-4f8972db }}<br></div>
+                        </div>
+                        <div class="tooltip-diamond github-tooltip"></div>
+                      </div>
+                    </nav>
+                  </div>
+                </div>{%- endif -%}
               </div>
               <div class="codemod-item-body-wrapper hidden">
                 <p fs-cmsfilter-field="description" class="codemod-short-description">{{ texts.6efbdadc }}</p>
@@ -302,7 +317,7 @@ pre code {
                   <div class="engine-label-text">{{ texts.-20a3d4ba }}</div>
                 </a>
               </div>{%- endif -%}
-              <div class="source-request-buttons-flex-wrapper">
+              <div class="source-request-buttons-flex-wrapper hidden">
                 <div class="divider bottom-margin"></div>
                 {%- if f_github-link -%}<a target="_blank" href="{{ f_github-link }}" class="primary-button grow w-inline-block"><img src="{{ images.5367683.url }}" loading="lazy" alt="{{ images.5367683.alt | trim | escape }}" class="github-icon">
                   <div class="engine-label-text">{{ texts.305bd5f6 }}</div>
@@ -582,4 +597,4 @@ pre code {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-javascript.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/unescaped-markup/prism-unescaped-markup.min.js"></script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

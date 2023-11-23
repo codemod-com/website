@@ -235,24 +235,26 @@
                   </div>
                   <div class="codemod-item-body-wrapper">
                     <div class="codemod-short-description w-richtext">{{ item.templateContent | markdown | markdown }}</div>
-                    {%- if item.data.f_codemod-engine -%}<div class="engine-flex-wrapper">
-                      <div class="label-wrapper">
-                        {%- assign codemod-enginesOfAutomations = item.data.f_codemod-engine | resolveReference -%}<div fs-cmsfilter-field="engine" class="engine-label-text">{{ codemod-enginesOfAutomations.data.title }}</div>
-                      </div>
-                    </div>{%- endif -%}
-                    {%- if item.data.f_framework -%}<div class="framework-icon-wrapper">
-                      <div data-hover="true" data-delay="0" class="tooltip-dropdown inline w-dropdown">
-                        <div class="tooltip-content w-dropdown-toggle">{%- assign frameworkOfAutomations = item.data.f_framework | resolveReference -%}<img loading="lazy" src="{{ frameworkOfAutomations.data.f_image.url }}" alt="{{ item.data.title }}" class="framework-icon"></div>
-                        <nav class="tooltip-anchor top w-dropdown-list">
-                          <div data-cy="step5" class="tooltip-wrapper">
-                            <div class="tooltip-container _10">
-                              {%- assign frameworkOfAutomations = item.data.f_framework | resolveReference -%}<div fs-cmsfilter-field="framework" class="relative centered">{{ frameworkOfAutomations.data.title }}</div>
+                    <div class="flex-horizontal-wrapper">
+                      {%- if item.data.f_framework -%}<div class="framework-icon-wrapper">
+                        <div data-hover="true" data-delay="0" class="tooltip-dropdown inline w-dropdown">
+                          <div class="tooltip-content w-dropdown-toggle">{%- assign frameworkOfAutomations = item.data.f_framework | resolveReference -%}<img loading="lazy" src="{{ frameworkOfAutomations.data.f_image.url }}" alt="{{ item.data.title }}" class="framework-icon"></div>
+                          <nav class="tooltip-anchor top w-dropdown-list">
+                            <div data-cy="step5" class="tooltip-wrapper">
+                              <div class="tooltip-container _10">
+                                {%- assign frameworkOfAutomations = item.data.f_framework | resolveReference -%}<div fs-cmsfilter-field="framework" class="relative centered">{{ frameworkOfAutomations.data.title }}</div>
+                              </div>
+                              <div class="tooltip-diamond bottom"></div>
                             </div>
-                            <div class="tooltip-diamond bottom"></div>
-                          </div>
-                        </nav>
-                      </div>
-                    </div>{%- endif -%}
+                          </nav>
+                        </div>
+                      </div>{%- endif -%}
+                      {%- if item.data.f_codemod-engine -%}<div class="engine-flex-wrapper">
+                        <div class="label-wrapper">
+                          {%- assign codemod-enginesOfAutomations = item.data.f_codemod-engine | resolveReference -%}<div fs-cmsfilter-field="engine" class="engine-label-text">{{ codemod-enginesOfAutomations.data.title }}</div>
+                        </div>
+                      </div>{%- endif -%}
+                    </div>
                     {%- assign labelsOfAutomations = item.data.f_labels | resolveMultiReferences -%}<div class="frameworks-wrapper hidden w-dyn-list">
                       {%- unless labelsOfAutomations.length == 0 -%}<div role="list" class="frameworks-flex-wrapper w-dyn-items">
                         {%- for item in labelsOfAutomations -%}<div role="listitem" class="w-dyn-item">
@@ -558,4 +560,4 @@ p code {
 }
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

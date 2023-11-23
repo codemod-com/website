@@ -1656,9 +1656,9 @@ collections:
             label: Text
             name: 507888d5
             widget: string
-          - hint: 'Original text: ← View All Codemods, key: 44e5b7e8'
+          - hint: 'Original text: ← View All Automations, key: 74911332'
             label: Text
-            name: 44e5b7e8
+            name: '74911332'
             widget: string
           - hint: 'Original text: Estimated time saving, key: 372d39a9'
             label: Text
@@ -1696,6 +1696,12 @@ collections:
           - hint: 'Original text: Usage →, key: 5a3656b3'
             label: Text
             name: 5a3656b3
+            widget: string
+          - hint: >-
+              Original text: View or contribute to this automation on GitHub.,
+              key: -4f8972db
+            label: Text
+            name: '-4f8972db'
             widget: string
           - hint: "Original text: Run codemod using Intuita CLI or VS\_Code extension:, key: 6efbdadc"
             label: Text
