@@ -1920,6 +1920,10 @@ collections:
             label: Text
             name: 44a853ae
             widget: string
+          - hint: 'Original text: Migration Required, key: -3916a00f'
+            label: Text
+            name: '-3916a00f'
+            widget: string
           - hint: 'Original text: Leave us a message, key: 51b6cf2f'
             label: Text
             name: 51b6cf2f
