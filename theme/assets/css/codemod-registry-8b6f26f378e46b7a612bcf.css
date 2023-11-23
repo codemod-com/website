@@ -4363,6 +4363,40 @@ ul {
   display: none;
 }
 
+.migration-name {
+  background-color: #fff;
+  border: 1px solid #eff0f6;
+  border-radius: 100px;
+  margin-bottom: 0;
+  padding: 18px 24px;
+  font-size: 13px;
+  transition: box-shadow .3s, color .3s, border-color .3s;
+  box-shadow: 0 2px 7px rgba(20, 20, 43, .08);
+}
+
+.migration-name:hover {
+  border-color: #000;
+  box-shadow: 0 2px 12px rgba(20, 20, 43, .1);
+}
+
+.migration-name:focus {
+  color: #211f54;
+  border-color: #000;
+}
+
+.migration-name::-ms-input-placeholder {
+  color: #6e7191;
+}
+
+.migration-name::placeholder {
+  color: #6e7191;
+}
+
+.migration-name.contact {
+  width: 100%;
+  padding: 5px 15px;
+}
+
 @media screen and (min-width: 1440px) {
   .primary-button.hover-glow {
     transition: all .2s;
@@ -6041,6 +6075,20 @@ ul {
 
   .contact-form-heading {
     font-size: 28px;
+  }
+
+  .migration-name {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+
+  .migration-name::-ms-input-placeholder {
+    font-size: 12px;
+  }
+
+  .migration-name::placeholder {
+    font-size: 12px;
   }
 }
 
