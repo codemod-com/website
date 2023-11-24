@@ -346,6 +346,8 @@ ul {
 }
 
 .codemod-badge-wrapper {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
   align-items: center;
   display: flex;
 }
@@ -440,6 +442,12 @@ ul {
   font-size: .7rem;
 }
 
+.label-wrapper.grey.b-w {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, .36);
+  border-radius: 5px;
+}
+
 .engine-label-text {
   white-space: nowrap;
 }
@@ -451,6 +459,10 @@ ul {
   justify-content: space-between;
   margin-top: 10px;
   display: flex;
+}
+
+.codemod-item-bottom-wrapper.margin-top.justify-right {
+  justify-content: flex-end;
 }
 
 .action-badge-wrapper {
@@ -646,6 +658,10 @@ ul {
 
 .relative.centered {
   text-align: center;
+}
+
+.relative.in-line {
+  display: inline;
 }
 
 .tooltip-container {
@@ -2120,7 +2136,7 @@ ul {
 
 .testimonial-card-logo {
   max-height: 25px;
-  max-width: 80px;
+  max-width: 70px;
   object-fit: contain;
 }
 
@@ -2178,12 +2194,12 @@ ul {
   opacity: .96;
   background-color: #fff;
   border-radius: 8px;
-  padding: 18px 28px;
+  padding: 10px 28px;
   display: inline-block;
   position: absolute;
   top: auto;
-  bottom: 32px;
-  left: 32px;
+  bottom: 20px;
+  left: 20px;
   right: auto;
   box-shadow: 0 1px 12px rgba(20, 20, 43, .08);
 }
@@ -4454,6 +4470,12 @@ ul {
 .flex-horizontal-wrapper {
   grid-column-gap: 15px;
   grid-row-gap: 15px;
+  display: flex;
+}
+
+.middle-labels-wrapper {
+  width: 100%;
+  justify-content: space-between;
   display: flex;
 }
 

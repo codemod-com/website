@@ -133,38 +133,57 @@ pre code {
             <div class="codemod-item-top-wrapper">
               <div class="codemod-name-badge-header-wrapper">
                 <h1 class="codemod-heading">{{ title }}</h1>
-                {%- if f_verified-codemod == true -%}<div class="codemod-badge-wrapper">
-                  <div data-hover="true" data-delay="0" class="tooltip-dropdown w-dropdown">
-                    <div class="tooltip-content w-dropdown-toggle"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
-                    <nav class="tooltip-anchor w-dropdown-list">
-                      <div data-cy="step5" class="tooltip-wrapper _200 shift-left">
-                        <div class="tooltip-container">
-                          <div class="tooltip-title">{{ texts.-50c3f593 }}</div>
-                          <div class="relative">{{ texts.-3c8d7774 }}<br></div>
+                <div class="codemod-badge-wrapper">
+                  {%- if f_verified-codemod == true -%}<div class="verified-badge-wrapper">
+                    <div data-hover="true" data-delay="0" class="tooltip-dropdown w-dropdown">
+                      <div class="tooltip-content w-dropdown-toggle"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
+                      <nav class="tooltip-anchor w-dropdown-list">
+                        <div data-cy="step5" class="tooltip-wrapper _200 shift-left">
+                          <div class="tooltip-container">
+                            <div class="tooltip-title">{{ texts.-50c3f593 }}</div>
+                            <div class="relative">{{ texts.-3c8d7774 }}<br></div>
+                          </div>
+                          <div class="tooltip-diamond top-right-corner"></div>
                         </div>
-                        <div class="tooltip-diamond top-right-corner"></div>
-                      </div>
-                    </nav>
-                  </div>
-                </div>{%- endif -%}
+                      </nav>
+                    </div>
+                  </div>{%- endif -%}
+                </div>
               </div>
               <div class="codemod-item-body-wrapper">
                 <div class="codemod-short-description max-width-500 w-richtext">{{ content | markdown }}</div>
-                <div class="primary-labels-flex-wrapper">
-                  {%- if f_framework -%}<div data-hover="true" data-delay="0" class="tooltip-dropdown inline w-dropdown">
-                    <div class="tooltip-content w-dropdown-toggle">{%- assign frameworkOfAutomations = f_framework | resolveReference -%}<img loading="lazy" src="{{ frameworkOfAutomations.data.f_image.url }}" alt="{{ frameworkOfAutomations.data.title }}" class="framework-icon large"></div>
-                    <nav class="tooltip-anchor top w-dropdown-list">
-                      <div data-cy="step5" class="tooltip-wrapper">
-                        <div class="tooltip-container _10">
-                          {%- assign frameworkOfAutomations = f_framework | resolveReference -%}<div fs-cmsfilter-field="framework" class="relative centered">{{ frameworkOfAutomations.data.title }}</div>
+                <div class="middle-labels-wrapper">
+                  <div class="primary-labels-flex-wrapper">
+                    {%- if f_framework -%}<div data-hover="true" data-delay="0" class="tooltip-dropdown inline w-dropdown">
+                      <div class="tooltip-content w-dropdown-toggle">{%- assign frameworkOfAutomations = f_framework | resolveReference -%}<img loading="lazy" src="{{ frameworkOfAutomations.data.f_image.url }}" alt="{{ frameworkOfAutomations.data.title }}" class="framework-icon large"></div>
+                      <nav class="tooltip-anchor top w-dropdown-list">
+                        <div data-cy="step5" class="tooltip-wrapper">
+                          <div class="tooltip-container _10">
+                            {%- assign frameworkOfAutomations = f_framework | resolveReference -%}<div fs-cmsfilter-field="framework" class="relative centered">{{ frameworkOfAutomations.data.title }}</div>
+                          </div>
+                          <div class="tooltip-diamond bottom"></div>
                         </div>
-                        <div class="tooltip-diamond bottom"></div>
+                      </nav>
+                    </div>{%- endif -%}
+                    {%- if f_codemod-engine -%}<div data-hover="true" data-delay="0" class="tooltip-dropdown inline w-dropdown">
+                      <div class="tooltip-content w-dropdown-toggle">
+                        {%- if f_codemod-engine -%}<div class="label-wrapper grey b-w">
+                          {%- assign codemod-enginesOfAutomations = f_codemod-engine | resolveReference -%}<div fs-cmsfilter-field="engine" class="engine-label-text">{{ codemod-enginesOfAutomations.data.title }}</div>
+                        </div>{%- endif -%}
                       </div>
-                    </nav>
-                  </div>{%- endif -%}
-                  {%- if f_codemod-engine -%}<div class="label-wrapper grey">
-                    {%- assign codemod-enginesOfAutomations = f_codemod-engine | resolveReference -%}<div fs-cmsfilter-field="engine" class="engine-label-text">{{ codemod-enginesOfAutomations.data.title }}</div>
-                  </div>{%- endif -%}
+                      <nav class="tooltip-anchor top w-dropdown-list">
+                        <div data-cy="step5" class="tooltip-wrapper">
+                          <div class="tooltip-container _10">
+                            <div>
+                              <div class="in-line">{{ texts.4ca569b7 }}</div>
+                              {%- assign codemod-enginesOfAutomations = f_codemod-engine | resolveReference -%}<div fs-cmsfilter-field="framework" class="in-line">{{ codemod-enginesOfAutomations.data.title }}</div>
+                            </div>
+                          </div>
+                          <div class="tooltip-diamond bottom"></div>
+                        </div>
+                      </nav>
+                    </div>{%- endif -%}
+                  </div>
                 </div>
                 <div class="attribute-cards-wrapper">
                   {%- if f_estimated-time-saving -%}<div class="attribute-card-wrapper"><img src="{{ images.-38eea61f.url }}" loading="lazy" alt="{{ images.-38eea61f.alt | trim | escape }}" class="attribute-card-icon">
@@ -212,7 +231,7 @@ pre code {
               </div>
             </div>
             <div class="codemod-item-bottom-wrapper margin-top">
-              {%- assign labelsOfAutomations = f_labels | resolveMultiReferences -%}<div class="frameworks-wrapper w-dyn-list">
+              {%- assign labelsOfAutomations = f_labels | resolveMultiReferences -%}<div class="frameworks-wrapper hidden w-dyn-list">
                 {%- unless labelsOfAutomations.length == 0 -%}<div role="list" class="frameworks-flex-wrapper w-dyn-items">
                   {%- for item in labelsOfAutomations -%}<div role="listitem" class="w-dyn-item">
                     {%- if item.data.f_label-type == "Image Label" -%}<div class="framework-icon-wrapper">
@@ -239,11 +258,26 @@ pre code {
               </div>
               <div class="author-wrapper">
                 <div class="author-name-flex-wrapper">
-                  <div class="in-line">{{ texts.c57 }}</div>
+                  <div class="in-line">{{ texts.-6b8a7cde }}</div>
                   {%- assign authorsOfAutomations = f_author | resolveReference -%}<div fs-cmsfilter-field="author" class="in-line">{{ authorsOfAutomations.data.title }}</div>
                 </div>
                 {%- assign authorsOfAutomations = f_author | resolveReference -%}<a target="_blank" href="{{ authorsOfAutomations.data.f_github-profile }}" class="author-icon-wrapper w-inline-block">{%- assign authorsOfAutomations = f_author | resolveReference -%}<img loading="lazy" src="{{ authorsOfAutomations.data.f_author-image.url }}" alt="{{ authorsOfAutomations.data.title }}" class="author-icon"></a>
               </div>
+              {%- if f_github-link -%}<div class="github-source-bage-wrapper">
+                <div data-hover="true" data-delay="0" class="tooltip-dropdown github w-dropdown">
+                  <div class="tooltip-content w-dropdown-toggle">
+                    <a target="_blank" href="{{ f_github-link }}" class="github-source-link-wrapper w-inline-block"><img src="{{ images.-775b37d0.url }}" loading="lazy" alt="{{ images.-775b37d0.alt | trim | escape }}" class="github-source-icon"></a>
+                  </div>
+                  <nav class="tooltip-anchor w-dropdown-list">
+                    <div data-cy="step5" class="tooltip-wrapper _200 shift-left">
+                      <div class="tooltip-container">
+                        <div class="relative">{{ texts.-4f8972db }}<br></div>
+                      </div>
+                      <div class="tooltip-diamond github-tooltip"></div>
+                    </div>
+                  </nav>
+                </div>
+              </div>{%- endif -%}
             </div>
           </div>
           <div class="vertical-divider"></div>
@@ -251,21 +285,6 @@ pre code {
             <div class="codemod-item-top-wrapper">
               <div class="codemod-description-header-wrapper">
                 <h4>{{ texts.5a3656b3 }}</h4>
-                {%- if f_github-link -%}<div class="github-source-bage-wrapper">
-                  <div data-hover="true" data-delay="0" class="tooltip-dropdown github w-dropdown">
-                    <div class="tooltip-content w-dropdown-toggle">
-                      <a target="_blank" href="{{ f_github-link }}" class="github-source-link-wrapper w-inline-block"><img src="{{ images.-775b37d0.url }}" loading="lazy" alt="{{ images.-775b37d0.alt | trim | escape }}" class="github-source-icon"></a>
-                    </div>
-                    <nav class="tooltip-anchor w-dropdown-list">
-                      <div data-cy="step5" class="tooltip-wrapper _200 shift-left">
-                        <div class="tooltip-container">
-                          <div class="relative">{{ texts.-4f8972db }}<br></div>
-                        </div>
-                        <div class="tooltip-diamond github-tooltip"></div>
-                      </div>
-                    </nav>
-                  </div>
-                </div>{%- endif -%}
               </div>
               <div class="codemod-item-body-wrapper hidden">
                 <p fs-cmsfilter-field="description" class="codemod-short-description">{{ texts.6efbdadc }}</p>
@@ -597,4 +616,4 @@ pre code {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-javascript.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/unescaped-markup/prism-unescaped-markup.min.js"></script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

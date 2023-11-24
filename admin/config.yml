@@ -1126,6 +1126,10 @@ collections:
             name: title
             widget: hidden
             default: Texts
+          - hint: 'Original text: Automations, key: -2097c9e4'
+            label: Text
+            name: '-2097c9e4'
+            widget: string
           - hint: 'Original text: Migrations, key: 50622285'
             label: Text
             name: '50622285'
@@ -1178,6 +1182,141 @@ collections:
             label: Text
             name: '-64104400'
             widget: string
+          - hint: 'Original text: Popular and , key: 3cc9f230'
+            label: Text
+            name: 3cc9f230
+            widget: string
+          - hint: 'Original text: New →, key: 47af6f2'
+            label: Text
+            name: 47af6f2
+            widget: string
+          - hint: 'Original text: Getting Started, key: 3766ef65'
+            label: Text
+            name: 3766ef65
+            widget: string
+          - hint: >-
+              Original text: Learn more about the codemod registry., key:
+              -11bdd6eb
+            label: Text
+            name: '-11bdd6eb'
+            widget: string
+          - hint: 'Original text: View Docs, key: 16224ad6'
+            label: Text
+            name: 16224ad6
+            widget: string
+          - hint: 'Original text: Framework, key: -67ffee22'
+            label: Text
+            name: '-67ffee22'
+            widget: string
+          - hint: 'Original text: No items found., key: 3d503d2b'
+            label: Text
+            name: 3d503d2b
+            widget: string
+          - hint: 'Original text: Labels, key: -78cab3e1'
+            label: Text
+            name: '-78cab3e1'
+            widget: string
+          - hint: 'Original text: Engine, key: 7bfce662'
+            label: Text
+            name: 7bfce662
+            widget: string
+          - hint: 'Original text: Author, key: 75920dab'
+            label: Text
+            name: 75920dab
+            widget: string
+          - hint: 'Original text: Verified Only, key: -1cec6dfc'
+            label: Text
+            name: '-1cec6dfc'
+            widget: string
+          - hint: 'Original text: Updated Date (Desc), key: 65b890fd'
+            label: Text
+            name: 65b890fd
+            widget: string
+          - hint: 'Original text: Updated Date (Asc), key: 346d9f3'
+            label: Text
+            name: 346d9f3
+            widget: string
+          - hint: 'Original text: Name (A-Z), key: -110efd72'
+            label: Text
+            name: '-110efd72'
+            widget: string
+          - hint: 'Original text: Name (Z-A), key: -1103a332'
+            label: Text
+            name: '-1103a332'
+            widget: string
+          - hint: 'Original text: Clear All, key: 2b99750e'
+            label: Text
+            name: 2b99750e
+            widget: string
+          - hint: >-
+              Original text: Thank you! Your submission has been received!, key:
+              5a0ea5a1
+            label: Text
+            name: 5a0ea5a1
+            widget: string
+          - hint: >-
+              Original text: Oops! Something went wrong while submitting the
+              form., key: -7c112e99
+            label: Text
+            name: '-7c112e99'
+            widget: string
+          - hint: 'Original text: Intuita verified codemod, key: -50c3f593'
+            label: Text
+            name: '-50c3f593'
+            widget: string
+          - hint: >-
+              Original text: Intuita verified codemods are high-quality codemods
+              that are regularly tested and maintained by our engineers and
+              codemod expert community., key: -3c8d7774
+            label: Text
+            name: '-3c8d7774'
+            widget: text
+          - hint: 'Original text: View Codemod →, key: -4e24ed94'
+            label: Text
+            name: '-4e24ed94'
+            widget: string
+          - hint: 'Original text: View Source, key: 305bd5f6'
+            label: Text
+            name: 305bd5f6
+            widget: string
+          - hint: "Original text: Run in VS\_Code, key: -7a926116"
+            label: Text
+            name: '-7a926116'
+            widget: string
+          - hint: 'Original text: by, key: c57'
+            label: Text
+            name: c57
+            widget: string
+          - hint: 'Original text: app-router-recipe, key: 645a31e6'
+            label: Text
+            name: 645a31e6
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Suspendisse varius enim in eros elementum tristique. Duis
+              cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+              commodo diam libero vitae erat. Aenean faucibus nibh et justo
+              cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+              tristique posuere., key: -5286fc08
+            label: Text
+            name: '-5286fc08'
+            widget: text
+          - hint: 'Original text: Next.js, key: -2eb001fc'
+            label: Text
+            name: '-2eb001fc'
+            widget: string
+          - hint: 'Original text: jscodeshift, key: 21973f8c'
+            label: Text
+            name: 21973f8c
+            widget: string
+          - hint: 'Original text: Intuita, key: -280a97b0'
+            label: Text
+            name: '-280a97b0'
+            widget: string
+          - hint: 'Original text: Vercel, key: -677aa219'
+            label: Text
+            name: '-677aa219'
+            widget: string
           - hint: >-
               Original text: Save days of manual work by running automation
               recipes to automate framework upgrades, right from your IDE or
@@ -1196,10 +1335,6 @@ collections:
           - hint: 'Original text: Explore all migrations →, key: -4815d33d'
             label: Text
             name: '-4815d33d'
-            widget: string
-          - hint: 'Original text: No items found., key: 3d503d2b'
-            label: Text
-            name: 3d503d2b
             widget: string
           - hint: >-
               Original text: The end-to-end platform for code automation at
@@ -1469,18 +1604,6 @@ collections:
             label: Text
             name: 3ff5b7c
             widget: string
-          - hint: >-
-              Original text: Thank you! Your submission has been received!, key:
-              5a0ea5a1
-            label: Text
-            name: 5a0ea5a1
-            widget: string
-          - hint: >-
-              Original text: Oops! Something went wrong while submitting the
-              form., key: -7c112e99
-            label: Text
-            name: '-7c112e99'
-            widget: string
           - hint: 'Original text: Stay up to date with Intuita., key: -67c2cf33'
             label: Text
             name: '-67c2cf33'
@@ -1527,129 +1650,6 @@ collections:
             label: Text
             name: '-78dddcc6'
             widget: string
-          - hint: 'Original text: Automations, key: -2097c9e4'
-            label: Text
-            name: '-2097c9e4'
-            widget: string
-          - hint: 'Original text: Popular and , key: 3cc9f230'
-            label: Text
-            name: 3cc9f230
-            widget: string
-          - hint: 'Original text: New →, key: 47af6f2'
-            label: Text
-            name: 47af6f2
-            widget: string
-          - hint: 'Original text: Getting Started, key: 3766ef65'
-            label: Text
-            name: 3766ef65
-            widget: string
-          - hint: >-
-              Original text: Learn more about the codemod registry., key:
-              -11bdd6eb
-            label: Text
-            name: '-11bdd6eb'
-            widget: string
-          - hint: 'Original text: View Docs, key: 16224ad6'
-            label: Text
-            name: 16224ad6
-            widget: string
-          - hint: 'Original text: Framework, key: -67ffee22'
-            label: Text
-            name: '-67ffee22'
-            widget: string
-          - hint: 'Original text: Labels, key: -78cab3e1'
-            label: Text
-            name: '-78cab3e1'
-            widget: string
-          - hint: 'Original text: Engine, key: 7bfce662'
-            label: Text
-            name: 7bfce662
-            widget: string
-          - hint: 'Original text: Author, key: 75920dab'
-            label: Text
-            name: 75920dab
-            widget: string
-          - hint: 'Original text: Verified Only, key: -1cec6dfc'
-            label: Text
-            name: '-1cec6dfc'
-            widget: string
-          - hint: 'Original text: Updated Date (Desc), key: 65b890fd'
-            label: Text
-            name: 65b890fd
-            widget: string
-          - hint: 'Original text: Updated Date (Asc), key: 346d9f3'
-            label: Text
-            name: 346d9f3
-            widget: string
-          - hint: 'Original text: Name (A-Z), key: -110efd72'
-            label: Text
-            name: '-110efd72'
-            widget: string
-          - hint: 'Original text: Name (Z-A), key: -1103a332'
-            label: Text
-            name: '-1103a332'
-            widget: string
-          - hint: 'Original text: Clear All, key: 2b99750e'
-            label: Text
-            name: 2b99750e
-            widget: string
-          - hint: 'Original text: Intuita verified codemod, key: -50c3f593'
-            label: Text
-            name: '-50c3f593'
-            widget: string
-          - hint: >-
-              Original text: Intuita verified codemods are high-quality codemods
-              that are regularly tested and maintained by our engineers and
-              codemod expert community., key: -3c8d7774
-            label: Text
-            name: '-3c8d7774'
-            widget: text
-          - hint: 'Original text: View Codemod →, key: -4e24ed94'
-            label: Text
-            name: '-4e24ed94'
-            widget: string
-          - hint: 'Original text: View Source, key: 305bd5f6'
-            label: Text
-            name: 305bd5f6
-            widget: string
-          - hint: "Original text: Run in VS\_Code, key: -7a926116"
-            label: Text
-            name: '-7a926116'
-            widget: string
-          - hint: 'Original text: by, key: c57'
-            label: Text
-            name: c57
-            widget: string
-          - hint: 'Original text: app-router-recipe, key: 645a31e6'
-            label: Text
-            name: 645a31e6
-            widget: string
-          - hint: >-
-              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Suspendisse varius enim in eros elementum tristique. Duis
-              cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-              commodo diam libero vitae erat. Aenean faucibus nibh et justo
-              cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
-              tristique posuere., key: -5286fc08
-            label: Text
-            name: '-5286fc08'
-            widget: text
-          - hint: 'Original text: Next.js, key: -2eb001fc'
-            label: Text
-            name: '-2eb001fc'
-            widget: string
-          - hint: 'Original text: jscodeshift, key: 21973f8c'
-            label: Text
-            name: 21973f8c
-            widget: string
-          - hint: 'Original text: Intuita, key: -280a97b0'
-            label: Text
-            name: '-280a97b0'
-            widget: string
-          - hint: 'Original text: Vercel, key: -677aa219'
-            label: Text
-            name: '-677aa219'
-            widget: string
           - hint: >-
               Original text: Learn more about the Codemod Registry., key:
               507888d5
@@ -1659,6 +1659,10 @@ collections:
           - hint: 'Original text: ← View All Automations, key: 74911332'
             label: Text
             name: '74911332'
+            widget: string
+          - hint: 'Original text: This automation is built with, key: 4ca569b7'
+            label: Text
+            name: 4ca569b7
             widget: string
           - hint: 'Original text: Estimated time saving, key: 372d39a9'
             label: Text
@@ -1693,15 +1697,19 @@ collections:
             label: Text
             name: '-344c5b86'
             widget: string
-          - hint: 'Original text: Usage →, key: 5a3656b3'
+          - hint: 'Original text: Made by, key: -6b8a7cde'
             label: Text
-            name: 5a3656b3
+            name: '-6b8a7cde'
             widget: string
           - hint: >-
               Original text: View or contribute to this automation on GitHub.,
               key: -4f8972db
             label: Text
             name: '-4f8972db'
+            widget: string
+          - hint: 'Original text: Usage →, key: 5a3656b3'
+            label: Text
+            name: 5a3656b3
             widget: string
           - hint: "Original text: Run codemod using Intuita CLI or VS\_Code extension:, key: 6efbdadc"
             label: Text
@@ -1783,9 +1791,17 @@ collections:
             label: Text
             name: '-1272519c'
             widget: string
-          - hint: 'Original text: + more automations, key: 3ba3d946'
+          - hint: 'Original text: + more, key: 4b568e2a'
             label: Text
-            name: 3ba3d946
+            name: 4b568e2a
+            widget: string
+          - hint: 'Original text: automations, key: 7bfe8e3c'
+            label: Text
+            name: 7bfe8e3c
+            widget: string
+          - hint: 'Original text: Explore all automations →, key: -6084ebfe'
+            label: Text
+            name: '-6084ebfe'
             widget: string
           - hint: 'Original text: + more , key: 1f7b3736'
             label: Text
@@ -3621,6 +3637,16 @@ collections:
             label: Link
             name: 16bdc13e
             widget: string
+          - hint: >-
+              Original link:
+              https://docs.intuita.io/docs/codemod-registry/intro, key: 77e5bfff
+            label: Link
+            name: 77e5bfff
+            widget: string
+          - hint: 'Original link: #, key: 23'
+            label: Link
+            name: '23'
+            widget: string
           - hint: 'Original link: #codemod-studio-section, key: 3fe998a9'
             label: Link
             name: 3fe998a9
@@ -3657,10 +3683,6 @@ collections:
             label: Link
             name: '-68d3b33c'
             widget: string
-          - hint: 'Original link: #, key: 23'
-            label: Link
-            name: '23'
-            widget: string
           - hint: 'Original link: /company/privacy-policy/, key: 52569957'
             label: Link
             name: '52569957'
@@ -3695,12 +3717,6 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://docs.intuita.io/docs/codemod-registry/intro, key: 77e5bfff
-            label: Link
-            name: 77e5bfff
-            widget: string
-          - hint: >-
-              Original link:
               https://docs.intuita.io/docs/cli/quickstart#install-cli, key:
               153c0b5c
             label: Link
@@ -3710,9 +3726,9 @@ collections:
             label: Link
             name: '-ab64f'
             widget: string
-          - hint: 'Original link: #contact-section, key: 48d6bbb5'
+          - hint: 'Original link: #migration-hook, key: -491d655b'
             label: Link
-            name: 48d6bbb5
+            name: '-491d655b'
             widget: string
           - hint: >-
               Original link: https://github.com/intuita-inc/codemod-registry,
@@ -3988,6 +4004,136 @@ collections:
                 required: false
           - label: Image
             name: 5c2f0f5c
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-3c5b836a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 55e4d5a0
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-721c180b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-1d3bc06a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '5367683'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4e02f435
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4b6c3cba'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6307da46
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 112b5d64
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2ce8a2a5'
             widget: object
             fields:
               - name: url
@@ -4378,136 +4524,6 @@ collections:
                 required: false
           - label: Image
             name: '-4741a959'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-3c5b836a'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 55e4d5a0
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-721c180b'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-1d3bc06a'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '5367683'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 4e02f435
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-4b6c3cba'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 6307da46
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 112b5d64
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-2ce8a2a5'
             widget: object
             fields:
               - name: url
