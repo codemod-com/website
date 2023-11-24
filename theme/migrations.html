@@ -122,8 +122,8 @@
     <div class="codemod-menu-wrapper">
       <div class="filter-bar-wrapper">
         <div class="filter-form-wrapper w-form">
-          <form id="wf-form-Filter-Form" name="wf-form-Filter-Form" data-name="filter" method="get" fs-cmsfilter-element="filters" class="filter-form" data-wf-page-id="655e2c5e532816ea525219a5" data-wf-element-id="59995e0c-8d7b-99fd-fcac-4004cf3f751b" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
-            <div class="search-field-wrapper full-width"><input type="text" class="search-field w-input" maxlength="256" name="field" fs-cmsfilter-field="name, description, engine, framework, labels, author" data-name="Field" placeholder="Search migrations.." fs-cmsfilter-debounce="400" id="field" required=""><img loading="lazy" src="{{ images.-721c180b.url }}" alt="{{ images.-721c180b.alt | trim | escape }}" class="search-icon"></div>
+          <form id="wf-form-Filter-Form" name="wf-form-Filter-Form" data-name="filter" method="post" fs-cmsfilter-element="filters" class="filter-form" data-wf-page-id="655e2c5e532816ea525219a5" data-wf-element-id="59995e0c-8d7b-99fd-fcac-4004cf3f751b" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
+            <div class="search-field-wrapper full-width"><input type="text" class="search-field w-input" maxlength="256" name="field" fs-cmsfilter-field="migration-title, migrate-from, migrate-to, framework" data-name="Field" placeholder="Search migrations.." fs-cmsfilter-debounce="400" id="field" required=""><img loading="lazy" src="{{ images.-721c180b.url }}" alt="{{ images.-721c180b.alt | trim | escape }}" class="search-icon"></div>
             <div data-delay="0" data-hover="false" class="dropdown-filter-wrapper hidden w-dropdown">
               <div class="dropdown-toggle w-dropdown-toggle">
                 <div class="icon w-icon-dropdown-toggle"></div>
@@ -174,10 +174,10 @@
                 </div>{%- endif -%}
                 {%- unless item.data.f_migrate-to-image -%}<div class="home-migration-card-images-wrapper">
                   <div class="before-migration-flex-wrapper">
-                    <div class="feature-card-paragraph bold">{{ item.data.f_migrate-from-title }}</div>
+                    <div fs-cmsfilter-field="migrate-from" class="feature-card-paragraph bold">{{ item.data.f_migrate-from-title }}</div>
                   </div><img src="{{ images.5418dd34.url }}" loading="lazy" alt="{{ images.5418dd34.alt | trim | escape }}" class="migration-right-arrow-icon small">
                   <div class="before-migration-flex-wrapper">
-                    <div class="feature-card-paragraph bold">{{ item.data.f_migrate-to-title }}</div>
+                    <div fs-cmsfilter-field="migrate-to" class="feature-card-paragraph bold">{{ item.data.f_migrate-to-title }}</div>
                   </div>
                 </div>{%- endunless -%}
                 <div class="divider light hidden"></div>
@@ -191,6 +191,8 @@
                     <div class="no-wrap">{{ texts.7b1ce761 }}</div>
                   </a>{%- endif -%}
                 </div>
+                <div fs-cmsfilter-field="framework" class="hidden">{{ frameworkOfMigrations.data.title }}</div>
+                <div fs-cmsfilter-field="migration-title" class="hidden">{{ item.data.f_migration-title }}</div>
               </div>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
@@ -449,4 +451,4 @@ p code {
 }
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
