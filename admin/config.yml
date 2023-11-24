@@ -1980,10 +1980,6 @@ collections:
             label: Text
             name: e4e4eb7
             widget: string
-          - hint: 'Original text: Codemod Registry, key: -699f9b8'
-            label: Text
-            name: '-699f9b8'
-            widget: string
           - hint: "Original text: Learn\_More →, key: -265dfa5d"
             label: Text
             name: '-265dfa5d'
