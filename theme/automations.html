@@ -97,19 +97,20 @@
 	background-image: linear-gradient(214deg, {{ item.data.f_background-color-1 }}, {{ item.data.f_background-color-2 }} 82%, {{ item.data.f_background-color-3 }});
 }
 </style></div>
-            <div class="poster-wrapper dream-migration">
-              <div class="poster-top-wrapper">{%- if item.data.f_cta-icon -%}<img loading="lazy" src="{{ item.data.f_cta-icon.url }}" alt="{{ item.data.f_cta-icon.alt }}" class="poster-decorative-circle hidden">{%- endif -%}{%- unless item.data.f_cta-icon -%}<img src="{{ images.55e4d5a0.url }}" loading="lazy" alt="{{ images.55e4d5a0.alt | trim | escape }}" class="poster-decorative-circle hidden">{%- endunless -%}
-                <div class="posted-description-wrapper">
-                  <div class="poster-heading-title">{{ item.data.f_title }}</div>
-                  <div class="poster-subtitle w-richtext">{{ item.templateContent | markdown | markdown }}</div>
-                </div>
-              </div>
-              <div class="poster-bottom-wrapper">
-                <a target="_blank" href="{{ item.data.f_cta-link }}" class="primary-button w-inline-block">
-                  <div class="engine-label-text">{{ item.data.f_button-cta }}</div>
-                </a>
-              </div>
-            </div>
+            <div class="w-embed"><div class="poster-wrapper dream-migration" id="{{ item.data.slug }}">
+
+<div class="posted-description-wrapper">
+<div class="poster-heading-title">{{ item.data.f_title }}</div>
+
+<div class="poster-subtitle w-richtext">
+<p>{{ item.data.f_cta-description }}</p>
+</div>
+</div>
+
+<a target="_blank" href="{{ item.data.f_cta-link }}" class="primary-button w-inline-block">
+
+<div class="engine-label-text"></div>{{ item.data.f_button-cta }}</a>
+</div></div>
           </div>{%- endfor -%}
         </div>{%- endunless -%}
         {%- if collection.length == 0 -%}<div class="poster-list-empty-state w-dyn-empty">
@@ -560,4 +561,4 @@ p code {
 }
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

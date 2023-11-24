@@ -717,19 +717,15 @@ collections:
         label: Published On
         widget: datetime
         required: false
-      - label: Description
-        name: body
-        widget: markdown
-        required: false
-      - hint: ''
-        name: f_unique-identifier
-        label: unique-identifier
-        widget: string
-        required: false
       - hint: ''
         name: f_title
         label: Title
         widget: string
+        required: false
+      - hint: ''
+        name: f_cta-description
+        label: CTA Description
+        widget: text
         required: false
       - hint: ''
         name: f_button-cta
@@ -798,6 +794,11 @@ collections:
         widget: boolean
         required: false
         default: false
+      - hint: ''
+        name: f_order
+        label: Order
+        widget: number
+        required: false
       - label: Tags
         widget: hidden
         name: tags
