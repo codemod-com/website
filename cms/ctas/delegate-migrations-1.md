@@ -10,7 +10,7 @@ f_cta-link: https://www.intuita.io/contact/
 f_background-color-1: "#000000"
 f_background-color-2: "#000000"
 f_background-color-3: "#000000"
-f_featured-in-registry-sidebar: false
+f_featured-in-registry-sidebar: true
 tags: ctas
 layout: "[ctas].html"
 date: 2023-11-24T17:57:15.625Z
