@@ -89,7 +89,7 @@
     <div class="sidebar-wrapper">
       <h2 class="sidebar-heading">{{ texts.3cc9f230 }}<span class="no-wrap">{{ texts.47af6f2 }}</span></h2>
       <div class="divider correct-row-gap"></div>
-      {%- assign collection = collections.ctas | filter: "f_featured-in-registry-sidebar,eq,true", "ALL", page.inputPath | sort: "-created-on" -%}<div class="w-dyn-list">
+      {%- assign collection = collections.ctas | filter: "f_featured-in-registry-sidebar,eq,true", "ALL", page.inputPath | sort: "f_order" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="posters-flex-wrapper w-dyn-items">
           {%- for item in collection -%}<div role="listitem" class="grow w-dyn-item">
             <div class="w-embed"><style>
@@ -560,4 +560,4 @@ p code {
 }
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
