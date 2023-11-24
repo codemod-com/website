@@ -722,6 +722,11 @@ collections:
         widget: markdown
         required: false
       - hint: ''
+        name: f_unique-identifier
+        label: unique-identifier
+        widget: string
+        required: false
+      - hint: ''
         name: f_title
         label: Title
         widget: string

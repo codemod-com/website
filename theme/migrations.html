@@ -91,7 +91,7 @@
         {%- unless collection.length == 0 -%}<div role="list" class="posters-flex-wrapper w-dyn-items">
           {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
             <div class="w-embed"><style>
-#{{ item.data.slug }} {
+#{{ item.data.f_unique-identifier }} {
 	background-image: linear-gradient(214deg, {{ item.data.f_background-color-1 }}, {{ item.data.f_background-color-2 }} 82%, {{ item.data.f_background-color-3 }});
 }
 </style></div>
@@ -451,4 +451,4 @@ p code {
 }
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
