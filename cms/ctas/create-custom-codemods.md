@@ -1,8 +1,8 @@
 ---
 created-on: 2023-11-08T15:56:06.226Z
-f_background-color-1: rgba(110, 110, 110, 0.82)
-f_background-color-2: "#3c3c3c"
-f_background-color-3: "#2e2e2e"
+f_background-color-1: rgba(0, 0, 0, 0.82)
+f_background-color-2: "#000000"
+f_background-color-3: "#000000"
 layout: "[ctas].html"
 slug: create-custom-codemods
 title: Custom Migrations
