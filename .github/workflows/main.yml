@@ -6,10 +6,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Find and Replace
-        uses: nguyenvanuyn96/str-find-and-replace-action@master
+        uses: jacobtomlinson/gha-find-replace@v2
         with:
-          find: 'data-netlify="false" class="filter-form-wrapper w-form"'
+          find: 'data-netlify="true"'
           replace: ""
+          regex: false
+          include: 'theme/migrations.html'
       - name: Find and Replace
         uses: nguyenvanuyn96/str-find-and-replace-action@master
         with:
