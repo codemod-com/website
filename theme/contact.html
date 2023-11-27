@@ -88,26 +88,24 @@
         <div id="w-node-ee8ceb47-34fb-336d-95a9-b9e9114cfd74-c0a43b3f">
           <div class="card form w-form">
             <form id="wf-form-Migrations-Contact-Form" name="wf-form-Migrations-Contact-Form" data-name="migrations_contact" method="get" class="form-2" data-wf-page-id="655e777eb4f79b0bc0a43b3f" data-wf-element-id="ee8ceb47-34fb-336d-95a9-b9e9114cfd76" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
-              <div class="w-layout-grid grid-2-columns form">
-                <div><label for="Name">{{ texts.24eeab }}</label><input type="text" class="form-input w-input" maxlength="256" name="Name" data-name="Name" placeholder="Full name" id="Name"></div>
-                <div><label for="Email">{{ texts.3ff5b7c }}</label><input type="email" class="form-input w-input" maxlength="256" name="Email" data-name="Email" placeholder="example@email.com" id="Email"></div>
-                <div><label for="Company">{{ texts.-64202ba3 }}</label><input type="text" class="form-input w-input" maxlength="256" name="Company" data-name="Company" placeholder="Company Name" id="Company"></div>
-                <div><label for="Framework">{{ texts.-67ffee22 }}</label><select id="Framework" name="Framework" data-name="Framework" class="select-field w-select">
-                    <option value="Select one...">{{ texts.14066d62 }}</option>
-                  </select>
-                  {%- assign collection = collections.framework | sort: "-created-on" -%}<div class="hidden w-dyn-list">
-                    {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
-                      {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
-                        <div class="select-item">{{ item.data.title }}</div>
-                      </div>{%- endfor -%}
-                    </div>{%- endunless -%}
-                    {%- if collection.length == 0 -%}<div class="w-dyn-empty">
-                      <div>{{ texts.3d503d2b }}</div>
-                    </div>{%- endif -%}
-                  </div>
+              <div class="form-field-wrapper"><label for="Name">{{ texts.24eeab }}</label><input type="text" class="form-input w-input" maxlength="256" name="Name" data-name="Name" placeholder="Full name" id="Name"></div>
+              <div class="form-field-wrapper"><label for="Email">{{ texts.3ff5b7c }}</label><input type="email" class="form-input w-input" maxlength="256" name="Email" data-name="Email" placeholder="example@email.com" id="Email"></div>
+              <div class="form-field-wrapper"><label for="Company">{{ texts.-64202ba3 }}</label><input type="text" class="form-input w-input" maxlength="256" name="Company" data-name="Company" placeholder="Company Name" id="Company"></div>
+              <div class="form-field-wrapper"><label for="Framework">{{ texts.-67ffee22 }}</label><select id="Framework" name="Framework" data-name="Framework" class="select-field w-select">
+                  <option value="Select one...">{{ texts.14066d62 }}</option>
+                </select>
+                {%- assign collection = collections.framework | sort: "-created-on" -%}<div class="hidden w-dyn-list">
+                  {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
+                    {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
+                      <div class="select-item">{{ item.data.title }}</div>
+                    </div>{%- endfor -%}
+                  </div>{%- endunless -%}
+                  {%- if collection.length == 0 -%}<div class="w-dyn-empty">
+                    <div>{{ texts.3d503d2b }}</div>
+                  </div>{%- endif -%}
                 </div>
-                <div id="w-node-ee8ceb47-34fb-336d-95a9-b9e9114cfd90-c0a43b3f"><label for="Message">{{ texts.51b6cf2f }}</label><textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="Please type your message here..." class="text-area w-input"></textarea></div><input type="submit" value="Send Message" data-wait="Please wait..." id="w-node-ee8ceb47-34fb-336d-95a9-b9e9114cfd94-c0a43b3f" class="primary-button large full-width contact w-button">
               </div>
+              <div id="w-node-ee8ceb47-34fb-336d-95a9-b9e9114cfd90-c0a43b3f" class="form-field-wrapper"><label for="Message">{{ texts.51b6cf2f }}</label><textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="Please type your message here..." class="text-area w-input"></textarea></div><input type="submit" value="Send Message" data-wait="Please wait..." id="w-node-ee8ceb47-34fb-336d-95a9-b9e9114cfd94-c0a43b3f" class="main-button large full-width contact w-button">
             </form>
             <div class="success-message-2 w-form-done">
               <div class="success-content-wrapper"><img src="{{ images.-3b599675.url }}" loading="lazy" alt="{{ images.-3b599675.alt | trim | escape }}">
@@ -119,30 +117,28 @@
             </div>
           </div>
         </div>
-        <div class="div-block">
-          <div>
-            <div class="text-300 bold footer-title">{{ texts.-79f0f325 }}</div>
-            <div class="inner-container _400px">
-              <div class="w-layout-grid grid-1-column">
-                <a href="{{ links.95edf21 }}" class="card-link-icon w-inline-block"><img src="{{ images.2173831.url }}" alt="{{ images.2173831.alt | trim | escape }}" class="square-icon mg-right-16px mg-bottom-16px-mb">
-                  <div>
-                    <div class="text-200 color-neutral-600 mg-bottom-8px">{{ texts.7bec143e }}</div>
-                    <div class="text-200 bold">{{ texts.585f0519 }}</div>
-                  </div>
-                </a>
-                <a href="{{ links.-4abbf7b3 }}" class="card-link-icon w-inline-block"><img src="{{ images.-3f06943.url }}" alt="{{ images.-3f06943.alt | trim | escape }}" class="square-icon mg-right-16px mg-bottom-16px-mb">
-                  <div>
-                    <div class="text-200 color-neutral-600 mg-bottom-8px">{{ texts.3e0e7c2 }}</div>
-                    <div class="text-200 bold">{{ texts.7035c089 }}</div>
-                  </div>
-                </a>
-                <a href="{{ links.-36ff12ed }}" class="card-link-icon w-inline-block"><img src="{{ images.59f51b3b.url }}" alt="{{ images.59f51b3b.alt | trim | escape }}" class="square-icon mg-right-16px mg-bottom-16px-mb">
-                  <div>
-                    <div class="text-200 color-neutral-600 mg-bottom-8px">{{ texts.52bb1188 }}</div>
-                    <div class="text-200 bold">{{ texts.372d869f }}</div>
-                  </div>
-                </a>
-              </div>
+        <div id="w-node-_5be8e30a-869e-ce61-cc2e-291bb28f9033-c0a43b3f">
+          <div class="text-300 bold footer-title">{{ texts.-30376fd1 }}</div>
+          <div class="inner-container _400px">
+            <div class="w-layout-grid grid-1-column">
+              <a href="{{ links.95edf21 }}" class="card-link-icon w-inline-block"><img src="{{ images.2173831.url }}" alt="{{ images.2173831.alt | trim | escape }}" class="square-icon mg-right-16px mg-bottom-16px-mb">
+                <div>
+                  <div class="text-200 color-neutral-600 mg-bottom-8px">{{ texts.7bec143e }}</div>
+                  <div class="text-200 bold">{{ texts.585f0519 }}</div>
+                </div>
+              </a>
+              <a href="{{ links.-4abbf7b3 }}" class="card-link-icon w-inline-block"><img src="{{ images.-3f06943.url }}" alt="{{ images.-3f06943.alt | trim | escape }}" class="square-icon mg-right-16px mg-bottom-16px-mb">
+                <div>
+                  <div class="text-200 color-neutral-600 mg-bottom-8px">{{ texts.3e0e7c2 }}</div>
+                  <div class="text-200 bold">{{ texts.-73d87c70 }}</div>
+                </div>
+              </a>
+              <a href="{{ links.-36ff12ed }}" class="card-link-icon w-inline-block"><img src="{{ images.59f51b3b.url }}" alt="{{ images.59f51b3b.alt | trim | escape }}" class="square-icon mg-right-16px mg-bottom-16px-mb">
+                <div>
+                  <div class="text-200 color-neutral-600 mg-bottom-8px">{{ texts.52bb1188 }}</div>
+                  <div class="text-200 bold">{{ texts.e4e4eb7 }}</div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -198,4 +194,4 @@ $('.select-item').each(function(){
 })
 </script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

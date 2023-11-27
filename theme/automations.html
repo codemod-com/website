@@ -107,7 +107,7 @@
 </div>
 </div>
 
-<a target="_blank" href="{{ item.data.f_cta-link }}" class="primary-button w-inline-block"><div class="engine-label-text">{{ item.data.f_button-cta }}</div></a>
+<a target="_blank" href="{{ item.data.f_cta-link }}" class="main-button secondary w-inline-block"><div class="engine-label-text">{{ item.data.f_button-cta }}</div></a>
 
 </div></div>
           </div>{%- endfor -%}
@@ -118,7 +118,7 @@
               <div class="poster-heading-title">{{ texts.3766ef65 }}</div>
               <p class="poster-subtitle">{{ texts.-11bdd6eb }}</p>
             </div>
-            <a target="_blank" href="{{ links.77e5bfff }}" class="primary-button w-inline-block">
+            <a target="_blank" href="{{ links.77e5bfff }}" class="main-button w-inline-block">
               <div class="engine-label-text">{{ texts.16224ad6 }}</div>
             </a>
           </div>
@@ -127,8 +127,8 @@
     </div>
     <div class="codemod-menu-wrapper">
       <div class="filter-bar-wrapper">
-        <div class="filter-form-wrapper w-form">
-          <form method="get" name="wf-form-Filter-Form" data-name="filter" fs-cmsfilter-element="filters" id="Filter-Form" class="filter-form" data-wf-page-id="655e2c5e532816ea52521996" data-wf-element-id="59995e0c-8d7b-99fd-fcac-4004cf3f751b" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
+        <div data-netlify="false" class="filter-form-wrapper w-form">
+          <form method="get" data-netlify="true" name="wf-form-Filter-Form" data-name="filter" fs-cmsfilter-element="filters" id="Filter-Form" class="filter-form" data-wf-page-id="655e2c5e532816ea52521996" data-wf-element-id="59995e0c-8d7b-99fd-fcac-4004cf3f751b" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
             <div class="search-field-wrapper full-width"><input type="text" class="search-field w-input" maxlength="256" name="field" fs-cmsfilter-field="name, description, engine, framework, labels, author" data-name="Field" placeholder="Search for frameworks, codemods, authors, or tags" fs-cmsfilter-debounce="400" id="field" required=""><img loading="lazy" src="{{ images.-721c180b.url }}" alt="{{ images.-721c180b.alt | trim | escape }}" class="search-icon"></div>
             <div data-delay="0" data-hover="false" class="dropdown-filter-wrapper hidden w-dropdown">
               <div class="dropdown-toggle w-dropdown-toggle">
@@ -282,18 +282,9 @@
                   <div fs-cmsfilter-field="verified" class="hidden w-embed">{{ item.data.f_verified-codemod }}</div>
                 </div>
                 <div class="codemod-item-bottom-wrapper">
-                  {%- if item.data.f_vs-code-link -%}<a href="{{ item.url }}" class="action-badge-wrapper codemod-page w-inline-block">
+                  <a href="{{ item.url }}" class="action-badge-wrapper codemod-page w-inline-block">
                     <div class="engine-label-text">{{ texts.-4e24ed94 }}</div>
-                  </a>{%- endif -%}
-                  <div class="action-items-wrapper full-width hide">
-                    <div class="divider"></div>
-                    {%- if item.data.f_github-link -%}<a target="_blank" href="{{ item.data.f_github-link }}" class="primary-button small grow github w-inline-block"><img src="{{ images.5367683.url }}" loading="lazy" alt="{{ images.5367683.alt | trim | escape }}" class="github-icon">
-                      <div class="engine-label-text">{{ texts.305bd5f6 }}</div>
-                    </a>{%- endif -%}
-                    {%- if item.data.f_vs-code-link -%}<a target="_blank" href="{{ item.data.f_vs-code-link }}" class="primary-button small grow vs-code w-inline-block"><img src="{{ images.4e02f435.url }}" loading="lazy" alt="{{ images.4e02f435.alt | trim | escape }}" class="github-icon">
-                      <div class="engine-label-text">{{ texts.-7a926116 }}</div>
-                    </a>{%- endif -%}
-                  </div>
+                  </a>
                   <div class="author-wrapper margin-top">
                     <div class="author-name-flex-wrapper">
                       <div class="in-line">{{ texts.c57 }}</div>
@@ -309,243 +300,6 @@
             <div>{{ texts.3d503d2b }}</div>
           </div>{%- endif -%}
         </div>
-        <div class="w-layout-grid codemod-items-grid hidden">
-          <div id="w-node-_124183ec-b826-500e-0d12-129cdcefe4d2-52521996" class="codemod-item-wrapper">
-            <div class="codemod-name-badge-header-wrapper">
-              <div class="codemod-name-title">{{ texts.645a31e6 }}</div>
-              <div class="codemod-badge-wrapper">
-                <div data-hover="true" data-delay="0" class="tooltip-dropdown w-dropdown">
-                  <div class="tooltip-content w-dropdown-toggle"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
-                  <nav class="tooltip-anchor w-dropdown-list">
-                    <div data-cy="step5" class="tooltip-wrapper _200 shift-left">
-                      <div class="tooltip-container">
-                        <div class="tooltip-title">{{ texts.-50c3f593 }}</div>
-                        <div class="relative">{{ texts.-3c8d7774 }}<br></div>
-                      </div>
-                      <div class="tooltip-diamond top-right-corner"></div>
-                    </div>
-                  </nav>
-                </div>
-              </div>
-            </div>
-            <div class="codemod-item-body-wrapper">
-              <p class="codemod-short-description">{{ texts.-5286fc08 }}</p>
-              <div class="frameworks-flex-wrapper">
-                <div class="framework-icon-wrapper">
-                  <div data-hover="true" data-delay="0" class="tooltip-dropdown inline w-dropdown">
-                    <div class="tooltip-content w-dropdown-toggle"><img src="{{ images.-4b6c3cba.url }}" loading="lazy" alt="{{ images.-4b6c3cba.alt | trim | escape }}" class="framework-icon"></div>
-                    <nav class="tooltip-anchor top w-dropdown-list">
-                      <div data-cy="step5" class="tooltip-wrapper">
-                        <div class="tooltip-container _10">
-                          <div class="relative centered">{{ texts.-2eb001fc }}<br></div>
-                        </div>
-                        <div class="tooltip-diamond bottom"></div>
-                      </div>
-                    </nav>
-                  </div>
-                </div>
-                <div class="framework-icon-wrapper"><img src="{{ images.6307da46.url }}" loading="lazy" alt="{{ images.6307da46.alt | trim | escape }}" class="framework-icon"></div>
-              </div>
-              <div class="engine-flex-wrapper">
-                <div class="label-wrapper">
-                  <div class="engine-label-text">{{ texts.21973f8c }}</div>
-                </div>
-              </div>
-            </div>
-            <div class="codemod-item-bottom-wrapper">
-              <div class="action-items-wrapper">
-                <a href="{{ links.23 }}" class="action-badge-wrapper github w-inline-block"><img src="{{ images.5367683.url }}" loading="lazy" alt="{{ images.5367683.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.305bd5f6 }}</div>
-                </a>
-                <a href="{{ links.23 }}" class="action-badge-wrapper vs-code w-inline-block"><img src="{{ images.4e02f435.url }}" loading="lazy" alt="{{ images.4e02f435.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.-7a926116 }}</div>
-                </a>
-              </div>
-              <div class="author-wrapper">
-                <div class="author-name-flex-wrapper">
-                  <div>{{ texts.c57 }}</div>
-                  <div>{{ texts.-280a97b0 }}</div>
-                </div>
-                <div class="author-icon-wrapper"><img src="{{ images.112b5d64.url }}" loading="lazy" alt="{{ images.112b5d64.alt | trim | escape }}" class="author-icon"></div>
-              </div>
-            </div>
-          </div>
-          <div id="w-node-_1fe745ff-16bf-5247-4ef6-9008c11a597b-52521996" class="codemod-item-wrapper">
-            <div class="codemod-name-badge-header-wrapper">
-              <div class="codemod-name-title">{{ texts.645a31e6 }}</div>
-              <div class="codemod-badge-wrapper"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
-            </div>
-            <div class="codemod-item-body-wrapper">
-              <p class="codemod-short-description">{{ texts.-5286fc08 }}</p>
-              <div class="frameworks-flex-wrapper">
-                <div class="framework-icon-wrapper"><img src="{{ images.-4b6c3cba.url }}" loading="lazy" alt="{{ images.-4b6c3cba.alt | trim | escape }}" class="framework-icon"></div>
-                <div class="framework-icon-wrapper"><img src="{{ images.6307da46.url }}" loading="lazy" alt="{{ images.6307da46.alt | trim | escape }}" class="framework-icon"></div>
-              </div>
-              <div class="engine-flex-wrapper">
-                <div class="label-wrapper">
-                  <div class="engine-label-text">{{ texts.21973f8c }}</div>
-                </div>
-              </div>
-            </div>
-            <div class="codemod-item-bottom-wrapper">
-              <div class="action-items-wrapper">
-                <a href="{{ links.23 }}" class="action-badge-wrapper github w-inline-block"><img src="{{ images.5367683.url }}" loading="lazy" alt="{{ images.5367683.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.305bd5f6 }}</div>
-                </a>
-                <a href="{{ links.23 }}" class="action-badge-wrapper vs-code w-inline-block"><img src="{{ images.4e02f435.url }}" loading="lazy" alt="{{ images.4e02f435.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.-7a926116 }}</div>
-                </a>
-              </div>
-              <div class="author-wrapper">
-                <div class="author-name-flex-wrapper">
-                  <div>{{ texts.c57 }}</div>
-                  <div>{{ texts.-677aa219 }}</div>
-                </div>
-                <div class="author-icon-wrapper"><img src="{{ images.-2ce8a2a5.url }}" loading="lazy" alt="{{ images.-2ce8a2a5.alt | trim | escape }}" class="author-icon"></div>
-              </div>
-            </div>
-          </div>
-          <div id="w-node-_6c11420d-8aa9-0891-234f-f5b30f2cb16e-52521996" class="codemod-item-wrapper">
-            <div class="codemod-name-badge-header-wrapper">
-              <div class="codemod-name-title">{{ texts.645a31e6 }}</div>
-              <div class="codemod-badge-wrapper"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
-            </div>
-            <div class="codemod-item-body-wrapper">
-              <p class="codemod-short-description">{{ texts.-5286fc08 }}</p>
-              <div class="frameworks-flex-wrapper">
-                <div class="framework-icon-wrapper"><img src="{{ images.-4b6c3cba.url }}" loading="lazy" alt="{{ images.-4b6c3cba.alt | trim | escape }}" class="framework-icon"></div>
-                <div class="framework-icon-wrapper"><img src="{{ images.6307da46.url }}" loading="lazy" alt="{{ images.6307da46.alt | trim | escape }}" class="framework-icon"></div>
-              </div>
-              <div class="engine-flex-wrapper">
-                <div class="label-wrapper">
-                  <div class="engine-label-text">{{ texts.21973f8c }}</div>
-                </div>
-              </div>
-            </div>
-            <div class="codemod-item-bottom-wrapper">
-              <div class="action-items-wrapper">
-                <a href="{{ links.23 }}" class="action-badge-wrapper github w-inline-block"><img src="{{ images.5367683.url }}" loading="lazy" alt="{{ images.5367683.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.305bd5f6 }}</div>
-                </a>
-                <a href="{{ links.23 }}" class="action-badge-wrapper vs-code w-inline-block"><img src="{{ images.4e02f435.url }}" loading="lazy" alt="{{ images.4e02f435.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.-7a926116 }}</div>
-                </a>
-              </div>
-              <div class="author-wrapper">
-                <div class="author-name-flex-wrapper">
-                  <div>{{ texts.c57 }}</div>
-                  <div>{{ texts.-280a97b0 }}</div>
-                </div>
-                <div class="author-icon-wrapper"><img src="{{ images.112b5d64.url }}" loading="lazy" alt="{{ images.112b5d64.alt | trim | escape }}" class="author-icon"></div>
-              </div>
-            </div>
-          </div>
-          <div id="w-node-_06c2c263-2fc6-0223-e8ce-c12b54bda4ed-52521996" class="codemod-item-wrapper">
-            <div class="codemod-name-badge-header-wrapper">
-              <div class="codemod-name-title">{{ texts.645a31e6 }}</div>
-              <div class="codemod-badge-wrapper"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
-            </div>
-            <div class="codemod-item-body-wrapper">
-              <p class="codemod-short-description">{{ texts.-5286fc08 }}</p>
-              <div class="frameworks-flex-wrapper">
-                <div class="framework-icon-wrapper"><img src="{{ images.-4b6c3cba.url }}" loading="lazy" alt="{{ images.-4b6c3cba.alt | trim | escape }}" class="framework-icon"></div>
-                <div class="framework-icon-wrapper"><img src="{{ images.6307da46.url }}" loading="lazy" alt="{{ images.6307da46.alt | trim | escape }}" class="framework-icon"></div>
-              </div>
-              <div class="engine-flex-wrapper">
-                <div class="label-wrapper">
-                  <div class="engine-label-text">{{ texts.21973f8c }}</div>
-                </div>
-              </div>
-            </div>
-            <div class="codemod-item-bottom-wrapper">
-              <div class="action-items-wrapper">
-                <a href="{{ links.23 }}" class="action-badge-wrapper github w-inline-block"><img src="{{ images.5367683.url }}" loading="lazy" alt="{{ images.5367683.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.305bd5f6 }}</div>
-                </a>
-                <a href="{{ links.23 }}" class="action-badge-wrapper vs-code w-inline-block"><img src="{{ images.4e02f435.url }}" loading="lazy" alt="{{ images.4e02f435.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.-7a926116 }}</div>
-                </a>
-              </div>
-              <div class="author-wrapper">
-                <div class="author-name-flex-wrapper">
-                  <div>{{ texts.c57 }}</div>
-                  <div>{{ texts.-677aa219 }}</div>
-                </div>
-                <div class="author-icon-wrapper"><img src="{{ images.-2ce8a2a5.url }}" loading="lazy" alt="{{ images.-2ce8a2a5.alt | trim | escape }}" class="author-icon"></div>
-              </div>
-            </div>
-          </div>
-          <div id="w-node-_235c6ad1-2195-6dae-e742-853a2b0ccd49-52521996" class="codemod-item-wrapper">
-            <div class="codemod-name-badge-header-wrapper">
-              <div class="codemod-name-title">{{ texts.645a31e6 }}</div>
-              <div class="codemod-badge-wrapper"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
-            </div>
-            <div class="codemod-item-body-wrapper">
-              <p class="codemod-short-description">{{ texts.-5286fc08 }}</p>
-              <div class="frameworks-flex-wrapper">
-                <div class="framework-icon-wrapper"><img src="{{ images.-4b6c3cba.url }}" loading="lazy" alt="{{ images.-4b6c3cba.alt | trim | escape }}" class="framework-icon"></div>
-                <div class="framework-icon-wrapper"><img src="{{ images.6307da46.url }}" loading="lazy" alt="{{ images.6307da46.alt | trim | escape }}" class="framework-icon"></div>
-              </div>
-              <div class="engine-flex-wrapper">
-                <div class="label-wrapper">
-                  <div class="engine-label-text">{{ texts.21973f8c }}</div>
-                </div>
-              </div>
-            </div>
-            <div class="codemod-item-bottom-wrapper">
-              <div class="action-items-wrapper">
-                <a href="{{ links.23 }}" class="action-badge-wrapper github w-inline-block"><img src="{{ images.5367683.url }}" loading="lazy" alt="{{ images.5367683.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.305bd5f6 }}</div>
-                </a>
-                <a href="{{ links.23 }}" class="action-badge-wrapper vs-code w-inline-block"><img src="{{ images.4e02f435.url }}" loading="lazy" alt="{{ images.4e02f435.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.-7a926116 }}</div>
-                </a>
-              </div>
-              <div class="author-wrapper">
-                <div class="author-name-flex-wrapper">
-                  <div>{{ texts.c57 }}</div>
-                  <div>{{ texts.-280a97b0 }}</div>
-                </div>
-                <div class="author-icon-wrapper"><img src="{{ images.112b5d64.url }}" loading="lazy" alt="{{ images.112b5d64.alt | trim | escape }}" class="author-icon"></div>
-              </div>
-            </div>
-          </div>
-          <div id="w-node-_34cd0522-bad2-64b7-cf03-8383318fb4c9-52521996" class="codemod-item-wrapper">
-            <div class="codemod-name-badge-header-wrapper">
-              <div class="codemod-name-title">{{ texts.645a31e6 }}</div>
-              <div class="codemod-badge-wrapper"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
-            </div>
-            <div class="codemod-item-body-wrapper">
-              <p class="codemod-short-description">{{ texts.-5286fc08 }}</p>
-              <div class="frameworks-flex-wrapper">
-                <div class="framework-icon-wrapper"><img src="{{ images.-4b6c3cba.url }}" loading="lazy" alt="{{ images.-4b6c3cba.alt | trim | escape }}" class="framework-icon"></div>
-                <div class="framework-icon-wrapper"><img src="{{ images.6307da46.url }}" loading="lazy" alt="{{ images.6307da46.alt | trim | escape }}" class="framework-icon"></div>
-              </div>
-              <div class="engine-flex-wrapper">
-                <div class="label-wrapper">
-                  <div class="engine-label-text">{{ texts.21973f8c }}</div>
-                </div>
-              </div>
-            </div>
-            <div class="codemod-item-bottom-wrapper">
-              <div class="action-items-wrapper">
-                <a href="{{ links.23 }}" class="action-badge-wrapper github w-inline-block"><img src="{{ images.5367683.url }}" loading="lazy" alt="{{ images.5367683.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.305bd5f6 }}</div>
-                </a>
-                <a href="{{ links.23 }}" class="action-badge-wrapper vs-code w-inline-block"><img src="{{ images.4e02f435.url }}" loading="lazy" alt="{{ images.4e02f435.alt | trim | escape }}" class="github-icon">
-                  <div class="engine-label-text">{{ texts.-7a926116 }}</div>
-                </a>
-              </div>
-              <div class="author-wrapper">
-                <div class="author-name-flex-wrapper">
-                  <div>{{ texts.c57 }}</div>
-                  <div>{{ texts.-677aa219 }}</div>
-                </div>
-                <div class="author-icon-wrapper"><img src="{{ images.-2ce8a2a5.url }}" loading="lazy" alt="{{ images.-2ce8a2a5.alt | trim | escape }}" class="author-icon"></div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -560,4 +314,4 @@ p code {
 }
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

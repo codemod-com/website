@@ -1614,61 +1614,42 @@ collections:
             label: Text
             name: '-4e24ed94'
             widget: string
-          - hint: 'Original text: View Source, key: 305bd5f6'
-            label: Text
-            name: 305bd5f6
-            widget: string
-          - hint: "Original text: Run in VS\_Code, key: -7a926116"
-            label: Text
-            name: '-7a926116'
-            widget: string
           - hint: 'Original text: by, key: c57'
             label: Text
             name: c57
             widget: string
-          - hint: 'Original text: app-router-recipe, key: 645a31e6'
+          - hint: 'Original text: Build Your Own Custom Codemod, key: -20710aa5'
             label: Text
-            name: 645a31e6
+            name: '-20710aa5'
             widget: string
           - hint: >-
-              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Suspendisse varius enim in eros elementum tristique. Duis
-              cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-              commodo diam libero vitae erat. Aenean faucibus nibh et justo
-              cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
-              tristique posuere., key: -5286fc08
+              Original text: Use AI-powered codemod studio and automate
+              undifferentiated tasks for yourself, colleagues or the community.,
+              key: -5df3c716
             label: Text
-            name: '-5286fc08'
+            name: '-5df3c716'
             widget: text
-          - hint: 'Original text: Next.js, key: -2eb001fc'
+          - hint: 'Original text: Get Started, key: -364d0a89'
             label: Text
-            name: '-2eb001fc'
-            widget: string
-          - hint: 'Original text: jscodeshift, key: 21973f8c'
-            label: Text
-            name: 21973f8c
-            widget: string
-          - hint: 'Original text: Intuita, key: -280a97b0'
-            label: Text
-            name: '-280a97b0'
-            widget: string
-          - hint: 'Original text: Vercel, key: -677aa219'
-            label: Text
-            name: '-677aa219'
-            widget: string
-          - hint: >-
-              Original text: Learn more about the Codemod Registry., key:
-              507888d5
-            label: Text
-            name: 507888d5
+            name: '-364d0a89'
             widget: string
           - hint: 'Original text: ← View All Automations, key: 74911332'
             label: Text
             name: '74911332'
             widget: string
+          - hint: >-
+              Original text: View or contribute to this automation on GitHub.,
+              key: -4f8972db
+            label: Text
+            name: '-4f8972db'
+            widget: string
           - hint: 'Original text: This automation is built with, key: 4ca569b7'
             label: Text
             name: 4ca569b7
+            widget: string
+          - hint: 'Original text: Made by, key: -6b8a7cde'
+            label: Text
+            name: '-6b8a7cde'
             widget: string
           - hint: 'Original text: Estimated time saving, key: 372d39a9'
             label: Text
@@ -1702,16 +1683,6 @@ collections:
           - hint: 'Original text: Applicability criteria, key: -344c5b86'
             label: Text
             name: '-344c5b86'
-            widget: string
-          - hint: 'Original text: Made by, key: -6b8a7cde'
-            label: Text
-            name: '-6b8a7cde'
-            widget: string
-          - hint: >-
-              Original text: View or contribute to this automation on GitHub.,
-              key: -4f8972db
-            label: Text
-            name: '-4f8972db'
             widget: string
           - hint: 'Original text: Usage →, key: 5a3656b3'
             label: Text
@@ -1751,6 +1722,10 @@ collections:
             label: Text
             name: 58baed02
             widget: string
+          - hint: "Original text: Run in VS\_Code, key: -7a926116"
+            label: Text
+            name: '-7a926116'
+            widget: string
           - hint: 'Original text: Use/edit codemod in Codemod Studio:, key: -5b64809'
             label: Text
             name: '-5b64809'
@@ -1758,6 +1733,10 @@ collections:
           - hint: "Original text: Open in\_Codemod Studio, key: -20a3d4ba"
             label: Text
             name: '-20a3d4ba'
+            widget: string
+          - hint: 'Original text: View Source, key: 305bd5f6'
+            label: Text
+            name: 305bd5f6
             widget: string
           - hint: 'Original text: Request Improvement →, key: 263cb4b7'
             label: Text
@@ -1767,9 +1746,129 @@ collections:
             label: Text
             name: 5037fbe3
             widget: string
+          - hint: 'Original text: Heading 1, key: 6af22973'
+            label: Text
+            name: 6af22973
+            widget: string
+          - hint: 'Original text: Heading 2, key: 6af22974'
+            label: Text
+            name: 6af22974
+            widget: string
+          - hint: 'Original text: Heading 3, key: 6af22975'
+            label: Text
+            name: 6af22975
+            widget: string
+          - hint: 'Original text: Heading 4, key: 6af22976'
+            label: Text
+            name: 6af22976
+            widget: string
+          - hint: 'Original text: Heading 5, key: 6af22977'
+            label: Text
+            name: 6af22977
+            widget: string
+          - hint: 'Original text: Heading 6, key: 6af22978'
+            label: Text
+            name: 6af22978
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+              dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur., key: 36f186d6
+            label: Text
+            name: 36f186d6
+            widget: text
+          - hint: 'Original text: Block quote, key: 40f76109'
+            label: Text
+            name: 40f76109
+            widget: string
+          - hint: 'Original text: Ordered list, key: 670f3891'
+            label: Text
+            name: 670f3891
+            widget: string
+          - hint: 'Original text: Item 1, key: -7cdc0d7c'
+            label: Text
+            name: '-7cdc0d7c'
+            widget: string
+          - hint: 'Original text: Item 2, key: -7cdc0d7b'
+            label: Text
+            name: '-7cdc0d7b'
+            widget: string
+          - hint: 'Original text: Item 3, key: -7cdc0d7a'
+            label: Text
+            name: '-7cdc0d7a'
+            widget: string
+          - hint: 'Original text: Unordered list, key: -27cb5e56'
+            label: Text
+            name: '-27cb5e56'
+            widget: string
+          - hint: 'Original text: Item A, key: -7cdc0d6c'
+            label: Text
+            name: '-7cdc0d6c'
+            widget: string
+          - hint: 'Original text: Item B, key: -7cdc0d6b'
+            label: Text
+            name: '-7cdc0d6b'
+            widget: string
+          - hint: 'Original text: Item C, key: -7cdc0d6a'
+            label: Text
+            name: '-7cdc0d6a'
+            widget: string
+          - hint: 'Original text: Text link, key: 361eaeed'
+            label: Text
+            name: 361eaeed
+            widget: string
+          - hint: 'Original text: Bold text, key: 4205e5c8'
+            label: Text
+            name: 4205e5c8
+            widget: string
+          - hint: 'Original text: Emphasis, key: 4abe799c'
+            label: Text
+            name: 4abe799c
+            widget: string
+          - hint: 'Original text: Superscript, key: 1dea1fe6'
+            label: Text
+            name: 1dea1fe6
+            widget: string
+          - hint: 'Original text: Subscript, key: -69de0115'
+            label: Text
+            name: '-69de0115'
+            widget: string
           - hint: 'Original text: Codemod Changelog, key: -7a916317'
             label: Text
             name: '-7a916317'
+            widget: string
+          - hint: 'Original text: app-router-recipe, key: 645a31e6'
+            label: Text
+            name: 645a31e6
+            widget: string
+          - hint: >-
+              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Suspendisse varius enim in eros elementum tristique. Duis
+              cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+              commodo diam libero vitae erat. Aenean faucibus nibh et justo
+              cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+              tristique posuere., key: -5286fc08
+            label: Text
+            name: '-5286fc08'
+            widget: text
+          - hint: 'Original text: Next.js, key: -2eb001fc'
+            label: Text
+            name: '-2eb001fc'
+            widget: string
+          - hint: 'Original text: jscodeshift, key: 21973f8c'
+            label: Text
+            name: 21973f8c
+            widget: string
+          - hint: 'Original text: Intuita, key: -280a97b0'
+            label: Text
+            name: '-280a97b0'
+            widget: string
+          - hint: 'Original text: Vercel, key: -677aa219'
+            label: Text
+            name: '-677aa219'
             widget: string
           - hint: 'Original text: Migrate Your Project with Intuita →, key: 98447'
             label: Text
@@ -2054,10 +2153,6 @@ collections:
               & resources., key: -239e9cff
             label: Text
             name: '-239e9cff'
-            widget: string
-          - hint: 'Original text: Get Started, key: -364d0a89'
-            label: Text
-            name: '-364d0a89'
             widget: string
           - hint: 'Original text: Team, key: 27b67d'
             label: Text
@@ -3563,18 +3658,6 @@ collections:
             label: Text
             name: 14066d62
             widget: string
-          - hint: 'Original text: Or contact us directly, key: -79f0f325'
-            label: Text
-            name: '-79f0f325'
-            widget: string
-          - hint: 'Original text: Get in touch with us on Slack, key: 7035c089'
-            label: Text
-            name: 7035c089
-            widget: string
-          - hint: 'Original text: Book a quick call with us, key: 372d869f'
-            label: Text
-            name: 372d869f
-            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -3727,6 +3810,13 @@ collections:
           - hint: 'Original link: https://feedback.intuita.io/, key: -ab64f'
             label: Link
             name: '-ab64f'
+            widget: string
+          - hint: >-
+              Original link:
+              https://university.webflow.com/lesson/add-and-nest-text-links-in-webflow,
+              key: -1a691619
+            label: Link
+            name: '-1a691619'
             widget: string
           - hint: 'Original link: #migration-hook, key: -491d655b'
             label: Link
@@ -4460,84 +4550,6 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '5367683'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 4e02f435
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-4b6c3cba'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 6307da46
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 112b5d64
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-2ce8a2a5'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
             name: '-38eea61f'
             widget: object
             fields:
@@ -4591,6 +4603,84 @@ collections:
                 required: false
           - label: Image
             name: '-59d0a9be'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 4e02f435
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 112b5d64
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '5367683'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-4b6c3cba'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6307da46
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-2ce8a2a5'
             widget: object
             fields:
               - name: url

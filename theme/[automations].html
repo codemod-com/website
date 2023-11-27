@@ -23,6 +23,7 @@ p code {
 }
 pre {
 	line-height: 120% !important;
+  display: inline-block;
 }
 pre code {
 	font-size: 12px !important;
@@ -107,7 +108,7 @@ pre code {
 </div>
 </div>
 
-<a target="_blank" href="{{ item.data.f_cta-link }}" class="primary-button w-inline-block"><div class="engine-label-text">{{ item.data.f_button-cta }}</div></a>
+<a target="_blank" href="{{ item.data.f_cta-link }}" class="main-button secondary w-inline-block"><div class="engine-label-text">{{ item.data.f_button-cta }}</div></a>
 
 </div></div>
           </div>{%- endfor -%}
@@ -115,11 +116,12 @@ pre code {
         {%- if collection.length == 0 -%}<div class="no-ctas-found w-dyn-empty">
           <div class="poster-wrapper"><img src="{{ images.55e4d5a0.url }}" loading="lazy" alt="{{ images.55e4d5a0.alt | trim | escape }}" class="poster-decorative-circle hidden">
             <div class="posted-description-wrapper">
-              <div class="poster-heading-title">{{ texts.3766ef65 }}</div>
-              <p class="poster-subtitle">{{ texts.507888d5 }}</p>
+              <div class="poster-heading-title">{{ texts.-20710aa5 }}</div>
+              <p class="poster-subtitle">{{ texts.-5df3c716 }}<a target="_blank" href="{{ links.-5be4108f }}"><br></a>
+              </p>
             </div>
-            <a target="_blank" href="{{ links.77e5bfff }}" class="primary-button w-inline-block">
-              <div class="engine-label-text">{{ texts.16224ad6 }}</div>
+            <a target="_blank" href="{{ links.-3a123b97 }}" class="main-button secondary w-inline-block">
+              <div class="engine-label-text">{{ texts.-364d0a89 }}</div>
             </a>
           </div>
         </div>{%- endif -%}
@@ -127,7 +129,7 @@ pre code {
     </div>
     <div class="codemod-menu-wrapper">
       <div class="header-bar-wrapper">
-        <a href="{{ links.-321e94de }}" class="primary-button w-inline-block">
+        <a href="{{ links.-321e94de }}" class="main-button w-inline-block">
           <div class="engine-label-text">{{ texts.74911332 }}</div>
         </a>
       </div>
@@ -138,6 +140,21 @@ pre code {
               <div class="codemod-name-badge-header-wrapper">
                 <h1 class="codemod-heading">{{ title }}</h1>
                 <div class="codemod-badge-wrapper">
+                  {%- if f_github-link -%}<div class="github-source-bage-wrapper">
+                    <div data-hover="true" data-delay="0" class="tooltip-dropdown github w-dropdown">
+                      <div class="tooltip-content w-dropdown-toggle">
+                        <a target="_blank" href="{{ f_github-link }}" class="github-source-link-wrapper w-inline-block"><img src="{{ images.-775b37d0.url }}" loading="lazy" alt="{{ images.-775b37d0.alt | trim | escape }}" class="github-source-icon"></a>
+                      </div>
+                      <nav class="tooltip-anchor w-dropdown-list">
+                        <div data-cy="step5" class="tooltip-wrapper _200 shift-left">
+                          <div class="tooltip-container">
+                            <div class="relative">{{ texts.-4f8972db }}<br></div>
+                          </div>
+                          <div class="tooltip-diamond github-tooltip"></div>
+                        </div>
+                      </nav>
+                    </div>
+                  </div>{%- endif -%}
                   {%- if f_verified-codemod == true -%}<div class="verified-badge-wrapper">
                     <div data-hover="true" data-delay="0" class="tooltip-dropdown w-dropdown">
                       <div class="tooltip-content w-dropdown-toggle"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
@@ -188,13 +205,20 @@ pre code {
                       </nav>
                     </div>{%- endif -%}
                   </div>
+                  <div class="author-wrapper">
+                    <div class="author-name-flex-wrapper">
+                      <div class="in-line">{{ texts.-6b8a7cde }}</div>
+                      {%- assign authorsOfAutomations = f_author | resolveReference -%}<div fs-cmsfilter-field="author" class="in-line">{{ authorsOfAutomations.data.title }}</div>
+                    </div>
+                    {%- assign authorsOfAutomations = f_author | resolveReference -%}<a target="_blank" href="{{ authorsOfAutomations.data.f_github-profile }}" class="author-icon-wrapper w-inline-block">{%- assign authorsOfAutomations = f_author | resolveReference -%}<img loading="lazy" src="{{ authorsOfAutomations.data.f_author-image.url }}" alt="{{ authorsOfAutomations.data.title }}" class="author-icon"></a>
+                  </div>
                 </div>
                 <div class="attribute-cards-wrapper">
-                  {%- if f_estimated-time-saving -%}<div class="attribute-card-wrapper"><img src="{{ images.-38eea61f.url }}" loading="lazy" alt="{{ images.-38eea61f.alt | trim | escape }}" class="attribute-card-icon">
+                  {%- if f_estimated-time-saving -%}<div class="attribute-card-wrapper max-width"><img src="{{ images.-38eea61f.url }}" loading="lazy" alt="{{ images.-38eea61f.alt | trim | escape }}" class="attribute-card-icon">
                     <h5 class="attribute-key-heading">{{ texts.372d39a9 }}</h5>
                     <div class="attribute-value-text">{{ f_estimated-time-saving }}</div>
                   </div>{%- endif -%}
-                  {%- if f_change-mode-2 -%}<div class="attribute-card-wrapper"><img src="{{ images.-38e22e6e.url }}" loading="lazy" alt="{{ images.-38e22e6e.alt | trim | escape }}" class="attribute-card-icon">
+                  {%- if f_change-mode-2 -%}<div class="attribute-card-wrapper max-width"><img src="{{ images.-38e22e6e.url }}" loading="lazy" alt="{{ images.-38e22e6e.alt | trim | escape }}" class="attribute-card-icon">
                     <h5 class="attribute-key-heading">{{ texts.-2ae740d }}</h5>
                     {%- if f_change-mode-2 == "Autonomous" -%}<div class="change-mode-label-tooltip-wrapper">
                       <div data-hover="true" data-delay="0" class="tooltip-dropdown w-dropdown">
@@ -227,7 +251,7 @@ pre code {
                       </div>
                     </div>{%- endif -%}
                   </div>{%- endif -%}
-                  {%- if f_applicability-criteria -%}<div class="attribute-card-wrapper"><img src="{{ images.-6218d6bd.url }}" loading="lazy" alt="{{ images.-6218d6bd.alt | trim | escape }}" class="attribute-card-icon">
+                  {%- if f_applicability-criteria -%}<div class="attribute-card-wrapper max-width"><img src="{{ images.-6218d6bd.url }}" loading="lazy" alt="{{ images.-6218d6bd.alt | trim | escape }}" class="attribute-card-icon">
                     <h5 class="attribute-key-heading">{{ texts.-344c5b86 }}</h5>
                     <div class="attribute-value-text applicability-criteria w-richtext">{{ f_applicability-criteria | markdown }}</div>
                   </div>{%- endif -%}
@@ -260,14 +284,14 @@ pre code {
                   <div>{{ texts.3d503d2b }}</div>
                 </div>{%- endif -%}
               </div>
-              <div class="author-wrapper">
+              <div class="author-wrapper hidden">
                 <div class="author-name-flex-wrapper">
                   <div class="in-line">{{ texts.-6b8a7cde }}</div>
                   {%- assign authorsOfAutomations = f_author | resolveReference -%}<div fs-cmsfilter-field="author" class="in-line">{{ authorsOfAutomations.data.title }}</div>
                 </div>
                 {%- assign authorsOfAutomations = f_author | resolveReference -%}<a target="_blank" href="{{ authorsOfAutomations.data.f_github-profile }}" class="author-icon-wrapper w-inline-block">{%- assign authorsOfAutomations = f_author | resolveReference -%}<img loading="lazy" src="{{ authorsOfAutomations.data.f_author-image.url }}" alt="{{ authorsOfAutomations.data.title }}" class="author-icon"></a>
               </div>
-              {%- if f_github-link -%}<div class="github-source-bage-wrapper">
+              {%- if f_github-link -%}<div class="github-source-bage-wrapper hidden">
                 <div data-hover="true" data-delay="0" class="tooltip-dropdown github w-dropdown">
                   <div class="tooltip-content w-dropdown-toggle">
                     <a target="_blank" href="{{ f_github-link }}" class="github-source-link-wrapper w-inline-block"><img src="{{ images.-775b37d0.url }}" loading="lazy" alt="{{ images.-775b37d0.alt | trim | escape }}" class="github-source-icon"></a>
@@ -330,22 +354,22 @@ pre code {
                     </nav>
                   </div>
                 </div>
-                <a target="_blank" href="{{ f_vs-code-link }}" class="primary-button full-width vs-code w-inline-block"><img src="{{ images.4e02f435.url }}" loading="lazy" alt="{{ images.4e02f435.alt | trim | escape }}" class="github-icon">
+                <a target="_blank" href="{{ f_vs-code-link }}" class="main-button full-width max-width w-inline-block"><img src="{{ images.4e02f435.url }}" loading="lazy" alt="{{ images.4e02f435.alt | trim | escape }}" class="github-icon">
                   <div class="engine-label-text">{{ texts.-7a926116 }}</div>
                 </a>
               </div>{%- endif -%}
               {%- if f_codemod-studio-link -%}<div class="command-action-wrapper">
                 <p fs-cmsfilter-field="description" class="codemod-short-description">{{ texts.-5b64809 }}</p>
-                <a target="_blank" href="{{ f_codemod-studio-link }}" class="primary-button full-width codemod-studio w-inline-block"><img src="{{ images.112b5d64.url }}" loading="lazy" alt="{{ images.112b5d64.alt | trim | escape }}" class="github-icon">
+                <a target="_blank" href="{{ f_codemod-studio-link }}" class="main-button codemod-studio full-width max-width w-inline-block"><img src="{{ images.112b5d64.url }}" loading="lazy" alt="{{ images.112b5d64.alt | trim | escape }}" class="github-icon">
                   <div class="engine-label-text">{{ texts.-20a3d4ba }}</div>
                 </a>
               </div>{%- endif -%}
               <div class="source-request-buttons-flex-wrapper hidden">
                 <div class="divider bottom-margin"></div>
-                {%- if f_github-link -%}<a target="_blank" href="{{ f_github-link }}" class="primary-button grow w-inline-block"><img src="{{ images.5367683.url }}" loading="lazy" alt="{{ images.5367683.alt | trim | escape }}" class="github-icon">
+                {%- if f_github-link -%}<a target="_blank" href="{{ f_github-link }}" class="main-button grow w-inline-block"><img src="{{ images.5367683.url }}" loading="lazy" alt="{{ images.5367683.alt | trim | escape }}" class="github-icon">
                   <div class="engine-label-text">{{ texts.305bd5f6 }}</div>
                 </a>{%- endif -%}
-                <a target="_blank" href="{{ links.-ab64f }}" class="primary-button grow w-inline-block">
+                <a target="_blank" href="{{ links.-ab64f }}" class="main-button grow w-inline-block">
                   <div class="engine-label-text">{{ texts.263cb4b7 }}</div>
                 </a>
               </div>
@@ -359,6 +383,33 @@ pre code {
             </div>
             <div class="codemod-item-body-wrapper">
               <div class="long-description-richtext w-richtext">{{ f_long-description | markdown }}</div>
+              <div class="long-description-richtext w-richtext">
+                <h1>{{ texts.6af22973 }}</h1>
+                <h2>{{ texts.6af22974 }}</h2>
+                <h3>{{ texts.6af22975 }}</h3>
+                <h4>{{ texts.6af22976 }}</h4>
+                <h5>{{ texts.6af22977 }}</h5>
+                <h6>{{ texts.6af22978 }}</h6>
+                <p>{{ texts.36f186d6 }}</p>
+                <blockquote>{{ texts.40f76109 }}</blockquote>
+                <p>{{ texts.670f3891 }}</p>
+                <ol role="list">
+                  <li>{{ texts.-7cdc0d7c }}</li>
+                  <li>{{ texts.-7cdc0d7b }}</li>
+                  <li>{{ texts.-7cdc0d7a }}</li>
+                </ol>
+                <p>{{ texts.-27cb5e56 }}</p>
+                <ul role="list">
+                  <li>{{ texts.-7cdc0d6c }}</li>
+                  <li>{{ texts.-7cdc0d6b }}</li>
+                  <li>{{ texts.-7cdc0d6a }}</li>
+                </ul>
+                <a href="{{ links.-1a691619 }}">{{ texts.361eaeed }}</a>
+                <p><strong>{{ texts.4205e5c8 }}</strong></p>
+                <p><em>{{ texts.4abe799c }}</em></p>
+                <p><sup>{{ texts.1dea1fe6 }}</sup></p>
+                <p><sub>{{ texts.-69de0115 }}</sub></p>
+              </div>
             </div>
           </div>
         </div>{%- endif -%}
@@ -620,4 +671,4 @@ pre code {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-javascript.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/unescaped-markup/prism-unescaped-markup.min.js"></script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>
