@@ -1326,10 +1326,6 @@ blockquote {
   padding-right: 5px;
 }
 
-.long-description-richtext p, .long-description-richtext blockquote, .long-description-richtext li {
-  max-width: 800px;
-}
-
 .checkbox-filter {
   height: 100%;
   max-height: 100%;
