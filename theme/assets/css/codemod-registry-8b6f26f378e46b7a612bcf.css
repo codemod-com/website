@@ -765,7 +765,7 @@ ul {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   color: #fff;
-  background-image: linear-gradient(214deg, #000, #636363 62%, #acacac);
+  background-image: linear-gradient(214deg, #2a2a2a, rgba(42, 42, 42, .89) 62%, rgba(42, 42, 42, .76));
   border-radius: 10px;
   flex-direction: column;
   align-items: flex-start;
