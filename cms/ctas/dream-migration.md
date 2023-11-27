@@ -1,9 +1,9 @@
 ---
 created-on: 2023-11-08T14:43:15.233Z
 f_cta-description: Read our latest blog post about the Next.js "Dream Migration."
-f_background-color-1: "#383838"
-f_background-color-2: "#383838"
-f_background-color-3: "#383838"
+f_background-color-1: "#2a2a2a"
+f_background-color-2: "#2a2a2a"
+f_background-color-3: "#2a2a2a"
 layout: "[ctas].html"
 slug: dream-migration
 title: Dream Migration

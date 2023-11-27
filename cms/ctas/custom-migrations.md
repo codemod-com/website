@@ -1,9 +1,9 @@
 ---
 created-on: 2023-11-08T15:56:06.226Z
 f_cta-description: Instantly build codemods with GPT4 & specialized helpers. All for free.
-f_background-color-1: "#383838"
-f_background-color-2: "#383838"
-f_background-color-3: "#383838"
+f_background-color-1: "#2a2a2a"
+f_background-color-2: "#2a2a2a"
+f_background-color-3: "#2a2a2a"
 layout: "[ctas].html"
 slug: custom-migrations
 title: Custom Migrations
