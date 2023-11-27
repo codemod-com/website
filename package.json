@@ -2,7 +2,7 @@
   "name": "codemod-registry-8b6f26f378e46b7a612bcf",
   "dependencies": {
     "@11ty/eleventy": "2.0.1",
-    "@11ty/eleventy-img": "3.1.8",
+    "@11ty/eleventy-img": "2.0.0",
     "archiver": "^5.2.0",
     "extract-zip": "^2.0.1",
     "lodash.chunk": "^4.2.0",

@@ -138,7 +138,23 @@ pre code {
           <div class="codemod-body-column-wrapper _60">
             <div class="codemod-item-top-wrapper">
               <div class="codemod-name-badge-header-wrapper">
-                <h1 class="codemod-heading">{{ title }}</h1>
+                <div class="codemod-heading-wrapper">
+                  <h1 class="codemod-heading">{{ title }}</h1>
+                  {%- if f_verified-codemod == true -%}<div class="verified-badge-wrapper">
+                    <div data-hover="true" data-delay="0" class="tooltip-dropdown w-dropdown">
+                      <div class="tooltip-content w-dropdown-toggle"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
+                      <nav class="tooltip-anchor w-dropdown-list">
+                        <div data-cy="step5" class="tooltip-wrapper _200 shift-left">
+                          <div class="tooltip-container">
+                            <div class="tooltip-title">{{ texts.-50c3f593 }}</div>
+                            <div class="relative">{{ texts.-3c8d7774 }}<br></div>
+                          </div>
+                          <div class="tooltip-diamond top-right-corner"></div>
+                        </div>
+                      </nav>
+                    </div>
+                  </div>{%- endif -%}
+                </div>
                 <div class="codemod-badge-wrapper">
                   {%- if f_github-link -%}<div class="github-source-bage-wrapper">
                     <div data-hover="true" data-delay="0" class="tooltip-dropdown github w-dropdown">
@@ -151,20 +167,6 @@ pre code {
                             <div class="relative">{{ texts.-4f8972db }}<br></div>
                           </div>
                           <div class="tooltip-diamond github-tooltip"></div>
-                        </div>
-                      </nav>
-                    </div>
-                  </div>{%- endif -%}
-                  {%- if f_verified-codemod == true -%}<div class="verified-badge-wrapper">
-                    <div data-hover="true" data-delay="0" class="tooltip-dropdown w-dropdown">
-                      <div class="tooltip-content w-dropdown-toggle"><img src="{{ images.-1d3bc06a.url }}" loading="lazy" alt="{{ images.-1d3bc06a.alt | trim | escape }}" class="verified-codemod-icon"></div>
-                      <nav class="tooltip-anchor w-dropdown-list">
-                        <div data-cy="step5" class="tooltip-wrapper _200 shift-left">
-                          <div class="tooltip-container">
-                            <div class="tooltip-title">{{ texts.-50c3f593 }}</div>
-                            <div class="relative">{{ texts.-3c8d7774 }}<br></div>
-                          </div>
-                          <div class="tooltip-diamond top-right-corner"></div>
                         </div>
                       </nav>
                     </div>
@@ -194,7 +196,7 @@ pre code {
                       </div>
                       <nav class="tooltip-anchor top w-dropdown-list">
                         <div data-cy="step5" class="tooltip-wrapper">
-                          <div class="tooltip-container _10">
+                          <div class="tooltip-container _10 width-150">
                             <div>
                               <div class="in-line">{{ texts.4ca569b7 }}</div>
                               {%- assign codemod-enginesOfAutomations = f_codemod-engine | resolveReference -%}<div fs-cmsfilter-field="framework" class="in-line">{{ codemod-enginesOfAutomations.data.title }}</div>
@@ -671,4 +673,4 @@ pre code {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-javascript.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/unescaped-markup/prism-unescaped-markup.min.js"></script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

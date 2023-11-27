@@ -681,6 +681,10 @@ ul {
   padding: 10px;
 }
 
+.tooltip-container._10.width-150 {
+  width: 150px;
+}
+
 .tooltip-content {
   cursor: default;
   padding: 0;
@@ -4517,6 +4521,12 @@ ul {
 }
 
 .collection-list-wrapper {
+  display: flex;
+}
+
+.codemod-heading-wrapper {
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
   display: flex;
 }
 
