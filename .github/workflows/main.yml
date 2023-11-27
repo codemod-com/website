@@ -8,6 +8,11 @@ jobs:
       - name: Find and Replace
         uses: nguyenvanuyn96/str-find-and-replace-action@master
         with:
+          find: 'data-netlify="false" class="filter-form-wrapper w-form"'
+          replace: ""
+      - name: Find and Replace
+        uses: nguyenvanuyn96/str-find-and-replace-action@master
+        with:
           find: '<script type="module">import\*as UdeslyBanner from"https://cdn\.jsdelivr\.net/npm/udesly-ad-banner@0\.0\.4/loader/index\.js";UdeslyBanner\.defineCustomElements\(\),document\.body\.append\(document\.createElement\("udesly-banner"\)\);</script>'
           replace: ""
       - name: Find and Replace
