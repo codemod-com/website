@@ -1,3 +1,5 @@
+local_backend: true
+
 backend:
   name: git-gateway
   accept_roles:
@@ -1745,96 +1747,6 @@ collections:
           - hint: 'Original text: More about this codemod →, key: 5037fbe3'
             label: Text
             name: 5037fbe3
-            widget: string
-          - hint: 'Original text: Heading 1, key: 6af22973'
-            label: Text
-            name: 6af22973
-            widget: string
-          - hint: 'Original text: Heading 2, key: 6af22974'
-            label: Text
-            name: 6af22974
-            widget: string
-          - hint: 'Original text: Heading 3, key: 6af22975'
-            label: Text
-            name: 6af22975
-            widget: string
-          - hint: 'Original text: Heading 4, key: 6af22976'
-            label: Text
-            name: 6af22976
-            widget: string
-          - hint: 'Original text: Heading 5, key: 6af22977'
-            label: Text
-            name: 6af22977
-            widget: string
-          - hint: 'Original text: Heading 6, key: 6af22978'
-            label: Text
-            name: 6af22978
-            widget: string
-          - hint: >-
-              Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur., key: 36f186d6
-            label: Text
-            name: 36f186d6
-            widget: text
-          - hint: 'Original text: Block quote, key: 40f76109'
-            label: Text
-            name: 40f76109
-            widget: string
-          - hint: 'Original text: Ordered list, key: 670f3891'
-            label: Text
-            name: 670f3891
-            widget: string
-          - hint: 'Original text: Item 1, key: -7cdc0d7c'
-            label: Text
-            name: '-7cdc0d7c'
-            widget: string
-          - hint: 'Original text: Item 2, key: -7cdc0d7b'
-            label: Text
-            name: '-7cdc0d7b'
-            widget: string
-          - hint: 'Original text: Item 3, key: -7cdc0d7a'
-            label: Text
-            name: '-7cdc0d7a'
-            widget: string
-          - hint: 'Original text: Unordered list, key: -27cb5e56'
-            label: Text
-            name: '-27cb5e56'
-            widget: string
-          - hint: 'Original text: Item A, key: -7cdc0d6c'
-            label: Text
-            name: '-7cdc0d6c'
-            widget: string
-          - hint: 'Original text: Item B, key: -7cdc0d6b'
-            label: Text
-            name: '-7cdc0d6b'
-            widget: string
-          - hint: 'Original text: Item C, key: -7cdc0d6a'
-            label: Text
-            name: '-7cdc0d6a'
-            widget: string
-          - hint: 'Original text: Text link, key: 361eaeed'
-            label: Text
-            name: 361eaeed
-            widget: string
-          - hint: 'Original text: Bold text, key: 4205e5c8'
-            label: Text
-            name: 4205e5c8
-            widget: string
-          - hint: 'Original text: Emphasis, key: 4abe799c'
-            label: Text
-            name: 4abe799c
-            widget: string
-          - hint: 'Original text: Superscript, key: 1dea1fe6'
-            label: Text
-            name: 1dea1fe6
-            widget: string
-          - hint: 'Original text: Subscript, key: -69de0115'
-            label: Text
-            name: '-69de0115'
             widget: string
           - hint: 'Original text: Codemod Changelog, key: -7a916317'
             label: Text
@@ -3810,13 +3722,6 @@ collections:
           - hint: 'Original link: https://feedback.intuita.io/, key: -ab64f'
             label: Link
             name: '-ab64f'
-            widget: string
-          - hint: >-
-              Original link:
-              https://university.webflow.com/lesson/add-and-nest-text-links-in-webflow,
-              key: -1a691619
-            label: Link
-            name: '-1a691619'
             widget: string
           - hint: 'Original link: #migration-hook, key: -491d655b'
             label: Link
