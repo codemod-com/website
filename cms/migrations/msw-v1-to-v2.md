@@ -11,7 +11,7 @@ f_migration-card-short-description: Migrate your project from MSW V1 to V2.
 f_featured-in-home: true
 f_order-rank: 3
 f_is-cta: false
-f_automations-filter-url: http://www.intuita.io/automations?labels=msw-v1-v2
+f_automations-filter-url: /automations/?migration=MSW+V1+to+V2+Migration
 layout: "[migrations].html"
 slug: msw-v1-to-v2
 title: MSW V1 to V2
