@@ -390,9 +390,9 @@ blockquote {
 }
 
 .verified-codemod-icon {
-  width: 25px;
-  height: 25px;
-  min-width: 25px;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
 }
 
 .codemod-item-body-wrapper {
@@ -771,7 +771,7 @@ blockquote {
 
 .tooltip-diamond.top-right-corner {
   left: auto;
-  right: 6%;
+  right: 8%;
 }
 
 .tooltip-diamond.top-right-corner.cli {
@@ -783,7 +783,7 @@ blockquote {
 }
 
 .tooltip-diamond.top-right-corner.verified {
-  right: 6%;
+  right: 8%;
 }
 
 .tooltip-diamond._2-3-right-corner {
