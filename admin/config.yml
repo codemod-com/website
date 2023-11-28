@@ -1580,6 +1580,14 @@ collections:
             label: Text
             name: 16224ad6
             widget: string
+          - hint: 'Original text: Intuita migrations homepage, key: 1d30b779'
+            label: Text
+            name: 1d30b779
+            widget: string
+          - hint: 'Original text: All Automations, key: -70d55603'
+            label: Text
+            name: '-70d55603'
+            widget: string
           - hint: 'Original text: Framework, key: -67ffee22'
             label: Text
             name: '-67ffee22'
@@ -1587,6 +1595,10 @@ collections:
           - hint: 'Original text: Labels, key: -78cab3e1'
             label: Text
             name: '-78cab3e1'
+            widget: string
+          - hint: 'Original text: Migration, key: 44a853ae'
+            label: Text
+            name: 44a853ae
             widget: string
           - hint: 'Original text: Engine, key: 7bfce662'
             label: Text
@@ -1653,10 +1665,6 @@ collections:
           - hint: 'Original text: Get Started, key: -364d0a89'
             label: Text
             name: '-364d0a89'
-            widget: string
-          - hint: 'Original text: All Migrations, key: 24812e84'
-            label: Text
-            name: '24812e84'
             widget: string
           - hint: >-
               Original text: View or contribute to this automation on GitHub.,
@@ -4448,6 +4456,32 @@ collections:
                 widget: string
                 required: false
           - label: Image
+            name: 299fc6c3
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-81c5f39'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
             name: '-721c180b'
             widget: object
             fields:
@@ -4462,19 +4496,6 @@ collections:
                 required: false
           - label: Image
             name: '-1d3bc06a'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-81c5f39'
             widget: object
             fields:
               - name: url
