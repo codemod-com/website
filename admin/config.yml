@@ -1,5 +1,3 @@
-local_backend: true
-
 backend:
   name: git-gateway
   accept_roles:
@@ -935,6 +933,25 @@ collections:
             label: alt
             widget: string
             required: false
+      - hint: ''
+        name: f_migration-label
+        label: Migration Label
+        widget: boolean
+        required: false
+        default: false
+      - hint: ''
+        name: f_migration-2
+        label: Migration
+        widget: relation
+        required: false
+        collection: migrations
+        value_field: cms/migrations/{{slug}}.md
+        search_fields:
+          - slug
+          - name
+        display_fields:
+          - title
+        multiple: false
       - label: Tags
         widget: hidden
         name: tags
@@ -1635,9 +1652,9 @@ collections:
             label: Text
             name: '-364d0a89'
             widget: string
-          - hint: 'Original text: ← View All Automations, key: 74911332'
+          - hint: 'Original text: All Migrations, key: 24812e84'
             label: Text
-            name: '74911332'
+            name: '24812e84'
             widget: string
           - hint: >-
               Original text: View or contribute to this automation on GitHub.,
@@ -4443,6 +4460,19 @@ collections:
                 required: false
           - label: Image
             name: '-1d3bc06a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-81c5f39'
             widget: object
             fields:
               - name: url

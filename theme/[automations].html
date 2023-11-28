@@ -131,9 +131,32 @@ pre code {
     </div>
     <div class="codemod-menu-wrapper">
       <div class="header-bar-wrapper">
-        <a href="{{ links.-321e94de }}" class="main-button w-inline-block">
-          <div class="engine-label-text">{{ texts.74911332 }}</div>
-        </a>
+        <div class="breadcrumbs-wrapper">
+          <a href="{{ links.-3dea1d25 }}" class="main-button secondary breadcrumb w-inline-block">
+            <div class="engine-label-text">{{ texts.24812e84 }}</div>
+          </a><img src="{{ images.-81c5f39.url }}" loading="lazy" alt="{{ images.-81c5f39.alt | trim | escape }}" class="breadcrumb-arrow">
+          <a href="{{ links.-321e94de }}" class="main-button secondary breadcrumb w-inline-block">
+            <div class="engine-label-text">{{ texts.66d4f126 }}</div>
+          </a><img src="{{ images.-81c5f39.url }}" loading="lazy" alt="{{ images.-81c5f39.alt | trim | escape }}" class="breadcrumb-arrow">
+          {%- assign collection = collections.labels | filter: "f_migration-label,eq,true", "ALL", page.inputPath | limit: 1 | sort: "-created-on" -%}<div class="w-dyn-list">
+            {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
+              {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
+                {%- assign migrationsOfLabels = item.data.f_migration-2 | resolveReference -%}<a href="{{ migrationsOfLabels.data.f_automations-filter-url }}" class="main-button secondary breadcrumb w-inline-block">
+                  <div>
+                    {%- assign migrationsOfLabels = item.data.f_migration-2 | resolveReference -%}<div class="engine-label-text in-line">{{ migrationsOfLabels.data.f_migration-title }}</div>
+                    <div class="engine-label-text in-line">{{ texts.-2097c9e4 }}</div>
+                  </div>
+                </a>
+              </div>{%- endfor -%}
+            </div>{%- endunless -%}
+            {%- if collection.length == 0 -%}<div class="w-dyn-empty">
+              <div>{{ texts.3d503d2b }}</div>
+            </div>{%- endif -%}
+          </div><img src="{{ images.-81c5f39.url }}" loading="lazy" alt="{{ images.-81c5f39.alt | trim | escape }}" class="breadcrumb-arrow">
+          <div class="main-button secondary breadcrumb current">
+            <div class="engine-label-text">{{ title }}</div>
+          </div>
+        </div>
       </div>
       <div class="codemod-body-wrapper">
         <div class="codemod-body-row-wrapper children-columns">
@@ -192,7 +215,7 @@ pre code {
                     </div>{%- endif -%}
                     {%- if f_codemod-engine -%}<div data-hover="true" data-delay="0" class="tooltip-dropdown inline w-dropdown">
                       <div class="tooltip-content w-dropdown-toggle">
-                        {%- if f_codemod-engine -%}<div class="label-wrapper grey b-w">
+                        {%- if f_codemod-engine -%}<div class="label-wrapper grey b-w medium">
                           {%- assign codemod-enginesOfAutomations = f_codemod-engine | resolveReference -%}<div fs-cmsfilter-field="engine" class="engine-label-text">{{ codemod-enginesOfAutomations.data.title }}</div>
                         </div>{%- endif -%}
                       </div>
@@ -209,7 +232,7 @@ pre code {
                       </nav>
                     </div>{%- endif -%}
                   </div>
-                  <div class="author-wrapper">
+                  <div class="author-wrapper hidden">
                     <div class="author-name-flex-wrapper">
                       <div class="in-line">{{ texts.-6b8a7cde }}</div>
                       {%- assign authorsOfAutomations = f_author | resolveReference -%}<div fs-cmsfilter-field="author" class="in-line">{{ authorsOfAutomations.data.title }}</div>
@@ -262,7 +285,7 @@ pre code {
                 </div>
               </div>
             </div>
-            <div class="codemod-item-bottom-wrapper margin-top">
+            <div class="codemod-item-bottom-wrapper margin-top justify-right">
               {%- assign labelsOfAutomations = f_labels | resolveMultiReferences -%}<div class="frameworks-wrapper hidden w-dyn-list">
                 {%- unless labelsOfAutomations.length == 0 -%}<div role="list" class="frameworks-flex-wrapper w-dyn-items">
                   {%- for item in labelsOfAutomations -%}<div role="listitem" class="w-dyn-item">
@@ -288,7 +311,7 @@ pre code {
                   <div>{{ texts.3d503d2b }}</div>
                 </div>{%- endif -%}
               </div>
-              <div class="author-wrapper hidden">
+              <div class="author-wrapper">
                 <div class="author-name-flex-wrapper">
                   <div class="in-line">{{ texts.-6b8a7cde }}</div>
                   {%- assign authorsOfAutomations = f_author | resolveReference -%}<div fs-cmsfilter-field="author" class="in-line">{{ authorsOfAutomations.data.title }}</div>
@@ -648,4 +671,4 @@ pre code {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-javascript.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/unescaped-markup/prism-unescaped-markup.min.js"></script>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

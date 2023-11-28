@@ -419,8 +419,8 @@ blockquote {
 }
 
 .framework-icon.large {
-  width: 38px;
-  height: 38px;
+  width: 34px;
+  height: 34px;
   cursor: default;
   border-color: rgba(0, 0, 0, .36);
   padding: 4px;
@@ -458,6 +458,12 @@ blockquote {
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid rgba(0, 0, 0, .36);
   border-radius: 5px;
+}
+
+.label-wrapper.grey.b-w.medium {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: .75rem;
 }
 
 .engine-label-text {
@@ -900,6 +906,25 @@ blockquote {
 .main-button.secondary {
   color: #f1f1f1;
   background-color: #494949;
+}
+
+.main-button.secondary.breadcrumb {
+  background-color: #616161;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: .68rem;
+  transition: color .2s, background-color .2s;
+}
+
+.main-button.secondary.breadcrumb:hover {
+  color: #f8f8f8;
+  background-color: #888;
+  text-decoration: none;
+}
+
+.main-button.secondary.breadcrumb.current {
+  cursor: default;
+  background-color: #888;
 }
 
 .sidebar-heading {
@@ -4536,6 +4561,19 @@ blockquote {
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   display: flex;
+}
+
+.breadcrumbs-wrapper {
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  align-items: center;
+  display: flex;
+}
+
+.breadcrumb-arrow {
+  width: 15px;
+  height: 20px;
+  opacity: .68;
 }
 
 @media screen and (min-width: 1440px) {
