@@ -4576,6 +4576,13 @@ blockquote {
   opacity: .68;
 }
 
+.collection-item-2 {
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  align-items: center;
+  display: flex;
+}
+
 @media screen and (min-width: 1440px) {
   .main-button.hover-glow {
     transition: all .2s;
