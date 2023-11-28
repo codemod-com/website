@@ -333,7 +333,7 @@ blockquote {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   flex-direction: column;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 15px;
 }
 
