@@ -32,61 +32,57 @@
     <!--  This prevents elements from being hidden until after Webflow publishes  -->
     <script></script>
   </div>
-  <div data-animation="default" class="navbar-outer w-nav" data-easing2="ease-out-quart" data-easing="ease-out-quart" data-collapse="medium" data-w-id="477d4690-2e79-0ca2-823a-a722bb7b6226" role="banner" data-duration="450">
-    <div class="navbar-container">
-      <div class="logo-link-wrapper">
-        <div class="w-layout-hflex nav-logo-flex-wrapper">
-          <a href="{{ links.2f }}" class="icon-link-wrapper w-inline-block"><img src="{{ images.-3c5b836a.url }}" loading="lazy" alt="{{ images.-3c5b836a.alt | trim | escape }}" height="40" class="logo-img-4"></a>
-          <div class="nav-divider"></div>
-          <div class="codemod-registry-nav-heading">{{ texts.-2097c9e4 }}</div>
+  <div class="wrap_sticky">
+    <div data-animation="default" class="navbar-outer-2 app-width w-nav" data-easing2="ease-out-quart" data-easing="ease-out-quart" data-collapse="medium" data-w-id="56ee32ac-51dd-a268-fcc2-6a10995bc6a0" role="banner" data-duration="450">
+      <div class="navbar-container-2 app-width">
+        <a href="{{ links.2f }}" class="ms-logo-link w-nav-brand"><img src="{{ images.2449300f.url }}" loading="lazy" alt="{{ images.2449300f.alt | trim | escape }}" height="40" class="logo-img-5"></a>
+        <nav role="navigation" class="navbar-menu overflow-hidden w-nav-menu">
+          <a href="{{ links.-3dea1d25 }}" class="navbar-link w-nav-link">{{ texts.50622285 }}</a>
+          <div data-hover="true" data-delay="0" class="dropdown w-dropdown">
+            <div class="navbar-link for-dropdown w-dropdown-toggle">
+              <div class="icon-dropdown w-icon-dropdown-toggle"></div>
+              <div>{{ texts.7397cc93 }}</div>
+            </div>
+            <nav class="dropdown-list w-dropdown-list">
+              <div class="dropdown-grid">
+                <a href="{{ links.-5be4108f }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.596486a1 }}</a>
+                <a href="{{ links.-321e94de }}" target="_blank" aria-current="page" class="dropdown-link w-dropdown-link w--current">{{ texts.66d4f126 }}</a>
+                <a href="{{ links.-3f316fbd }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.-77e9fdf1 }}</a>
+                <a href="{{ links.52ce7af1 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.10500 }}</a>
+              </div>
+            </nav>
+          </div>
+          <a href="{{ links.-d9445a8 }}" class="navbar-link w-nav-link">{{ texts.507137a6 }}</a>
+          <a href="{{ links.-599fd5b8 }}" target="_blank" class="navbar-link w-nav-link">{{ texts.20965b }}</a>
+          <div data-hover="true" data-delay="0" class="dropdown w-dropdown">
+            <div class="navbar-link for-dropdown w-dropdown-toggle">
+              <div class="icon-dropdown w-icon-dropdown-toggle"></div>
+              <div>{{ texts.24af75 }}</div>
+            </div>
+            <nav class="dropdown-list right-side w-dropdown-list">
+              <div class="dropdown-grid">
+                <a href="{{ links.6dcf58d9 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.-7bc27f6b }}</a>
+                <a href="{{ links.7ecb8309 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.1fa3c2 }}</a>
+                <a href="{{ links.20f6ac18 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.7f258fe3 }}</a>
+              </div>
+            </nav>
+          </div>
+          <a href="{{ links.16bdc13e }}" class="navbar-link w-nav-link">{{ texts.-64104400 }}</a>
+        </nav>
+        <div class="navbar_menu-button w-nav-button">
+          <div class="menu-icon">
+            <div class="menu-icon_line-top"></div>
+            <div class="menu-icon-line-middle">
+              <div class="menu-icon-line-middle-inner"></div>
+            </div>
+            <div class="menu-icon-line-bottom"></div>
+          </div>
         </div>
       </div>
-      <div class="navbar_menu-button w-nav-button">
-        <div class="menu-icon">
-          <div class="menu-icon_line-top"></div>
-          <div class="menu-icon-line-middle">
-            <div class="menu-icon-line-middle-inner"></div>
-          </div>
-          <div class="menu-icon-line-bottom"></div>
-        </div>
-      </div>
-      <nav role="navigation" class="navbar-menu overflow-hidden w-nav-menu">
-        <a href="{{ links.-3dea1d25 }}" class="navbar-link w-nav-link">{{ texts.50622285 }}</a>
-        <div data-hover="true" data-delay="0" class="dropdown w-dropdown">
-          <div class="navbar-link for-dropdown w-dropdown-toggle">
-            <div class="icon-dropdown w-icon-dropdown-toggle"></div>
-            <div>{{ texts.7397cc93 }}</div>
-          </div>
-          <nav class="dropdown-list w-dropdown-list">
-            <div class="dropdown-grid">
-              <a href="{{ links.-5be4108f }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.596486a1 }}</a>
-              <a href="{{ links.-321e94de }}" target="_blank" aria-current="page" class="dropdown-link w-dropdown-link w--current">{{ texts.66d4f126 }}</a>
-              <a href="{{ links.-3f316fbd }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.-77e9fdf1 }}</a>
-              <a href="{{ links.52ce7af1 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.10500 }}</a>
-            </div>
-          </nav>
-        </div>
-        <a href="{{ links.-d9445a8 }}" class="navbar-link w-nav-link">{{ texts.507137a6 }}</a>
-        <a href="{{ links.-599fd5b8 }}" target="_blank" class="navbar-link w-nav-link">{{ texts.20965b }}</a>
-        <div data-hover="true" data-delay="0" class="dropdown w-dropdown">
-          <div class="navbar-link for-dropdown w-dropdown-toggle">
-            <div class="icon-dropdown w-icon-dropdown-toggle"></div>
-            <div>{{ texts.24af75 }}</div>
-          </div>
-          <nav class="dropdown-list right-side w-dropdown-list">
-            <div class="dropdown-grid">
-              <a href="{{ links.6dcf58d9 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.-7bc27f6b }}</a>
-              <a href="{{ links.7ecb8309 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.1fa3c2 }}</a>
-              <a href="{{ links.20f6ac18 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.7f258fe3 }}</a>
-            </div>
-          </nav>
-        </div>
-        <a href="{{ links.16bdc13e }}" class="navbar-link w-nav-link">{{ texts.-64104400 }}</a>
-      </nav>
     </div>
   </div>
   <div class="app-body-wrapper">
-    <div class="sidebar-wrapper">
+    <div class="sidebar-wrapper border-left">
       <h2 class="sidebar-heading">{{ texts.3cc9f230 }}<span class="no-wrap">{{ texts.47af6f2 }}</span></h2>
       <div class="divider correct-row-gap"></div>
       {%- assign collection = collections.ctas | filter: "f_featured-in-registry-sidebar,eq,true", "ALL", page.inputPath | sort: "f_order" -%}<div class="w-dyn-list">
@@ -134,7 +130,7 @@
               <nav class="tooltip-anchor w-dropdown-list">
                 <div data-cy="step5" class="tooltip-wrapper breadcrumb">
                   <div class="tooltip-container">
-                    <div class="relative">{{ texts.1d30b779 }}<br></div>
+                    <div class="relative">{{ texts.5d63103c }}<br></div>
                   </div>
                   <div class="tooltip-diamond breadcrumb"></div>
                 </div>
@@ -153,7 +149,7 @@
           </div>
         </div>
         <div class="filter-form-wrapper grow w-form">
-          <form id="Filter-Form" name="wf-form-Filter-Form" data-name="filter" method="get" fs-cmsfilter-element="filters" class="filter-form no-padding" data-wf-page-id="655e2c5e532816ea52521996" data-wf-element-id="96ae2b18-2bce-7772-21ef-2a659e1abc56"   data-ajax="true" data-content-type="application/x-www-form-urlencoded">
+          <form id="Filter-Form" name="wf-form-Filter-Form" data-name="filter" method="get" fs-cmsfilter-element="filters" class="filter-form no-padding" data-wf-page-id="655e2c5e532816ea52521996" data-wf-element-id="96ae2b18-2bce-7772-21ef-2a659e1abc56" data-netlify="true" data-ajax="true" data-content-type="application/x-www-form-urlencoded">
             <div class="search-field-wrapper full-width"><input type="text" class="search-field w-input" maxlength="256" name="field-2" fs-cmsfilter-field="name, description, engine, framework, labels, migration, author" data-name="Field 2" placeholder="Search for frameworks, codemods, authors, or tags" fs-cmsfilter-debounce="400" id="field-2" required=""><img loading="lazy" src="{{ images.-721c180b.url }}" alt="{{ images.-721c180b.alt | trim | escape }}" class="search-icon"></div>
             <div data-delay="0" data-hover="false" class="dropdown-filter-wrapper hidden w-dropdown">
               <div class="dropdown-toggle w-dropdown-toggle">
@@ -252,7 +248,7 @@
         </div>
       </div>
       <div class="codemod-showcase-wrapper">
-        {%- assign collection = collections.automations | sort: "-created-on" -%}<div fs-cmsfilter-element="list" fs-cmsload-element="list" fs-cmsload-mode="pagination" fs-cmsload-cache="false" fs-cmssort-element="list" fs-cmsfilter-showquery="true" class="w-dyn-list">
+        {%- assign collection = collections.automations | sort: "-f_featured, f_order-rank" -%}<div fs-cmsfilter-element="list" fs-cmsload-element="list" fs-cmsload-mode="pagination" fs-cmsload-cache="false" fs-cmssort-element="list" fs-cmsfilter-showquery="true" class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div id="gallery-grid" fs-cmsload-element="scroll-anchor" role="list" class="codemod-items-grid w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
               <div class="codemod-item-wrapper">
@@ -362,4 +358,4 @@ p code {
 }
 </style>
 
-<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}</body></html>
+<script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.4/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

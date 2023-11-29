@@ -227,6 +227,17 @@ collections:
         label: Changelog
         widget: markdown
         required: false
+      - hint: ''
+        name: f_order-rank
+        label: Order Rank
+        widget: number
+        required: false
+      - hint: ''
+        name: f_featured
+        label: Featured
+        widget: boolean
+        required: false
+        default: false
       - label: Tags
         widget: hidden
         name: tags
@@ -1554,10 +1565,6 @@ collections:
             label: Text
             name: '-78dddcc6'
             widget: string
-          - hint: 'Original text: Automations, key: -2097c9e4'
-            label: Text
-            name: '-2097c9e4'
-            widget: string
           - hint: 'Original text: Popular and , key: 3cc9f230'
             label: Text
             name: 3cc9f230
@@ -1580,9 +1587,9 @@ collections:
             label: Text
             name: 16224ad6
             widget: string
-          - hint: 'Original text: Intuita migrations homepage, key: 1d30b779'
+          - hint: 'Original text: Go to migrations homepage, key: 5d63103c'
             label: Text
-            name: 1d30b779
+            name: 5d63103c
             widget: string
           - hint: 'Original text: All Automations, key: -70d55603'
             label: Text
@@ -1665,6 +1672,14 @@ collections:
           - hint: 'Original text: Get Started, key: -364d0a89'
             label: Text
             name: '-364d0a89'
+            widget: string
+          - hint: 'Original text: Intuita migrations homepage, key: 1d30b779'
+            label: Text
+            name: 1d30b779
+            widget: string
+          - hint: 'Original text: Automations, key: -2097c9e4'
+            label: Text
+            name: '-2097c9e4'
             widget: string
           - hint: >-
               Original text: View or contribute to this automation on GitHub.,
@@ -4418,19 +4433,6 @@ collections:
                 required: false
           - label: Image
             name: '-4741a959'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-3c5b836a'
             widget: object
             fields:
               - name: url
