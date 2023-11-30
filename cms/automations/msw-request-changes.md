@@ -92,4 +92,4 @@ f_labels:
 tags: automations
 date: 2023-11-20T14:53:04.294Z
 ---
-This codemod updates the request handler signature in the MSW library, changing how certain request properties are accessed and removing deprecated elements.
+This automation updates the request handler signature in the MSW library, changing how certain request properties are accessed and removing deprecated elements.

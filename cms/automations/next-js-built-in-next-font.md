@@ -43,7 +43,7 @@ f_cli-command: intuita next/13/built-in-next-font
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version is greater or equal to 13.4.
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/vercel.md
 layout: "[automations].html"
 slug: app-router-recipe
 title: Next.js Built in Next Font
@@ -59,7 +59,7 @@ tags: automations
 date: 2023-11-29T17:16:01.817Z
 seo:
   title: Next.js Built In Font | Intuita Automations
-  og:title: Next.js App Directory Boilerplate | Intuita Automations
+  og:title: Next.js Built In Font | Intuita Automations
   twitter:title: Next.js Built In Font | Intuita Automations
   description: This automation helps you migrate to the Next.js app directory by
     transforming the module specifier `@next/font/*` in import statements into
@@ -69,4 +69,4 @@ seo:
     `next/font/*`.
   og:image: /assets/images/built-in-font-codemod.jpg
 ---
-This codemod transforms the module specifier `@next/font/*` in import statements into `next/font/*`.
+This automation transforms the module specifier `@next/font/*` in import statements into `next/font/*`.

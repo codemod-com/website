@@ -19,7 +19,7 @@ f_enterprise-migration-section-call-description: With our AI-powered Platform,
   Next.js-tailored tools, and App Router migration experience, we can help your
   team **fast track the app router migration**.
 f_labels:
-  - cms/labels/app-router-migration.md
+  - cms/labels/next-js-app-router-migration.md
 f_migrate-from-title: V12 Pages Router
 f_migrate-from-image:
   url: https://uploads-ssl.webflow.com/65428e9a3a9d943b973390e7/6553998af06d8a798f00aae0_next-js-logo-white.svg

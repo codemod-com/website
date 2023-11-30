@@ -129,4 +129,4 @@ f_labels:
 tags: automations
 date: 2023-11-20T14:53:04.294Z
 ---
-This codemod puts the generic arguments in the correct order to keep type safety.
+This automation puts the generic arguments in the correct order to keep type safety.

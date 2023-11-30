@@ -46,6 +46,13 @@ f_labels:
   - cms/labels/next-js-app-router-migration.md
 tags: automations
 date: 2023-11-28T18:30:26.114Z
+seo:
+  title: Next.js App Router Recipe | Intuita Automations
+  og:title: Next.js App Router Recipe | Intuita Automations
+  twitter:title: Next.js App Router Recipe | Intuita Automations
+  description: The App Router Recipe is a set of codemods that assist you with the
+    pages-to-app migration process.
+  og:image: /assets/images/app-router-recipe.jpg
 ---
 
 The App Router Recipe is a set of codemods that assist you with the pages-to-app migration process.

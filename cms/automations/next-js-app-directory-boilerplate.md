@@ -97,4 +97,4 @@ seo:
     files.
   og:image: /assets/images/app-directory-boilerplate-codemod.jpg
 ---
-This codemod reads the contents of your `pages` directory and creates the placeholder files.
+This automation reads the contents of your `pages` directory and creates the placeholder files.

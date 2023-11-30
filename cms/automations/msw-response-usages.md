@@ -219,4 +219,4 @@ f_labels:
 tags: automations
 date: 2023-11-20T14:53:04.294Z
 ---
-This codemod updates MSW handlers to use the new HttpResponse function for responses, replacing old `res` calls with this new method in msw v2.
+This automation updates MSW handlers to use the new HttpResponse function for responses, replacing old `res` calls with this new method in msw v2.
