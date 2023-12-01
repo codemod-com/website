@@ -1288,6 +1288,7 @@ blockquote {
 }
 
 .header-bar-wrapper {
+  height: 60px;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   border-bottom: 2px solid #e4e4e4;
@@ -2893,6 +2894,10 @@ blockquote {
   color: #f5f5f5;
 }
 
+.feature-card-paragraph.bold.medium {
+  font-size: 15px;
+}
+
 .centered {
   text-align: center;
 }
@@ -3420,6 +3425,12 @@ blockquote {
 
 .home-migration-card-wrapper.glow-hover.hero.hide-desktop {
   display: none;
+}
+
+.home-migration-card-wrapper.glow-hover.home {
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-content: center;
 }
 
 .migration-right-arrow-icon {
@@ -4640,6 +4651,11 @@ blockquote {
   display: flex;
 }
 
+.verified-badge-wrapper {
+  align-items: center;
+  display: flex;
+}
+
 .form-field-wrapper {
   margin-bottom: 5px;
 }
@@ -4696,6 +4712,10 @@ blockquote {
   width: 20px;
   height: 18px;
   opacity: .7;
+}
+
+.migration-feature-icon {
+  height: 20px;
 }
 
 @media screen and (min-width: 1440px) {
