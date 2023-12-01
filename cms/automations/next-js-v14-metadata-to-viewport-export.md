@@ -57,7 +57,7 @@ f_verified-codemod: true
 f_author: cms/authors/vercel.md
 layout: "[automations].html"
 slug: app-router-recipe
-title: Next.js V14 - Metadata to Viewport Export
+title: Metadata to Viewport Export
 updated-on: 2023-12-01T15:50:10.530Z
 published-on: 2023-12-01T15:50:10.540Z
 f_slug-name: metadata-to-viewport-export
