@@ -69,4 +69,4 @@ seo:
     `next/font/*`.
   og:image: /assets/images/built-in-font-codemod.jpg
 ---
-This automation transforms the module specifier `@next/font/*` in import statements into `next/font/*`. testing
+This automation transforms the module specifier `@next/font/*` in import statements into `next/font/*`.
