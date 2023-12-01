@@ -1442,6 +1442,7 @@ blockquote {
   border-bottom: 1px solid var(--border-grey);
   padding-bottom: 5px;
   padding-right: 5px;
+  font-size: 28px;
 }
 
 .checkbox-filter {
@@ -4716,6 +4717,10 @@ blockquote {
 
 .migration-feature-icon {
   height: 20px;
+}
+
+.heading-3 {
+  font-size: 22px;
 }
 
 @media screen and (min-width: 1440px) {
