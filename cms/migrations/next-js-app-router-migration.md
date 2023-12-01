@@ -24,9 +24,9 @@ f_migrate-from-title: V12 Pages Router
 f_migrate-from-image:
   url: https://uploads-ssl.webflow.com/65428e9a3a9d943b973390e7/6553998af06d8a798f00aae0_next-js-logo-white.svg
   alt: null
-f_migrate-to-title: V14 App Router
+f_migrate-to-title: V13 App Router
 f_migration-card-short-description: Migrate from Next.js V12 Pages Router to the latest V14 App Router.
-f_featured-in-home: true
+f_featured-in-home: false
 f_order-rank: 1
 f_is-cta: false
 f_automations-filter-url: /automations/?migration=Next.js+App+Router+Migration
