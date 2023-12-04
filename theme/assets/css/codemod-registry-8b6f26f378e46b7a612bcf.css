@@ -4719,7 +4719,7 @@ blockquote {
   height: 20px;
 }
 
-.heading-3 {
+.heading-3, .heading-4 {
   font-size: 22px;
 }
 
@@ -5784,7 +5784,7 @@ blockquote {
   }
 
   .home-migration-card-wrapper.glow-hover.registry {
-    aspect-ratio: 2 / 1;
+    aspect-ratio: auto;
   }
 
   .home-migration-card-wrapper.glow-hover.hero {
@@ -6359,6 +6359,10 @@ blockquote {
   .home-migration-card-images-wrapper {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
+  }
+
+  .home-migration-card-wrapper.glow-hover.registry {
+    aspect-ratio: auto;
   }
 
   .pricing_component {
