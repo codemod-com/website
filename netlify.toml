@@ -14,3 +14,21 @@ functions = "functions"
   to = "https://join.slack.com/t/intuita-inc/shared_invite/zt-210sghjx3-9_cgKbek~b~6k32XVwFGGA"
   status = 301
   force = true
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+  [plugins.inputs]
+  buildDir = "public"
+  # Append missing trailing slash to pretty URL
+  trailingSlash = true
+  exclude = [
+    '**/admin/**',
+    '**/authors/**',
+    '**/ctas/**',
+    '**/framework/**',
+    '**/labels/**',
+    '**/migration-features/**',
+    '**/migration-resources/**',
+    '**/migration-features/**',
+    '**/testimonials/**'
+  ]
