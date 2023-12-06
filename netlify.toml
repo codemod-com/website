@@ -15,6 +15,12 @@ functions = "functions"
   status = 301
   force = true
 
+[[redirects]]
+  from = "/migrations/ember-v5"
+  to = "https://www.intuita.io/automations/?migration=Ember.js+V5+Upgrade"
+  status = 301
+  force = true
+
 [[plugins]]
 package = "@netlify/plugin-sitemap"
   [plugins.inputs]
