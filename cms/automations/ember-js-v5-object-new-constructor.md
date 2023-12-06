@@ -44,6 +44,7 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/object-new-constructor
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=DByr5sk2809c2rfO8_TvT-RB0Pw
+f_codemod-studio-link: https://go.intuita.io/RTN3yv
 f_cli-command: intuita ember/5/object-new-constructor
 f_framework: cms/framework/ember-js.md
 f_applicability-criteria: Ember.js version higher or equal to 3.6.

@@ -59,6 +59,7 @@ f_long-description: |-
   ```
 f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/fpe-computed
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=jisEa59u6ByQ-XI9pMkBa_GsvCw
+f_codemod-studio-link: https://go.intuita.io/du04dP
 f_cli-command: intuita ember/5/fpe-computed
 f_framework: cms/framework/ember-js.md
 f_applicability-criteria: Ember.js version higher or equal to 3.11.

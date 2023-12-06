@@ -36,6 +36,7 @@ f_long-description: >-
   * [Ember.js v5 - New Array Wrapper](https://deprecations.emberjs.com/v3.x/#toc_array-new-array-wrapper)
 f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/array-wrapper
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=O6EOMpMfKAT8XBYI_9BmPbGjh2s
+f_codemod-studio-link: https://go.intuita.io/UDkfyb
 f_cli-command: intuita ember/5/array-wrapper
 f_framework: cms/framework/ember-js.md
 f_applicability-criteria: Ember.js version higher or equal to 3.6.
