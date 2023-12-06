@@ -33,6 +33,7 @@ package = "@netlify/plugin-sitemap"
     '**/authors/**',
     '**/ctas/**',
     '**/framework/**',
+    '**/codemod-engines/**',
     '**/labels/**',
     '**/migration-features/**',
     '**/migration-resources/**',
