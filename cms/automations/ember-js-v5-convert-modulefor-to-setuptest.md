@@ -51,6 +51,7 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/ember/5/convert-module-for-to-setup-test
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=VTupulWTlhXH3W_vzfSGItBnJM4
+f_codemod-studio-link: https://go.intuita.io/9k2w4p
 f_cli-command: intuita ember/5/convert-module-for-to-setup-test
 f_framework: cms/framework/ember-js.md
 f_applicability-criteria: Ember.js version higher or equal to 2.4.

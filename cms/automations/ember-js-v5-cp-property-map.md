@@ -38,6 +38,7 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/cp-property-map
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=T2qg3WOT4qOdTHg0LnDcfh16j30
+f_codemod-studio-link: https://go.intuita.io/7Uw5Jb
 f_cli-command: intuita ember/5/cp-property-map
 f_framework: cms/framework/ember-js.md
 f_applicability-criteria: Ember.js version higher or equal to 2.4.
