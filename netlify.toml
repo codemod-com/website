@@ -9,18 +9,6 @@ functions = "functions"
   status = 200
   force = true
 
-[[redirects]]
-  from = "/community"
-  to = "https://join.slack.com/t/intuita-inc/shared_invite/zt-210sghjx3-9_cgKbek~b~6k32XVwFGGA"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/migrations/ember-v5"
-  to = "https://www.intuita.io/automations/?migration=Ember.js+V5+Upgrade"
-  status = 301
-  force = true
-
 [[plugins]]
 package = "@netlify/plugin-sitemap"
   [plugins.inputs]

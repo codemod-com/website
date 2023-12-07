@@ -20,6 +20,8 @@ const markdownIt = require("markdown-it");
         eleventyConfig.addPassthroughCopy({"theme/assets": "assets"});
 
         eleventyConfig.addPassthroughCopy("admin");
+
+        eleventyConfig.addPassthroughCopy("_redirects");
         
         createCollectionsAndFilters(eleventyConfig);
         
