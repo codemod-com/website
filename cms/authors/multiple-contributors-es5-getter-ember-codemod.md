@@ -3,6 +3,7 @@ title: Multiple Contributors - ES5 Getter Ember Codemod
 created-on: 2023-12-05T16:24:25.784Z
 updated-on: 2023-12-05T16:24:25.796Z
 published-on: 2023-12-05T16:24:25.808Z
+f_author-display-name: Multiple Contributors
 f_author-image:
   url: /assets/images/github-svgrepo-com.svg
   alt: multiple github contributors icon
