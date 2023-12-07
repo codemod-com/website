@@ -113,11 +113,6 @@ collections:
         widget: markdown
         required: false
       - hint: ''
-        name: f_slug-name
-        label: slug-name
-        widget: string
-        required: false
-      - hint: ''
         name: f_long-description
         label: Long Description
         widget: markdown
@@ -450,6 +445,12 @@ collections:
         label: Automations Filter URL
         widget: string
         required: false
+      - hint: ''
+        name: f_shown-in-registry
+        label: Shown in Registry?
+        widget: boolean
+        required: false
+        default: false
       - label: Tags
         widget: hidden
         name: tags
@@ -849,6 +850,11 @@ collections:
         name: published-on
         label: Published On
         widget: datetime
+        required: false
+      - hint: ''
+        name: f_author-display-name
+        label: Author Display Name
+        widget: string
         required: false
       - hint: ''
         name: f_author-image
