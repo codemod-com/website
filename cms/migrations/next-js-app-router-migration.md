@@ -30,6 +30,7 @@ f_featured-in-home: false
 f_order-rank: 1
 f_is-cta: false
 f_automations-filter-url: /automations/?migration=Next.js+App+Router+Migration
+f_shown-in-registry: true
 tags: migrations
 layout: "[migrations].html"
 slug: next-js-app-router-migration

@@ -25,6 +25,7 @@ f_migrate-from-title: Ember.js V4 or under
 f_migrate-from-image:
   url: https://uploads-ssl.webflow.com/65428e9a3a9d943b973390e7/655516e9d7fe97375ba7b8d6_ember-icon.png
   alt: null
+f_shown-in-registry: true
 tags: migrations
 date: 2023-11-28T18:31:45.470Z
 seo:

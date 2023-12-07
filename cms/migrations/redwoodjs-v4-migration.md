@@ -28,6 +28,7 @@ f_migrate-from-title: RedwoodJS v3 or under
 f_migrate-from-image:
   url: https://uploads-ssl.webflow.com/65428e9a3a9d943b973390e7/65429419912c2549b54c1fcb_ember-js-logo.svg
   alt: null
+f_shown-in-registry: true
 tags: migrations
 date: 2023-11-28T18:25:41.419Z
 ---

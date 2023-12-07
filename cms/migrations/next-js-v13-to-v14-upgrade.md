@@ -30,6 +30,7 @@ f_featured-in-home: true
 f_order-rank: 1
 f_is-cta: false
 f_automations-filter-url: /automations/?migration=Next.js+V13+to+V14+Upgrade
+f_shown-in-registry: true
 tags: migrations
 layout: "[migrations].html"
 slug: next-js-app-router-migration
