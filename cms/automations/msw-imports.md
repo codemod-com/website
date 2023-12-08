@@ -16,7 +16,7 @@ f_long-description: >-
   ### Before
 
 
-  ```ts
+  ```typescript
 
   import { setupWorker, rest as caller, RestHandler } from 'msw';
 
@@ -32,7 +32,7 @@ f_long-description: >-
   ### After
 
 
-  ````ts
+  ````typescript
 
   import { setupWorker } from 'msw/browser'; import { http as caller, HttpHandler } from 'msw';
 
