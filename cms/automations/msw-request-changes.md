@@ -80,7 +80,7 @@ f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: msw-request-changes
-title: Apply request changes
+title: MSW V2 - Apply request changes
 updated-on: 2023-11-17T15:17:39.056Z
 published-on: 2023-11-17T15:18:58.613Z
 f_slug-name: msw-request-changes

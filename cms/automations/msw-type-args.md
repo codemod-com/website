@@ -117,7 +117,7 @@ f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: msw-type-args
-title: Move Generic Arguments and Body Type Casts
+title: MSW V2 - Move Generic Arguments and Body Type Casts
 updated-on: 2023-11-17T15:17:39.056Z
 published-on: 2023-11-17T15:18:58.613Z
 f_slug-name: msw-type-args

@@ -63,7 +63,7 @@ f_change-mode-2: Autonomous
 f_estimated-time-saving: 10 minutes/occurrence
 date: 2023-11-20T14:53:04.294Z
 f_slug-name: msw-imports
-title: Replace MSW Imports
+title: MSW V2 - Replace MSW Imports
 published-on: 2023-11-17T15:18:58.613Z
 f_labels:
   - cms/labels/msw-v1-v2.md

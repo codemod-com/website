@@ -67,7 +67,7 @@ f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: msw-upgrade-recipe
-title: MSW migration recipe
+title: MSW V2 - MSW migration recipe
 updated-on: 2023-11-17T15:17:39.056Z
 published-on: 2023-11-17T15:18:58.613Z
 f_slug-name: msw-upgrade-recipe

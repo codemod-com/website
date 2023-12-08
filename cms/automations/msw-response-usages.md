@@ -207,7 +207,7 @@ f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: msw-response-usages
-title: Update Response Usages
+title: MSW V2 - Update Response Usages
 updated-on: 2023-11-17T15:17:39.056Z
 published-on: 2023-11-17T15:18:58.613Z
 f_slug-name: msw-response-usages

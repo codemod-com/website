@@ -39,7 +39,7 @@ f_verified-codemod: false
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: msw-lifecycle-events-signature
-title: Replace lifecycle events callback signature [BETA]
+title: MSW V2 - Replace lifecycle events callback signature [BETA]
 updated-on: 2023-11-17T15:17:39.056Z
 published-on: 2023-11-17T15:18:58.613Z
 f_slug-name: msw-lifecycle-events-signature
