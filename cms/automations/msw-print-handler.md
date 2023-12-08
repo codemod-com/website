@@ -29,7 +29,7 @@ f_long-description: >-
 
   -   [msw v1 to v2 migration guide -> print handlers](https://mswjs.io/docs/migrations/1.x-to-2.x/#printhandlers)
   
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/print-handler
+f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/msw/2/print-handler
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=HvNEhmVfoqpwAcVZt7U9xaYBS2o
 f_cli-command: intuita msw/2/print-handler
 f_framework: cms/framework/msw.md

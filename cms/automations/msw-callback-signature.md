@@ -72,7 +72,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/callback-signature
+f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/msw/2/callback-signature
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=TRpuPrAm19dZGB0t5PHS13IeL_E
 f_cli-command: intuita msw/2/callback-signature
 f_framework: cms/framework/msw.md

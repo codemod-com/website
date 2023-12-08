@@ -54,7 +54,7 @@ f_long-description: >-
   ```
   ### Links for more info
   -   [msw v1 to v2 migration guide -> ctx fetch](https://mswjs.io/docs/migrations/1.x-to-2.x/#ctxfetch)
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/ctx-fetch
+f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/msw/2/ctx-fetch
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=UsLIVQ68jE49SQnM9JaTvQvmGaU
 f_cli-command: intuita msw/2/ctx-fetch
 f_applicability-criteria: "MSW version >= 1.0.0"

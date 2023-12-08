@@ -57,8 +57,8 @@ f_long-description: >-
   ### Links for more info
 
 
-  * [msw v1 to v2 migration guide -> upgrade recipe](https://mswjs.io/docs/migrations/1.x-to-2.x/)
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/upgrade-recipe
+  * [MSW v1 to v2 Migration Guide](https://mswjs.io/docs/migrations/1.x-to-2.x/)
+f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/msw/2/upgrade-recipe
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=GZo687pOCc0ICc9ptHSWPJTErcM
 f_cli-command: intuita msw/2/upgrade-recipe
 f_framework: cms/framework/msw.md

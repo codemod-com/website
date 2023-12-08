@@ -198,7 +198,7 @@ f_long-description: >-
 
 
   * [msw v1 to v2 migration guide -> request changes](https://mswjs.io/docs/migrations/1.x-to-2.x/#request-changes)
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/response-usages
+f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/msw/2/response-usages
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=xAFwkrXvZOF0QbeiBWcvwm8WpDI
 f_cli-command: intuita msw/2/response-usages
 f_framework: cms/framework/msw.md
