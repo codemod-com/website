@@ -3367,8 +3367,8 @@ blockquote {
 }
 
 .home-migration-card-images-wrapper.registry {
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 }
 
 .home-migration-card-wrapper {
@@ -3498,6 +3498,11 @@ blockquote {
 
 .home-migration-card-framework-image.small {
   height: 50px;
+}
+
+.home-migration-card-framework-image.fixed {
+  width: 70px;
+  height: 70px;
 }
 
 .home-migration-top-wrapper {
