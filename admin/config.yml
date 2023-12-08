@@ -2317,6 +2317,143 @@ collections:
             label: Text
             name: 7421f34c
             widget: string
+          - hint: 'Original text: Code migrations at , key: 3cc9bc85'
+            label: Text
+            name: 3cc9bc85
+            widget: string
+          - hint: 'Original text: lightning speed, key: b33a771'
+            label: Text
+            name: b33a771
+            widget: string
+          - hint: 'Original text: Next.js App Router Migration, key: 4b7dc892'
+            label: Text
+            name: 4b7dc892
+            widget: string
+          - hint: >-
+              Original text: Migrate from Next.js V12 Pages Router to the latest
+              V14 App Router., key: -642121b
+            label: Text
+            name: '-642121b'
+            widget: string
+          - hint: >-
+              Original text: Next.js V12 Pages Router → V14 App Router, key:
+              -238430ed
+            label: Text
+            name: '-238430ed'
+            widget: string
+          - hint: 'Original text: V12, key: 148f7'
+            label: Text
+            name: 148f7
+            widget: string
+          - hint: 'Original text:  Pages Router, key: 44479b85'
+            label: Text
+            name: 44479b85
+            widget: string
+          - hint: 'Original text: V14, key: 148f9'
+            label: Text
+            name: 148f9
+            widget: string
+          - hint: 'Original text:  App Router, key: 22b82e88'
+            label: Text
+            name: 22b82e88
+            widget: string
+          - hint: 'Original text:  Pages Router → , key: -36f07cb7'
+            label: Text
+            name: '-36f07cb7'
+            widget: string
+          - hint: 'Original text:  App Router Migration, key: 1c2c1c16'
+            label: Text
+            name: 1c2c1c16
+            widget: string
+          - hint: >-
+              Original text: Automated migrations, one framework at a time.,
+              key: 10f0709a
+            label: Text
+            name: 10f0709a
+            widget: string
+          - hint: >-
+              Original text: Bring your Next.js project and run the following
+              automations with just one click directly in VS Code (for CLI,
+              click , key: 36c460dc
+            label: Text
+            name: 36c460dc
+            widget: text
+          - hint: 'Original text: )., key: 525'
+            label: Text
+            name: '525'
+            widget: string
+          - hint: 'Original text: Ember.js, key: 32b711d0'
+            label: Text
+            name: 32b711d0
+            widget: string
+          - hint: 'Original text: MUI, key: 12ba1'
+            label: Text
+            name: 12ba1
+            widget: string
+          - hint: 'Original text: And more!, key: 2edfdfc3'
+            label: Text
+            name: 2edfdfc3
+            widget: string
+          - hint: 'Original text: Pages-to-App Router Recipe., key: 638d99b1'
+            label: Text
+            name: 638d99b1
+            widget: string
+          - hint: >-
+              Original text: The App Router Recipe is a set of codemods that
+              assist you with the pages-to-app migration process., key: 31b9d752
+            label: Text
+            name: 31b9d752
+            widget: text
+          - hint: 'Original text: Run codemod →, key: 2b31aeb2'
+            label: Text
+            name: 2b31aeb2
+            widget: string
+          - hint: "Original text: App Controller Router Props Codemod +\_More., key: -1c22da29"
+            label: Text
+            name: '-1c22da29'
+            widget: string
+          - hint: >-
+              Original text: This codemod replaces all occurrences of , key:
+              -7b1772a8
+            label: Text
+            name: '-7b1772a8'
+            widget: string
+          - hint: 'Original text: this.currentRouteName, key: 43dbb44b'
+            label: Text
+            name: 43dbb44b
+            widget: string
+          - hint: 'Original text:  with , key: 3d597bfa'
+            label: Text
+            name: 3d597bfa
+            widget: string
+          - hint: 'Original text: this.router.currentRouteName, key: 62a4f7b0'
+            label: Text
+            name: 62a4f7b0
+            widget: string
+          - hint: 'Original text:  and , key: 1f0b149'
+            label: Text
+            name: 1f0b149
+            widget: string
+          - hint: 'Original text: this.currentPath, key: 5cf39ee'
+            label: Text
+            name: 5cf39ee
+            widget: string
+          - hint: 'Original text: this.router.currentPath, key: -63d75497'
+            label: Text
+            name: '-63d75497'
+            widget: string
+          - hint: 'Original text: Coming Soon., key: -733d8fcc'
+            label: Text
+            name: '-733d8fcc'
+            widget: string
+          - hint: 'Original text: Upvote , key: 56437c9b'
+            label: Text
+            name: 56437c9b
+            widget: string
+          - hint: 'Original text: Check out Codemod Registry , key: 79b0e94e'
+            label: Text
+            name: 79b0e94e
+            widget: string
           - hint: 'Original text: Last updated: January 14, 2023, key: 5cd6f1a3'
             label: Text
             name: 5cd6f1a3
@@ -3101,143 +3238,6 @@ collections:
             label: Text
             name: 69cc5b1c
             widget: string
-          - hint: 'Original text: Code migrations at , key: 3cc9bc85'
-            label: Text
-            name: 3cc9bc85
-            widget: string
-          - hint: 'Original text: lightning speed, key: b33a771'
-            label: Text
-            name: b33a771
-            widget: string
-          - hint: 'Original text: Next.js App Router Migration, key: 4b7dc892'
-            label: Text
-            name: 4b7dc892
-            widget: string
-          - hint: >-
-              Original text: Migrate from Next.js V12 Pages Router to the latest
-              V14 App Router., key: -642121b
-            label: Text
-            name: '-642121b'
-            widget: string
-          - hint: >-
-              Original text: Next.js V12 Pages Router → V14 App Router, key:
-              -238430ed
-            label: Text
-            name: '-238430ed'
-            widget: string
-          - hint: 'Original text: V12, key: 148f7'
-            label: Text
-            name: 148f7
-            widget: string
-          - hint: 'Original text:  Pages Router, key: 44479b85'
-            label: Text
-            name: 44479b85
-            widget: string
-          - hint: 'Original text: V14, key: 148f9'
-            label: Text
-            name: 148f9
-            widget: string
-          - hint: 'Original text:  App Router, key: 22b82e88'
-            label: Text
-            name: 22b82e88
-            widget: string
-          - hint: 'Original text:  Pages Router → , key: -36f07cb7'
-            label: Text
-            name: '-36f07cb7'
-            widget: string
-          - hint: 'Original text:  App Router Migration, key: 1c2c1c16'
-            label: Text
-            name: 1c2c1c16
-            widget: string
-          - hint: >-
-              Original text: Automated migrations, one framework at a time.,
-              key: 10f0709a
-            label: Text
-            name: 10f0709a
-            widget: string
-          - hint: >-
-              Original text: Bring your Next.js project and run the following
-              automations with just one click directly in VS Code (for CLI,
-              click , key: 36c460dc
-            label: Text
-            name: 36c460dc
-            widget: text
-          - hint: 'Original text: )., key: 525'
-            label: Text
-            name: '525'
-            widget: string
-          - hint: 'Original text: Ember.js, key: 32b711d0'
-            label: Text
-            name: 32b711d0
-            widget: string
-          - hint: 'Original text: MUI, key: 12ba1'
-            label: Text
-            name: 12ba1
-            widget: string
-          - hint: 'Original text: And more!, key: 2edfdfc3'
-            label: Text
-            name: 2edfdfc3
-            widget: string
-          - hint: 'Original text: Pages-to-App Router Recipe., key: 638d99b1'
-            label: Text
-            name: 638d99b1
-            widget: string
-          - hint: >-
-              Original text: The App Router Recipe is a set of codemods that
-              assist you with the pages-to-app migration process., key: 31b9d752
-            label: Text
-            name: 31b9d752
-            widget: text
-          - hint: 'Original text: Run codemod →, key: 2b31aeb2'
-            label: Text
-            name: 2b31aeb2
-            widget: string
-          - hint: "Original text: App Controller Router Props Codemod +\_More., key: -1c22da29"
-            label: Text
-            name: '-1c22da29'
-            widget: string
-          - hint: >-
-              Original text: This codemod replaces all occurrences of , key:
-              -7b1772a8
-            label: Text
-            name: '-7b1772a8'
-            widget: string
-          - hint: 'Original text: this.currentRouteName, key: 43dbb44b'
-            label: Text
-            name: 43dbb44b
-            widget: string
-          - hint: 'Original text:  with , key: 3d597bfa'
-            label: Text
-            name: 3d597bfa
-            widget: string
-          - hint: 'Original text: this.router.currentRouteName, key: 62a4f7b0'
-            label: Text
-            name: 62a4f7b0
-            widget: string
-          - hint: 'Original text:  and , key: 1f0b149'
-            label: Text
-            name: 1f0b149
-            widget: string
-          - hint: 'Original text: this.currentPath, key: 5cf39ee'
-            label: Text
-            name: 5cf39ee
-            widget: string
-          - hint: 'Original text: this.router.currentPath, key: -63d75497'
-            label: Text
-            name: '-63d75497'
-            widget: string
-          - hint: 'Original text: Coming Soon., key: -733d8fcc'
-            label: Text
-            name: '-733d8fcc'
-            widget: string
-          - hint: 'Original text: Upvote , key: 56437c9b'
-            label: Text
-            name: 56437c9b
-            widget: string
-          - hint: 'Original text: Check out Codemod Registry , key: 79b0e94e'
-            label: Text
-            name: 79b0e94e
-            widget: string
           - hint: 'Original text: Last updated: January 16, 2023, key: -395c97db'
             label: Text
             name: '-395c97db'
@@ -3792,6 +3792,25 @@ collections:
             name: '-36ff12ed'
             widget: string
           - hint: >-
+              Original link: http://tinyurl.com/app-router-recipe, key:
+              -24bd1239
+            label: Link
+            name: '-24bd1239'
+            widget: string
+          - hint: >-
+              Original link: http://tinyurl.com/ember-app-controller-props, key:
+              -4366e170
+            label: Link
+            name: '-4366e170'
+            widget: string
+          - hint: >-
+              Original link:
+              https://feedback.intuita.io/codemod-requests/p/mui-v4-to-v5, key:
+              57a450cf
+            label: Link
+            name: 57a450cf
+            widget: string
+          - hint: >-
               Original link:
               https://www.freeprivacypolicy.com/free-privacy-policy-generator/,
               key: -7e2795bb
@@ -3917,25 +3936,6 @@ collections:
           - hint: 'Original link: mailto:privacy@intuita.io, key: 1acc3524'
             label: Link
             name: 1acc3524
-            widget: string
-          - hint: >-
-              Original link: http://tinyurl.com/app-router-recipe, key:
-              -24bd1239
-            label: Link
-            name: '-24bd1239'
-            widget: string
-          - hint: >-
-              Original link: http://tinyurl.com/ember-app-controller-props, key:
-              -4366e170
-            label: Link
-            name: '-4366e170'
-            widget: string
-          - hint: >-
-              Original link:
-              https://feedback.intuita.io/codemod-requests/p/mui-v4-to-v5, key:
-              57a450cf
-            label: Link
-            name: 57a450cf
             widget: string
           - hint: >-
               Original link:

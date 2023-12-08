@@ -3405,7 +3405,6 @@ blockquote {
 .home-migration-card-wrapper.glow-hover.registry {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  aspect-ratio: 3 / 2;
   background-image: linear-gradient(34deg, #2d2935 45%, rgba(91, 74, 100, .76) 85%);
   justify-content: center;
   align-items: center;
@@ -5783,10 +5782,6 @@ blockquote {
     padding-right: 0;
   }
 
-  .home-migration-card-wrapper.glow-hover.registry {
-    aspect-ratio: auto;
-  }
-
   .home-migration-card-wrapper.glow-hover.hero {
     aspect-ratio: 16 / 9;
     display: flex;
@@ -6359,10 +6354,6 @@ blockquote {
   .home-migration-card-images-wrapper {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
-  }
-
-  .home-migration-card-wrapper.glow-hover.registry {
-    aspect-ratio: auto;
   }
 
   .pricing_component {
