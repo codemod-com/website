@@ -1,6 +1,5 @@
 ---
 created-on: 2023-12-18T14:34:24.351Z
-published-on: 2023-12-18T14:34:24.384Z
 f_long-description: >-
   ## Description
 
@@ -145,20 +144,22 @@ f_long-description: >-
 
   `Removed`
 f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/mocha/vitest/migrate-configuration
+f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=-10xavJW4dcVcp6p_pjHxw9wfMA
 f_cli-command: intuita mocha/vitest/migrate-configuration
 f_framework: cms/framework/vitest.md
-f_codemod-engine: cms/codemod-engines/repomod.md
 f_applicability-criteria: Mocha  >= 9.0.0
 f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: ember-app-controller-router-props
 updated-on: 2023-12-18T14:34:24.373Z
+f_codemod-engine: cms/codemod-engines/repomod.md
 f_change-mode-2: Autonomous
 f_estimated-time-saving: 5+ minutes/file
 date: 2023-12-18T14:34:24.395Z
 f_slug-name: app-controller-router-props
 title: Mocha to Vitest - Migrate Configuration
+published-on: 2023-12-18T14:34:24.384Z
 f_labels:
   - cms/labels/mocha-to-vitest-migration.md
 tags: automations
