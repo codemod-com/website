@@ -1,5 +1,8 @@
+FILE_NAME  /home/runner/work/codemod-registry/codemod-registry/readme-parser/dist/index.js
+DIR_NAME  /home/runner/work/codemod-registry/codemod-registry/readme-parser/dist /home/runner/work/codemod-registry/codemod-registry/readme-parser/dist
+pathToCodemod  /home/runner/work/codemod-registry/codemod-registry/readme-parser/codemods/mui/5/core-styles-import
 ---
-created-on: 2023-12-19T17:30:13.315Z
+created-on: 2023-12-19T17:39:02.373Z
 f_long-description: >-
   ## Description
   Renames private import from core/styles/* to core/styles.
@@ -30,7 +33,7 @@ f_codemod-engine: cms/codemod-engines/jscodeshift.md
 f_change-mode-2: Autonomous
 f_estimated-time-saving: ~5 minutes/occurrence
 tags: automations
-updated-on: 2023-12-19T17:30:13.315Z
-published-on: 2023-12-19T17:30:13.315Z
+updated-on: 2023-12-19T17:39:02.373Z
+published-on: 2023-12-19T17:39:02.373Z
 seo: n/a
 ---
