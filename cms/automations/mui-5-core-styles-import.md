@@ -1,6 +1,5 @@
-pathToCodemod  /home/runner/work/codemod-registry/codemod-registry/codemods/mui/5/core-styles-import
 ---
-created-on: 2023-12-19T17:42:57.523Z
+created-on: 2023-12-19T17:45:22.164Z
 f_long-description: >-
   ## Description
   Renames private import from core/styles/* to core/styles.
@@ -31,7 +30,7 @@ f_codemod-engine: cms/codemod-engines/jscodeshift.md
 f_change-mode-2: Autonomous
 f_estimated-time-saving: ~5 minutes/occurrence
 tags: automations
-updated-on: 2023-12-19T17:42:57.523Z
-published-on: 2023-12-19T17:42:57.523Z
+updated-on: 2023-12-19T17:45:22.164Z
+published-on: 2023-12-19T17:45:22.164Z
 seo: n/a
 ---
