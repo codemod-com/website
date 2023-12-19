@@ -9,5 +9,6 @@
       1080,
       1600
     ]
-  }
+  },
+  "header_additional_content": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-RM16XNW3LK\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-RM16XNW3LK');\n</script>"
 }
