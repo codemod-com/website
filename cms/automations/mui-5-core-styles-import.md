@@ -1,8 +1,16 @@
 ---
-created-on: 2023-12-19T18:02:51.918Z
+created-on: 2023-12-19T18:14:17.418Z
 f_long-description: >-
   ## Description
+  
+
+  
+
   Renames private import from core/styles/* to core/styles.
+  
+
+  
+
   ### Before
   ```ts
   import { darken, lighten } from '@material-ui/core/styles/colorManipulator';
@@ -30,7 +38,7 @@ f_codemod-engine: cms/codemod-engines/jscodeshift.md
 f_change-mode-2: Autonomous
 f_estimated-time-saving: ~5 minutes/occurrence
 tags: automations
-updated-on: 2023-12-19T18:02:51.918Z
-published-on: 2023-12-19T18:02:51.918Z
+updated-on: 2023-12-19T18:14:17.418Z
+published-on: 2023-12-19T18:14:17.418Z
 seo: n/a
 ---
