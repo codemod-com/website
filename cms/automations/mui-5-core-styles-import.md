@@ -27,11 +27,11 @@ slug: -
 title: Core Styles Import
 f_slug-name: -
 f_codemod-engine: cms/codemod-engines/jscodeshift.md
-f_change-mode-2: Assistive
-f_estimated-time-saving: Up to 10 minutes/occurrence
+f_change-mode-2: Autonomous
+f_estimated-time-saving: ~5 minutes/occurrence
 tags: automations
 created-on: -
-updated-on: 2023-12-19T08:06:39.741Z
+updated-on: 2023-12-19T10:09:08.411Z
 published-on: -
 seo: -
 ---
