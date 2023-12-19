@@ -12,4 +12,6 @@ f_author-image:
 f_github-profile: https://github.com/intuita-inc
 tags: authors
 date: 2023-12-07T18:25:24.700Z
+seo:
+  noindex: true
 ---
