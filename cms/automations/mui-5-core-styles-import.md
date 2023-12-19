@@ -2,7 +2,7 @@ No config found for codemods/mui/5/core-styles-import/README.md
 ---
 f_long-description: |-
   ## Description
-  Renames private import from core/styles/* to core/styles
+  Renames private import from core/styles/* to core/styles.
   ### Before
   ```ts
   import { darken, lighten } from '@material-ui/core/styles/colorManipulator';
@@ -31,7 +31,7 @@ f_change-mode-2: Autonomous
 f_estimated-time-saving: ~5 minutes/occurrence
 tags: automations
 created-on: -
-updated-on: 2023-12-19T10:09:08.411Z
+updated-on: 2023-12-19T17:03:53.082Z
 published-on: -
 seo: -
 ---
