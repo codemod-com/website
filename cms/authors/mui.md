@@ -12,7 +12,5 @@ tags: authors
 layout: "[authors].html"
 date: 2023-12-19T17:56:22.078Z
 seo:
-  noindex: false
-  twitter:title: summary
-  twitter:card: summary
+  noindex: true
 ---

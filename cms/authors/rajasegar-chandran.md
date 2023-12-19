@@ -12,4 +12,6 @@ f_author-image:
 f_github-profile: https://github.com/rajasegar
 tags: authors
 date: 2023-12-07T18:26:11.863Z
+seo:
+  noindex: true
 ---
