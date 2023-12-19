@@ -1,5 +1,5 @@
 ---
-created-on: 2023-12-19T18:40:59.341Z
+created-on: 2023-12-19T18:50:06.276Z
 f_long-description: >-
   ## Description
   
@@ -9,7 +9,7 @@ f_long-description: >-
 
   ### Before
   
-  ```ts
+  ```typescript
   import { darken, lighten } from '@material-ui/core/styles/colorManipulator';
   import { Overrides } from '@material-ui/core/styles/overrides';
   import makeStyles from '@material-ui/core/styles/makeStyles';
@@ -18,7 +18,7 @@ f_long-description: >-
   
   ### After
   
-  ```ts
+  ```typescript
   import { createTheme, darken, lighten, Overrides, makeStyles } from '@material-ui/core/styles';
   ```
   
@@ -38,7 +38,7 @@ f_codemod-engine: cms/codemod-engines/jscodeshift.md
 f_change-mode-2: Autonomous
 f_estimated-time-saving: ~5 minutes/occurrence
 tags: automations
-updated-on: 2023-12-19T18:40:59.341Z
-published-on: 2023-12-19T18:40:59.341Z
+updated-on: 2023-12-19T18:50:06.276Z
+published-on: 2023-12-19T18:50:06.276Z
 seo: n/a
 ---
