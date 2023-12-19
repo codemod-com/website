@@ -1,5 +1,5 @@
 ---
-created-on: 2023-12-19T17:46:12.483Z
+created-on: 2023-12-19T17:49:42.456Z
 f_long-description: >-
   ## Description
   Renames private import from core/styles/* to core/styles.
@@ -21,7 +21,7 @@ f_cli-command: intuita mui/5/core-styles-import
 f_framework: cms/framework/mui.md
 f_applicability-criteria: MUI version >= 4.0.0
 f_verified-codemod: false
-f_author: n/a
+f_author: mui
 layout: "[automations].html"
 slug: mui-5-core-styles-import
 title: Core Styles Import
@@ -30,7 +30,7 @@ f_codemod-engine: cms/codemod-engines/jscodeshift.md
 f_change-mode-2: Autonomous
 f_estimated-time-saving: ~5 minutes/occurrence
 tags: automations
-updated-on: 2023-12-19T17:46:12.483Z
-published-on: 2023-12-19T17:46:12.483Z
+updated-on: 2023-12-19T17:49:42.456Z
+published-on: 2023-12-19T17:49:42.456Z
 seo: n/a
 ---
