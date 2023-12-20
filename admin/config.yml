@@ -3245,14 +3245,6 @@ collections:
             label: Text
             name: 79b0e94e
             widget: string
-          - hint: "Original text: Need help with migrating your project?\_Get in touch with our migration experts that will help your team adopt the latest cutting-edge stacks., key: 4e6283a6"
-            label: Text
-            name: 4e6283a6
-            widget: text
-          - hint: 'Original text: Select one, key: 14066d62'
-            label: Text
-            name: 14066d62
-            widget: string
           - hint: 'Original text: Last updated: January 16, 2023, key: -395c97db'
             label: Text
             name: '-395c97db'
@@ -3622,6 +3614,14 @@ collections:
               Conditions, You can contact us:, key: -514ac1ee
             label: Text
             name: '-514ac1ee'
+            widget: string
+          - hint: "Original text: Need help with migrating your project?\_Get in touch with our migration experts that will help your team adopt the latest cutting-edge stacks., key: 4e6283a6"
+            label: Text
+            name: 4e6283a6
+            widget: text
+          - hint: 'Original text: Select one, key: 14066d62'
+            label: Text
+            name: 14066d62
             widget: string
       - label: Links
         name: links
