@@ -76,6 +76,13 @@ collections:
             name: twitter:creator
             widget: string
             required: false
+          - label: Twitter Image
+            name: twitter:image
+            widget: image
+            required: false
+            media_library:
+              config:
+                multiple: false
           - label: Additional HTML tags
             name: additional_tags
             widget: text
