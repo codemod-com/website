@@ -3623,6 +3623,10 @@ collections:
             label: Text
             name: 14066d62
             widget: string
+          - hint: 'Original text: Hop on a quick call for a demo, key: 51a464df'
+            label: Text
+            name: 51a464df
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -4885,7 +4889,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 73532da6
+            name: 6fc751eb
             widget: object
             fields:
               - name: url
