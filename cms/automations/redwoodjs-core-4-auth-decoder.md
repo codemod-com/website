@@ -85,7 +85,6 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/redwoodjs/core/4/auth-decoder
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=P-Ska-uPydbl8azQJ-cXmvwILbg
-f_codemod-studio-link: ""
 f_cli-command: intuita redwoodjs/core/4/auth-decoder
 f_framework: cms/framework/redwoodjs.md
 f_applicability-criteria: RedwoodJS < v4.0.0
@@ -102,6 +101,11 @@ f_slug-name: redwoodjs-core-4-auth-decoder
 title: Redwoodjs V4 - Auth Decoder
 published-on: 2023-12-21T16:50:53.999Z
 tags: automations
-seo: n/a
+seo:
+  title: Redwoodjs V4 - Auth Decoder | Intuita Automations
+  og:title: Redwoodjs V4 - Auth Decoder | Intuita Automations
+  twitter:title: Redwoodjs V4 - Auth Decoder | Intuita Automations
+  description: This codemod for RedwoodJS v4 automatically inserts an `authDecoder` property into the `createGraphQLHandler` call.
+  twitter:card: This codemod for RedwoodJS v4 automatically inserts an `authDecoder` property into the `createGraphQLHandler` call.
 ---
-This codemod for RedwoodJS v4 automatically inserts an `authDecoder` property into the `createGraphQLHandler` call .
+This codemod for RedwoodJS v4 automatically inserts an `authDecoder` property into the `createGraphQLHandler` call.
