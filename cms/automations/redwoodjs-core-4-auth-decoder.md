@@ -85,6 +85,7 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/redwoodjs/core/4/auth-decoder
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=P-Ska-uPydbl8azQJ-cXmvwILbg
+f_codemod-studio-link: https://go.intuita.io/BiCmQv
 f_cli-command: intuita redwoodjs/core/4/auth-decoder
 f_framework: cms/framework/redwoodjs.md
 f_applicability-criteria: RedwoodJS < v4.0.0
