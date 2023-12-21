@@ -2,69 +2,55 @@
 created-on: 2023-12-20T23:57:49.933Z
 f_long-description: >-
   ## Description
-  
 
-  There is a change to generic type interface of rest.method() calls. This codemod puts the generic arguments in the correct order to keep type safety.
-  ### WARNING
-  This codemod runs .fixUnusedIdentifiers() on a source file you are running it on. This would remove any unused declarations in the file. This is due to atomicity of this mod, which blindly inserts the callback structure into each msw handler callback and then cleans up the variables that are not used.
-  
+
+  There is a change to generic type interface of rest.method() calls. This codemod puts the generic arguments in the correct order to keep type safety. ### WARNING This codemod runs .fixUnusedIdentifiers() on a source file you are running it on. This would remove any unused declarations in the file. This is due to atomicity of this mod, which blindly inserts the callback structure into each msw handler callback and then cleans up the variables that are not used.
+
 
   ### Before
-  
-  ```ts
-  http.get<ReqBodyType, PathParamsType>('/resource', (req, res, ctx) => {
+
+
+  ````ts
     return res(ctx.json({ firstName: 'John' }));
-  });
-  ```
-  
+  }); ```
+
   ### After
-  
-  ```ts
-  http.get<PathParamsType, ReqBodyType>('/resource', (req, res, ctx) => {
+
+  ```ts http.get<PathParamsType, ReqBodyType>('/resource', (req, res, ctx) => {
     return res(ctx.json({ firstName: 'John' }));
-  });
-  ```
-  
+  }); ```
+
   ### Before
-  
-  ```ts
-  http.get<ReqBodyType>('/resource', (req, res, ctx) => {
+
+  ```ts http.get<ReqBodyType>('/resource', (req, res, ctx) => {
     return res(ctx.json({ firstName: 'John' }));
-  });
-  ```
-  
+  }); ```
+
   ### After
-  
-  ```ts
-  http.get<any, ReqBodyType>('/resource', (req, res, ctx) => {
+
+  ```ts http.get<any, ReqBodyType>('/resource', (req, res, ctx) => {
     return res(ctx.json({ firstName: 'John' }));
-  });
-  ```
-  
+  }); ```
+
   ### Before
-  
-  ```ts
-  const handlers: RestHandler<DefaultBodyType>[] = [
+
+  ```ts const handlers: RestHandler<DefaultBodyType>[] = [
     http.get('/resource', (req, res, ctx) => {
       return res(ctx.json({ firstName: 'John' }));
     }),
-  ];
-  ```
-  
+  ]; ```
+
   ### After
-  
-  ```ts
-  const handlers: HttpHandler[] = [
+
+  ```ts const handlers: HttpHandler[] = [
     http.get<any, DefaultBodyType>('/resource', (req, res, ctx) => {
       return res(ctx.json({ firstName: 'John' }));
     }),
-  ];
-  ```
-  
+  ]; ```
+
   ### Before
-  
-  ```ts
-  export function mockFactory(
+
+  ```ts export function mockFactory(
     url: string,
     resolver: ResponseResolver<
       MockedRequest<{ id: string }>,
@@ -73,13 +59,11 @@ f_long-description: >-
     >,
   ) {
     return http.get(url, resolver);
-  };
-  ```
-  
+  }; ```
+
   ### After
-  
-  ```ts
-  export function mockFactory(
+
+  ```ts export function mockFactory(
     url: string,
     resolver: ResponseResolver<
       HttpRequestResolverExtras<PathParams>,
@@ -88,9 +72,9 @@ f_long-description: >-
     >,
   ) {
     return http.get(url, resolver);
-  };
-  ```
-  
+  }; ```
+
+  ````
 f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/msw/2/type-args
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=6rdxdJ7YioUlKoq-z-4iFPeN3Rs
 f_codemod-studio-link: n/a
@@ -101,13 +85,14 @@ f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: msw-2-type-args
-title: Move Generic Arguments and Body Type Casts
-f_slug-name: msw-2-type-args
+updated-on: 2023-12-20T23:57:49.933Z
 f_codemod-engine: cms/codemod-engines/ts-morph.md
 f_change-mode-2: Assistive
 f_estimated-time-saving: ~15 minutes/occurrence
-tags: automations
-updated-on: 2023-12-20T23:57:49.933Z
+date: 2023-12-21T14:32:35.982Z
+f_slug-name: msw-2-type-args
+title: MSW V2 - Move Generic Arguments and Body Type Casts
 published-on: 2023-12-20T23:57:49.933Z
+tags: automations
 seo: n/a
 ---
