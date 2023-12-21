@@ -1,5 +1,5 @@
 ---
-created-on: 2023-12-21T17:36:05.835Z
+created-on: 2023-12-21T17:37:21.188Z
 f_long-description: >-
   ## Description
   
@@ -125,8 +125,8 @@ f_codemod-engine: cms/codemod-engines/ts-morph.md
 f_change-mode-2: Assistive
 f_estimated-time-saving: ~15 minutes/occurrence
 tags: automations
-updated-on: 2023-12-21T17:36:05.835Z
-published-on: 2023-12-21T17:36:05.835Z
+updated-on: 2023-12-21T17:37:21.188Z
+published-on: 2023-12-21T17:37:21.188Z
 seo:
   title: Msw V2 - Move Generic Arguments and Body Type Casts | Intuita Automations
   og:title: Msw V2 - Move Generic Arguments and Body Type Casts | Intuita Automations
