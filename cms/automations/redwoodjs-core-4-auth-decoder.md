@@ -89,7 +89,7 @@ f_cli-command: intuita redwoodjs/core/4/auth-decoder
 f_framework: cms/framework/redwoodjs.md
 f_applicability-criteria: RedwoodJS < v4.0.0
 f_verified-codemod: false
-f_author: cms/authors/redwoodjs.md
+f_author: cms/authors/rajasegar-chandran.md
 layout: "[automations].html"
 slug: redwoodjs-core-4-auth-decoder
 updated-on: 2023-12-21T16:50:53.999Z
