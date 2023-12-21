@@ -2026,25 +2026,13 @@ collections:
             label: Text
             name: '-30376fd1'
             widget: string
-          - hint: 'Original text: Email:, key: 7bec143e'
-            label: Text
-            name: 7bec143e
-            widget: string
           - hint: 'Original text: migrate@intuita.io, key: 585f0519'
             label: Text
             name: 585f0519
             widget: string
-          - hint: 'Original text: Chat:, key: 3e0e7c2'
-            label: Text
-            name: 3e0e7c2
-            widget: string
           - hint: 'Original text: Chat with us, key: -73d87c70'
             label: Text
             name: '-73d87c70'
-            widget: string
-          - hint: 'Original text: Live call:, key: 52bb1188'
-            label: Text
-            name: 52bb1188
             widget: string
           - hint: 'Original text: Hop on a zoom call for a demo, key: e4e4eb7'
             label: Text
@@ -3623,6 +3611,12 @@ collections:
             label: Text
             name: 14066d62
             widget: string
+          - hint: >-
+              Original text: What migration projects would you like us to help
+              you with?, key: 413a3561
+            label: Text
+            name: 413a3561
+            widget: string
           - hint: 'Original text: Hop on a quick call for a demo, key: 51a464df'
             label: Text
             name: 51a464df
@@ -4707,7 +4701,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 59f51b3b
+            name: 6fc751eb
             widget: object
             fields:
               - name: url
@@ -4877,19 +4871,6 @@ collections:
                 required: false
           - label: Image
             name: '-7a7dc765'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 6fc751eb
             widget: object
             fields:
               - name: url

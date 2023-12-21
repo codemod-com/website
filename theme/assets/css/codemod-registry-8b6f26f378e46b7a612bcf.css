@@ -4552,6 +4552,8 @@ blockquote {
 }
 
 .form-2 {
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
   flex-direction: column;
   flex: 1;
   display: flex;
