@@ -75,6 +75,6 @@ f_change-mode-2: Assistive
 f_estimated-time-saving: ~5 minutes/occurrence
 tags: automations
 updated-on: 2023-12-21T15:38:42.978Z
-published-on: 2023-12-21T15:38:42.978Z
-seo: n/a
+updated-on: 2023-12-21T15:51:12.603Z
+published-on: 2023-12-21T15:51:12.603Z
 ---
