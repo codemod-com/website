@@ -40,7 +40,7 @@ f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=03s9tN
 f_codemod-studio-link: n/a
 f_cli-command: intuita msw/2/imports
 f_framework: cms/framework/msw.md
-f_applicability-criteria: MSW version >= 1.0.0
+f_applicability-criteria: MSW version >= 1.0.1
 f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
