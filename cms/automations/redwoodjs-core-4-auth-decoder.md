@@ -16,8 +16,8 @@ f_long-description: >-
   import sdls from 'src/graphql/**/*.sdl.{js,ts}';
   import services from 'src/services/**/*.{js,ts}';
   
-  import { db } from 'src/lib/db';
   import { logger } from 'src/lib/logger';
+  import { db } from 'src/lib/db';
   
   export const handler = createGraphQLHandler({
     loggerConfig: { logger, options: {} },
@@ -41,8 +41,8 @@ f_long-description: >-
   import sdls from 'src/graphql/**/*.sdl.{js,ts}';
   import services from 'src/services/**/*.{js,ts}';
   
-  import { db } from 'src/lib/db';
   import { logger } from 'src/lib/logger';
+  import { db } from 'src/lib/db';
   
   export const handler = createGraphQLHandler({
     authDecoder: authDecoder,
