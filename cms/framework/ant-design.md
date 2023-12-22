@@ -10,7 +10,7 @@ tags: framework
 layout: "[framework].html"
 date: 2023-12-22T11:34:45.980Z
 seo:
-  noindex: false
+  noindex: true
   twitter:title: summary
   twitter:card: summary
 ---
