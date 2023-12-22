@@ -89,7 +89,6 @@ f_slug-name: next-i18next-copy-keys
 title: " i18Next - Copy Keys"
 f_labels:
   - cms/labels/next-i18n.md
-f_changelog: ""
 tags: automations
 seo:
   title: Next.js - i18next Copy Keys | Intuita Automations
