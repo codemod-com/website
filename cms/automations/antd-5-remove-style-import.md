@@ -42,6 +42,8 @@ date: 2023-12-22T11:43:41.703Z
 f_slug-name: antd-5-remove-style-import
 title: Antd V5 - Remove Style Import
 published-on: 2023-12-22T11:32:17.741Z
+f_labels:
+  - cms/labels/ant-design-v5-upgrade.md
 tags: automations
 seo:
   title: Antd V5 - Remove Style Import | Intuita Automations
@@ -50,3 +52,4 @@ seo:
   description: Comment out the style file import from antd (in js file).
   twitter:card: Comment out the style file import from antd (in js file).
 ---
+Comment out the style file import from antd (in js file).

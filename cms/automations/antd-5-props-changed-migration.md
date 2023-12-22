@@ -1,39 +1,30 @@
 ---
 created-on: 2023-12-22T11:32:17.722Z
-f_long-description: >-
+f_long-description: |-
   ## Description
-  
 
   This codemod changes the way the component props are applied.
-  
 
-  
   ### Before
-  
+
   ```TypeScript
-  
   import { Tag } from 'antd';
-  
   const Component = () => {
     const [visible, setVisible] = useState(false);
-  
+
     return <Tag visible={visible} />;
   };
-  
   ```
-  
+
   ### After
-  
+
   ```TypeScript
-  
   import { Tag } from 'antd';
-  
   const Component = () => {
     const [visible, setVisible] = useState(false);
-  
+
     return (visible ? <Tag /> : null);
   };
-  
   ```
 f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/antd/5/props-changed-migration
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=z9CCNbzBKfYVGQ_FZJNG6nrmRTs
@@ -44,14 +35,17 @@ f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: antd-5-props-changed-migration
-title: Antd V5 - Props Changed Migration
-f_slug-name: antd-5-props-changed-migration
+updated-on: 2023-12-22T11:32:17.723Z
 f_codemod-engine: cms/codemod-engines/jscodeshift.md
 f_change-mode-2: Assistive
 f_estimated-time-saving: Up to 1 minutes/occurrence
-tags: automations
-updated-on: 2023-12-22T11:32:17.723Z
+date: 2023-12-22T11:48:14.131Z
+f_slug-name: antd-5-props-changed-migration
+title: Antd V5 - Props Changed Migration
 published-on: 2023-12-22T11:32:17.723Z
+f_labels:
+  - cms/labels/ant-design-v5-upgrade.md
+tags: automations
 seo:
   title: Antd V5 - Props Changed Migration | Intuita Automations
   og:title: Antd V5 - Props Changed Migration | Intuita Automations
@@ -59,3 +53,4 @@ seo:
   description: This codemod changes the way the component props are applied.
   twitter:card: This codemod changes the way the component props are applied.
 ---
+This codemod changes the way the component props are applied.
