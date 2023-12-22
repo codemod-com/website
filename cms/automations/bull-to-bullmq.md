@@ -126,7 +126,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/bullmq/from-bull
+f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/bull/bullmq
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=jc8GspuivcASxKyCLsYZ0WbLRgU
 f_cli-command: intuita bullmq/from-bull
 f_framework: cms/framework/bullmq.md
