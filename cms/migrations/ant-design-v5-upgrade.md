@@ -35,14 +35,14 @@ layout: "[migrations].html"
 date: 2023-12-22T11:51:15.627Z
 seo:
   noindex: false
-  twitter:title: Bull to BullMQ Migration | Intuita Automations
-  twitter:card: Put your Bull to BullMQ migration on autopilot with our
-    BullMQ-tailored automations. Each automation lands a specific large-scale
-    change to help you adopt BullMQ faster and easier.
-  title: Bull to BullMQ Migration | Intuita Automations
-  description: Put your Bull to BullMQ migration on autopilot with our
-    BullMQ-tailored automations. Each automation lands a specific large-scale
-    change to help you adopt BullMQ faster and easier.
-  og:title: Bull to BullMQ Migration | Intuita Automations
-  og:image: /assets/images/bull-to-bullmq.jpg
+  twitter:title: Ant Design V5 Upgrade | Intuita Automations
+  twitter:card: Put your Ant Design upgrade on autopilot with our Ant
+    Design-tailored automations. Each automation lands a specific large-scale
+    change to help you adopt version 5 of antd easier.
+  title: Ant Design V5 Upgrade | Intuita Automations
+  description: Put your Ant Design upgrade on autopilot with our Ant
+    Design-tailored automations. Each automation lands a specific large-scale
+    change to help you adopt version 5 of antd easier.
+  og:title: Ant Design V5 Upgrade | Intuita Automations
+  og:image: /assets/images/ant-design-v5-upgrade.jpg
 ---
