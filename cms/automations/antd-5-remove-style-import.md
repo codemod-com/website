@@ -50,5 +50,6 @@ seo:
   og:title: Antd V5 - Remove Style Import | Intuita Automations
   twitter:title: Antd V5 - Remove Style Import | Intuita Automations
   description: Comment out the style file import from antd (in js file).
-  twitter:card: Comment out the style file import from antd (in js file).---
+  twitter:card: Comment out the style file import from antd (in js file).
+---
 Comment out the style file import from antd (in js file).

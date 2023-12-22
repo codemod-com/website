@@ -51,5 +51,6 @@ seo:
   og:title: Antd V5 - Props Changed Migration | Intuita Automations
   twitter:title: Antd V5 - Props Changed Migration | Intuita Automations
   description: This codemod changes the way the component props are applied.
-  twitter:card: This codemod changes the way the component props are applied.---
+  twitter:card: This codemod changes the way the component props are applied.
+---
 This codemod changes the way the component props are applied.

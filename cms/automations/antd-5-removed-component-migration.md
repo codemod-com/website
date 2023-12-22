@@ -50,5 +50,6 @@ seo:
   og:title: Antd V5 - Removed Component Migration | Intuita Automations
   twitter:title: Antd V5 - Removed Component Migration | Intuita Automations
   description: Replace import for removed component in v5.
-  twitter:card: Replace import for removed component in v5.---
+  twitter:card: Replace import for removed component in v5.
+---
 Replace import for removed component in v5.

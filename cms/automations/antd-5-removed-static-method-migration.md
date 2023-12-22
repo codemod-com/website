@@ -91,5 +91,6 @@ seo:
   og:title: Antd V5 - Removed Static Method Migration | Intuita Automations
   twitter:title: Antd V5 - Removed Static Method Migration | Intuita Automations
   description: Replace message.warn with message.warning.
-  twitter:card: Replace message.warn with message.warning.---
+  twitter:card: Replace message.warn with message.warning.
+---
 Replace message.warn with message.warning. Replace notification.close with notification.destroy.
