@@ -41,7 +41,7 @@ f_change-mode-2: Assistive
 f_estimated-time-saving: Up to 1 minutes/occurrence
 date: 2023-12-22T11:48:14.131Z
 f_slug-name: antd-5-props-changed-migration
-title: Antd V5 - Props Changed Migration
+title: Ant Design V5 - Props Changed Migration
 published-on: 2023-12-22T11:32:17.723Z
 f_labels:
   - cms/labels/ant-design-v5-upgrade.md

@@ -40,7 +40,7 @@ f_change-mode-2: Assistive
 f_estimated-time-saving: Up to 1 minutes/occurrence
 date: 2023-12-22T11:48:15.198Z
 f_slug-name: antd-5-removed-component-migration
-title: Antd V5 - Removed Component Migration
+title: Ant Design V5 - Removed Component Migration
 published-on: 2023-12-22T11:32:17.758Z
 f_labels:
   - cms/labels/ant-design-v5-upgrade.md

@@ -81,7 +81,7 @@ f_change-mode-2: Assistive
 f_estimated-time-saving: Up to 1 minutes/occurrence
 date: 2023-12-22T11:56:17.490Z
 f_slug-name: antd-5-removed-static-method-migration
-title: Antd V5 - Removed Static Method Migration
+title: Ant Design V5 - Removed Static Method Migration
 published-on: 2023-12-22T11:32:17.777Z
 f_labels:
   - cms/labels/ant-design-v5-upgrade.md
