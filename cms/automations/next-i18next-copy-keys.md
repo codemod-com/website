@@ -1,5 +1,6 @@
 ---
 created-on: 2023-12-22T13:34:26.118Z
+published-on: 2023-12-22T13:34:26.118Z
 f_long-description: >-
   ## Description
 
@@ -71,31 +72,33 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/next-i18next/copy-keys
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=SjMsX5HjVc-QOXnMZ3sE__LVV1Q
+f_codemod-studio-link: ""
 f_cli-command: intuita next-i18next/copy-keys
 f_framework: cms/framework/next-js.md
+f_codemod-engine: cms/codemod-engines/filemod.md
 f_applicability-criteria: "`next-i18next > 14.x`"
 f_verified-codemod: true
 f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: next-i18next-copy-keys
 updated-on: 2023-12-22T13:34:26.118Z
-f_codemod-engine: cms/codemod-engines/filemod.md
 f_change-mode-2: Autonomous
 f_estimated-time-saving: ~1 minute/each key within each language file
 date: 2023-12-22T13:36:11.061Z
 f_slug-name: next-i18next-copy-keys
 title: " i18Next - Copy Keys"
-published-on: 2023-12-22T13:34:26.118Z
 f_labels:
   - cms/labels/next-i18n.md
+f_changelog: ""
 tags: automations
 seo:
-  title: Next-i18next Vcopy-keys - Next-i18next Copy Keys | Intuita Automations
-  og:title: Next-i18next Vcopy-keys - Next-i18next Copy Keys | Intuita Automations
-  twitter:title: Next-i18next Vcopy-keys - Next-i18next Copy Keys | Intuita Automations
+  title: Next.js - i18next Copy Keys | Intuita Automations
+  og:title: Next.js - i18next Copy Keys | Intuita Automations
+  twitter:title: Next.js - i18next Copy Keys | Intuita Automations
   description: This codemod copies specific keys from one translation namespace to
     another, for each of the supported languages.
   twitter:card: This codemod copies specific keys from one translation namespace
     to another, for each of the supported languages.
+  og:image: /assets/images/next-i18n-copy-keys-automated-refactor.jpg
 ---
 This codemod copies specific keys from one translation namespace to another, for each of the supported languages.
