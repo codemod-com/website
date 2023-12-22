@@ -14,7 +14,7 @@ f_migrate-from-image:
 f_featured-in-home: false
 f_order-rank: 10
 f_is-cta: false
-f_automations-filter-url: https://www.intuita.io/automations/?migration=Next+i18n
+f_automations-filter-url: https://www.intuita.io/automations/?migration=Next+Internationalization+(i18n)
 f_shown-in-registry: true
 tags: migrations
 layout: "[migrations].html"
