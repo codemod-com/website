@@ -59,7 +59,7 @@ title: Next.js Replace useSearchParams with useCompatSearchParams
 updated-on: 2023-11-30T17:13:54.602Z
 published-on: 2023-11-30T17:13:54.611Z
 f_slug-name: replace-use-search-params
-f_codemod-engine: cms/codemod-engines/repomod.md
+f_codemod-engine: cms/codemod-engines/filemod.md
 f_change-mode-2: Autonomous
 f_estimated-time-saving: 2 minutes/occurrence
 f_labels:

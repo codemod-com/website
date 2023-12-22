@@ -153,7 +153,7 @@ f_author: cms/authors/intuita.md
 layout: "[automations].html"
 slug: ember-app-controller-router-props
 updated-on: 2023-12-18T14:34:24.373Z
-f_codemod-engine: cms/codemod-engines/repomod.md
+f_codemod-engine: cms/codemod-engines/filemod.md
 f_change-mode-2: Autonomous
 f_estimated-time-saving: 5+ minutes/file
 date: 2023-12-18T14:34:24.395Z
