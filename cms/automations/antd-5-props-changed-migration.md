@@ -31,11 +31,11 @@ f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=z9CCNb
 f_cli-command: intuita antd/5/props-changed-migration
 f_framework: cms/framework/antd.md
 f_applicability-criteria: Ant Design >= 5.0.0
-f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_verified-codemod: false
+f_author: cms/authors/ant-design.md
 layout: "[automations].html"
 slug: antd-5-props-changed-migration
-updated-on: 2023-12-22T11:32:17.723Z
+updated-on: 2023-12-22T13:15:54.718Z
 f_codemod-engine: cms/codemod-engines/jscodeshift.md
 f_change-mode-2: Assistive
 f_estimated-time-saving: Up to 1 minutes/occurrence
@@ -51,6 +51,5 @@ seo:
   og:title: Antd V5 - Props Changed Migration | Intuita Automations
   twitter:title: Antd V5 - Props Changed Migration | Intuita Automations
   description: This codemod changes the way the component props are applied.
-  twitter:card: This codemod changes the way the component props are applied.
----
+  twitter:card: This codemod changes the way the component props are applied.---
 This codemod changes the way the component props are applied.
