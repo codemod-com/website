@@ -2034,9 +2034,9 @@ collections:
             label: Text
             name: '-73d87c70'
             widget: string
-          - hint: 'Original text: Hop on a zoom call for a demo, key: e4e4eb7'
+          - hint: 'Original text: Hop on a quick call for a demo, key: 51a464df'
             label: Text
-            name: e4e4eb7
+            name: 51a464df
             widget: string
           - hint: "Original text: Learn\_More →, key: -265dfa5d"
             label: Text
@@ -3610,10 +3610,6 @@ collections:
           - hint: 'Original text: Select one, key: 14066d62'
             label: Text
             name: 14066d62
-            widget: string
-          - hint: 'Original text: Hop on a quick call for a demo, key: 51a464df'
-            label: Text
-            name: 51a464df
             widget: string
       - label: Links
         name: links
