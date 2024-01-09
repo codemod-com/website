@@ -1211,13 +1211,13 @@ collections:
             label: Text
             name: 24af75
             widget: string
-          - hint: 'Original text: Careers, key: -7bc27f6b'
-            label: Text
-            name: '-7bc27f6b'
-            widget: string
           - hint: 'Original text: Blog, key: 1fa3c2'
             label: Text
             name: 1fa3c2
+            widget: string
+          - hint: 'Original text: Careers, key: -7bc27f6b'
+            label: Text
+            name: '-7bc27f6b'
             widget: string
           - hint: 'Original text: GitHub, key: 7f258fe3'
             label: Text
@@ -1435,10 +1435,10 @@ collections:
             widget: string
           - hint: >-
               Original text: “Migrating over small things will take hours to
-              track down & fix up, with Intuita codemod + web Ul can make that
-              be minutes.”, key: 7a99b039
+              track down & fix up, with Codemod.com + web Ul can make that be
+              minutes.”, key: -26f57784
             label: Text
-            name: 7a99b039
+            name: '-26f57784'
             widget: text
           - hint: 'Original text: Max Leiter, key: 7dca968d'
             label: Text
@@ -1536,9 +1536,9 @@ collections:
             widget: string
           - hint: >-
               Original text: Be the first to receive the latest news and updates
-              about Intuita!, key: -69570254
+              about Codemod.com!, key: 74410d94
             label: Text
-            name: '-69570254'
+            name: 74410d94
             widget: string
           - hint: 'Original text: Palo Alto, CA, USA, key: 4c9a30cb'
             label: Text
@@ -1573,10 +1573,10 @@ collections:
             name: '-76f38e5a'
             widget: string
           - hint: >-
-              Original text: © 2023 Codemod.com. All rights reserved, key:
-              -7b35205e
+              Original text: © 2024 Codemod.com. All rights reserved, key:
+              -3e155c3f
             label: Text
-            name: '-7b35205e'
+            name: '-3e155c3f'
             widget: string
           - hint: 'Original text: Popular and , key: 3cc9f230'
             label: Text
@@ -1652,16 +1652,16 @@ collections:
             label: Text
             name: 2b99750e
             widget: string
-          - hint: 'Original text: Intuita verified codemod, key: -50c3f593'
+          - hint: 'Original text:  Codemod.com verified codemod, key: 32603ff5'
             label: Text
-            name: '-50c3f593'
+            name: 32603ff5
             widget: string
           - hint: >-
-              Original text: Intuita verified codemods are high-quality codemods
-              that are regularly tested and maintained by our engineers and
-              codemod expert community., key: -3c8d7774
+              Original text: Verified codemods are high-quality codemods that
+              are regularly tested and maintained by our engineers and codemod
+              expert community., key: 448fc43c
             label: Text
-            name: '-3c8d7774'
+            name: 448fc43c
             widget: text
           - hint: 'Original text: View Codemod →, key: -4e24ed94'
             label: Text
@@ -1724,9 +1724,9 @@ collections:
             label: Text
             name: '-364d0a89'
             widget: string
-          - hint: 'Original text: Intuita migrations homepage, key: 1d30b779'
+          - hint: 'Original text: Codemod.com migrations homepage, key: 29da3911'
             label: Text
-            name: 1d30b779
+            name: 29da3911
             widget: string
           - hint: 'Original text: Automations, key: -2097c9e4'
             label: Text
@@ -1794,19 +1794,15 @@ collections:
             label: Text
             name: 5a3656b3
             widget: string
-          - hint: "Original text: Run codemod using Intuita CLI or VS\_Code extension:, key: 6efbdadc"
-            label: Text
-            name: 6efbdadc
-            widget: string
           - hint: 'Original text: Codemod CLI:, key: 5592baa5'
             label: Text
             name: 5592baa5
             widget: string
           - hint: >-
-              Original text: To run this automation in Intuita CLI, make sure
-              you , key: 76134184
+              Original text: To run this automation in Codemod.com CLI, make
+              sure you , key: 5f03101c
             label: Text
-            name: '76134184'
+            name: 5f03101c
             widget: string
           - hint: 'Original text: have the CLI installed first, key: 135aaa83'
             label: Text
@@ -1820,9 +1816,9 @@ collections:
             label: Text
             name: 749eac16
             widget: string
-          - hint: "Original text: To run this automation in Intuita VS\_Code extension, make sure you , key: 6c816a33"
+          - hint: "Original text: To run this automation in Codemod.com VS\_Code extension, make sure you , key: 70f7cecb"
             label: Text
-            name: 6c816a33
+            name: 70f7cecb
             widget: string
           - hint: 'Original text: have the extension installed first, key: 58baed02'
             label: Text
@@ -1860,6 +1856,17 @@ collections:
             label: Text
             name: 645a31e6
             widget: string
+          - hint: 'Original text: Intuita verified codemod, key: -50c3f593'
+            label: Text
+            name: '-50c3f593'
+            widget: string
+          - hint: >-
+              Original text: Intuita verified codemods are high-quality codemods
+              that are regularly tested and maintained by our engineers and
+              codemod expert community., key: -3c8d7774
+            label: Text
+            name: '-3c8d7774'
+            widget: text
           - hint: >-
               Original text: Lorem ipsum dolor sit amet, consectetur adipiscing
               elit. Suspendisse varius enim in eros elementum tristique. Duis
@@ -1886,9 +1893,11 @@ collections:
             label: Text
             name: '-677aa219'
             widget: string
-          - hint: 'Original text: Migrate Your Project with Intuita →, key: 98447'
+          - hint: >-
+              Original text: Migrate Your Project with Codemod.com →, key:
+              2625f15f
             label: Text
-            name: '98447'
+            name: 2625f15f
             widget: string
           - hint: >-
               Original text: Next.js App Router Migration Features, key:
@@ -3653,17 +3662,21 @@ collections:
             widget: string
           - hint: >-
               Original link: https://docs.codemod.com/docs/cli/quickstart, key:
-              52ce7af1
+              -414c71b3
             label: Link
-            name: 52ce7af1
+            name: '-414c71b3'
             widget: string
           - hint: 'Original link: /pricing/, key: -d9445a8'
             label: Link
             name: '-d9445a8'
             widget: string
-          - hint: 'Original link: https://docs.codemod.com, key: -599fd5b8'
+          - hint: 'Original link: https://docs.codemod.com, key: -5a8c7c5c'
             label: Link
-            name: '-599fd5b8'
+            name: '-5a8c7c5c'
+            widget: string
+          - hint: 'Original link: https://docs.codemod.com/blog, key: 6fe5a32d'
+            label: Link
+            name: 6fe5a32d
             widget: string
           - hint: >-
               Original link:
@@ -3672,13 +3685,9 @@ collections:
             label: Link
             name: 6dcf58d9
             widget: string
-          - hint: 'Original link: https://docs.codemod.com/blog, key: 7ecb8309'
+          - hint: 'Original link: https://github.com/codemod-com/, key: -650b2390'
             label: Link
-            name: 7ecb8309
-            widget: string
-          - hint: 'Original link: https://github.com/intuita-inc/, key: 20f6ac18'
-            label: Link
-            name: 20f6ac18
+            name: '-650b2390'
             widget: string
           - hint: 'Original link: /contact/, key: 16bdc13e'
             label: Link
@@ -3690,35 +3699,35 @@ collections:
             widget: string
           - hint: >-
               Original link: https://docs.codemod.com/blog/dream-migration, key:
-              -74e03c82
+              -6422e45e
             label: Link
-            name: '-74e03c82'
+            name: '-6422e45e'
             widget: string
           - hint: 'Original link: #cli-vsce-section, key: -25c3bb59'
             label: Link
             name: '-25c3bb59'
             widget: string
-          - hint: 'Original link: mailto:hello@intuita.io, key: -6ade3066'
+          - hint: 'Original link: mailto:hello@codemod.com, key: -7119776e'
             label: Link
-            name: '-6ade3066'
+            name: '-7119776e'
             widget: string
           - hint: >-
               Original link:
               https://docs.codemod.com/docs/codemod-studio/quickstart, key:
-              -3a123b97
+              5c063f8d
             label: Link
-            name: '-3a123b97'
+            name: 5c063f8d
             widget: string
           - hint: >-
               Original link:
               https://docs.codemod.com/docs/vs-code-extension/quickstart, key:
-              -402fab7e
+              -754da922
             label: Link
-            name: '-402fab7e'
+            name: '-754da922'
             widget: string
-          - hint: 'Original link: https://www.intuita.io/community, key: -68d3b33c'
+          - hint: 'Original link: https://www.codemod.com/community, key: 57b6cf9c'
             label: Link
-            name: '-68d3b33c'
+            name: 57b6cf9c
             widget: string
           - hint: 'Original link: #, key: 23'
             label: Link
@@ -3735,9 +3744,9 @@ collections:
           - hint: >-
               Original link:
               https://docs.codemod.com/docs/about-intuita/legal/telemetry-compliance,
-              key: 7fe45151
+              key: -3b165653
             label: Link
-            name: 7fe45151
+            name: '-3b165653'
             widget: string
           - hint: >-
               Original link:
@@ -3758,7 +3767,7 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://docs.codemod.com/docs/codemod-registry/intro, key: 77e5bfff
+              https://docs.intuita.io/docs/codemod-registry/intro, key: 77e5bfff
             label: Link
             name: 77e5bfff
             widget: string
@@ -3770,30 +3779,54 @@ collections:
             label: Link
             name: '-4abbf7b3'
             widget: string
-          - hint: 'Original link: https://cal.com/intuita, key: -36ff12ed'
+          - hint: 'Original link: https://cal.com/codemod, key: -73984d68'
             label: Link
-            name: '-36ff12ed'
+            name: '-73984d68'
+            widget: string
+          - hint: >-
+              Original link:
+              https://docs.intuita.io/docs/codemod-studio/quickstart, key:
+              -3a123b97
+            label: Link
+            name: '-3a123b97'
             widget: string
           - hint: >-
               Original link:
               https://docs.codemod.com/docs/cli/quickstart#install-cli, key:
-              153c0b5c
+              4232f4b8
             label: Link
-            name: 153c0b5c
+            name: 4232f4b8
             widget: string
-          - hint: 'Original link: https://feedback.intuita.io/, key: -ab64f'
+          - hint: 'Original link: https://feedback.codemod.com/, key: 78b21f81'
             label: Link
-            name: '-ab64f'
+            name: 78b21f81
             widget: string
           - hint: 'Original link: #migration-hook, key: -491d655b'
             label: Link
             name: '-491d655b'
             widget: string
           - hint: >-
-              Original link: https://github.com/intuita-inc/codemod-registry,
-              key: -2ab382d3
+              Original link:
+              https://docs.intuita.io/docs/vs-code-extension/quickstart, key:
+              -402fab7e
             label: Link
-            name: '-2ab382d3'
+            name: '-402fab7e'
+            widget: string
+          - hint: >-
+              Original link: https://docs.intuita.io/docs/cli/quickstart, key:
+              52ce7af1
+            label: Link
+            name: 52ce7af1
+            widget: string
+          - hint: >-
+              Original link: https://github.com/codemod-com/codemod-registry,
+              key: 274efd85
+            label: Link
+            name: 274efd85
+            widget: string
+          - hint: 'Original link: https://codemod.com/community, key: -3697acd'
+            label: Link
+            name: '-3697acd'
             widget: string
           - hint: >-
               Original link:
@@ -3835,6 +3868,12 @@ collections:
               57a450cf
             label: Link
             name: 57a450cf
+            widget: string
+          - hint: >-
+              Original link: https://github.com/intuita-inc/codemod-registry,
+              key: -2ab382d3
+            label: Link
+            name: '-2ab382d3'
             widget: string
           - hint: >-
               Original link:
