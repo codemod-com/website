@@ -1262,12 +1262,12 @@ collections:
             widget: string
           - hint: >-
               Original text: Code transformation bots, also known as Codemods,
-              have superpowers, but they are very difficult to build. Use
-              Intuita's AI-powered Codemod Studio to create code automations
-              "instantly," with additional help from specialized helpers and
-              debuggers., key: -2a8e763d
+              have superpowers, but they are very difficult to build. Use the
+              AI-powered Codemod Studio to create codemods "instantly," with
+              additional help from specialized helpers and debuggers., key:
+              -892fcfd
             label: Text
-            name: '-2a8e763d'
+            name: '-892fcfd'
             widget: text
           - hint: 'Original text: Learn More, key: -52bd880f'
             label: Text
@@ -1290,11 +1290,11 @@ collections:
           - hint: >-
               Original text: Connect with a vibrant community of code automation
               experts and share your codemods with developers by adding them to
-              Intuita's Codemod Registry- the fastest-growing, single-stop hub
-              for all things related to code automation, including framework
-              upgrade recipes., key: -35654fc6
+              the Codemod Registry- the fastest-growing, single-stop hub for all
+              things related to code automation, including framework upgrade
+              recipes., key: 46c80de5
             label: Text
-            name: '-35654fc6'
+            name: 46c80de5
             widget: text
           - hint: 'Original text: Check out the Codemod Registry, key: 422293e1'
             label: Text
@@ -1311,13 +1311,13 @@ collections:
               them with just one click using your favorite extension or by
               running one CLI command. Review and tweak changes as needed,
               report issues with one click, and apply the changes only when you
-              are confident about them. With Intuita, you don't even need to
+              are confident about them. With Codemod.com, you don't even need to
               know which engine powers your code automations. All the difficult
               and tedious parts are handled for you behind the scenes. We aim to
               provide an unparalleled level of excellence in DevX. Learn more
-              about our vision for "the dream migration” , key: 6dd53a96
+              about our vision for "the dream migration” , key: -1c4c8702
             label: Text
-            name: 6dd53a96
+            name: '-1c4c8702'
             widget: text
           - hint: 'Original text: here, key: 30cff0'
             label: Text
@@ -1351,13 +1351,13 @@ collections:
               Original text: Based on our experience in Big Tech, we know that
               in large teams, large-scale changes are not just about code, but
               also about orchestrating changes across many teams until they are
-              implemented in production. Intuita is building enterprise features
-              such as automatic task creation, PR management, CI/CD integration,
-              and leader dashboard to help progressive software teams go to
-              market faster and save their engineers' valuable time from working
-              on undifferentiated tasks. , key: -1f750cf8
+              implemented in production. Codemod.com is building enterprise
+              features such as automatic task creation, PR management, CI/CD
+              integration, and leader dashboard to help progressive software
+              teams go to market faster and save their engineers' valuable time
+              from working on undifferentiated tasks. , key: 9f4afa0
             label: Text
-            name: '-1f750cf8'
+            name: 9f4afa0
             widget: text
           - hint: 'Original text: Contact us, key: 7f274abe'
             label: Text
@@ -1409,9 +1409,9 @@ collections:
             label: Text
             name: '-1a158bb6'
             widget: string
-          - hint: 'Original text: See how Intuita helps developers., key: 2f0c8eca'
+          - hint: 'Original text: See how Codemod helps developers., key: 1bb0dd0f'
             label: Text
-            name: 2f0c8eca
+            name: 1bb0dd0f
             widget: string
           - hint: >-
               Original text: Praise and reaction from our design partners...,
@@ -1420,11 +1420,11 @@ collections:
             name: '-6301a9bf'
             widget: string
           - hint: >-
-              Original text: "The automated changes (by Intuita) feel like black
-              magic here. They do 90% of the work!", key: 5c74386e
+              Original text: "The automated changes (by Codemod.com) feel like
+              black magic here. They do 90% of the work!", key: -1d2527aa
             label: Text
-            name: 5c74386e
-            widget: string
+            name: '-1d2527aa'
+            widget: text
           - hint: 'Original text: Omar López, key: -56203b13'
             label: Text
             name: '-56203b13'
@@ -1530,9 +1530,9 @@ collections:
             label: Text
             name: '-7c112e99'
             widget: string
-          - hint: 'Original text: Stay up to date with Intuita., key: -67c2cf33'
+          - hint: 'Original text: Stay up to date with Codemod.com., key: 5b9d96b5'
             label: Text
-            name: '-67c2cf33'
+            name: 5b9d96b5
             widget: string
           - hint: >-
               Original text: Be the first to receive the latest news and updates
@@ -1544,9 +1544,9 @@ collections:
             label: Text
             name: 4c9a30cb
             widget: string
-          - hint: 'Original text: hello@intuita.io, key: 6f631392'
+          - hint: 'Original text: hello@codemod.com, key: -3323c66'
             label: Text
-            name: 6f631392
+            name: '-3323c66'
             widget: string
           - hint: 'Original text: Company, key: -64202ba3'
             label: Text
@@ -1572,9 +1572,11 @@ collections:
             label: Text
             name: '-76f38e5a'
             widget: string
-          - hint: 'Original text: © 2023 Intuita. All rights reserved, key: -78dddcc6'
+          - hint: >-
+              Original text: © 2023 Codemod.com. All rights reserved, key:
+              -7b35205e
             label: Text
-            name: '-78dddcc6'
+            name: '-7b35205e'
             widget: string
           - hint: 'Original text: Popular and , key: 3cc9f230'
             label: Text
@@ -1669,6 +1671,44 @@ collections:
             label: Text
             name: c57
             widget: string
+          - hint: "Original text: Need help with migrating your project?\_Get in touch with our migration experts that will help your team adopt the latest cutting-edge stacks., key: 4e6283a6"
+            label: Text
+            name: 4e6283a6
+            widget: text
+          - hint: 'Original text: Name, key: 24eeab'
+            label: Text
+            name: 24eeab
+            widget: string
+          - hint: 'Original text: Select one, key: 14066d62'
+            label: Text
+            name: 14066d62
+            widget: string
+          - hint: 'Original text: Leave us a message, key: 51b6cf2f'
+            label: Text
+            name: 51b6cf2f
+            widget: string
+          - hint: >-
+              Original text: Thanks for reaching out. We will get back to you
+              soon., key: 616f2143
+            label: Text
+            name: 616f2143
+            widget: string
+          - hint: 'Original text: Or reach us at:, key: -30376fd1'
+            label: Text
+            name: '-30376fd1'
+            widget: string
+          - hint: 'Original text: migrate@codemod.com, key: 335002f3'
+            label: Text
+            name: 335002f3
+            widget: string
+          - hint: 'Original text: Chat with us, key: -73d87c70'
+            label: Text
+            name: '-73d87c70'
+            widget: string
+          - hint: 'Original text: Hop on a quick call for a demo, key: 51a464df'
+            label: Text
+            name: 51a464df
+            widget: string
           - hint: 'Original text: Build Your Own Custom Codemod, key: -20710aa5'
             label: Text
             name: '-20710aa5'
@@ -1692,6 +1732,17 @@ collections:
             label: Text
             name: '-2097c9e4'
             widget: string
+          - hint: 'Original text: Codemod.com verified, key: 1d787e00'
+            label: Text
+            name: 1d787e00
+            widget: string
+          - hint: >-
+              Original text: Codemod.com verified codemods are high-quality
+              codemods that are regularly tested and maintained by our engineers
+              and codemod expert community., key: 4410ba24
+            label: Text
+            name: 4410ba24
+            widget: text
           - hint: >-
               Original text: View or contribute to this automation on GitHub.,
               key: -4f8972db
@@ -1747,9 +1798,9 @@ collections:
             label: Text
             name: 6efbdadc
             widget: string
-          - hint: 'Original text: Intuita CLI:, key: -246e2af6'
+          - hint: 'Original text: Codemod CLI:, key: 5592baa5'
             label: Text
-            name: '-246e2af6'
+            name: 5592baa5
             widget: string
           - hint: >-
               Original text: To run this automation in Intuita CLI, make sure
@@ -1765,9 +1816,9 @@ collections:
             label: Text
             name: '-516e742c'
             widget: string
-          - hint: "Original text: Intuita VS\_Code extension:, key: -3346ce45"
+          - hint: "Original text: Codemod VS\_Code extension:, key: 749eac16"
             label: Text
-            name: '-3346ce45'
+            name: 749eac16
             widget: string
           - hint: "Original text: To run this automation in Intuita VS\_Code extension, make sure you , key: 6c816a33"
             label: Text
@@ -1853,9 +1904,9 @@ collections:
             label: Text
             name: '-4639b9b5'
             widget: string
-          - hint: 'Original text: by Intuita Automations., key: -654d7875'
+          - hint: 'Original text: by Codemod Automations., key: 116da226'
             label: Text
-            name: '-654d7875'
+            name: 116da226
             widget: string
           - hint: 'Original text: View Automation →, key: -1272519c'
             label: Text
@@ -2004,39 +2055,9 @@ collections:
             label: Text
             name: 5dd1ef56
             widget: string
-          - hint: 'Original text: Name, key: 24eeab'
-            label: Text
-            name: 24eeab
-            widget: string
           - hint: 'Original text: Migration Required, key: -3916a00f'
             label: Text
             name: '-3916a00f'
-            widget: string
-          - hint: 'Original text: Leave us a message, key: 51b6cf2f'
-            label: Text
-            name: 51b6cf2f
-            widget: string
-          - hint: >-
-              Original text: Thanks for reaching out. We will get back to you
-              soon., key: 616f2143
-            label: Text
-            name: 616f2143
-            widget: string
-          - hint: 'Original text: Or reach us at:, key: -30376fd1'
-            label: Text
-            name: '-30376fd1'
-            widget: string
-          - hint: 'Original text: migrate@intuita.io, key: 585f0519'
-            label: Text
-            name: 585f0519
-            widget: string
-          - hint: 'Original text: Chat with us, key: -73d87c70'
-            label: Text
-            name: '-73d87c70'
-            widget: string
-          - hint: 'Original text: Hop on a quick call for a demo, key: 51a464df'
-            label: Text
-            name: 51a464df
             widget: string
           - hint: "Original text: Learn\_More →, key: -265dfa5d"
             label: Text
@@ -2051,11 +2072,11 @@ collections:
             name: 118b5c35
             widget: string
           - hint: >-
-              Original text: Intuita brings automated migrations and dependency
-              upgrades for developers, small teams, and enterprise teams., key:
-              -56e4cf16
+              Original text: Codemod.com brings automated migrations and
+              dependency upgrades for developers, small teams, and enterprise
+              teams., key: -27ffe7ae
             label: Text
-            name: '-56e4cf16'
+            name: '-27ffe7ae'
             widget: text
           - hint: 'Original text: Monthly, key: -5311d813'
             label: Text
@@ -2074,10 +2095,10 @@ collections:
             name: '-61aa9cb7'
             widget: string
           - hint: >-
-              Original text: Intuita AI (free GPT4 with monthly limit), key:
-              7ecce778
+              Original text: Codemod Studio AI (free GPT4 with monthly limit),
+              key: -2a76ce77
             label: Text
-            name: 7ecce778
+            name: '-2a76ce77'
             widget: string
           - hint: "Original text: Private &\_Public Codemods, key: 1cda46fe"
             label: Text
@@ -2129,13 +2150,13 @@ collections:
             label: Text
             name: 23be3213
             widget: string
-          - hint: 'Original text: Intuita AI, key: 575675f8'
+          - hint: 'Original text: Codemod Studio AI, key: -46b095f9'
             label: Text
-            name: 575675f8
+            name: '-46b095f9'
             widget: string
-          - hint: 'Original text: Pro Codemods by Intuita, key: -13ec406a'
+          - hint: 'Original text: Pro Codemods by Codemod.com, key: -49bd15d2'
             label: Text
-            name: '-13ec406a'
+            name: '-49bd15d2'
             widget: string
           - hint: 'Original text: Private Slack Support, key: -1e5b44fe'
             label: Text
@@ -2196,10 +2217,10 @@ collections:
             name: 6740314e
             widget: string
           - hint: >-
-              Original text: Suitable for teams looking for full Intuita-owned
-              migrations., key: -18de6af2
+              Original text: Suitable for teams looking for full
+              Codemod.com-owned migrations., key: 615b6626
             label: Text
-            name: '-18de6af2'
+            name: 615b6626
             widget: string
           - hint: 'Original text: Regular, key: -5c054884'
             label: Text
@@ -2312,9 +2333,9 @@ collections:
             label: Text
             name: 7421f34c
             widget: string
-          - hint: 'Original text: Last updated: January 14, 2023, key: 5cd6f1a3'
+          - hint: 'Original text: Last updated: January 5, 2024, key: 21e55fc'
             label: Text
-            name: 5cd6f1a3
+            name: 21e55fc
             widget: string
           - hint: >-
               Original text: This Privacy Policy describes Our policies and
@@ -2344,10 +2365,6 @@ collections:
           - hint: 'Original text: Interpretation, key: -4d7b91d8'
             label: Text
             name: '-4d7b91d8'
-            widget: string
-          - hint: 'Original text: ​, key: 200b'
-            label: Text
-            name: 200b
             widget: string
           - hint: >-
               Original text: The words of which the initial letter is
@@ -2464,13 +2481,13 @@ collections:
             label: Text
             name: '-53cd8785'
             widget: string
-          - hint: 'Original text:  refers to Intuita, accessible from , key: 30ddbe18'
+          - hint: 'Original text:  refers to Codemod, accessible from , key: 1d820c5d'
             label: Text
-            name: 30ddbe18
+            name: 1d820c5d
             widget: string
-          - hint: 'Original text: intuita.io, key: -1f7b2c9c'
+          - hint: 'Original text: codemod.com, key: -501c01f8'
             label: Text
-            name: '-1f7b2c9c'
+            name: '-501c01f8'
             widget: string
           - hint: 'Original text: You, key: 15bff'
             label: Text
@@ -3092,9 +3109,9 @@ collections:
             label: Text
             name: '-5634e6e7'
             widget: string
-          - hint: 'Original text: privacy@intuita.io, key: 69cc5b1c'
+          - hint: 'Original text: privacy@codemod.com, key: 4f8d6d50'
             label: Text
-            name: 69cc5b1c
+            name: 4f8d6d50
             widget: string
           - hint: 'Original text: Code migrations at , key: 3cc9bc85'
             label: Text
@@ -3233,10 +3250,6 @@ collections:
             label: Text
             name: 79b0e94e
             widget: string
-          - hint: 'Original text: Last updated: January 16, 2023, key: -395c97db'
-            label: Text
-            name: '-395c97db'
-            widget: string
           - hint: >-
               Original text: Please read these terms and conditions carefully
               before using Our Service., key: -64902e12
@@ -3291,9 +3304,9 @@ collections:
             label: Text
             name: 5b2e130c
             widget: text
-          - hint: 'Original text: https://intuita.io, key: ec38773'
+          - hint: 'Original text: https://codemod.com, key: 497bcbd9'
             label: Text
-            name: ec38773
+            name: 497bcbd9
             widget: string
           - hint: 'Original text: Acknowledgment, key: 17fbfe7'
             label: Text
@@ -3603,13 +3616,9 @@ collections:
             label: Text
             name: '-514ac1ee'
             widget: string
-          - hint: "Original text: Need help with migrating your project?\_Get in touch with our migration experts that will help your team adopt the latest cutting-edge stacks., key: 4e6283a6"
+          - hint: 'Original text: Last updated: January 14, 2023, key: 5cd6f1a3'
             label: Text
-            name: 4e6283a6
-            widget: text
-          - hint: 'Original text: Select one, key: 14066d62'
-            label: Text
-            name: 14066d62
+            name: 5cd6f1a3
             widget: string
       - label: Links
         name: links
@@ -3753,6 +3762,18 @@ collections:
             label: Link
             name: 77e5bfff
             widget: string
+          - hint: 'Original link: mailto:migrate@codemod.com, key: -5db49615'
+            label: Link
+            name: '-5db49615'
+            widget: string
+          - hint: 'Original link: https://intuita.io/community, key: -4abbf7b3'
+            label: Link
+            name: '-4abbf7b3'
+            widget: string
+          - hint: 'Original link: https://cal.com/intuita, key: -36ff12ed'
+            label: Link
+            name: '-36ff12ed'
+            widget: string
           - hint: >-
               Original link:
               https://docs.intuita.io/docs/cli/quickstart#install-cli, key:
@@ -3774,18 +3795,6 @@ collections:
             label: Link
             name: '-2ab382d3'
             widget: string
-          - hint: 'Original link: mailto:migrate@intuita.io, key: 95edf21'
-            label: Link
-            name: 95edf21
-            widget: string
-          - hint: 'Original link: https://intuita.io/community, key: -4abbf7b3'
-            label: Link
-            name: '-4abbf7b3'
-            widget: string
-          - hint: 'Original link: https://cal.com/intuita, key: -36ff12ed'
-            label: Link
-            name: '-36ff12ed'
-            widget: string
           - hint: >-
               Original link:
               https://www.freeprivacypolicy.com/free-privacy-policy-generator/,
@@ -3793,51 +3802,9 @@ collections:
             label: Link
             name: '-7e2795bb'
             widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#interpretation,
-              key: 6cdaf492
+          - hint: 'Original link: https://codemod.com, key: 497bcbd9'
             label: Link
-            name: 6cdaf492
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#definitions,
-              key: 52323f36
-            label: Link
-            name: 52323f36
-            widget: string
-          - hint: 'Original link: https://intuita.io/, key: -365298e4'
-            label: Link
-            name: '-365298e4'
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#types-of-data-collected,
-              key: 6a6b1bfe
-            label: Link
-            name: 6a6b1bfe
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#personal-data,
-              key: -d99f8b3
-            label: Link
-            name: '-d99f8b3'
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#usage-data,
-              key: 1db517e0
-            label: Link
-            name: 1db517e0
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#tracking-technologies-and-cookies,
-              key: -5b6dee7e
-            label: Link
-            name: '-5b6dee7e'
+            name: 497bcbd9
             widget: string
           - hint: >-
               Original link:
@@ -3846,72 +3813,9 @@ collections:
             label: Link
             name: 7528b065
             widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#use-of-your-personal-data,
-              key: 7d6d6223
+          - hint: 'Original link: mailto:privacy@codemod.com, key: -41772bb8'
             label: Link
-            name: 7d6d6223
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#retention-of-your-personal-data,
-              key: 22bb5ffa
-            label: Link
-            name: 22bb5ffa
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#transfer-of-your-personal-data,
-              key: 72cf1cdb
-            label: Link
-            name: 72cf1cdb
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#delete-your-personal-data,
-              key: -45e6926b
-            label: Link
-            name: '-45e6926b'
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#disclosure-of-your-personal-data,
-              key: -14df923
-            label: Link
-            name: '-14df923'
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#business-transactions,
-              key: -958db88
-            label: Link
-            name: '-958db88'
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#law-enforcement,
-              key: 1cb1a34b
-            label: Link
-            name: 1cb1a34b
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#other-legal-requirements,
-              key: 562e470b
-            label: Link
-            name: 562e470b
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/privacy-policy#security-of-your-personal-data,
-              key: 22177e70
-            label: Link
-            name: '22177e70'
-            widget: string
-          - hint: 'Original link: mailto:privacy@intuita.io, key: 1acc3524'
-            label: Link
-            name: 1acc3524
+            name: '-41772bb8'
             widget: string
           - hint: >-
               Original link: http://tinyurl.com/app-router-recipe, key:
@@ -3934,38 +3838,14 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/terms-and-conditions#interpretation,
-              key: -39232deb
-            label: Link
-            name: '-39232deb'
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/terms-and-conditions#definitions,
-              key: -71a5f76d
-            label: Link
-            name: '-71a5f76d'
-            widget: string
-          - hint: >-
-              Original link:
               https://www.freeprivacypolicy.com/free-terms-and-conditions-generator/,
               key: 538b5588
             label: Link
             name: 538b5588
             widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/terms-and-conditions#severability,
-              key: 7d6f3f46
+          - hint: 'Original link: https://codemod.com/, key: -1a02508a'
             label: Link
-            name: 7d6f3f46
-            widget: string
-          - hint: >-
-              Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/terms-and-conditions#waiver,
-              key: -6d64568f
-            label: Link
-            name: '-6d64568f'
+            name: '-1a02508a'
             widget: string
       - label: Images
         name: images
@@ -4054,7 +3934,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: 2449300f
+            name: '32441991'
             widget: object
             fields:
               - name: url
@@ -4392,7 +4272,7 @@ collections:
                 widget: string
                 required: false
           - label: Image
-            name: '-58dc0911'
+            name: '-108c02e1'
             widget: object
             fields:
               - name: url
@@ -4497,6 +4377,58 @@ collections:
                 required: false
           - label: Image
             name: '-1d3bc06a'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-3b599675'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '2173831'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-3f06943'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 6fc751eb
             widget: object
             fields:
               - name: url
@@ -4640,58 +4572,6 @@ collections:
                 required: false
           - label: Image
             name: '-2ce8a2a5'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-3b599675'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '2173831'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '-3f06943'
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: 6fc751eb
             widget: object
             fields:
               - name: url
