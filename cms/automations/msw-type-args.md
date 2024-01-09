@@ -108,13 +108,13 @@ f_long-description: >-
   };
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/msw/2/type-args
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/type-args
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=6rdxdJ7YioUlKoq-z-4iFPeN3Rs
 f_cli-command: intuita msw/2/type-args
 f_framework: cms/framework/msw.md
 f_applicability-criteria: "MSW version >= 1.0.0"
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: msw-type-args
 title: MSW V2 - Move Generic Arguments and Body Type Casts

@@ -29,12 +29,12 @@ f_shown-in-registry: true
 tags: migrations
 date: 2023-11-28T18:31:45.470Z
 seo:
-  title: Ember.js V5 Upgrade | Intuita Automations
+  title: Ember.js V5 Upgrade | Codemod.com
   description: Put your Ember.js project migration on autopilot with our
     Ember.js-tailored automations. Each automation lands a specific large-scale
     change to help you adopt Ember.js V5.
-  og:title: Ember.js V5 Upgrade | Intuita Automations
-  twitter:title: Ember.js V5 Upgrade | Intuita Automations
+  og:title: Ember.js V5 Upgrade | Codemod.com
+  twitter:title: Ember.js V5 Upgrade | Codemod.com
   twitter:card: Put your Ember.js project migration on autopilot with our
     Ember.js-tailored automations. Each automation lands a specific large-scale
     change to help you adopt Ember.js V5.

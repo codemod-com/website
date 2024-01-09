@@ -46,7 +46,7 @@ f_long-description: >-
   object.notifyPropertyChange('someProperty');
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/notify-property-change
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/notify-property-change
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=TzYcFw0pbJTydA16tTFEvI3sM8M
 f_codemod-studio-link: https://go.intuita.io/XXlTDd
 f_cli-command: intuita ember/5/notify-property-change
@@ -68,9 +68,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T17:04:42.695Z
 seo:
-  title: Ember.js V5 - Notify Property Change | Intuita Automations
-  og:title: Ember.js V5 - Notify Property Change | Intuita Automations
-  twitter:title: Ember.js V5 - Notify Property Change | Intuita Automations
+  title: Ember.js V5 - Notify Property Change | Codemod.com
+  og:title: Ember.js V5 - Notify Property Change | Codemod.com
+  twitter:title: Ember.js V5 - Notify Property Change | Codemod.com
   description: This automation removes all calls to `propertyWillChange` and
     replaces all calls to `propertyDidChange` with `notifyPropertyChange`.
   twitter:card: This automation removes all calls to `propertyWillChange` and

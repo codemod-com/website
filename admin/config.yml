@@ -3652,7 +3652,7 @@ collections:
             name: '-3f316fbd'
             widget: string
           - hint: >-
-              Original link: https://docs.intuita.io/docs/cli/quickstart, key:
+              Original link: https://docs.codemod.com/docs/cli/quickstart, key:
               52ce7af1
             label: Link
             name: 52ce7af1
@@ -3661,7 +3661,7 @@ collections:
             label: Link
             name: '-d9445a8'
             widget: string
-          - hint: 'Original link: https://docs.intuita.io, key: -599fd5b8'
+          - hint: 'Original link: https://docs.codemod.com, key: -599fd5b8'
             label: Link
             name: '-599fd5b8'
             widget: string
@@ -3672,7 +3672,7 @@ collections:
             label: Link
             name: 6dcf58d9
             widget: string
-          - hint: 'Original link: https://docs.intuita.io/blog, key: 7ecb8309'
+          - hint: 'Original link: https://docs.codemod.com/blog, key: 7ecb8309'
             label: Link
             name: 7ecb8309
             widget: string
@@ -3689,7 +3689,7 @@ collections:
             name: 3fe998a9
             widget: string
           - hint: >-
-              Original link: https://docs.intuita.io/blog/dream-migration, key:
+              Original link: https://docs.codemod.com/blog/dream-migration, key:
               -74e03c82
             label: Link
             name: '-74e03c82'
@@ -3704,14 +3704,14 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://docs.intuita.io/docs/codemod-studio/quickstart, key:
+              https://docs.codemod.com/docs/codemod-studio/quickstart, key:
               -3a123b97
             label: Link
             name: '-3a123b97'
             widget: string
           - hint: >-
               Original link:
-              https://docs.intuita.io/docs/vs-code-extension/quickstart, key:
+              https://docs.codemod.com/docs/vs-code-extension/quickstart, key:
               -402fab7e
             label: Link
             name: '-402fab7e'
@@ -3734,7 +3734,7 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://docs.intuita.io/docs/about-intuita/legal/telemetry-compliance,
+              https://docs.codemod.com/docs/about-intuita/legal/telemetry-compliance,
               key: 7fe45151
             label: Link
             name: 7fe45151
@@ -3758,7 +3758,7 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://docs.intuita.io/docs/codemod-registry/intro, key: 77e5bfff
+              https://docs.codemod.com/docs/codemod-registry/intro, key: 77e5bfff
             label: Link
             name: 77e5bfff
             widget: string
@@ -3776,7 +3776,7 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://docs.intuita.io/docs/cli/quickstart#install-cli, key:
+              https://docs.codemod.com/docs/cli/quickstart#install-cli, key:
               153c0b5c
             label: Link
             name: 153c0b5c

@@ -36,7 +36,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/cp-property-map
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/cp-property-map
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=T2qg3WOT4qOdTHg0LnDcfh16j30
 f_codemod-studio-link: https://go.intuita.io/7Uw5Jb
 f_cli-command: intuita ember/5/cp-property-map
@@ -58,9 +58,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T15:51:27.095Z
 seo:
-  title: Ember.js V5 - Cp Property Map | Intuita Automations
-  og:title: Ember.js V5 - Cp Property Map | Intuita Automations
-  twitter:title: Ember.js V5 - Cp Property Map | Intuita Automations
+  title: Ember.js V5 - Cp Property Map | Codemod.com
+  og:title: Ember.js V5 - Cp Property Map | Codemod.com
+  twitter:title: Ember.js V5 - Cp Property Map | Codemod.com
   description: This automation adds extra property dependencies to computed
     properties like `filter`, `map`, and `sort`, automating the inclusion of an
     array of dependent keys as a second parameter.

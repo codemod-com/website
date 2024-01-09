@@ -47,14 +47,14 @@ f_long-description: >-
   -   [msw v1 to v2 migration guide -> imports](https://mswjs.io/docs/migrations/1.x-to-2.x/#imports)
 
   ````
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/imports
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/msw/2/imports
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=03s9tN6jERYILUlAfRX9cNotRpc
 f_codemod-studio-link: https://go.intuita.io/vUBlZL
 f_cli-command: intuita msw/2/imports
 f_framework: cms/framework/msw.md
 f_applicability-criteria: MSW version >= 1.0.0
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: msw-imports
 updated-on: 2023-11-17T15:17:39.056Z

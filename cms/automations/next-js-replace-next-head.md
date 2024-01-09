@@ -86,7 +86,7 @@ f_long-description: >-
 
 
   * [App Router Upgrade - Migrating Next Head](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#step-3-migrating-nexthead)
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/13/replace-next-head
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/replace-next-head
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=HCouE4WzwvH-jcfOJ3xYLz4YaTA
 f_cli-command: intuita next/13/replace-next-head
 f_framework: cms/framework/next-js.md
@@ -107,9 +107,9 @@ f_labels:
 tags: automations
 date: 2023-11-30T17:02:33.753Z
 seo:
-  title: Next.js Replace Next Head | Intuita Automations
-  og:title: Next.js Replace Next Head | Intuita Automations
-  twitter:title: Next.js Replace Next Head | Intuita Automations
+  title: Next.js Replace Next Head | Codemod.com
+  og:title: Next.js Replace Next Head | Codemod.com
+  twitter:title: Next.js Replace Next Head | Codemod.com
   description: This automation generates a static metadata object based on meta tags
     managed by `next/head`.
   twitter:card: This automation generates a static metadata object based on meta tags

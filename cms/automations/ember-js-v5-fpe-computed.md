@@ -57,7 +57,7 @@ f_long-description: |-
   client.set('lastName', 'Fuller');
   client.get('fullName'); // 'Betty Fuller'
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/fpe-computed
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/fpe-computed
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=jisEa59u6ByQ-XI9pMkBa_GsvCw
 f_codemod-studio-link: https://go.intuita.io/du04dP
 f_cli-command: intuita ember/5/fpe-computed
@@ -79,9 +79,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:25:52.246Z
 seo:
-  title: Ember.js V5 - Fpe Computed | Intuita Automations
-  og:title: Ember.js V5 - Fpe Computed | Intuita Automations
-  twitter:title: Ember.js V5 - Fpe Computed | Intuita Automations
+  title: Ember.js V5 - Fpe Computed | Codemod.com
+  og:title: Ember.js V5 - Fpe Computed | Codemod.com
+  twitter:title: Ember.js V5 - Fpe Computed | Codemod.com
   description: The "Fpe Computed" codemod for Ember.js V5 refactors computed
     property definitions from the older `.property` method to the modern
     `computed` function syntax.

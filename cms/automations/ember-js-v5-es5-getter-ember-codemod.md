@@ -78,7 +78,7 @@ f_long-description: >-
   controller['foo-bar'];
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/edit/main/codemods/ember/5/es5-getter-ember-codemod
+f_github-link: https://github.com/codemod-com/codemod-registry/edit/main/codemods/ember/5/es5-getter-ember-codemod
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=gRfEFfyVMWOpWwejLmCFzbnPK8I
 f_codemod-studio-link: https://go.intuita.io/Ay4HST
 f_cli-command: intuita ember/5/es5-getter-ember-codemod
@@ -100,9 +100,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:19:13.647Z
 seo:
-  title: Ember.js V5 - ES5 Getter Ember | Intuita Automations
-  og:title: Ember.js V5 - ES5 Getter Ember | Intuita Automations
-  twitter:title: Ember.js V5 - ES5 Getter Ember | Intuita Automations
+  title: Ember.js V5 - ES5 Getter Ember | Codemod.com
+  og:title: Ember.js V5 - ES5 Getter Ember | Codemod.com
+  twitter:title: Ember.js V5 - ES5 Getter Ember | Codemod.com
   description: This automation transforms `get()` to `getProperties()` to use
     traditional object dot notation.
   twitter:card: This automation transforms `get()` to `getProperties()` to use

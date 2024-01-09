@@ -32,13 +32,13 @@ f_long-description: >-
   ### Links for more info
 
   -   [msw v1 to v2 migration guide -> req passthrough](https://mswjs.io/docs/migrations/1.x-to-2.x/#reqpassthrough)
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/msw/2/req-passthrough
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/req-passthrough
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=SHuKC96klArO3YKWCrmydNvoQl8
 f_cli-command: intuita msw/2/req-passthrough
 f_framework: cms/framework/msw.md
 f_applicability-criteria: "MSW version >= 1.0.0"
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: msw-req-passthrough
 title: MSW V2 - Replace printHandlers() calls

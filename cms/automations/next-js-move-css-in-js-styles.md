@@ -74,13 +74,13 @@ f_long-description: >-
 
 
   * [Next.js - CSS in JS](https://nextjs.org/docs/pages/building-your-application/styling/css-in-js)
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/13/move-css-in-js-styles
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/move-css-in-js-styles
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=fPpa1xqB9D0AN4VazhrRkrWri9g
 f_cli-command: intuita next/13/move-css-in-js-styles
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version higher or equal to 13.4
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: app-router-recipe
 title: Next.js Move CSS in JS Styles
@@ -95,9 +95,9 @@ f_labels:
 tags: automations
 date: 2023-11-30T15:56:24.633Z
 seo:
-  title: Next.js Move CSS in JS Styles | Intuita Automations
-  og:title: Next.js Move CSS in JS Styles | Intuita Automations
-  twitter:title: Next.js Move CSS in JS Styles | Intuita Automations
+  title: Next.js Move CSS in JS Styles | Codemod.com
+  og:title: Next.js Move CSS in JS Styles | Codemod.com
+  twitter:title: Next.js Move CSS in JS Styles | Codemod.com
   description: This is a highly experimental codemod that moves the CSS-in-JS
     styles into the CSS Modules.
   twitter:card: This is a highly experimental codemod that moves the CSS-in-JS

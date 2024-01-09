@@ -26,7 +26,7 @@ f_long-description: |-
     return (visible ? <Tag /> : null);
   };
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/antd/5/props-changed-migration
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/antd/5/props-changed-migration
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=z9CCNbzBKfYVGQ_FZJNG6nrmRTs
 f_cli-command: intuita antd/5/props-changed-migration
 f_framework: cms/framework/antd.md
@@ -47,9 +47,9 @@ f_labels:
   - cms/labels/ant-design-v5-upgrade.md
 tags: automations
 seo:
-  title: Antd V5 - Props Changed Migration | Intuita Automations
-  og:title: Antd V5 - Props Changed Migration | Intuita Automations
-  twitter:title: Antd V5 - Props Changed Migration | Intuita Automations
+  title: Antd V5 - Props Changed Migration | Codemod.com
+  og:title: Antd V5 - Props Changed Migration | Codemod.com
+  twitter:title: Antd V5 - Props Changed Migration | Codemod.com
   description: This codemod changes the way the component props are applied.
   twitter:card: This codemod changes the way the component props are applied.
 ---

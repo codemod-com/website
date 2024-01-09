@@ -57,7 +57,7 @@ f_long-description: >-
   sendEvent(job, 'completed'); // Logs 'Job completed!'
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/ember/5/fpe-on
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/fpe-on
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=cWArI_-rju-0ezn7eeit71rEfwI
 f_codemod-studio-link: https://go.intuita.io/vw0bbk
 f_cli-command: intuita ember/5/fpe-on
@@ -79,9 +79,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:43:19.844Z
 seo:
-  title: Ember.js V5 - Fpe On | Intuita Automations
-  og:title: Ember.js V5 - Fpe On | Intuita Automations
-  twitter:title: Ember.js V5 - Fpe On | Intuita Automations
+  title: Ember.js V5 - Fpe On | Codemod.com
+  og:title: Ember.js V5 - Fpe On | Codemod.com
+  twitter:title: Ember.js V5 - Fpe On | Codemod.com
   description: This automation updates event handling in Ember.js by transitioning
     from the `.on` method to using the `on` function for event listeners.
   twitter:card: This automation updates event handling in Ember.js by

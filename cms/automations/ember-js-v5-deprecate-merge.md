@@ -26,7 +26,7 @@ f_long-description: |-
   var b = { last: 'Katz' };
   assign(a, b);
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/ember/5/deprecate-merge
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/deprecate-merge
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=SwH9ekSK1NDUt3QxSb3Hl4VfdAU
 f_codemod-studio-link: https://go.intuita.io/SnbAVW
 f_cli-command: intuita ember/5/deprecate-merge
@@ -48,9 +48,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:05:41.946Z
 seo:
-  title: Ember.js V5 - Deprecate Merge | Intuita Automations
-  og:title: Ember.js V5 - Deprecate Merge | Intuita Automations
-  twitter:title: Ember.js V5 - Deprecate Merge | Intuita Automations
+  title: Ember.js V5 - Deprecate Merge | Codemod.com
+  og:title: Ember.js V5 - Deprecate Merge | Codemod.com
+  twitter:title: Ember.js V5 - Deprecate Merge | Codemod.com
   description: This automation replaces all calls to `Ember.merge` with `Ember.assign`.
   twitter:card: This automation replaces all calls to `Ember.merge` with `Ember.assign`.
   og:image: /assets/images/deprecate-merge.jpg

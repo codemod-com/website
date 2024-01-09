@@ -46,13 +46,13 @@ f_long-description: >-
   }
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/13/replace-use-search-params
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/replace-use-search-params
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=mdYqG7HyVLFNaAp4S60Ws19TQSQ
 f_cli-command: intuita next/13/replace-use-search-params
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version is greater or equal to 13.4.
 f_verified-codemod: false
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: app-router-recipe
 title: Next.js Replace useSearchParams with useCompatSearchParams
@@ -67,9 +67,9 @@ f_labels:
 tags: automations
 date: 2023-11-30T17:13:54.620Z
 seo:
-  title: Next.js Replace useSearchParams | Intuita Automations
-  og:title: Next.js Replace useSearchParams | Intuita Automations
-  twitter:title: Next.js Replace useSearchParams | Intuita Automations
+  title: Next.js Replace useSearchParams | Codemod.com
+  og:title: Next.js Replace useSearchParams | Codemod.com
+  twitter:title: Next.js Replace useSearchParams | Codemod.com
   description: This automation replaces `useSearchParams` with `useCompatSearchParams`.
   twitter:card: This automation replaces `useSearchParams` with `useCompatSearchParams`.
   og:image: /assets/images/replace-usesearchparams.jpg

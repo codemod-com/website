@@ -49,7 +49,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/ember/5/convert-module-for-to-setup-test
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/convert-module-for-to-setup-test
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=VTupulWTlhXH3W_vzfSGItBnJM4
 f_codemod-studio-link: https://go.intuita.io/9k2w4p
 f_cli-command: intuita ember/5/convert-module-for-to-setup-test
@@ -71,9 +71,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T15:43:26.903Z
 seo:
-  title: Ember.js V5 - Convert moduleFor to setupTest | Intuita Automations
-  og:title: Ember.js V5 - Convert moduleFor to setupTest | Intuita Automations
-  twitter:title: Ember.js V5 - Convert moduleFor to setupTest | Intuita Automations
+  title: Ember.js V5 - Convert moduleFor to setupTest | Codemod.com
+  og:title: Ember.js V5 - Convert moduleFor to setupTest | Codemod.com
+  twitter:title: Ember.js V5 - Convert moduleFor to setupTest | Codemod.com
   description: This automation transforms from the older `moduleFor*` syntax of
     `ember-qunit@2` to the newer `setup*Test` syntax.
   twitter:card: This automation transforms from the older `moduleFor*` syntax of

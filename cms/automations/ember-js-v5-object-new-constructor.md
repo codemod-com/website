@@ -42,7 +42,7 @@ f_long-description: >-
   let foo = new Foo({ bar: 123 });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/object-new-constructor
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/object-new-constructor
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=DByr5sk2809c2rfO8_TvT-RB0Pw
 f_codemod-studio-link: https://go.intuita.io/RTN3yv
 f_cli-command: intuita ember/5/object-new-constructor
@@ -64,9 +64,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T17:23:11.303Z
 seo:
-  title: Ember.js V5 - Object New Constructor | Intuita Automations
-  og:title: Ember.js V5 - Object New Constructor | Intuita Automations
-  twitter:title: Ember.js V5 - Object New Constructor | Intuita Automations
+  title: Ember.js V5 - Object New Constructor | Codemod.com
+  og:title: Ember.js V5 - Object New Constructor | Codemod.com
+  twitter:title: Ember.js V5 - Object New Constructor | Codemod.com
   description: This codemod replaces all calls to `new EmberObject()` with
     `EmberObject.create()` and adds a `constructor` function to classes that
     extend from `EmberObject` so that the classes no longer extend from

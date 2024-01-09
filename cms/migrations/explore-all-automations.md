@@ -5,7 +5,7 @@ f_migration-hero-description: + more automations available
 f_featured-in-home: false
 f_order-rank: 999
 f_is-cta: true
-f_automations-filter-url: https://www.intuita.io/automations/
+f_automations-filter-url: https://www.codemod.com/automations/
 layout: "[migrations].html"
 slug: explore-all-automations
 title: Explore All Automations

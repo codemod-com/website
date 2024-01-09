@@ -65,13 +65,13 @@ f_long-description: >-
   }
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/13/replace-next-router
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/replace-next-router
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=-wqkAQr7ILgYeTRozWTEgiUvmSY
 f_cli-command: intuita next/13/replace-next-router
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version is greater or equal to 13.4.
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: app-router-recipe
 title: Next.js Replace Next Router
@@ -86,9 +86,9 @@ f_labels:
 tags: automations
 date: 2023-11-30T17:10:02.999Z
 seo:
-  title: Next.js Replace Next Router | Intuita Automations
-  og:title: Next.js Replace Next Router | Intuita Automations
-  twitter:title: Next.js Replace Next Router | Intuita Automations
+  title: Next.js Replace Next Router | Codemod.com
+  og:title: Next.js Replace Next Router | Codemod.com
+  twitter:title: Next.js Replace Next Router | Codemod.com
   description: This automation allows you to migrate the `useRouter` hook to the new
     `useRouter` hook imported from `next/navigation`.
   twitter:card: This automation allows you to migrate the `useRouter` hook to the new

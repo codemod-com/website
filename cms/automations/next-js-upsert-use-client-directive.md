@@ -50,13 +50,13 @@ f_long-description: >-
   }
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/13/upsert-use-client-directive
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/upsert-use-client-directive
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=f_fR6Z-Q5qlxnPnHK5-tpeNckVw
 f_cli-command: intuita next/13/upsert-use-client-directive
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version is greater or equal to 13.4.
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: app-router-recipe
 title: Next.js Upsert Use Client Directive
@@ -71,9 +71,9 @@ f_labels:
 tags: automations
 date: 2023-11-30T17:34:17.366Z
 seo:
-  title: Next.js Upsert Use Client Directive | Intuita Automations
-  og:title: Next.js Upsert Use Client Directive | Intuita Automations
-  twitter:title: Next.js Upsert Use Client Directive | Intuita Automations
+  title: Next.js Upsert Use Client Directive | Codemod.com
+  og:title: Next.js Upsert Use Client Directive | Codemod.com
+  twitter:title: Next.js Upsert Use Client Directive | Codemod.com
   description: The automation will look for identifiers and string literals common
     for files that contain client-side code, such as React hooks or event
     handlers.

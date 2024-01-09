@@ -67,7 +67,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/ember/5/app-controller-router-props
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/app-controller-router-props
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=2ilOsMOt-d18XxYxfiO3RhiKtOI
 f_codemod-studio-link: https://go.intuita.io/xmT5B0
 f_cli-command: intuita ember/5/app-controller-router-props
@@ -89,9 +89,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T15:30:13.935Z
 seo:
-  title: Ember.js V5 - App Controller Router Props | Intuita Automations
-  og:title: Ember.js V5 - App Controller Router Props | Intuita Automations
-  twitter:title: Ember.js V5 - App Controller Router Props | Intuita Automations
+  title: Ember.js V5 - App Controller Router Props | Codemod.com
+  og:title: Ember.js V5 - App Controller Router Props | Codemod.com
+  twitter:title: Ember.js V5 - App Controller Router Props | Codemod.com
   description: This codemod replaces all occurrences of `this.currentRouteName`
     with `this.router.currentRouteName` and `this.currentPath` with
     `this.router.currentPath`.

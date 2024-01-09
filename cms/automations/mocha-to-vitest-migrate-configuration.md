@@ -143,13 +143,13 @@ f_long-description: >-
 
 
   `Removed`
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/mocha/vitest/migrate-configuration
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/mocha/vitest/migrate-configuration
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=-10xavJW4dcVcp6p_pjHxw9wfMA
 f_cli-command: intuita mocha/vitest/migrate-configuration
 f_framework: cms/framework/vitest.md
 f_applicability-criteria: Mocha  >= 9.0.0
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: ember-app-controller-router-props
 updated-on: 2023-12-18T14:34:24.373Z
@@ -164,9 +164,9 @@ f_labels:
   - cms/labels/mocha-to-vitest-migration.md
 tags: automations
 seo:
-  title: Migrate Configuration from Mocha to Vitest | Intuita Automations
-  og:title: Migrate Configuration from Mocha to Vitest | Intuita Automations
-  twitter:title: Migrate Configuration from Mocha to Vitest | Intuita Automations
+  title: Migrate Configuration from Mocha to Vitest | Codemod.com
+  og:title: Migrate Configuration from Mocha to Vitest | Codemod.com
+  twitter:title: Migrate Configuration from Mocha to Vitest | Codemod.com
   description: Run this automation to upgrade configuration files that need to be
     changed after migrating from `mocha` to `vitest`.
   twitter:card: Run this automation to upgrade configuration files that need to be

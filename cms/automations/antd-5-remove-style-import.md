@@ -25,7 +25,7 @@ f_long-description: >-
   // import 'antd/es/auto-complete/style'; // import 'antd/lib/button/style/index.less'; // import 'antd/dist/antd.compact.min.css';
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/antd/5/remove-style-import
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/antd/5/remove-style-import
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=ovpw9tnJRJOsXRJSawZ4ycQhWGQ
 f_cli-command: intuita antd/5/remove-style-import
 f_framework: cms/framework/antd.md
@@ -46,9 +46,9 @@ f_labels:
   - cms/labels/ant-design-v5-upgrade.md
 tags: automations
 seo:
-  title: Antd V5 - Remove Style Import | Intuita Automations
-  og:title: Antd V5 - Remove Style Import | Intuita Automations
-  twitter:title: Antd V5 - Remove Style Import | Intuita Automations
+  title: Antd V5 - Remove Style Import | Codemod.com
+  og:title: Antd V5 - Remove Style Import | Codemod.com
+  twitter:title: Antd V5 - Remove Style Import | Codemod.com
   description: Comment out the style file import from antd (in js file).
   twitter:card: Comment out the style file import from antd (in js file).
 ---

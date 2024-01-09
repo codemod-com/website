@@ -34,7 +34,7 @@ f_long-description: >-
 
 
   * [Next.js V14 Upgrade](https://nextjs.org/docs/pages/building-your-application/upgrading/version-14)
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/14/next-og-import
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/14/next-og-import
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=YH4iWtje8EfAlF0_ywnKrKTrQJY
 f_cli-command: intuita next/14/next-og-import
 f_framework: cms/framework/next-js.md
@@ -55,9 +55,9 @@ f_labels:
 tags: automations
 date: 2023-12-01T15:31:50.060Z
 seo:
-  title: Next OG Import Automation | Intuita Automations
-  og:title: Next OG Import Automation | Intuita Automations
-  twitter:title: Next OG Import Automation | Intuita Automations
+  title: Next OG Import Automation | Codemod.com
+  og:title: Next OG Import Automation | Codemod.com
+  twitter:title: Next OG Import Automation | Codemod.com
   description: This automation transforms imports from `next/server` to `next/og`
     for the usage of Dynamic OG Image Generation.
   twitter:card: This automation transforms imports from `next/server` to `next/og`

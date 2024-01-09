@@ -30,13 +30,13 @@ f_long-description: |-
       });
   });
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/mocha/vitest/migrate-tests
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/mocha/vitest/migrate-tests
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=ixL8xbXt5GJlQmntTjYCF_7K7-Y
 f_cli-command: intuita mocha/vitest/migrate-tests
 f_framework: cms/framework/vitest.md
 f_applicability-criteria: Mocha  >= 9.0.0
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: ember-app-controller-router-props
 updated-on: 2023-12-18T14:39:14.959Z
@@ -51,9 +51,9 @@ f_labels:
   - cms/labels/mocha-to-vitest-migration.md
 tags: automations
 seo:
-  title: Migrate Tests from Mocha to Vitest| Intuita Automations
-  og:title: Migrate Tests from Mocha to Vitest| Intuita Automations
-  twitter:title: Migrate Tests from Mocha to Vitest| Intuita Automations
+  title: Migrate Tests from Mocha to Vitest| Codemod.com
+  og:title: Migrate Tests from Mocha to Vitest| Codemod.com
+  twitter:title: Migrate Tests from Mocha to Vitest| Codemod.com
   description: Run this codemod to upgrade your codebase from using mocha to vitest.
   twitter:card: Run this codemod to upgrade your codebase from using mocha to vitest.
   og:image: /assets/images/mocha-to-vitest-migrate-tests.jpg

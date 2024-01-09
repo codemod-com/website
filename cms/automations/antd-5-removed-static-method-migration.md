@@ -66,7 +66,7 @@ f_long-description: >-
   };
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/antd/5/removed-static-method-migration
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/antd/5/removed-static-method-migration
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=kGFeVKZNWhdp1Al8BJ03ZYs_T-s
 f_cli-command: intuita antd/5/removed-static-method-migration
 f_framework: cms/framework/antd.md
@@ -87,9 +87,9 @@ f_labels:
   - cms/labels/ant-design-v5-upgrade.md
 tags: automations
 seo:
-  title: Antd V5 - Removed Static Method Migration | Intuita Automations
-  og:title: Antd V5 - Removed Static Method Migration | Intuita Automations
-  twitter:title: Antd V5 - Removed Static Method Migration | Intuita Automations
+  title: Antd V5 - Removed Static Method Migration | Codemod.com
+  og:title: Antd V5 - Removed Static Method Migration | Codemod.com
+  twitter:title: Antd V5 - Removed Static Method Migration | Codemod.com
   description: Replace message.warn with message.warning.
   twitter:card: Replace message.warn with message.warning.
 ---

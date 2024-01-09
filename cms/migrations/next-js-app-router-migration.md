@@ -43,9 +43,9 @@ f_testimonials:
   - cms/testimonials/kaelig-deloumeau-prigent.md
 date: 2023-11-28T18:30:45.091Z
 seo:
-  title: Next.js App router Migration | Intuita Automations
-  og:title: Next.js App router Migration | Intuita Automations
-  twitter:title: Next.js App router Migration | Intuita Automations
+  title: Next.js App router Migration | Codemod.com
+  og:title: Next.js App router Migration | Codemod.com
+  twitter:title: Next.js App router Migration | Codemod.com
   description: Put your Next.js project migration on autopilot with our Next.js
     App Router-tailored automations.
   twitter:card: Put your Next.js project migration on autopilot with our Next.js

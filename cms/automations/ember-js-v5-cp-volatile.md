@@ -36,7 +36,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/ember/5/cp-volatile
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/cp-volatile
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=t0qpljVDAowX4w-aSSghMAMIa38
 f_codemod-studio-link: https://go.intuita.io/XtmaVa
 f_cli-command: intuita ember/5/cp-volatile
@@ -58,9 +58,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:01:45.964Z
 seo:
-  title: Ember.js V5 - Cp Volatile | Intuita Automations
-  og:title: Ember.js V5 - Cp Property Volatile | Intuita Automations
-  twitter:title: Ember.js V5 - Cp Volatile | Intuita Automations
+  title: Ember.js V5 - Cp Volatile | Codemod.com
+  og:title: Ember.js V5 - Cp Property Volatile | Codemod.com
+  twitter:title: Ember.js V5 - Cp Volatile | Codemod.com
   description: This automation removes all calls to `volatile()` and ensures that
     native getters are directly used.
   twitter:card: This automation removes all calls to `volatile()` and ensures that

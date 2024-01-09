@@ -48,7 +48,7 @@ f_long-description: >-
 
 
   * [Next.js V14 Upgrade](https://nextjs.org/docs/pages/building-your-application/upgrading/version-14)
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/14/metadata-to-viewport-export
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/14/metadata-to-viewport-export
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=hCw9Zucqpf__QgZRCVDUvzSMdeE
 f_cli-command: intuita next/14/metadata-to-viewport-export
 f_framework: cms/framework/next-js.md
@@ -69,9 +69,9 @@ f_labels:
 tags: automations
 date: 2023-12-01T15:50:10.547Z
 seo:
-  title: Next.js v14 Metadata to Viewport Export | Intuita Automations
-  og:title: Next.js v14 Metadata to Viewport Export | Intuita Automations
-  twitter:title: Next.js v14 Metadata to Viewport Export | Intuita Automations
+  title: Next.js v14 Metadata to Viewport Export | Codemod.com
+  og:title: Next.js v14 Metadata to Viewport Export | Codemod.com
+  twitter:title: Next.js v14 Metadata to Viewport Export | Codemod.com
   description: This automation migrates certain viewport metadata to `viewport` export.
   twitter:card: This automation migrates certain viewport metadata to `viewport` export.
   og:image: /assets/images/next-og-import.jpg

@@ -74,7 +74,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/ember/5/deprecate-router-events
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/deprecate-router-events
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=mwdY99AT40pd8fQUil33BeR7SEo
 f_codemod-studio-link: https://go.intuita.io/MYgG49
 f_cli-command: intuita ember/5/deprecate-router-events
@@ -96,9 +96,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:08:37.929Z
 seo:
-  title: Ember.js V5 - Deprecate Router Events | Intuita Automations
-  og:title: Ember.js V5 - Deprecate Router Events | Intuita Automations
-  twitter:title: Ember.js V5 - Deprecate Router Events | Intuita Automations
+  title: Ember.js V5 - Deprecate Router Events | Codemod.com
+  og:title: Ember.js V5 - Deprecate Router Events | Codemod.com
+  twitter:title: Ember.js V5 - Deprecate Router Events | Codemod.com
   description: This automation removes all calls to `willTransition` or
     `didTransition` events on the Router via usage of `routeWillChange` event
     listener and `routeDidChange` event listener.

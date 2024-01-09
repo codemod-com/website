@@ -1,6 +1,6 @@
 ---
 f_github-link: >-
-  https://github.com/intuita-inc/codemod-registry/tree/main/react-router/6/compat-route
+  https://github.com/codemod-com/codemod-registry/tree/main/react-router/6/compat-route
 f_vs-code-link: https://tinyurl.com/react-router-compat-route
 f_verified-codemod: true
 f_estimated-time-saving: 5 minutes/occurrence

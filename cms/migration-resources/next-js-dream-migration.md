@@ -1,6 +1,6 @@
 ---
-f_resource-link: https://docs.intuita.io/blog/dream-migration
-f_resource-title: Next.js App Router Migration with Intuita
+f_resource-link: https://docs.codemod.com/blog/dream-migration
+f_resource-title: Next.js App Router Migration with Codemod.com
 title: Next.js - Dream Migration
 slug: next-js-dream-migration
 f_author-image:
