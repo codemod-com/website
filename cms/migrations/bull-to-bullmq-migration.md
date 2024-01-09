@@ -39,14 +39,14 @@ layout: "[migrations].html"
 date: 2023-12-08T17:34:36.047Z
 seo:
   noindex: false
-  twitter:title: Bull to BullMQ Migration | Intuita Automations
+  twitter:title: Bull to BullMQ Migration | Codemod.com
   twitter:card: Put your Bull to BullMQ migration on autopilot with our
     BullMQ-tailored automations. Each automation lands a specific large-scale
     change to help you adopt BullMQ faster and easier.
-  title: Bull to BullMQ Migration | Intuita Automations
+  title: Bull to BullMQ Migration | Codemod.com
   description: Put your Bull to BullMQ migration on autopilot with our
     BullMQ-tailored automations. Each automation lands a specific large-scale
     change to help you adopt BullMQ faster and easier.
-  og:title: Bull to BullMQ Migration | Intuita Automations
+  og:title: Bull to BullMQ Migration | Codemod.com
   og:image: /assets/images/bull-to-bullmq.jpg
 ---

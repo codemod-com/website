@@ -65,13 +65,13 @@ f_long-description: >-
 
 
   * [App Router Migration Guide | Vercel](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration)
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/next/13/app-directory-boilerplate
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/next/13/app-directory-boilerplate
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=QKEdp-pofR9UnglrKAGDm1Oj6W0
 f_cli-command: intuita next/13/app-directory-boilerplate
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version is greater or equal to 13.4.
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: app-router-recipe
 title: Next.js App Directory Boilerplate
@@ -86,9 +86,9 @@ f_labels:
 tags: automations
 date: 2023-11-29T16:55:21.281Z
 seo:
-  title: Next.js App Directory Boilerplate | Intuita Automations
-  og:title: Next.js App Directory Boilerplate | Intuita Automations
-  twitter:title: Next.js App Directory Boilerplate | Intuita Automations
+  title: Next.js App Directory Boilerplate | Codemod.com
+  og:title: Next.js App Directory Boilerplate | Codemod.com
+  twitter:title: Next.js App Directory Boilerplate | Codemod.com
   description: This automation helps you migrate to the Next.js app directory by
     reading the contents of your `pages` directory and creates the placeholder
     files.

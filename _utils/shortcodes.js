@@ -49,8 +49,14 @@ module.exports = function (eleventyConfig) {
         }
 
         if (oembedUrl != null) {
-            const oembedRes = await (await fetch(oembedUrl)).json()
-            return oembedRes.html;
+            try {
+                const response = await fetch(oembedUrl);
+                const oembedRes = await response.json();
+                return oembedRes.html ? oembedRes.html : "";
+            } catch (error) {
+                console.error("Error fetching oEmbed response: ", error);
+                return "";
+            }
         }
 
         return "";

@@ -42,7 +42,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/ember/5/fpe-observes
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/fpe-observes
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=r2pmqub8Ca8mvjAu-THl2YNei6k
 f_codemod-studio-link: https://go.intuita.io/U6OywE
 f_cli-command: intuita ember/5/fpe-observes
@@ -64,9 +64,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:32:38.112Z
 seo:
-  title: Ember.js V5 - Fpe Observes | Intuita Automations
-  og:title: Ember.js V5 - Fpe Observes | Intuita Automations
-  twitter:title: Ember.js V5 - Fpe Observes | Intuita Automations
+  title: Ember.js V5 - Fpe Observes | Codemod.com
+  og:title: Ember.js V5 - Fpe Observes | Codemod.com
+  twitter:title: Ember.js V5 - Fpe Observes | Codemod.com
   description: This automation refactors observer definitions in Ember.js from
     using the `.observes` method to the modern `observer` function syntax.
   twitter:card: This automation refactors observer definitions in Ember.js from

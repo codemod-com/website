@@ -42,7 +42,7 @@ f_long-description: >-
 
 
   * [Next.js App Router Migration - New Link](https://nextjs.org/docs/pages/building-your-application/upgrading/codemods#new-link)
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/13/new-link
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/new-link
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=lhVaxNlJkzNgtD-kgO09P1GPXKg
 f_cli-command: intuita next/13/new-link
 f_framework: cms/framework/next-js.md
@@ -63,9 +63,9 @@ f_labels:
 tags: automations
 date: 2023-11-30T16:16:11.479Z
 seo:
-  title: Next.js New Link | Intuita Automations
-  og:title: Next.js New Link | Intuita Automations
-  twitter:title: Next.js New Link | Intuita Automations
+  title: Next.js New Link | Codemod.com
+  og:title: Next.js New Link | Codemod.com
+  twitter:title: Next.js New Link | Codemod.com
   description: This automation safely removes <a> from Link components imported
     from the next/link module or adds the legacyBehavior prop on the component
     level.

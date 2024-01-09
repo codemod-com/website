@@ -36,7 +36,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/ember/5/cp-property
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/cp-property
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=UEjLA-WkII1TJWdF-uBUDh_EGtk
 f_codemod-studio-link: https://go.intuita.io/ZTJPNB
 f_cli-command: intuita ember/5/cp-property
@@ -58,9 +58,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T15:58:45.777Z
 seo:
-  title: Ember.js V5 - Cp Property | Intuita Automations
-  og:title: Ember.js V5 - Cp Property Map | Intuita Automations
-  twitter:title: Ember.js V5 - Cp Property | Intuita Automations
+  title: Ember.js V5 - Cp Property | Codemod.com
+  og:title: Ember.js V5 - Cp Property Map | Codemod.com
+  twitter:title: Ember.js V5 - Cp Property | Codemod.com
   description: This automation modifies the `.property()` to move additional
     property dependencies directly into the main definition of an existing
     computed property.

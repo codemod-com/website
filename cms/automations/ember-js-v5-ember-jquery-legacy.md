@@ -39,7 +39,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/ember-jquery-legacy
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/ember-jquery-legacy
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=7ov34iPxeWaG6gKTD3mLR4ksgM0
 f_codemod-studio-link: https://go.intuita.io/86LYcy
 f_cli-command: intuita ember/5/ember-jquery-legacy
@@ -61,9 +61,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:13:07.963Z
 seo:
-  title: Ember.js V5 - Ember Jquery Legacy | Intuita Automations
-  og:title: Ember.js V5 - Ember Jquery Legacy | Intuita Automations
-  twitter:title: Ember.js V5 - Ember Jquery Legacy | Intuita Automations
+  title: Ember.js V5 - Ember Jquery Legacy | Codemod.com
+  og:title: Ember.js V5 - Ember Jquery Legacy | Codemod.com
+  twitter:title: Ember.js V5 - Ember Jquery Legacy | Codemod.com
   description: This codemod ensures access to the native event without triggering
     any deprecations via wrapping the `event` with the `normalizeEvent` function
     provided by `ember-jquery-legacy`.

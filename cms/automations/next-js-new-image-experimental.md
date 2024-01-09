@@ -178,7 +178,7 @@ f_long-description: >-
 
 
   * [Next Image Experimental](https://nextjs.org/docs/pages/building-your-application/upgrading/codemods#next-image-experimental)
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/13/new-image-experimental
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/new-image-experimental
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=oU68MgnhDvq08nBVNTQK8fouqGI
 f_cli-command: intuita next/13/new-image-experimental
 f_framework: cms/framework/next-js.md
@@ -199,9 +199,9 @@ f_labels:
 tags: automations
 date: 2023-11-30T16:07:44.151Z
 seo:
-  title: Next.js New Image Experimental | Intuita Automations
-  og:title: Next.js New Image Experimental | Intuita Automations
-  twitter:title: Next.js New Image Experimental | Intuita Automations
+  title: Next.js New Image Experimental | Codemod.com
+  og:title: Next.js New Image Experimental | Codemod.com
+  twitter:title: Next.js New Image Experimental | Codemod.com
   description: This automation dangerously migrates the usages of the Image component
     from the next/legacy/image module to the next/image module.
   twitter:card: This automation dangerously migrates the usages of the Image

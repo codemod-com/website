@@ -43,9 +43,9 @@ f_testimonials:
   - cms/testimonials/kaelig-deloumeau-prigent.md
 date: 2023-12-01T14:59:04.261Z
 seo:
-  title: Next.js V14 Upgrade | Intuita Automations
-  og:title: Next.js V14 Upgrade | Intuita Automations
-  twitter:title: Next.js V14 Upgrade | Intuita Automations
+  title: Next.js V14 Upgrade | Codemod.com
+  og:title: Next.js V14 Upgrade | Codemod.com
+  twitter:title: Next.js V14 Upgrade | Codemod.com
   description: Put your Next.js project upgrade on autopilot with Next.js v14
     migration automations.
   twitter:card: Put your Next.js project upgrade on autopilot with Next.js v14

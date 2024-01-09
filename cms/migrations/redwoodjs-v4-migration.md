@@ -3,7 +3,7 @@ created-on: 2023-11-15T19:19:38.392Z
 f_framework: cms/framework/redwoodjs.md
 f_migration-title: RedwoodJS v4 Migration
 f_migration-hero-description: RedwoodJS v4 comes with a new auth API and
-  enhanced GraphQL security. With Intuita, you can upgrade to RedwoodJS v4
+  enhanced GraphQL security. With Codemod.com, you can upgrade to RedwoodJS v4
   easily with the help of automations.
 f_enterprise-migration-section-call-description: With our AI-powered Platform,
   RedwoodJS-tailored tools, and RedwoodJS migration experience, we can help your

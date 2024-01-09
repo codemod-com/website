@@ -31,12 +31,12 @@ f_testimonials:
 f_migrate-from-title: MSW V1
 date: 2023-11-22T15:09:23.981Z
 seo:
-  title: MSW V1 to V2 Migration | Intuita
+  title: MSW V1 to V2 Migration | Codemod.com
   description: Migrate your project from Model Service Worker (MSW) v1 to V2 with
-    the help of the Intuita migration automations platform.
-  og:title: MSW V1 to V2 Migration | Intuita
-  twitter:title: MSW V1 to V2 Migration | Intuita
-  twitter:card: MSW V1 to V2 Migration | Intuita
+    the help of the Codemod.com migration automations platform.
+  og:title: MSW V1 to V2 Migration | Codemod.com
+  twitter:title: MSW V1 to V2 Migration | Codemod.com
+  twitter:card: MSW V1 to V2 Migration | Codemod.com
   og:image: /assets/images/msw-migration-og.jpg
 ---
 

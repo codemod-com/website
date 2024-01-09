@@ -34,7 +34,7 @@ f_long-description: >-
 
 
   * [Ember.js v5 - New Array Wrapper](https://deprecations.emberjs.com/v3.x/#toc_array-new-array-wrapper)
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/array-wrapper
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/array-wrapper
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=O6EOMpMfKAT8XBYI_9BmPbGjh2s
 f_codemod-studio-link: https://go.intuita.io/UDkfyb
 f_cli-command: intuita ember/5/array-wrapper
@@ -56,9 +56,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T15:28:22.444Z
 seo:
-  title: Ember.js V5 - New Array Wrapper | Intuita Automations
-  og:title: Ember.js V5 - New Array Wrapper | Intuita Automations
-  twitter:title: Ember.js V5 - New Array Wrapper | Intuita Automations
+  title: Ember.js V5 - New Array Wrapper | Codemod.com
+  og:title: Ember.js V5 - New Array Wrapper | Codemod.com
+  twitter:title: Ember.js V5 - New Array Wrapper | Codemod.com
   description: This automations removes any usage of `new` with `A`, and calls `A`
     as a standard function.
   twitter:card: This automations removes any usage of `new` with `A`, and calls

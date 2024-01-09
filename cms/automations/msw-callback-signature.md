@@ -84,14 +84,14 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/msw/2/callback-signature
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/callback-signature
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=TRpuPrAm19dZGB0t5PHS13IeL_E
 f_codemod-studio-link: https://go.intuita.io/31LXdn
 f_cli-command: intuita msw/2/callback-signature
 f_framework: cms/framework/msw.md
 f_applicability-criteria: MSW version >= 1.0.0
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: msw-callback-signature
 updated-on: 2023-11-17T15:17:39.056Z

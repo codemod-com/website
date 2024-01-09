@@ -40,14 +40,14 @@ layout: "[migrations].html"
 date: 2023-12-18T14:21:50.889Z
 seo:
   noindex: false
-  twitter:title: Mocha to Vitest Migration | Intuita Automations
+  twitter:title: Mocha to Vitest Migration | Codemod.com
   twitter:card: Put your Mocha to Vitest migration on autopilot with tailored
     automations. Each automation lands a specific large-scale change to help you
     adopt Vitest faster and easier.
-  title: Mocha to Vitest Migration | Intuita Automations
+  title: Mocha to Vitest Migration | Codemod.com
   description: Put your Mocha to Vitest migration on autopilot with tailored
     automations. Each automation lands a specific large-scale change to help you
     adopt Vitest faster and easier.
-  og:title: Mocha to Vitest Migration | Intuita Automations
+  og:title: Mocha to Vitest Migration | Codemod.com
   og:image: /assets/images/mocha-to-vitest-og.jpg
 ---

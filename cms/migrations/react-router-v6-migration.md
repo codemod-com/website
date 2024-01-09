@@ -4,7 +4,7 @@ f_framework: cms/framework/react-router.md
 f_migration-title: React Router V6 Migration
 f_migration-hero-description: React Router version 6 introduces several powerful
   new features, as well as improved compatibility with the latest versions of
-  React. With Intuita, you can easily adopt the React Router v6 with the help of
+  React. With Codemod.com, you can easily adopt the React Router v6 with the help of
   automations.
 f_enterprise-migration-section-call-description: With our AI-powered Platform,
   React Router-tailored tools, and migration experience, we can help your team

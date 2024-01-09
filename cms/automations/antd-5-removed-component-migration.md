@@ -25,7 +25,7 @@ f_long-description: >-
   import { Comment } from '@ant-design/compatible'; import { PageHeader } from '@ant-design/pro-layout'; import { Avatar, FloatButton } from 'antd';
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/antd/5/removed-component-migration
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/antd/5/removed-component-migration
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=ZG4qJ0pLVV0_4Ei7sfVLt0uOZtQ
 f_cli-command: intuita antd/5/removed-component-migration
 f_framework: cms/framework/antd.md
@@ -46,9 +46,9 @@ f_labels:
   - cms/labels/ant-design-v5-upgrade.md
 tags: automations
 seo:
-  title: Antd V5 - Removed Component Migration | Intuita Automations
-  og:title: Antd V5 - Removed Component Migration | Intuita Automations
-  twitter:title: Antd V5 - Removed Component Migration | Intuita Automations
+  title: Antd V5 - Removed Component Migration | Codemod.com
+  og:title: Antd V5 - Removed Component Migration | Codemod.com
+  twitter:title: Antd V5 - Removed Component Migration | Codemod.com
   description: Replace import for removed component in v5.
   twitter:card: Replace import for removed component in v5.
 ---

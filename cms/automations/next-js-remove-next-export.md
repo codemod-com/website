@@ -55,13 +55,13 @@ f_long-description: >-
   };
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/13/remove-next-export
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/remove-next-export
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=GucjbUC1bYd_GLBT59TWiTGk2pY
 f_cli-command: intuita next/13/remove-next-export
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version higher or equal to 13.
 f_verified-codemod: false
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: app-router-recipe
 title: Next.js Remove Next Export
@@ -76,9 +76,9 @@ f_labels:
 tags: automations
 date: 2023-11-30T16:54:10.618Z
 seo:
-  title: Next.js Remove Next Export | Intuita Automations
-  og:title: Next.js Remove Next Export | Intuita Automations
-  twitter:title: Next.js New Link | Intuita Automations
+  title: Next.js Remove Next Export | Codemod.com
+  og:title: Next.js Remove Next Export | Codemod.com
+  twitter:title: Next.js New Link | Codemod.com
   description: This automation dangerously removes all references to the command in
     `*.md`, `*.sh`, `package.json`.
   twitter:card: This automation dangerously removes all references to the command in

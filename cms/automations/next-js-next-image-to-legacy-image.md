@@ -58,7 +58,7 @@ f_long-description: >-
 
 
   * [App Router Upgrade - Next Image to Legacy Image](https://nextjs.org/docs/pages/building-your-application/upgrading/codemods#next-image-to-legacy-image)
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/13/next-image-to-legacy-image
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/next-image-to-legacy-image
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=3eSpQRdmwHQuXlyNEsZcdbx5Q10
 f_cli-command: intuita next/13/next-image-to-legacy-image
 f_framework: cms/framework/next-js.md
@@ -79,9 +79,9 @@ f_labels:
 tags: automations
 date: 2023-11-30T16:26:21.114Z
 seo:
-  title: Next Image to Legacy Image | Intuita Automations
-  og:title: Next Image to Legacy Image | Intuita Automations
-  twitter:title: Next.js New Link | Intuita Automations
+  title: Next Image to Legacy Image | Codemod.com
+  og:title: Next Image to Legacy Image | Codemod.com
+  twitter:title: Next.js New Link | Codemod.com
   description: This automation safely migrates existing Next.js 10, 11, 12
     `next/image` imports to their corresponding imports in Next.js 13.
   twitter:card: This automation safely migrates existing Next.js 10, 11, 12

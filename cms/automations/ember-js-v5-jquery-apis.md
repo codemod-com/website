@@ -40,7 +40,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/ember/5/jquery-event
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/jquery-event
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=8MIYv6K3Szow4WVYdgq1xyxfCT8
 f_codemod-studio-link: https://go.intuita.io/k6EGj4
 f_cli-command: intuita ember/5/jquery-event
@@ -62,9 +62,9 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:57:48.065Z
 seo:
-  title: Ember.js V5 - Jquery Event | Intuita Automations
-  og:title: Ember.js V5 - Jquery Event | Intuita Automations
-  twitter:title: Ember.js V5 - Jquery Event | Intuita Automations
+  title: Ember.js V5 - Jquery Event | Codemod.com
+  og:title: Ember.js V5 - Jquery Event | Codemod.com
+  twitter:title: Ember.js V5 - Jquery Event | Codemod.com
   description: This automation removes all calls to `originalEvent` in case of
     accessing properties that work with jQuery events as well as native events.
   twitter:card: This automation removes all calls to `originalEvent` in case of

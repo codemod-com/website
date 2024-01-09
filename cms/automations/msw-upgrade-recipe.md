@@ -9,23 +9,23 @@ f_long-description: >-
   The recipe includes the following codemods:
 
 
-  * [imports](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/imports)
+  * [imports](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/imports)
 
-  * [type-args](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/type-args)
+  * [type-args](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/type-args)
 
-  * [request-changes](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/request-changes)
+  * [request-changes](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/request-changes)
 
-  * [ctx-fetch](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/ctx-fetch)
+  * [ctx-fetch](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/ctx-fetch)
 
-  * [req-passthrough](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/req-passthrough)
+  * [req-passthrough](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/req-passthrough)
 
-  * [response-usages](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/response-usages)
+  * [response-usages](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/response-usages)
 
-  * [callback-signature](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/callback-signature)
+  * [callback-signature](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/callback-signature)
 
-  * [lifecycle-events-signature](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/lifecycle-events-signature)
+  * [lifecycle-events-signature](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/lifecycle-events-signature)
 
-  * [print-handler](https://github.com/intuita-inc/codemod-registry/tree/main/msw/2/print-handler)
+  * [print-handler](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/print-handler)
 
 
   ### FNs
@@ -58,13 +58,13 @@ f_long-description: >-
 
 
   * [MSW v1 to v2 Migration Guide](https://mswjs.io/docs/migrations/1.x-to-2.x/)
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/msw/2/upgrade-recipe
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/upgrade-recipe
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=GZo687pOCc0ICc9ptHSWPJTErcM
 f_cli-command: intuita msw/2/upgrade-recipe
 f_framework: cms/framework/msw.md
 f_applicability-criteria: MSW version >= 1.0.0
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: msw-upgrade-recipe
 title: MSW V2 - MSW migration recipe

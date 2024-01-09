@@ -18,4 +18,4 @@ layout: '[testimonials].html'
 tags: testimonials
 ---
 
-"The automated changes (by Intuita) feel like black magic here. They do 90% of the work!"
+"The automated changes (by Codemod.com) feel like black magic here. They do 90% of the work!"

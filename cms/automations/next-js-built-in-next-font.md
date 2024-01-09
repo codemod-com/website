@@ -37,7 +37,7 @@ f_long-description: >-
 
 
   * [App Router Migration Guide - Built-in Font | Vercel](https://nextjs.org/docs/pages/building-your-application/upgrading/codemods#use-built-in-font)
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/next/13/built-in-next-font
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/next/13/built-in-next-font
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=USN0ETTSbUY-j1UV3DjYcjLtzvU
 f_cli-command: intuita next/13/built-in-next-font
 f_framework: cms/framework/next-js.md
@@ -58,9 +58,9 @@ f_labels:
 tags: automations
 date: 2023-11-29T17:16:01.817Z
 seo:
-  title: Next.js Built In Font | Intuita Automations
-  og:title: Next.js Built In Font | Intuita Automations
-  twitter:title: Next.js Built In Font | Intuita Automations
+  title: Next.js Built In Font | Codemod.com
+  og:title: Next.js Built In Font | Codemod.com
+  twitter:title: Next.js Built In Font | Codemod.com
   description: This automation helps you migrate to the Next.js app directory by
     transforming the module specifier `@next/font/*` in import statements into
     `next/font/*`.

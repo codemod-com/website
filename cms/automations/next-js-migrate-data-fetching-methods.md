@@ -142,13 +142,13 @@ f_long-description: >-
 
 
   * [App Router Upgrade - getStaticProps](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#static-site-generation-getstaticprops)
-f_github-link: https://github.com/intuita-inc/codemod-registry/blob/main/codemods/next/13/remove-get-static-props
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/remove-get-static-props
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=gqDiMZhaiz_RSzyfHeUueiYcGFI
 f_cli-command: intuita next/13/remove-get-static-props
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version higher or equal to 13.4.
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: app-router-recipe
 title: Next.js Migrate Data Fetching Methods
@@ -163,9 +163,9 @@ f_labels:
 tags: automations
 date: 2023-11-30T16:45:39.875Z
 seo:
-  title: Next.js Migrate Data Fetching Methods | Intuita Automations
-  og:title: Next.js Migrate Data Fetching Methods | Intuita Automations
-  twitter:title: Next.js Migrate Data Fetching Methods | Intuita Automations
+  title: Next.js Migrate Data Fetching Methods | Codemod.com
+  og:title: Next.js Migrate Data Fetching Methods | Codemod.com
+  twitter:title: Next.js Migrate Data Fetching Methods | Codemod.com
   description: This codemod migrates the data fetching functions into the
     supported in the app directory.
   twitter:card: This codemod migrates the data fetching functions into the

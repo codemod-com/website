@@ -48,12 +48,12 @@
                 <a href="{{ links.-5be4108f }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.596486a1 }}</a>
                 <a href="{{ links.-321e94de }}" class="dropdown-link w-dropdown-link">{{ texts.66d4f126 }}</a>
                 <a href="{{ links.-3f316fbd }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.-77e9fdf1 }}</a>
-                <a href="{{ links.52ce7af1 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.10500 }}</a>
+                <a href="{{ links.-414c71b3 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.10500 }}</a>
               </div>
             </nav>
           </div>
           <a href="{{ links.-d9445a8 }}" class="navbar-link w-nav-link">{{ texts.507137a6 }}</a>
-          <a href="{{ links.-599fd5b8 }}" target="_blank" class="navbar-link w-nav-link">{{ texts.20965b }}</a>
+          <a href="{{ links.-5a8c7c5c }}" target="_blank" class="navbar-link w-nav-link">{{ texts.20965b }}</a>
           <div data-hover="true" data-delay="0" class="dropdown w-dropdown">
             <div class="navbar-link for-dropdown w-dropdown-toggle">
               <div class="icon-dropdown w-icon-dropdown-toggle"></div>
@@ -62,8 +62,8 @@
             <nav class="dropdown-list right-side w-dropdown-list">
               <div class="dropdown-grid">
                 <a href="{{ links.6dcf58d9 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.-7bc27f6b }}</a>
-                <a href="{{ links.7ecb8309 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.1fa3c2 }}</a>
-                <a href="{{ links.20f6ac18 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.7f258fe3 }}</a>
+                <a href="{{ links.6fe5a32d }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.1fa3c2 }}</a>
+                <a href="{{ links.-650b2390 }}" target="_blank" class="dropdown-link w-dropdown-link">{{ texts.7f258fe3 }}</a>
               </div>
             </nav>
           </div>
@@ -134,7 +134,7 @@
       <div class="filter-bar-wrapper">
         <div class="filter-form-wrapper w-form">
           <form id="Filter-Form" name="wf-form-Filter-Form" data-name="filter" method="get" fs-cmsfilter-element="filters" class="filter-form migrations" data-wf-page-id="6597fbdc905b4babacf13e66" data-wf-element-id="59995e0c-8d7b-99fd-fcac-4004cf3f751b"   data-ajax="true" data-content-type="application/x-www-form-urlencoded">
-            <div class="search-field-wrapper full-width"><input type="text" class="search-field w-input" maxlength="256" name="field" fs-cmsfilter-field="migration-title, migrate-from, migrate-to, framework" data-name="Field" placeholder="Search migrations.." fs-cmsfilter-debounce="400" id="field" required=""><img loading="lazy" src="{{ images.-721c180b.url }}" alt="{{ images.-721c180b.alt | trim | escape }}" class="search-icon"></div>
+            <div class="search-field-wrapper full-width"><input class="search-field w-input" maxlength="256" name="field" fs-cmsfilter-field="migration-title, migrate-from, migrate-to, framework" data-name="Field" placeholder="Search migrations.." fs-cmsfilter-debounce="400" type="text" id="field" required=""><img loading="lazy" src="{{ images.-721c180b.url }}" alt="{{ images.-721c180b.alt | trim | escape }}" class="search-icon"></div>
             <div data-delay="0" data-hover="false" class="dropdown-filter-wrapper hidden w-dropdown">
               <div class="dropdown-toggle w-dropdown-toggle">
                 <div class="icon w-icon-dropdown-toggle"></div>
@@ -143,7 +143,7 @@
               <nav class="dropdown-filter-list w-dropdown-list">
                 {%- assign collection = collections.framework | sort: "-created-on" -%}<div class="w-dyn-list">
                   {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
-                    {%- for item in collection -%}<div role="listitem" class="w-dyn-item"><label class="w-checkbox dropdown-filter-item"><input type="checkbox" id="checkbox-2" name="checkbox-2" data-name="Checkbox 2" class="w-checkbox-input checkbox"><span fs-cmsfilter-field="framework" class="checkbox-label w-form-label" for="checkbox-2">{{ item.data.title }}</span></label></div>{%- endfor -%}
+                    {%- for item in collection -%}<div role="listitem" class="w-dyn-item"><label class="w-checkbox dropdown-filter-item"><input id="checkbox-2" type="checkbox" name="checkbox-2" data-name="Checkbox 2" class="w-checkbox-input checkbox"><span fs-cmsfilter-field="framework" class="checkbox-label w-form-label" for="checkbox-2">{{ item.data.title }}</span></label></div>{%- endfor -%}
                   </div>{%- endunless -%}
                   {%- if collection.length == 0 -%}<div class="w-dyn-empty">
                     <div>{{ texts.3d503d2b }}</div>

@@ -126,7 +126,7 @@ f_long-description: >-
   });
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/bull/bullmq
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/bull/bullmq
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=jc8GspuivcASxKyCLsYZ0WbLRgU
 f_cli-command: intuita bullmq/from-bull
 f_framework: cms/framework/bullmq.md
@@ -138,7 +138,7 @@ f_applicability-criteria: Application running `bull` queue jobs.
 f_labels:
   - cms/labels/bull-to-bullmq-migration.md
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 f_featured: false
 tags: automations
 layout: "[automations].html"

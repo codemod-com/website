@@ -13,7 +13,7 @@ f_long-description: >-
   * `newNamespace` is the name of the namespace to which the keys are copied,
 
   * `keys` is a comma-separated list of keys.
-    You need to pass these arguments using the [Codemod Arguments' settings](https://docs.intuita.io/docs/vs-code-extension/advanced-usage#set-codemod-arguments) in Intuita VS Code extension or [Intuita CLI](https://docs.intuita.io/docs/cli/quickstart).
+    You need to pass these arguments using the [Codemod Arguments' settings](https://docs.codemod.com/docs/vs-code-extension/advanced-usage#set-codemod-arguments) in Codemod.com VS Code extension or [Codemod.com CLI](https://docs.codemod.com/docs/cli/quickstart).
 
   ### Before:
 
@@ -70,14 +70,14 @@ f_long-description: >-
   }
 
   ```
-f_github-link: https://github.com/intuita-inc/codemod-registry/tree/main/codemods/next-i18next/copy-keys
+f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/next-i18next/copy-keys
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=SjMsX5HjVc-QOXnMZ3sE__LVV1Q
 f_cli-command: intuita next-i18next/copy-keys
 f_framework: cms/framework/next-js.md
 f_codemod-engine: cms/codemod-engines/filemod.md
 f_applicability-criteria: "`next-i18next > 14.x`"
 f_verified-codemod: true
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: next-i18next-copy-keys
 updated-on: 2023-12-22T13:34:26.118Z
@@ -90,9 +90,9 @@ f_labels:
   - cms/labels/next-i18n.md
 tags: automations
 seo:
-  title: Next.js - i18next Copy Keys | Intuita Automations
-  og:title: Next.js - i18next Copy Keys | Intuita Automations
-  twitter:title: Next.js - i18next Copy Keys | Intuita Automations
+  title: Next.js - i18next Copy Keys | Codemod.com
+  og:title: Next.js - i18next Copy Keys | Codemod.com
+  twitter:title: Next.js - i18next Copy Keys | Codemod.com
   description: This codemod copies specific keys from one translation namespace to
     another, for each of the supported languages.
   twitter:card: This codemod copies specific keys from one translation namespace

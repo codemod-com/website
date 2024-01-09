@@ -18,4 +18,4 @@ layout: '[testimonials].html'
 tags: testimonials
 ---
 
-“Migrating over small things will take hours to track down & fix up, with Intuita codemod + web Ul can make that be minutes.”
+“Migrating over small things will take hours to track down & fix up, with [Codemod.com] codemods + web Ul can make that be minutes.”

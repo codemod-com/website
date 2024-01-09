@@ -14,17 +14,17 @@ f_migrate-from-image:
 f_featured-in-home: false
 f_order-rank: 10
 f_is-cta: false
-f_automations-filter-url: https://www.intuita.io/automations/?migration=Next+Internationalization+(i18n)
+f_automations-filter-url: https://www.codemod.com/automations/?migration=Next+Internationalization+(i18n)
 f_shown-in-registry: true
 tags: migrations
 layout: "[migrations].html"
 date: 2023-12-22T13:05:22.240Z
 seo:
   noindex: false
-  twitter:title: Next Internationalization (i18n) | Intuita Automations
-  twitter:card: Automatically refactor your codebase to support next-i18n with Intuita.
-  title: Next Internationalization (i18n) | Intuita Automations
-  og:title: Next Internationalization (i18n) | Intuita Automations
+  twitter:title: Next Internationalization (i18n) | Codemod.com
+  twitter:card: Automatically refactor your codebase to support next-i18n with Codemod.com.
+  title: Next Internationalization (i18n) | Codemod.com
+  og:title: Next Internationalization (i18n) | Codemod.com
   og:image: /assets/images/next-i18n-automation.jpg
-  description: Automatically refactor your codebase to support next-i18n with Intuita.
+  description: Automatically refactor your codebase to support next-i18n with Codemod.com.
 ---

@@ -35,14 +35,14 @@ layout: "[migrations].html"
 date: 2023-12-22T11:51:15.627Z
 seo:
   noindex: false
-  twitter:title: Ant Design V5 Upgrade | Intuita Automations
+  twitter:title: Ant Design V5 Upgrade | Codemod.com
   twitter:card: Put your Ant Design upgrade on autopilot with our Ant
     Design-tailored automations. Each automation lands a specific large-scale
     change to help you adopt version 5 of antd easier.
-  title: Ant Design V5 Upgrade | Intuita Automations
+  title: Ant Design V5 Upgrade | Codemod.com
   description: Put your Ant Design upgrade on autopilot with our Ant
     Design-tailored automations. Each automation lands a specific large-scale
     change to help you adopt version 5 of antd easier.
-  og:title: Ant Design V5 Upgrade | Intuita Automations
+  og:title: Ant Design V5 Upgrade | Codemod.com
   og:image: /assets/images/ant-design-v5-upgrade.jpg
 ---
