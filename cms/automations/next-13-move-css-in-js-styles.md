@@ -1,17 +1,20 @@
 ---
-created-on: 2024-01-10T11:59:57.967Z
+created-on: 2023-11-30T15:56:24.605Z
 f_long-description: >-
   ## Description
-  
+
 
   This highly experimental codemod moves the CSS-in-JS styles into the CSS Modules.
-  
 
-  
+
+  ## Example
+
+
   ### Before
-  
-  ```jsx
-  
+
+
+  ```typescript
+
   const Head = () => {
   	return (
   		<head>
@@ -26,57 +29,79 @@ f_long-description: >-
   		</head>
   	);
   };
-  
+
+
   export default Head;
-  
+
   ```
-  
+
+
   ### After
+
+
   The file gets transformed into:
-  
-  ```jsx
-  
+
+
+  ```typescript
+
   import styles from 'Head.module.css';
-  
+
+
   const Head = () => {
   	return <head className={styles['wrapper']}></head>;
   };
-  
+
+
   export default Head;
-  
+
   ```
+
+
   And the codemod creates the new file `Head.module.css` which contains:
-  
-  ```jsx
-  
+
+
+  ```css
+
   body {
   	margin: 0;
   	padding: 0;
   }
-  
+
   ```
-f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/next/13/move-css-in-js-styles
+
+
+  ### Links for more info
+
+
+  * [Next.js - CSS in JS](https://nextjs.org/docs/pages/building-your-application/styling/css-in-js)
+f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/move-css-in-js-styles
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=fPpa1xqB9D0AN4VazhrRkrWri9g
 f_cli-command: intuita next/13/move-css-in-js-styles
-f_framework: cms/framework/next.md
-f_applicability-criteria: "Next.js version higher or equal to 13."
-f_verified-codemod: false
-f_author: cms/authors/intuita.md
+f_framework: cms/framework/next-js.md
+f_applicability-criteria: Next.js version higher or equal to 13.4
+f_verified-codemod: true
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
-slug: next-13-move-css-in-js-styles
-title: Next V13 - Move CSS in JS Styles
-f_slug-name: next-13-move-css-in-js-styles
+slug: app-router-recipe
+title: Next.js Move CSS in JS Styles
+updated-on: 2023-11-30T15:56:24.615Z
+published-on: 2023-11-30T15:56:24.627Z
+f_slug-name: comment-deletable-files
 f_codemod-engine: cms/codemod-engines/jscodeshift.md
 f_change-mode-2: Assistive
-f_estimated-time-saving: "~5 minutes/occurrence."
+f_estimated-time-saving: 5 minutes/occurrence
+f_labels:
+  - cms/labels/next-js-app-router-migration.md
 tags: automations
-updated-on: 2024-01-10T11:59:57.967Z
-published-on: 2024-01-10T11:59:57.967Z
+date: 2023-11-30T15:56:24.633Z
 seo:
-  title: Next V13 - Move CSS in JS Styles | Codemod.com Automations
-  og:title: Next V13 - Move CSS in JS Styles | Codemod.com Automations
-  twitter:title: Next V13 - Move CSS in JS Styles | Codemod.com Automations
-  description: This highly experimental codemod moves the CSS-in-JS styles into the CSS Modules.
-  twitter:card: This highly experimental codemod moves the CSS-in-JS styles into the CSS Modules.
+  title: Next.js Move CSS in JS Styles | Codemod.com
+  og:title: Next.js Move CSS in JS Styles | Codemod.com
+  twitter:title: Next.js Move CSS in JS Styles | Codemod.com
+  description: This is a highly experimental codemod that moves the CSS-in-JS
+    styles into the CSS Modules.
+  twitter:card: This is a highly experimental codemod that moves the CSS-in-JS
+    styles into the CSS Modules.
+  og:image: /assets/images/move-css-in-js-styles.jpg
 ---
-This highly experimental codemod moves the CSS-in-JS styles into the CSS Modules.
+This is a highly experimental codemod that moves the CSS-in-JS styles into the CSS Modules.
