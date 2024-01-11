@@ -62,7 +62,7 @@ seo:
   title: Msw V2 - Replace ctx.fetch() calls | Codemod.com Automations
   og:title: Msw V2 - Replace ctx.fetch() calls | Codemod.com Automations
   twitter:title: Msw V2 - Replace ctx.fetch() calls | Codemod.com Automations
-  description: `ctx.fetch(req)` is now meant to be called as `fetch(bypass(req))` where `bypass` is a new function available in the `msw` library. Changes applied by this codemod:
+description: `ctx.fetch(req)` is now meant to be called as `fetch(bypass(req))` where `bypass` is a new function available in the `msw` library. Changes applied by this codemod:
   twitter:card: `ctx.fetch(req)` is now meant to be called as `fetch(bypass(req))` where `bypass` is a new function available in the `msw` library. Changes applied by this codemod:
 ---
 `ctx.fetch(req)` is now meant to be called as `fetch(bypass(req))` where `bypass` is a new function available in the `msw` library. Changes applied by this codemod:
