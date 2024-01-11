@@ -69,7 +69,7 @@ seo:
   title: Next V13 - Replace Next Router | Codemod.com Automations
   og:title: Next V13 - Replace Next Router | Codemod.com Automations
   twitter:title: Next V13 - Replace Next Router | Codemod.com Automations
-  description: Since Next.js 13.4, you can use the following hooks from the `next/navigation` module:
-  twitter:card: Since Next.js 13.4, you can use the following hooks from the `next/navigation` module:
+  description: Since Next.js 13.4, you can use the following hooks from the `next/navigation` module.
+  twitter:card: Since Next.js 13.4, you can use the following hooks from the `next/navigation` module.
 ---
 Since Next.js 13.4, you can use the following hooks from the `next/navigation` module:
