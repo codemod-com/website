@@ -12,5 +12,5 @@ seo:
   twitter:title: Codemod Registry
   description: Easily discover, share, and run codemod automations.
   twitter:card: Easily discover, share, and run codemod automations.
-  og:image: /assets/images/intuita-automation-registry.jpg
+  og:image: /assets/images/intuita-automated-migrations.jpg
 ---
