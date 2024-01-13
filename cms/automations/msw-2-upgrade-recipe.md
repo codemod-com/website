@@ -1,5 +1,8 @@
 ---
+title: MSW V2 - MSW Upgrade Recipe
 created-on: 2023-11-16T14:11:04.212Z
+updated-on: 2023-11-17T15:17:39.056Z
+published-on: 2023-11-17T15:18:58.613Z
 f_long-description: >-
   ## Description
 
@@ -62,22 +65,29 @@ f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemod
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=GZo687pOCc0ICc9ptHSWPJTErcM
 f_cli-command: intuita msw/2/upgrade-recipe
 f_framework: cms/framework/msw.md
-f_applicability-criteria: MSW version >= 1.0.0
-f_verified-codemod: true
-f_author: cms/authors/codemod-com.md
-layout: "[automations].html"
-slug: msw-upgrade-recipe
-title: MSW V2 - MSW migration recipe
-updated-on: 2023-11-17T15:17:39.056Z
-published-on: 2023-11-17T15:18:58.613Z
-f_slug-name: msw-upgrade-recipe
 f_codemod-engine: cms/codemod-engines/ts-morph.md
 f_change-mode-2: Assistive
 f_estimated-time-saving: Depending on the size of the project, this recipe can
   save up to 6 hours of dedicated work and more.
+f_applicability-criteria: MSW version >= 1.0.0
 f_labels:
   - cms/labels/msw-v1-v2.md
+f_verified-codemod: true
+f_author: cms/authors/codemod-com.md
+layout: "[automations].html"
+slug: msw-upgrade-recipe
 tags: automations
 date: 2023-11-20T14:53:04.294Z
+f_slug-name: msw-upgrade-recipe
+seo:
+  title: MSW V2 Upgrade Recipe | Codemod.com
+  og:title: MSW V2 Upgrade Recipe | Codemod.com
+  twitter:title: MSW V2 Upgrade Recipe | Codemod.com
+  description: This recipe is a set of automations that will upgrade your project
+    from using msw v1 to v2.
+  twitter:card: This recipe is a set of automations that will upgrade your project
+    from using msw v1 to v2.
+  og:image: /assets/images/msw-migration-og.jpg
+  twitter:image: /assets/images/msw-migration-og.jpg
 ---
 This recipe is a set of automations that will upgrade your project from using msw v1 to v2.
