@@ -8,6 +8,7 @@
 
 /migrations/msw-v2 https://www.codemod.com/automations/?migration=MSW+V1+to+V2+Migration    301!
 /msw-v2 https://www.codemod.com/automations/?migration=MSW+V1+to+V2+Migration    301!
+/msw-v2-upgrade https://codemod.com/automations/msw-2-upgrade-recipe/   301!
 
 /bullmq https://www.codemod.com/automations/bull-to-bullmq/    301!
 
