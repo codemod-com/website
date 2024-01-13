@@ -12,23 +12,23 @@ f_long-description: >-
   The recipe includes the following codemods:
 
 
-  * [imports](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/imports)
+  * [imports](https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/imports)
 
-  * [type-args](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/type-args)
+  * [type-args](https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/type-args)
 
-  * [request-changes](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/request-changes)
+  * [request-changes](https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/request-changes)
 
-  * [ctx-fetch](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/ctx-fetch)
+  * [ctx-fetch](https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/ctx-fetch)
 
-  * [req-passthrough](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/req-passthrough)
+  * [req-passthrough](https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/req-passthrough)
 
-  * [response-usages](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/response-usages)
+  * [response-usages](https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/response-usages)
 
-  * [callback-signature](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/callback-signature)
+  * [callback-signature](https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/callback-signature)
 
-  * [lifecycle-events-signature](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/lifecycle-events-signature)
+  * [lifecycle-events-signature](https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/lifecycle-events-signature)
 
-  * [print-handler](https://github.com/codemod-com/codemod-registry/tree/main/msw/2/print-handler)
+  * [print-handler](https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/print-handler)
 
 
   ### FNs
