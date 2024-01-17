@@ -1,5 +1,7 @@
 /community  https://join.slack.com/t/intuita-inc/shared_invite/zt-210sghjx3-9_cgKbek~b~6k32XVwFGGA  301!
 
+/feature    https://github.com/codemod-com/codemod-registry/issues/new?assignees=&labels=codemod+request&projects=&template=request-codemod.md&title=%5Bcodemod+request%5D+example+codemod  301!
+
 /cli    https://docs.codemod.com/docs/cli/quickstart 301!
 /vsce   https://docs.codemod.com/docs/vs-code-extension/quickstart   301!
 
