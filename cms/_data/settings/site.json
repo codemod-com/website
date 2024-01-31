@@ -10,5 +10,7 @@
       1600
     ]
   },
-  "header_additional_content": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-E53H5HBLYH\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-E53H5HBLYH');\n</script>"
+  "header_additional_content": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-E53H5HBLYH\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-E53H5HBLYH');\n</script>",
+  "favicon": "/assets/images/codemod-small-lime.svg",
+  "apple_touch_icon": "/assets/images/codemod-small-lime-1.png"
 }
