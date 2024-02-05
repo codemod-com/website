@@ -2,6 +2,8 @@
 
 /feature    https://github.com/codemod-com/codemod-registry/issues/new?assignees=&labels=codemod+request&projects=&template=request-codemod.md&title=%5Bcodemod+request%5D+example+codemod  301!
 
+/extension  https://marketplace.visualstudio.com/items?itemName=codemod.codemod-vscode-extension    301!
+
 /anonymous-reports  https://forms.gle/ay3YwnvGFCVp4tik8 301!
 
 /cli    https://docs.codemod.com/docs/cli/quickstart 301!
