@@ -39,6 +39,9 @@ jobs:
         with:
           find: '<script src="https://identity\.netlify\.com/v1/netlify-identity-widget\.js"></script>'
           replace: '<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>'
+      - name: Replace { automated_seo } tag in HTML files
+        run: |
+          find . -name '*.html' -exec sed -i 's|{ automated_seo }|{% assign clean_title =  title | escape %}\n{% assign clean_description =  seo.description | escape %}\n{% assign og_image_url =  '\''https://codemod-open-graph.vercel.app/api/registry?Title='\'' | append: clean_title | append: '\''&Description='\'' | append: clean_description | append: '\''&Tag=Codemod Registry'\'' | replace: '\''amp;'\'', '\''xx'\'' %}\n<meta property="og:title" content="{{ clean_title }}">\n<meta property="og:description" content="{{ clean_description }}">\n<meta data-react-helmet="true" property="og:site_name" content="Codemod.com">\n<meta property="og:image" content="{{ og_image_url }}">\n<meta name="twitter:title" content="{{ clean_title }}">\n<meta name="twitter:card" content="{{ clean_description }}">\n<meta property="twitter:image" content="{{ og_image_url }}">|g' {} \;
       - name: push
         uses: actions-x/commit@v6
         with:
