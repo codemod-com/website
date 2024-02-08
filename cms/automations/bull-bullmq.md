@@ -120,7 +120,7 @@ f_cli-command: intuita bull/bullmq
 f_framework: cms/framework/bull.md
 f_applicability-criteria: "`bullmq` >= 1.0.0"
 f_verified-codemod: false
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: bull-bullmq
 title: Bull Vbullmq - Bull to BullMQ

@@ -29,7 +29,7 @@ f_cli-command: intuita jest/vitest
 f_framework: cms/framework/jest.md
 f_applicability-criteria: "`jest` >= `26.0.0`"
 f_verified-codemod: false
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: jest-vitest
 title: Jest Vvitest - Migrate from jest to vitest

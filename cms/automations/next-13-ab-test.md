@@ -11,7 +11,7 @@ f_cli-command: intuita next/13/ab-test
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version is greater or equal to 13.4.
 f_verified-codemod: false
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: next-13-ab-test
 updated-on: 2024-01-10T11:59:57.889Z

@@ -41,7 +41,7 @@ f_cli-command: intuita mocha/vitest/migrate
 f_framework: cms/framework/mocha.md
 f_applicability-criteria: "`mocha` >= 9.0.0"
 f_verified-codemod: false
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: mocha-vitest-migrate
 title: Mocha Vvitest - Migrate Tests from Mocha to Vitest

@@ -37,7 +37,7 @@ f_cli-command: intuita netlify/0.8.4/addApiHandler
 f_framework: cms/framework/netlify-sdk.md
 f_applicability-criteria: "Netlify SDK v0.8.1 or higher."
 f_verified-codemod: false
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: netlify-0.8.4-addApiHandler
 title: Netlify-sdk V0.8.4 - addApiHandler

@@ -13,7 +13,7 @@ f_cli-command: intuita cal.com/generate-metadata-tests-calcom
 f_framework: cms/framework/cal.com.md
 f_applicability-criteria: "Next.js version is greater or equal to 13.4."
 f_verified-codemod: false
-f_author: cms/authors/intuita.md
+f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: cal.com-generate-metadata-tests-calcom
 title: Cal.com Vgenerate-metadata-tests-calcom - Generate Metadata Tests for Cal.com
