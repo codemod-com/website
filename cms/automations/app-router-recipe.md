@@ -50,8 +50,7 @@ seo:
   title: Next.js App Router Recipe | Codemod.com
   og:title: Next.js App Router Recipe | Codemod.com
   twitter:title: Next.js App Router Recipe | Codemod.com
-  description: The App Router Recipe is a set of codemods that assist you with the
-    pages-to-app migration process.
+  description: The App Router Recipe is a set of codemods that assist you with the pages-to-app migration process.
   og:image: /assets/images/app-router-recipe.jpg
 ---
 
