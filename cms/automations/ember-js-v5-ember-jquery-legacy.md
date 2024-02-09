@@ -62,14 +62,8 @@ tags: automations
 date: 2023-12-05T16:13:07.963Z
 seo:
   title: Ember.js V5 - Ember Jquery Legacy | Codemod.com
-  og:title: Ember.js V5 - Ember Jquery Legacy | Codemod.com
-  twitter:title: Ember.js V5 - Ember Jquery Legacy | Codemod.com
   description: This codemod ensures access to the native event without triggering
     any deprecations via wrapping the `event` with the `normalizeEvent` function
     provided by `ember-jquery-legacy`.
-  twitter:card: This codemod ensures access to the native event without triggering
-    any deprecations via wrapping the `event` with the `normalizeEvent` function
-    provided by `ember-jquery-legacy`.
-  og:image: /assets/images/ember-jquery-legacy.jpg
 ---
 This codemod ensures access to the native event without triggering any deprecations via wrapping the `event` with the `normalizeEvent` function provided by `ember-jquery-legacy`.

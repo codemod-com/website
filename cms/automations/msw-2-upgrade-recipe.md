@@ -81,13 +81,7 @@ date: 2023-11-20T14:53:04.294Z
 f_slug-name: msw-upgrade-recipe
 seo:
   title: MSW V2 Upgrade Recipe | Codemod.com
-  og:title: MSW V2 Upgrade Recipe | Codemod.com
-  twitter:title: MSW V2 Upgrade Recipe | Codemod.com
   description: This recipe is a set of automations that will upgrade your project
     from using msw v1 to v2.
-  twitter:card: This recipe is a set of automations that will upgrade your project
-    from using msw v1 to v2.
-  og:image: /assets/images/msw-migration-og.jpg
-  twitter:image: /assets/images/msw-migration-og.jpg
 ---
 This recipe is a set of automations that will upgrade your project from using msw v1 to v2.

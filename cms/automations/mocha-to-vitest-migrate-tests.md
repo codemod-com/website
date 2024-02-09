@@ -51,11 +51,7 @@ f_labels:
   - cms/labels/mocha-to-vitest-migration.md
 tags: automations
 seo:
-  title: Migrate Tests from Mocha to Vitest| Codemod.com
-  og:title: Migrate Tests from Mocha to Vitest| Codemod.com
-  twitter:title: Migrate Tests from Mocha to Vitest| Codemod.com
+  title: Migrate Tests from Mocha to Vitest
   description: Run this codemod to upgrade your codebase from using mocha to vitest.
-  twitter:card: Run this codemod to upgrade your codebase from using mocha to vitest.
-  og:image: /assets/images/mocha-to-vitest-migrate-tests.jpg
 ---
 Run this codemod to upgrade your codebase from using mocha to vitest.

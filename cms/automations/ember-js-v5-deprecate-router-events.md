@@ -97,14 +97,8 @@ tags: automations
 date: 2023-12-05T16:08:37.929Z
 seo:
   title: Ember.js V5 - Deprecate Router Events | Codemod.com
-  og:title: Ember.js V5 - Deprecate Router Events | Codemod.com
-  twitter:title: Ember.js V5 - Deprecate Router Events | Codemod.com
   description: This automation removes all calls to `willTransition` or
     `didTransition` events on the Router via usage of `routeWillChange` event
     listener and `routeDidChange` event listener.
-  twitter:card: This automation removes all calls to `willTransition` or
-    `didTransition` events on the Router via usage of `routeWillChange` event
-    listener and `routeDidChange` event listener.
-  og:image: /assets/images/deprecate-router-events.jpg
 ---
 This automation removes all calls to `willTransition` or `didTransition` events on the Router via usage of `routeWillChange` event listener and `routeDidChange` event listener.

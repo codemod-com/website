@@ -72,14 +72,8 @@ tags: automations
 date: 2023-11-30T17:34:17.366Z
 seo:
   title: Next.js Upsert Use Client Directive | Codemod.com
-  og:title: Next.js Upsert Use Client Directive | Codemod.com
-  twitter:title: Next.js Upsert Use Client Directive | Codemod.com
   description: The automation will look for identifiers and string literals common
     for files that contain client-side code, such as React hooks or event
     handlers.
-  twitter:card: The automation will look for identifiers and string literals
-    common for files that contain client-side code, such as React hooks or event
-    handlers.
-  og:image: /assets/images/upsert-use-client-directive.jpg
 ---
 The automation will look for identifiers and string literals common for files that contain client-side code, such as React hooks or event handlers.

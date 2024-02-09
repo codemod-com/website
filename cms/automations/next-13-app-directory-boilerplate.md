@@ -74,27 +74,21 @@ f_verified-codemod: true
 f_author: cms/authors/codemod-com.md
 layout: "[automations].html"
 slug: app-router-recipe
-title: Next.js App Directory Boilerplate
 updated-on: 2023-11-29T16:55:21.259Z
-published-on: 2023-11-29T16:55:21.274Z
-f_slug-name: app-directory-boilerplate
 f_codemod-engine: cms/codemod-engines/ts-morph.md
 f_change-mode-2: Assistive
 f_estimated-time-saving: 5 minutes/occurrence
+date: 2023-11-29T16:55:21.281Z
+f_slug-name: app-directory-boilerplate
+title: Next.js App Directory Boilerplate
+published-on: 2023-11-29T16:55:21.274Z
 f_labels:
   - cms/labels/next-js-app-router-migration.md
 tags: automations
-date: 2023-11-29T16:55:21.281Z
 seo:
   title: Next.js App Directory Boilerplate | Codemod.com
-  og:title: Next.js App Directory Boilerplate | Codemod.com
-  twitter:title: Next.js App Directory Boilerplate | Codemod.com
   description: This automation helps you migrate to the Next.js app directory by
     reading the contents of your `pages` directory and creates the placeholder
     files.
-  twitter:card: This automation helps you migrate to the Next.js app directory by
-    reading the contents of your `pages` directory and creates the placeholder
-    files.
-  og:image: /assets/images/app-directory-boilerplate-codemod.jpg
 ---
 This automation reads the contents of your `pages` directory and creates the placeholder files.

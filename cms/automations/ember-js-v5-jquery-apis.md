@@ -63,12 +63,7 @@ tags: automations
 date: 2023-12-05T16:57:48.065Z
 seo:
   title: Ember.js V5 - Jquery Event | Codemod.com
-  og:title: Ember.js V5 - Jquery Event | Codemod.com
-  twitter:title: Ember.js V5 - Jquery Event | Codemod.com
   description: This automation removes all calls to `originalEvent` in case of
     accessing properties that work with jQuery events as well as native events.
-  twitter:card: This automation removes all calls to `originalEvent` in case of
-    accessing properties that work with jQuery events as well as native events.
-  og:image: /assets/images/jquery-event.jpg
 ---
 This automation removes all calls to `originalEvent` in case of accessing properties that work with jQuery events as well as native events.

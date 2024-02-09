@@ -144,13 +144,8 @@ tags: automations
 layout: "[automations].html"
 date: 2023-12-08T18:11:47.580Z
 seo:
-  noindex: false
-  twitter:title: Bull to BullMQ Migration Automation
-  twitter:card: This automation provides straightforward changes to migrate from
-    `Bull` to `BullMQ`.
   title: Bull to BullMQ Migration Automation
   og:title: Bull to BullMQ Migration Automation
-  og:image: /assets/images/bull-to-bullmq.jpg
   description: This automation provides straightforward changes to migrate from
     `Bull` to `BullMQ`.
 ---

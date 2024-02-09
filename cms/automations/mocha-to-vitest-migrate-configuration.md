@@ -165,12 +165,7 @@ f_labels:
 tags: automations
 seo:
   title: Migrate Configuration from Mocha to Vitest | Codemod.com
-  og:title: Migrate Configuration from Mocha to Vitest | Codemod.com
-  twitter:title: Migrate Configuration from Mocha to Vitest | Codemod.com
   description: Run this automation to upgrade configuration files that need to be
     changed after migrating from `mocha` to `vitest`.
-  twitter:card: Run this automation to upgrade configuration files that need to be
-    changed after migrating from `mocha` to `vitest`.
-  og:image: /assets/images/mocha-to-vitest-migrate-configuration.jpg
 ---
 Run this codemod to upgrade configuration files that need to be changed after migrating from `mocha` to `vitest`.

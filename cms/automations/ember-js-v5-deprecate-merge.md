@@ -49,10 +49,6 @@ tags: automations
 date: 2023-12-05T16:05:41.946Z
 seo:
   title: Ember.js V5 - Deprecate Merge | Codemod.com
-  og:title: Ember.js V5 - Deprecate Merge | Codemod.com
-  twitter:title: Ember.js V5 - Deprecate Merge | Codemod.com
   description: This automation replaces all calls to `Ember.merge` with `Ember.assign`.
-  twitter:card: This automation replaces all calls to `Ember.merge` with `Ember.assign`.
-  og:image: /assets/images/deprecate-merge.jpg
 ---
 This automation replaces all calls to `Ember.merge` with `Ember.assign`.

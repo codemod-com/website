@@ -64,14 +64,8 @@ tags: automations
 date: 2023-11-30T16:16:11.479Z
 seo:
   title: Next.js New Link | Codemod.com
-  og:title: Next.js New Link | Codemod.com
-  twitter:title: Next.js New Link | Codemod.com
   description: This automation safely removes <a> from Link components imported
     from the next/link module or adds the legacyBehavior prop on the component
     level.
-  twitter:card: This automation safely removes <a> from Link components imported
-    from the next/link module or adds the legacyBehavior prop on the component
-    level.
-  og:image: /assets/images/new-link.jpg
 ---
 This codemod safely removes `<a>` from `Link` components imported from the `next/link` module or adds the `legacyBehavior` prop on the component level.

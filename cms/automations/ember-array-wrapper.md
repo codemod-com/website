@@ -57,12 +57,7 @@ tags: automations
 date: 2023-12-05T15:28:22.444Z
 seo:
   title: Ember.js V5 - New Array Wrapper | Codemod.com
-  og:title: Ember.js V5 - New Array Wrapper | Codemod.com
-  twitter:title: Ember.js V5 - New Array Wrapper | Codemod.com
   description: This automations removes any usage of `new` with `A`, and calls `A`
     as a standard function.
-  twitter:card: This automations removes any usage of `new` with `A`, and calls
-    `A` as a standard function.
-  og:image: /assets/images/move-css-in-js-styles.jpg
 ---
 This automation removes any usage of `new` with `A`, and calls `A` as a standard function.

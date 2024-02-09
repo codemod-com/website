@@ -59,12 +59,7 @@ tags: automations
 date: 2023-12-05T16:01:45.964Z
 seo:
   title: Ember.js V5 - Cp Volatile | Codemod.com
-  og:title: Ember.js V5 - Cp Property Volatile | Codemod.com
-  twitter:title: Ember.js V5 - Cp Volatile | Codemod.com
   description: This automation removes all calls to `volatile()` and ensures that
     native getters are directly used.
-  twitter:card: This automation removes all calls to `volatile()` and ensures that
-    native getters are directly used.
-  og:image: /assets/images/cp-volatile.jpg
 ---
 This automation removes all calls to `volatile()` and ensures that native getters are directly used.

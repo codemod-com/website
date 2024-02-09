@@ -91,14 +91,8 @@ tags: automations
 date: 2023-11-30T15:47:23.748Z
 seo:
   title: Next.js Comment Deletable Files | Codemod.com
-  og:title: Next.js Comment Deletable Files | Codemod.com
-  twitter:title: Next.js Comment Deletable Files | Codemod.com
   description: This automation helps you migrate to the Next.js app directory by
     transforming the module specifier `@next/font/*` in import statements into
     `next/font/*`.
-  twitter:card: This automation helps you migrate to the Next.js app directory by
-    transforming the module specifier `@next/font/*` in import statements into
-    `next/font/*`.
-  og:image: /assets/images/comment-deletable-files.jpg
 ---
 This automation is recommended when migrating from the `/pages` to the `/app` directory.

@@ -200,12 +200,7 @@ tags: automations
 date: 2023-11-30T16:07:44.151Z
 seo:
   title: Next.js New Image Experimental | Codemod.com
-  og:title: Next.js New Image Experimental | Codemod.com
-  twitter:title: Next.js New Image Experimental | Codemod.com
   description: This automation dangerously migrates the usages of the Image component
     from the next/legacy/image module to the next/image module.
-  twitter:card: This automation dangerously migrates the usages of the Image
-    component from the next/legacy/image module to the next/image module.
-  og:image: /assets/images/new-image.jpg
 ---
 This automation **dangerously** migrates the usages of the `Image` component from the `next/legacy/image` module to the `next/image` module.

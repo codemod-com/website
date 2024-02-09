@@ -59,14 +59,8 @@ tags: automations
 date: 2023-12-05T15:58:45.777Z
 seo:
   title: Ember.js V5 - Cp Property | Codemod.com
-  og:title: Ember.js V5 - Cp Property Map | Codemod.com
-  twitter:title: Ember.js V5 - Cp Property | Codemod.com
   description: This automation modifies the `.property()` to move additional
     property dependencies directly into the main definition of an existing
     computed property.
-  twitter:card: This automation modifies the `.property()` to move additional
-    property dependencies directly into the main definition of an existing
-    computed property.
-  og:image: /assets/images/cp-property.jpg
 ---
 This automation modifies the `.property()` to move additional property dependencies directly into the main definition of an existing computed property.

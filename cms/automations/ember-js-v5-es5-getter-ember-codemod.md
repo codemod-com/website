@@ -101,12 +101,7 @@ tags: automations
 date: 2023-12-05T16:19:13.647Z
 seo:
   title: Ember.js V5 - ES5 Getter Ember | Codemod.com
-  og:title: Ember.js V5 - ES5 Getter Ember | Codemod.com
-  twitter:title: Ember.js V5 - ES5 Getter Ember | Codemod.com
   description: This automation transforms `get()` to `getProperties()` to use
     traditional object dot notation.
-  twitter:card: This automation transforms `get()` to `getProperties()` to use
-    traditional object dot notation.
-  og:image: /assets/images/es5-getter-ember.jpg
 ---
 This automation transforms `get()` to `getProperties()` to use traditional object dot notation.

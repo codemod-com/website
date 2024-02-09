@@ -51,13 +51,8 @@ f_labels:
   - cms/labels/mocha-to-vitest-migration.md
 tags: automations
 seo:
-  title: Mocha to Vitest Migration Recipe | Codemod.com
-  og:title: Mocha to Vitest Migration Recipe | Codemod.com
-  twitter:title: Mocha to Vitest Migration Recipe | Codemod.com
+  title: Mocha to Vitest Migration Recipe
   description: This recipe is a set of codemods that will upgrade your project
     from using mocha to vitest.
-  twitter:card: This recipe is a set of codemods that will upgrade your project
-    from using mocha to vitest.
-  og:image: /assets/images/mocha-to-vitest-migration-recipe.jpg
 ---
 This recipe is a set of codemods that will upgrade your project from using `mocha` to `vitest`.

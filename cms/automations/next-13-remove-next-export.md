@@ -77,12 +77,7 @@ tags: automations
 date: 2023-11-30T16:54:10.618Z
 seo:
   title: Next.js Remove Next Export | Codemod.com
-  og:title: Next.js Remove Next Export | Codemod.com
-  twitter:title: Next.js New Link | Codemod.com
   description: This automation dangerously removes all references to the command in
     `*.md`, `*.sh`, `package.json`.
-  twitter:card: This automation dangerously removes all references to the command in
-    `*.md`, `*.sh`, `package.json`.
-  og:image: /assets/images/remove-next-export.jpg
 ---
 This automation dangerously removes all references to the command in `*.md`, `*.sh`, `package.json`.
