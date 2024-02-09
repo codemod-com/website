@@ -62,8 +62,8 @@ f_long-description: >-
 
   * [MSW v1 to v2 Migration Guide](https://mswjs.io/docs/migrations/1.x-to-2.x/)
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/upgrade-recipe
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=GZo687pOCc0ICc9ptHSWPJTErcM
-f_cli-command: intuita msw/2/upgrade-recipe
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=GZo687pOCc0ICc9ptHSWPJTErcM
+f_cli-command: codemod msw/2/upgrade-recipe
 f_framework: cms/framework/msw.md
 f_codemod-engine: cms/codemod-engines/ts-morph.md
 f_change-mode-2: Assistive
