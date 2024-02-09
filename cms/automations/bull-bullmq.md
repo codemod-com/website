@@ -117,7 +117,7 @@ f_long-description: >-
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/bull/bullmq
 f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=PTOOeihWI1CDiFR6TqznRFTLmuM
 f_cli-command: intuita bull/bullmq
-f_framework: cms/framework/bull.md
+f_framework: cms/framework/bullmq.md
 f_applicability-criteria: "`bullmq` >= 1.0.0"
 f_verified-codemod: false
 f_author: cms/authors/codemod-com.md
