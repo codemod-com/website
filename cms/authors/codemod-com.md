@@ -7,7 +7,7 @@ updated-on: 2023-11-01T18:56:23.415Z
 published-on: 2023-11-08T18:54:06.110Z
 f_author-display-name: Codemod.com
 f_author-image:
-  url: https://uploads-ssl.webflow.com/65428e9a3a9d943b973390e7/65429f4dd4645bea1c773806_intuita-logo-no-text.svg
+  url: /assets/images/codemod-small-lime.svg
   alt: codemod.com logo
 f_github-profile: https://github.com/codemod-com
 tags: authors
