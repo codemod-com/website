@@ -42,9 +42,6 @@ updated-on: 2024-01-10T11:59:57.648Z
 published-on: 2024-01-10T11:59:57.648Z
 seo:
   title: Netlify-sdk V0.8.1 - Export Zod
-  og:title: Netlify-sdk V0.8.1 - Export Zod
-  twitter:title: Netlify-sdk V0.8.1 - Export Zod
   description: This codemod exports z from zod as required in Netlify SDK v0.8.1.
-  twitter:card: This codemod exports z from zod as required in Netlify SDK v0.8.1.
 ---
 This codemod exports z from zod as required in Netlify SDK v0.8.1.

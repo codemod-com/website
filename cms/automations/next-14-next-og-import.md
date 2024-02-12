@@ -42,9 +42,6 @@ updated-on: 2024-02-12T11:28:08.008Z
 published-on: 2024-02-12T11:28:08.008Z
 seo:
   title: Next V14 - Next OG Import
-  og:title: Next V14 - Next OG Import
-  twitter:title: Next V14 - Next OG Import
   description: This codemod moves transforms imports from next/server` to `next/og` for usage of [Dynamic OG Image Generation](https://nextjs
-  twitter:card: This codemod moves transforms imports from next/server` to `next/og` for usage of [Dynamic OG Image Generation](https://nextjs
 ---
 This codemod moves transforms imports from `next/server` to `next/og` for usage of [Dynamic OG Image Generation](https://nextjs.org/docs/app/building-your-application/optimizing/metadata#dynamic-image-generation).

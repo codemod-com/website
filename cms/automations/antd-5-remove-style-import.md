@@ -47,9 +47,6 @@ f_labels:
 tags: automations
 seo:
   title: Antd V5 - Remove Style Import
-  og:title: Antd V5 - Remove Style Import
-  twitter:title: Antd V5 - Remove Style Import
   description: Comment out the style file import from antd (in js file).
-  twitter:card: Comment out the style file import from antd (in js file).
 ---
 Comment out the style file import from antd (in js file).

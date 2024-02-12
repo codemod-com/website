@@ -88,9 +88,6 @@ f_labels:
 tags: automations
 seo:
   title: Antd V5 - Removed Static Method Migration
-  og:title: Antd V5 - Removed Static Method Migration
-  twitter:title: Antd V5 - Removed Static Method Migration
   description: Replace message.warn with message.warning.
-  twitter:card: Replace message.warn with message.warning.
 ---
 Replace message.warn with message.warning. Replace notification.close with notification.destroy.

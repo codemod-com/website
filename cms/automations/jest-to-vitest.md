@@ -42,9 +42,6 @@ updated-on: 2024-02-12T11:28:07.894Z
 published-on: 2024-02-12T11:28:07.894Z
 seo:
   title: Jest to vitest - Migrate from jest to vitest
-  og:title: Jest to vitest - Migrate from jest to vitest
-  twitter:title: Jest to vitest - Migrate from jest to vitest
   description: Run this codemod to upgrade your codebase from using jest to vitest
-  twitter:card: Run this codemod to upgrade your codebase from using jest to vitest
 ---
 Run this codemod to upgrade your codebase from using jest to vitest.

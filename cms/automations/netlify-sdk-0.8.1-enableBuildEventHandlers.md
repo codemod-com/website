@@ -42,9 +42,6 @@ updated-on: 2024-01-10T11:59:57.632Z
 published-on: 2024-01-10T11:59:57.632Z
 seo:
   title: Netlify-sdk V0.8.1 - Rename enableBuildEventHandlers
-  og:title: Netlify-sdk V0.8.1 - Rename enableBuildEventHandlers
-  twitter:title: Netlify-sdk V0.8.1 - Rename enableBuildEventHandlers
   description: This codemod renames `enableBuildhook` to `enableBuildEventHandlers` as required in Netlify SDK v0.8.1.
-  twitter:card: This codemod renames `enableBuildhook` to `enableBuildEventHandlers` as required in Netlify SDK v0.8.1.
 ---
 This codemod renames `enableBuildhook` to `enableBuildEventHandlers` as required in Netlify SDK v0.8.1.

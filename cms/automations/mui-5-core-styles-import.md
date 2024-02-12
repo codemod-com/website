@@ -51,9 +51,6 @@ updated-on: 2024-02-12T11:28:07.934Z
 published-on: 2024-02-12T11:28:07.934Z
 seo:
   title: Mui V5 - Core Styles Import
-  og:title: Mui V5 - Core Styles Import
-  twitter:title: Mui V5 - Core Styles Import
   description: Renames private import from core/styles/*` to `core/styles
-  twitter:card: Renames private import from core/styles/*` to `core/styles
 ---
 Renames private import from `core/styles/*` to `core/styles`

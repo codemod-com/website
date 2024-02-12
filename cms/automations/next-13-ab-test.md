@@ -25,13 +25,7 @@ published-on: 2024-01-10T11:59:57.889Z
 tags: automations
 seo:
   title: Next V13 - Generate URL Patterns for Cal.com
-  og:title: Next V13 - Generate URL Patterns for Cal.com
-  twitter:title: Next V13 - Generate URL Patterns for Cal.com
   description: This codemod generates boilerplate code for A/B tests using the
-    Next.js middlewares. The middleware controls the redirects from the legacy
-    to the future pages. You can control the redirection probability and
-    targeted pages using environment variables.
-  twitter:card: This codemod generates boilerplate code for A/B tests using the
     Next.js middlewares. The middleware controls the redirects from the legacy
     to the future pages. You can control the redirection probability and
     targeted pages using environment variables.

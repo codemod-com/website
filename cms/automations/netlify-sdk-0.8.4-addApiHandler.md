@@ -50,9 +50,6 @@ updated-on: 2024-01-10T11:59:57.665Z
 published-on: 2024-01-10T11:59:57.665Z
 seo:
   title: Netlify-sdk V0.8.4 - addApiHandler
-  og:title: Netlify-sdk V0.8.4 - addApiHandler
-  twitter:title: Netlify-sdk V0.8.4 - addApiHandler
   description: This codemod renames `addHandler` to `addApiHandler` as required in Netlify SDK v0.8.1.
-  twitter:card: This codemod renames `addHandler` to `addApiHandler` as required in Netlify SDK v0.8.1.
 ---
 This codemod renames `addHandler` to `addApiHandler` as required in Netlify SDK v0.8.1.

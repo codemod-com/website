@@ -58,9 +58,6 @@ updated-on: 2024-02-12T11:28:07.962Z
 published-on: 2024-02-12T11:28:07.962Z
 seo:
   title: Typescript to remove-public-modifier - Remove Public Modifier
-  og:title: Typescript to remove-public-modifier - Remove Public Modifier
-  twitter:title: Typescript to remove-public-modifier - Remove Public Modifier
-  description: This codemod removes public modifier in interface declarations as it is implicit
-  twitter:card: This codemod removes public modifier in interface declarations as it is implicit
+  description: This codemod removes public modifier in interface declarations as it is implicitrations as it is implicit
 ---
 This codemod removes public modifier in interface declarations as it is implicit.

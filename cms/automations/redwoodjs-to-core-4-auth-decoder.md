@@ -77,9 +77,6 @@ updated-on: 2024-02-12T11:28:07.863Z
 published-on: 2024-02-12T11:28:07.863Z
 seo:
   title: Redwoodjs to core - Auth Decoder
-  og:title: Redwoodjs to core - Auth Decoder
-  twitter:title: Redwoodjs to core - Auth Decoder
   description: This codemod for RedwoodJS v4 automatically inserts an authDecoder` property into the `createGraphQLHandler` call if it's not already present
-  twitter:card: This codemod for RedwoodJS v4 automatically inserts an authDecoder` property into the `createGraphQLHandler` call if it's not already present
 ---
 This codemod for RedwoodJS v4 automatically inserts an `authDecoder` property into the `createGraphQLHandler` call if it's not already present. It also adds an import statement for `authDecoder` from `@redwoodjs/auth-auth0-api` at the beginning of the file, ensuring that the necessary functionality for authentication is correctly integrated.

@@ -50,9 +50,6 @@ updated-on: 2024-02-12T11:28:08.321Z
 published-on: 2024-02-12T11:28:08.321Z
 seo:
   title: React-router V4 - Replace params prop
-  og:title: React-router V4 - Replace params prop
-  twitter:title: React-router V4 - Replace params prop
   description: Replaces params` prop passed by react-router with `match
-  twitter:card: Replaces params` prop passed by react-router with `match
 ---
 Replaces `params` prop passed by react-router with `match.params`.

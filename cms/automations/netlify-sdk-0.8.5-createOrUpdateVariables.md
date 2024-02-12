@@ -46,9 +46,6 @@ updated-on: 2024-01-10T11:59:57.714Z
 published-on: 2024-01-10T11:59:57.714Z
 seo:
   title: Netlify-sdk V0.8.5 - createOrUpdateVariables
-  og:title: Netlify-sdk V0.8.5 - createOrUpdateVariables
-  twitter:title: Netlify-sdk V0.8.5 - createOrUpdateVariables
   description: This codemod changes `createOrUpdateVariables` to pass an object instead of the separate arguments as required in Netlify SDK v0.8.5.
-  twitter:card: This codemod changes `createOrUpdateVariables` to pass an object instead of the separate arguments as required in Netlify SDK v0.8.5.
 ---
 This codemod changes `createOrUpdateVariables` to pass an object instead of the separate arguments as required in Netlify SDK v0.8.5.

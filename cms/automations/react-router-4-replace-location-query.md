@@ -52,9 +52,6 @@ updated-on: 2024-02-12T11:28:08.308Z
 published-on: 2024-02-12T11:28:08.308Z
 seo:
   title: React-router V4 - Replace Location Query
-  og:title: React-router V4 - Replace Location Query
-  twitter:title: React-router V4 - Replace Location Query
   description: This codemod replaces instances of location
-  twitter:card: This codemod replaces instances of location
 ---
 This codemod replaces instances of `location.query` with `parse(location.search)`, where `parse` is a function imported from `query-string`.

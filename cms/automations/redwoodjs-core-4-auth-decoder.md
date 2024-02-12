@@ -104,12 +104,7 @@ published-on: 2023-12-21T16:50:53.999Z
 tags: automations
 seo:
   title: Redwoodjs V4 - Auth Decoder
-  og:title: Redwoodjs V4 - Auth Decoder
-  twitter:title: Redwoodjs V4 - Auth Decoder
   description: This codemod for RedwoodJS v4 automatically inserts an
     `authDecoder` property into the `createGraphQLHandler` call.
-  twitter:card: This codemod for RedwoodJS v4 automatically inserts an
-    `authDecoder` property into the `createGraphQLHandler` call.
-  og:image: /assets/images/redwoodjs-v4-auth-decoder.jpg
 ---
 This codemod for RedwoodJS v4 automatically inserts an `authDecoder` property into the `createGraphQLHandler` call.

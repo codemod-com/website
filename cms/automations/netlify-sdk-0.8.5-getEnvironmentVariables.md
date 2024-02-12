@@ -45,9 +45,6 @@ updated-on: 2024-01-10T11:59:57.776Z
 published-on: 2024-01-10T11:59:57.776Z
 seo:
   title: Netlify-sdk V0.8.5 - getEnvironmentVariables
-  og:title: Netlify-sdk V0.8.5 - getEnvironmentVariables
-  twitter:title: Netlify-sdk V0.8.5 - getEnvironmentVariables
   description: This codemod changes `getEnvironmentVariables` to pass an object instead of the separate arguments as required in Netlify SDK v0.8.5.
-  twitter:card: This codemod changes `getEnvironmentVariables` to pass an object instead of the separate arguments as required in Netlify SDK v0.8.5.
 ---
 This codemod changes `getEnvironmentVariables` to pass an object instead of the separate arguments as required in Netlify SDK v0.8.5.

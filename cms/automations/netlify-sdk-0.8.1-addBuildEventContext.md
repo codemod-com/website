@@ -52,9 +52,6 @@ updated-on: 2024-01-10T11:59:57.583Z
 published-on: 2024-01-10T11:59:57.583Z
 seo:
   title: Netlify-sdk V0.8.1 - Rename addBuildEventContext
-  og:title: Netlify-sdk V0.8.1 - Rename addBuildEventContext
-  twitter:title: Netlify-sdk V0.8.1 - Rename addBuildEventContext
   description: This codemod renames `addBuildContext` to `addBuildEventContext` as required in Netlify SDK v0.8.1.
-  twitter:card: This codemod renames `addBuildContext` to `addBuildEventContext` as required in Netlify SDK v0.8.1.
 ---
 This codemod renames `addBuildContext` to `addBuildEventContext` as required in Netlify SDK v0.8.1.

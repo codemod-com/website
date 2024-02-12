@@ -91,12 +91,7 @@ f_labels:
 tags: automations
 seo:
   title: Next.js - i18next Copy Keys
-  og:title: Next.js - i18next Copy Keys
-  twitter:title: Next.js - i18next Copy Keys
   description: This codemod copies specific keys from one translation namespace to
     another, for each of the supported languages.
-  twitter:card: This codemod copies specific keys from one translation namespace
-    to another, for each of the supported languages.
-  og:image: /assets/images/next-i18n-copy-keys-automated-refactor.jpg
 ---
 This codemod copies specific keys from one translation namespace to another, for each of the supported languages.
