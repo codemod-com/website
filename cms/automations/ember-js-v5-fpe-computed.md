@@ -79,7 +79,7 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:25:52.246Z
 seo:
-  title: Ember.js V5 - Fpe Computed | Codemod.com
+  title: Ember.js V5 - Fpe Computed
   description: The "Fpe Computed" codemod for Ember.js V5 refactors computed
     property definitions from the older `.property` method to the modern
     `computed` function syntax.

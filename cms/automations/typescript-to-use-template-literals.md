@@ -43,9 +43,9 @@ tags: automations
 updated-on: 2024-02-12T11:28:07.948Z
 published-on: 2024-02-12T11:28:07.948Z
 seo:
-  title: Typescript to use-template-literals - Use Template Literals | Codemod.com Automations
-  og:title: Typescript to use-template-literals - Use Template Literals | Codemod.com Automations
-  twitter:title: Typescript to use-template-literals - Use Template Literals | Codemod.com Automations
+  title: Typescript to use-template-literals - Use Template Literals
+  og:title: Typescript to use-template-literals - Use Template Literals
+  twitter:title: Typescript to use-template-literals - Use Template Literals
   description: This codemod replaces string concatenations with template literals
   twitter:card: This codemod replaces string concatenations with template literals
 ---

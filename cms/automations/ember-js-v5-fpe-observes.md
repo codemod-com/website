@@ -64,7 +64,7 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:32:38.112Z
 seo:
-  title: Ember.js V5 - Fpe Observes | Codemod.com
+  title: Ember.js V5 - Fpe Observes
   description: This automation refactors observer definitions in Ember.js from
     using the `.observes` method to the modern `observer` function syntax.
 ---

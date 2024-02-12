@@ -87,9 +87,9 @@ f_labels:
   - cms/labels/ant-design-v5-upgrade.md
 tags: automations
 seo:
-  title: Antd V5 - Removed Static Method Migration | Codemod.com
-  og:title: Antd V5 - Removed Static Method Migration | Codemod.com
-  twitter:title: Antd V5 - Removed Static Method Migration | Codemod.com
+  title: Antd V5 - Removed Static Method Migration
+  og:title: Antd V5 - Removed Static Method Migration
+  twitter:title: Antd V5 - Removed Static Method Migration
   description: Replace message.warn with message.warning.
   twitter:card: Replace message.warn with message.warning.
 ---

@@ -55,9 +55,9 @@ f_labels:
 tags: automations
 date: 2023-12-01T15:31:50.060Z
 seo:
-  title: Next OG Import Automation | Codemod.com
-  og:title: Next OG Import Automation | Codemod.com
-  twitter:title: Next OG Import Automation | Codemod.com
+  title: Next OG Import Automation
+  og:title: Next OG Import Automation
+  twitter:title: Next OG Import Automation
   description: This automation transforms imports from `next/server` to `next/og`
     for the usage of Dynamic OG Image Generation.
   twitter:card: This automation transforms imports from `next/server` to `next/og`

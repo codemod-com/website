@@ -163,7 +163,7 @@ f_labels:
 tags: automations
 date: 2023-11-30T16:45:39.875Z
 seo:
-  title: Next.js Migrate Data Fetching Methods | Codemod.com
+  title: Next.js Migrate Data Fetching Methods
   description: This codemod migrates the data fetching functions into the supported in the app directory.
 ---
 This automation migrates the data fetching functions into the supported in the `app` directory.

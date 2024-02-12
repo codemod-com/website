@@ -86,7 +86,7 @@ f_labels:
   - cms/labels/next-js-app-router-migration.md
 tags: automations
 seo:
-  title: Next.js App Directory Boilerplate | Codemod.com
+  title: Next.js App Directory Boilerplate
   description: This automation helps you migrate to the Next.js app directory by
     reading the contents of your `pages` directory and creates the placeholder
     files.

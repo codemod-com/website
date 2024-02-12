@@ -47,9 +47,9 @@ f_labels:
   - cms/labels/ant-design-v5-upgrade.md
 tags: automations
 seo:
-  title: Antd V5 - Props Changed Migration | Codemod.com
-  og:title: Antd V5 - Props Changed Migration | Codemod.com
-  twitter:title: Antd V5 - Props Changed Migration | Codemod.com
+  title: Antd V5 - Props Changed Migration
+  og:title: Antd V5 - Props Changed Migration
+  twitter:title: Antd V5 - Props Changed Migration
   description: This codemod changes the way the component props are applied.
   twitter:card: This codemod changes the way the component props are applied.
 ---

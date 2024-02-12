@@ -45,9 +45,9 @@ tags: automations
 updated-on: 2024-01-10T11:59:57.737Z
 published-on: 2024-01-10T11:59:57.737Z
 seo:
-  title: Netlify-sdk V0.8.5 - deleteEnvironmentVariable | Codemod.com Automations
-  og:title: Netlify-sdk V0.8.5 - deleteEnvironmentVariable | Codemod.com Automations
-  twitter:title: Netlify-sdk V0.8.5 - deleteEnvironmentVariable | Codemod.com Automations
+  title: Netlify-sdk V0.8.5 - deleteEnvironmentVariable
+  og:title: Netlify-sdk V0.8.5 - deleteEnvironmentVariable
+  twitter:title: Netlify-sdk V0.8.5 - deleteEnvironmentVariable
   description: This codemod changes `deleteEnvironmentVariable` to pass an object instead of the separate arguments as required in Netlify SDK v0.8.5.
   twitter:card: This codemod changes `deleteEnvironmentVariable` to pass an object instead of the separate arguments as required in Netlify SDK v0.8.5.
 ---

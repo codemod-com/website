@@ -90,9 +90,9 @@ f_labels:
   - cms/labels/next-i18n.md
 tags: automations
 seo:
-  title: Next.js - i18next Copy Keys | Codemod.com
-  og:title: Next.js - i18next Copy Keys | Codemod.com
-  twitter:title: Next.js - i18next Copy Keys | Codemod.com
+  title: Next.js - i18next Copy Keys
+  og:title: Next.js - i18next Copy Keys
+  twitter:title: Next.js - i18next Copy Keys
   description: This codemod copies specific keys from one translation namespace to
     another, for each of the supported languages.
   twitter:card: This codemod copies specific keys from one translation namespace

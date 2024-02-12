@@ -68,7 +68,7 @@ f_labels:
 tags: automations
 date: 2023-12-05T17:04:42.695Z
 seo:
-  title: Ember.js V5 - Notify Property Change | Codemod.com
+  title: Ember.js V5 - Notify Property Change
   description: This automation removes all calls to `propertyWillChange` and
     replaces all calls to `propertyDidChange` with `notifyPropertyChange`.
 ---

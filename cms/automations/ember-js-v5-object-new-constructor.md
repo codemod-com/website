@@ -64,7 +64,7 @@ f_labels:
 tags: automations
 date: 2023-12-05T17:23:11.303Z
 seo:
-  title: Ember.js V5 - Object New Constructor | Codemod.com
+  title: Ember.js V5 - Object New Constructor
   description: This codemod replaces all calls to `new EmberObject()` with
     `EmberObject.create()` and adds a `constructor` function to classes that
     extend from `EmberObject` so that the classes no longer extend from

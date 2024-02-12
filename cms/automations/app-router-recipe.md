@@ -47,7 +47,7 @@ f_labels:
 tags: automations
 date: 2023-11-28T18:30:26.114Z
 seo:
-  title: Next.js App Router Recipe | Codemod.com
+  title: Next.js App Router Recipe
   description: The App Router Recipe is a set of codemods that assist you with the pages-to-app migration process.
 ---
 

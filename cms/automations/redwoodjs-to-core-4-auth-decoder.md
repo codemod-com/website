@@ -76,9 +76,9 @@ tags: automations
 updated-on: 2024-02-12T11:28:07.863Z
 published-on: 2024-02-12T11:28:07.863Z
 seo:
-  title: Redwoodjs to core - Auth Decoder | Codemod.com Automations
-  og:title: Redwoodjs to core - Auth Decoder | Codemod.com Automations
-  twitter:title: Redwoodjs to core - Auth Decoder | Codemod.com Automations
+  title: Redwoodjs to core - Auth Decoder
+  og:title: Redwoodjs to core - Auth Decoder
+  twitter:title: Redwoodjs to core - Auth Decoder
   description: This codemod for RedwoodJS v4 automatically inserts an authDecoder` property into the `createGraphQLHandler` call if it's not already present
   twitter:card: This codemod for RedwoodJS v4 automatically inserts an authDecoder` property into the `createGraphQLHandler` call if it's not already present
 ---

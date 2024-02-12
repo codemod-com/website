@@ -67,7 +67,7 @@ f_labels:
 tags: automations
 date: 2023-11-30T17:13:54.620Z
 seo:
-  title: Next.js Replace useSearchParams | Codemod.com
+  title: Next.js Replace useSearchParams
   description: This automation replaces `useSearchParams` with `useCompatSearchParams`.
 ---
 This automation replaces `useSearchParams` with `useCompatSearchParams`.

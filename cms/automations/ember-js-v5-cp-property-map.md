@@ -58,7 +58,7 @@ f_labels:
 tags: automations
 date: 2023-12-05T15:51:27.095Z
 seo:
-  title: Ember.js V5 - Cp Property Map | Codemod.com
+  title: Ember.js V5 - Cp Property Map
   description: This automation adds extra property dependencies to computed
     properties like `filter`, `map`, and `sort`, automating the inclusion of an
     array of dependent keys as a second parameter.

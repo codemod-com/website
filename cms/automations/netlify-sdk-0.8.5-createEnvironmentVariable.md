@@ -46,9 +46,9 @@ tags: automations
 updated-on: 2024-01-10T11:59:57.682Z
 published-on: 2024-01-10T11:59:57.682Z
 seo:
-  title: Netlify-sdk V0.8.5 - createEnvironmentVariable | Codemod.com Automations
-  og:title: Netlify-sdk V0.8.5 - createEnvironmentVariable | Codemod.com Automations
-  twitter:title: Netlify-sdk V0.8.5 - createEnvironmentVariable | Codemod.com Automations
+  title: Netlify-sdk V0.8.5 - createEnvironmentVariable
+  og:title: Netlify-sdk V0.8.5 - createEnvironmentVariable
+  twitter:title: Netlify-sdk V0.8.5 - createEnvironmentVariable
   description: This codemod changes `createEnvironmentVariable` to pass an object instead of the separate arguments as required in Netlify SDK v0.8.5.
   twitter:card: This codemod changes `createEnvironmentVariable` to pass an object instead of the separate arguments as required in Netlify SDK v0.8.5.
 ---

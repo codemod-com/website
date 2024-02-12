@@ -107,7 +107,7 @@ f_labels:
 tags: automations
 date: 2023-11-30T17:02:33.753Z
 seo:
-  title: Next.js Replace Next Head | Codemod.com
+  title: Next.js Replace Next Head
   description: This automation generates a static metadata object based on meta tags
     managed by `next/head`.
 ---

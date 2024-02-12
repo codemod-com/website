@@ -21,7 +21,7 @@ f_labels:
 tags: automations
 date: 2023-11-30T16:58:54.724Z
 seo:
-  title: Next.js Replace API Routes | Codemod.com
+  title: Next.js Replace API Routes
   description: This automation replaces API Routes with Route Handlers.
 ---
 This automation replaces API Routes with Route Handlers.

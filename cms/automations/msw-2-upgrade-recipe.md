@@ -80,7 +80,7 @@ tags: automations
 date: 2023-11-20T14:53:04.294Z
 f_slug-name: msw-upgrade-recipe
 seo:
-  title: MSW V2 Upgrade Recipe | Codemod.com
+  title: MSW V2 Upgrade Recipe
   description: This recipe is a set of automations that will upgrade your project
     from using msw v1 to v2.
 ---

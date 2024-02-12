@@ -71,7 +71,7 @@ f_labels:
 tags: automations
 date: 2023-12-05T15:43:26.903Z
 seo:
-  title: Ember.js V5 - Convert moduleFor to setupTest | Codemod.com
+  title: Ember.js V5 - Convert moduleFor to setupTest
   description: This automation transforms from the older `moduleFor*` syntax of
     `ember-qunit@2` to the newer `setup*Test` syntax.
 ---

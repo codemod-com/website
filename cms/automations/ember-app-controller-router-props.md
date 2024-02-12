@@ -89,7 +89,7 @@ f_labels:
 tags: automations
 date: 2023-12-05T15:30:13.935Z
 seo:
-  title: Ember.js V5 - App Controller Router Props | Codemod.com
+  title: Ember.js V5 - App Controller Router Props
   description: This codemod replaces all occurrences of `this.currentRouteName`
     with `this.router.currentRouteName` and `this.currentPath` with
     `this.router.currentPath`.

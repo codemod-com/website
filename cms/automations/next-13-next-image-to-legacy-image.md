@@ -79,7 +79,7 @@ f_labels:
 tags: automations
 date: 2023-11-30T16:26:21.114Z
 seo:
-  title: Next Image to Legacy Image | Codemod.com
+  title: Next Image to Legacy Image
   description: This automation safely migrates existing Next.js 10, 11, 12
     `next/image` imports to their corresponding imports in Next.js 13.
 ---

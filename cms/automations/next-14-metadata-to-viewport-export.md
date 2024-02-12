@@ -54,9 +54,9 @@ tags: automations
 updated-on: 2024-02-12T11:28:07.992Z
 published-on: 2024-02-12T11:28:07.992Z
 seo:
-  title: Next V14 - Metadata to Viewport Export | Codemod.com Automations
-  og:title: Next V14 - Metadata to Viewport Export | Codemod.com Automations
-  twitter:title: Next V14 - Metadata to Viewport Export | Codemod.com Automations
+  title: Next V14 - Metadata to Viewport Export
+  og:title: Next V14 - Metadata to Viewport Export
+  twitter:title: Next V14 - Metadata to Viewport Export
   description: This codemod migrates certain viewport metadata to viewport` export
   twitter:card: This codemod migrates certain viewport metadata to viewport` export
 ---

@@ -79,7 +79,7 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:43:19.844Z
 seo:
-  title: Ember.js V5 - Fpe On | Codemod.com
+  title: Ember.js V5 - Fpe On
   description: This automation updates event handling in Ember.js by transitioning
     from the `.on` method to using the `on` function for event listeners.
 ---

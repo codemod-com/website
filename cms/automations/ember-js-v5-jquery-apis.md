@@ -62,7 +62,7 @@ f_labels:
 tags: automations
 date: 2023-12-05T16:57:48.065Z
 seo:
-  title: Ember.js V5 - Jquery Event | Codemod.com
+  title: Ember.js V5 - Jquery Event
   description: This automation removes all calls to `originalEvent` in case of
     accessing properties that work with jQuery events as well as native events.
 ---

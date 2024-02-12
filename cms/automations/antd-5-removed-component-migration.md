@@ -46,9 +46,9 @@ f_labels:
   - cms/labels/ant-design-v5-upgrade.md
 tags: automations
 seo:
-  title: Antd V5 - Removed Component Migration | Codemod.com
-  og:title: Antd V5 - Removed Component Migration | Codemod.com
-  twitter:title: Antd V5 - Removed Component Migration | Codemod.com
+  title: Antd V5 - Removed Component Migration
+  og:title: Antd V5 - Removed Component Migration
+  twitter:title: Antd V5 - Removed Component Migration
   description: Replace import for removed component in v5.
   twitter:card: Replace import for removed component in v5.
 ---

@@ -58,7 +58,7 @@ f_labels:
 tags: automations
 date: 2023-11-29T17:16:01.817Z
 seo:
-  title: Next.js Built In Font | Codemod.com
+  title: Next.js Built In Font
   description: This automation helps you migrate to the Next.js app directory by
     transforming the module specifier `@next/font/*` in import statements into
     `next/font/*`.

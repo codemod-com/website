@@ -55,9 +55,9 @@ tags: automations
 updated-on: 2024-01-10T11:59:57.599Z
 published-on: 2024-01-10T11:59:57.599Z
 seo:
-  title: Netlify-sdk V0.8.1 - Rename addBuildEventHandler | Codemod.com Automations
-  og:title: Netlify-sdk V0.8.1 - Rename addBuildEventHandler | Codemod.com Automations
-  twitter:title: Netlify-sdk V0.8.1 - Rename addBuildEventHandler | Codemod.com Automations
+  title: Netlify-sdk V0.8.1 - Rename addBuildEventHandler
+  og:title: Netlify-sdk V0.8.1 - Rename addBuildEventHandler
+  twitter:title: Netlify-sdk V0.8.1 - Rename addBuildEventHandler
   description: This codemod renames `addBuildHook` to `addBuildEventHandler` as required in Netlify SDK v0.8.1.
   twitter:card: This codemod renames `addBuildHook` to `addBuildEventHandler` as required in Netlify SDK v0.8.1.
 ---

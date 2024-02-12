@@ -69,7 +69,7 @@ f_labels:
 tags: automations
 date: 2023-12-01T15:50:10.547Z
 seo:
-  title: Next.js v14 Metadata to Viewport Export | Codemod.com
+  title: Next.js v14 Metadata to Viewport Export
   description: This automation migrates certain viewport metadata to `viewport` export.
 ---
 This automation migrates certain viewport metadata to `viewport` export.

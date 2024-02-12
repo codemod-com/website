@@ -95,7 +95,7 @@ f_labels:
 tags: automations
 date: 2023-11-30T15:56:24.633Z
 seo:
-  title: Next.js Move CSS in JS Styles | Codemod.com
+  title: Next.js Move CSS in JS Styles
   description: This is a highly experimental codemod that moves the CSS-in-JS
     styles into the CSS Modules.
 ---

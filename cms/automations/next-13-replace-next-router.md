@@ -86,7 +86,7 @@ f_labels:
 tags: automations
 date: 2023-11-30T17:10:02.999Z
 seo:
-  title: Next.js Replace Next Router | Codemod.com
+  title: Next.js Replace Next Router
   description: This automation allows you to migrate the `useRouter` hook to the new
     `useRouter` hook imported from `next/navigation`.
 ---
