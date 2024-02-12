@@ -18,12 +18,15 @@
   {% assign clean_title =  title | escape %}
   {% assign clean_description =  seo.description | escape %}
   {% assign og_image_url =  'https://codemod-open-graph.vercel.app/api/registry?Title=' | append: clean_title | append: '&Description=' | append: clean_description | append: '&Tag=Codemod Registry' | replace: 'amp;', 'xx' %}
-  <meta name="og:title" content="{{ clean_title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ clean_title }}">
   <meta data-react-helmet="true" property="og:site_name" content="Codemod.com">
   <meta property="og:image" content="{{ og_image_url }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="codemod.com">
   <meta name="twitter:title" content="{{ clean_title }}">
-  <meta name="twitter:card" content="{{ clean_description }}">
-  <meta property="twitter:image" content="{{ og_image_url }}">
+  <meta name="twitter:image" content="{{ og_image_url }}">
   
   <style>
 p code {
