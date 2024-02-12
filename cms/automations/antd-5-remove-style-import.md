@@ -26,7 +26,7 @@ f_long-description: >-
 
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/antd/5/remove-style-import
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=ovpw9tnJRJOsXRJSawZ4ycQhWGQ
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=ovpw9tnJRJOsXRJSawZ4ycQhWGQ
 f_cli-command: intuita antd/5/remove-style-import
 f_framework: cms/framework/antd.md
 f_applicability-criteria: Ant Design >= 5.0.0

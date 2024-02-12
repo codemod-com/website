@@ -68,7 +68,7 @@ f_long-description: >-
 
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/app-controller-router-props
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=2ilOsMOt-d18XxYxfiO3RhiKtOI
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=2ilOsMOt-d18XxYxfiO3RhiKtOI
 f_codemod-studio-link: https://go.intuita.io/xmT5B0
 f_cli-command: intuita ember/5/app-controller-router-props
 f_framework: cms/framework/ember-js.md

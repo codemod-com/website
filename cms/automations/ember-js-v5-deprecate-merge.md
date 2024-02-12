@@ -27,7 +27,7 @@ f_long-description: |-
   assign(a, b);
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/deprecate-merge
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=SwH9ekSK1NDUt3QxSb3Hl4VfdAU
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=SwH9ekSK1NDUt3QxSb3Hl4VfdAU
 f_codemod-studio-link: https://go.intuita.io/SnbAVW
 f_cli-command: intuita ember/5/deprecate-merge
 f_framework: cms/framework/ember-js.md

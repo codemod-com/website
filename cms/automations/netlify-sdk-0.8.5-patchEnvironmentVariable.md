@@ -38,7 +38,7 @@ f_long-description: >-
   
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/netlify-sdk/0.8.5/patchEnvironmentVariable
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=GHm-VFIY-Pxm4LAGz0KjuPAJ_ss
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=GHm-VFIY-Pxm4LAGz0KjuPAJ_ss
 f_cli-command: intuita netlify/0.8.5/patchEnvironmentVariable
 f_framework: cms/framework/netlify-sdk.md
 f_applicability-criteria: "Netlify SDK v0.8.5 or higher."

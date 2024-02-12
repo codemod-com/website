@@ -47,7 +47,7 @@ f_long-description: >-
 
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/notify-property-change
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=TzYcFw0pbJTydA16tTFEvI3sM8M
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=TzYcFw0pbJTydA16tTFEvI3sM8M
 f_codemod-studio-link: https://go.intuita.io/XXlTDd
 f_cli-command: intuita ember/5/notify-property-change
 f_framework: cms/framework/ember-js.md

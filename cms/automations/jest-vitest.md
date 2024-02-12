@@ -24,7 +24,7 @@ f_long-description: >-
   
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/jest/vitest
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=JZihI3jK1aR4RTw6PRfjzQ-zj0I
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=JZihI3jK1aR4RTw6PRfjzQ-zj0I
 f_cli-command: intuita jest/vitest
 f_framework: cms/framework/jest.md
 f_applicability-criteria: "`jest` >= `26.0.0`"

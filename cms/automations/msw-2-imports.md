@@ -48,7 +48,7 @@ f_long-description: >-
 
   ````
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/msw/2/imports
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=03s9tN6jERYILUlAfRX9cNotRpc
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=03s9tN6jERYILUlAfRX9cNotRpc
 f_codemod-studio-link: https://go.intuita.io/vUBlZL
 f_cli-command: intuita msw/2/imports
 f_framework: cms/framework/msw.md

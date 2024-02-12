@@ -29,7 +29,7 @@ f_long-description: >-
   
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/netlify-sdk/0.8.5/createOrUpdateVariable
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=8SFxNl5dDgie5yzVYjuT425XSDk
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=8SFxNl5dDgie5yzVYjuT425XSDk
 f_cli-command: intuita netlify/0.8.5/createOrUpdateVariable
 f_framework: cms/framework/netlify-sdk.md
 f_applicability-criteria: "Netlify SDK v0.8.5 or higher."

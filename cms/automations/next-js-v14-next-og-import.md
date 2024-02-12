@@ -35,7 +35,7 @@ f_long-description: >-
 
   * [Next.js V14 Upgrade](https://nextjs.org/docs/pages/building-your-application/upgrading/version-14)
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/14/next-og-import
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=YH4iWtje8EfAlF0_ywnKrKTrQJY
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=YH4iWtje8EfAlF0_ywnKrKTrQJY
 f_cli-command: intuita next/14/next-og-import
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version is greater or equal to 14.

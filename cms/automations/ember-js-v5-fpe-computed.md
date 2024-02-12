@@ -58,7 +58,7 @@ f_long-description: |-
   client.get('fullName'); // 'Betty Fuller'
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/fpe-computed
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=jisEa59u6ByQ-XI9pMkBa_GsvCw
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=jisEa59u6ByQ-XI9pMkBa_GsvCw
 f_codemod-studio-link: https://go.intuita.io/du04dP
 f_cli-command: intuita ember/5/fpe-computed
 f_framework: cms/framework/ember-js.md

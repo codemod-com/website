@@ -31,7 +31,7 @@ f_long-description: >-
 
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/mocha/vitest/recipe
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=oDAjaOrkUfLtuw4nNXnfIHLEL-o
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=oDAjaOrkUfLtuw4nNXnfIHLEL-o
 f_cli-command: intuita mocha/vitest/recipe
 f_framework: cms/framework/vitest.md
 f_applicability-criteria: Mocha  >= 9.0.0

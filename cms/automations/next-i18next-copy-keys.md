@@ -71,7 +71,7 @@ f_long-description: >-
 
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/next-i18next/copy-keys
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=SjMsX5HjVc-QOXnMZ3sE__LVV1Q
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=SjMsX5HjVc-QOXnMZ3sE__LVV1Q
 f_cli-command: intuita next-i18next/copy-keys
 f_framework: cms/framework/next-js.md
 f_codemod-engine: cms/codemod-engines/filemod.md

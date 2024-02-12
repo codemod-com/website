@@ -144,7 +144,7 @@ f_long-description: >-
 
   `Removed`
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/mocha/vitest/migrate-configuration
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=-10xavJW4dcVcp6p_pjHxw9wfMA
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=-10xavJW4dcVcp6p_pjHxw9wfMA
 f_cli-command: intuita mocha/vitest/migrate-configuration
 f_framework: cms/framework/vitest.md
 f_applicability-criteria: Mocha  >= 9.0.0

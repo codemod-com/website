@@ -79,7 +79,7 @@ f_long-description: >-
 
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/edit/main/codemods/ember/5/es5-getter-ember-codemod
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=gRfEFfyVMWOpWwejLmCFzbnPK8I
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=gRfEFfyVMWOpWwejLmCFzbnPK8I
 f_codemod-studio-link: https://go.intuita.io/Ay4HST
 f_cli-command: intuita ember/5/es5-getter-ember-codemod
 f_framework: cms/framework/ember-js.md

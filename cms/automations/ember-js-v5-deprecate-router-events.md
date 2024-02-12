@@ -75,7 +75,7 @@ f_long-description: >-
 
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/deprecate-router-events
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=mwdY99AT40pd8fQUil33BeR7SEo
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=mwdY99AT40pd8fQUil33BeR7SEo
 f_codemod-studio-link: https://go.intuita.io/MYgG49
 f_cli-command: intuita ember/5/deprecate-router-events
 f_framework: cms/framework/ember-js.md

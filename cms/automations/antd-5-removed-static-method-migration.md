@@ -67,7 +67,7 @@ f_long-description: >-
 
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/antd/5/removed-static-method-migration
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=kGFeVKZNWhdp1Al8BJ03ZYs_T-s
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=kGFeVKZNWhdp1Al8BJ03ZYs_T-s
 f_cli-command: intuita antd/5/removed-static-method-migration
 f_framework: cms/framework/antd.md
 f_applicability-criteria: Ant Design >= 5.0.0

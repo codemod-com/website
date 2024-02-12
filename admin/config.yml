@@ -3655,7 +3655,7 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://marketplace.visualstudio.com/items?itemName=Intuita.intuita-vscode-extension,
+              https://marketplace.visualstudio.com/items?itemName=codemod.codemod-vscode-extension,
               key: -3f316fbd
             label: Link
             name: '-3f316fbd'

@@ -37,7 +37,7 @@ f_long-description: >-
 
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/cp-volatile
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=t0qpljVDAowX4w-aSSghMAMIa38
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=t0qpljVDAowX4w-aSSghMAMIa38
 f_codemod-studio-link: https://go.intuita.io/XtmaVa
 f_cli-command: intuita ember/5/cp-volatile
 f_framework: cms/framework/ember-js.md

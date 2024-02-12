@@ -31,7 +31,7 @@ f_long-description: >-
 
   -   [msw v1 to v2 migration guide -> lifecycle events](https://mswjs.io/docs/migrations/1.x-to-2.x/#life-cycle-events)
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/lifecycle-events-signature
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=DIAvSd9O-rhmXNGuTbHlOROvz6U
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=DIAvSd9O-rhmXNGuTbHlOROvz6U
 f_cli-command: intuita msw/2/lifecycle-events-signature
 f_applicability-criteria: "MSW version >= 1.0.0"
 f_framework: cms/framework/msw.md

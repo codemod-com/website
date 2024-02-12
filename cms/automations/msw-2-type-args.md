@@ -109,7 +109,7 @@ f_long-description: >-
 
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/type-args
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=6rdxdJ7YioUlKoq-z-4iFPeN3Rs
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=6rdxdJ7YioUlKoq-z-4iFPeN3Rs
 f_cli-command: intuita msw/2/type-args
 f_framework: cms/framework/msw.md
 f_applicability-criteria: "MSW version >= 1.0.0"

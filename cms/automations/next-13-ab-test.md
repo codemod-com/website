@@ -6,7 +6,7 @@ f_long-description: >-
 
   This codemod generates boilerplate code for A/B tests using the Next.js middlewares. The middleware controls the redirects from the legacy to the future pages. You can control the redirection probability and targeted pages using environment variables.
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/next/13/ab-test
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=Y5-JVNlxY1TrlnY8bjuuboA6cWs
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=Y5-JVNlxY1TrlnY8bjuuboA6cWs
 f_cli-command: intuita next/13/ab-test
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version is greater or equal to 13.4.

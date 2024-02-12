@@ -27,7 +27,7 @@ f_long-description: |-
   };
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/antd/5/props-changed-migration
-f_vs-code-link: vscode://intuita.intuita-vscode-extension/showCodemod?chd=z9CCNbzBKfYVGQ_FZJNG6nrmRTs
+f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=z9CCNbzBKfYVGQ_FZJNG6nrmRTs
 f_cli-command: intuita antd/5/props-changed-migration
 f_framework: cms/framework/antd.md
 f_applicability-criteria: Ant Design >= 5.0.0
