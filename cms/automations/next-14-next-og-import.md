@@ -26,7 +26,7 @@ f_long-description: >-
 f_github-link: https://github.com/codemod-com/codemod/tree/main/apps/registry/codemods/next/14/next-og-import
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=YH4iWtje8EfAlF0_ywnKrKTrQJY
 f_cli-command: codemod next/14/next-og-import
-f_framework: cms/framework/next.md
+f_framework: cms/framework/next-js.md
 f_applicability-criteria: "Next.js version higher or equal to 14."
 f_verified-codemod: false
 f_author: cms/authors/vercel.md
