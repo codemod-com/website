@@ -10,7 +10,7 @@ f_long-description: >-
   
   ### Before
   
-  ```jsx
+  ```JavaScript
   
   import { ImageResponse } from 'next/server';
   
@@ -18,7 +18,7 @@ f_long-description: >-
   
   ### After
   
-  ```jsx
+  ```JavaScript
   
   import { ImageResponse } from 'next/og';
   

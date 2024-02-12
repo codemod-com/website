@@ -10,7 +10,7 @@ f_long-description: >-
   
   ### Before
   
-  ```jsx
+  ```JavaScript
   
   patchEnvironmentVariable(
   	accountId,
@@ -25,7 +25,7 @@ f_long-description: >-
   
   ### After
   
-  ```jsx
+  ```JavaScript
   
   patchEnvironmentVariable({
   	accountId: accountId,

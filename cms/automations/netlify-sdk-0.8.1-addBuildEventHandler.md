@@ -10,7 +10,7 @@ f_long-description: >-
   
   ### Before
   
-  ```jsx
+  ```JavaScript
   
   import { NetlifyIntegration } from '@netlify/sdk';
   
@@ -25,7 +25,7 @@ f_long-description: >-
   
   ### After
   
-  ```jsx
+  ```JavaScript
   
   import { NetlifyIntegration } from '@netlify/sdk';
   

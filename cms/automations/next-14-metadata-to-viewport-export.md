@@ -10,7 +10,7 @@ f_long-description: >-
   
   ### Before
   
-  ```jsx
+  ```JavaScript
   
   export const metadata = {
   	title: 'My App',
@@ -24,7 +24,7 @@ f_long-description: >-
   
   ### After
   
-  ```jsx
+  ```JavaScript
   
   export const metadata = {
   	title: 'My App',

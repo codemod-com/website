@@ -10,7 +10,7 @@ f_long-description: >-
   
   ### Before
   
-  ```jsx
+  ```JavaScript
   
   await client.enableBuildhook(siteId);
   
@@ -18,7 +18,7 @@ f_long-description: >-
   
   ### After
   
-  ```jsx
+  ```JavaScript
   
   await client.enableBuildEventHandlers(siteId);
   

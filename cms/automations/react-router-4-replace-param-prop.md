@@ -10,7 +10,7 @@ f_long-description: >-
   
   ### Before
   
-  ```jsx
+  ```JavaScript
   
   const PostEdit = ({ params }) => (
   	<div>
@@ -22,7 +22,7 @@ f_long-description: >-
   
   ### After
   
-  ```jsx
+  ```JavaScript
   
   const PostEdit = ({ match }) => (
   	<div>

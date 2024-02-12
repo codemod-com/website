@@ -10,7 +10,7 @@ f_long-description: >-
   
   ### Before
   
-  ```jsx
+  ```JavaScript
   
   updateEnvironmentVariable(accountId, siteId, key, values);
   
@@ -18,7 +18,7 @@ f_long-description: >-
   
   ### After
   
-  ```jsx
+  ```JavaScript
   
   updateEnvironmentVariable({
   	accountId: accountId,

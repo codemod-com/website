@@ -10,7 +10,7 @@ f_long-description: >-
   
   ### Before
   
-  ```jsx
+  ```JavaScript
   
   createOrUpdateVariables(accountId, siteId, variables);
   
@@ -18,7 +18,7 @@ f_long-description: >-
   
   ### After
   
-  ```jsx
+  ```TypeScript
   
   createOrUpdateVariables({
   	accountId: accountId,

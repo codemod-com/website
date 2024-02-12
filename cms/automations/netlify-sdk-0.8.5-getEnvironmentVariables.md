@@ -10,7 +10,7 @@ f_long-description: >-
   
   ### Before
   
-  ```jsx
+  ```JavaScript
   
   getEnvironmentVariables(accountId, siteId);
   
@@ -18,7 +18,7 @@ f_long-description: >-
   
   ### After
   
-  ```jsx
+  ```JavaScript
   
   getEnvironmentVariables({
   	accountId: accountId,

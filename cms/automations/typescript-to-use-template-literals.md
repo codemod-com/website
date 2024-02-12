@@ -10,7 +10,7 @@ f_long-description: >-
   
   ### Before
   
-  ```jsx
+  ```JavaScript
   
   const name = 'John';
   const greeting = 'Hello, ' + name + '!';
@@ -19,7 +19,7 @@ f_long-description: >-
   
   ### After
   
-  ```jsx
+  ```JavaScript
   
   const name = 'John';
   const greeting = `Hello, ${name}!`;
