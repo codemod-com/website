@@ -29,7 +29,7 @@ f_long-description: >-
   *   [App Router Migration Guide | Vercel](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration)
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/next/13/app-router-recipe
 f_vs-code-link: https://tinyurl.com/app-router-recipe
-f_cli-command: intuita next/13/app-router-recipe
+f_cli-command: codemod next/13/app-router-recipe
 f_framework: cms/framework/next-js.md
 f_verified-codemod: true
 f_author: cms/authors/codemod-com.md

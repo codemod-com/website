@@ -6,7 +6,7 @@ f_verified-codemod: true
 f_estimated-time-saving: 5 minutes/occurrence
 title: React Router Compat Route
 f_slug-name: compat-route
-f_cli-command: intuita react/router/6/compat-route
+f_cli-command: codemod react/router/6/compat-route
 slug: react-router-compat-route
 f_codemod-engine: cms/codemod-engines/jscodeshift.md
 f_author: cms/authors/rajasegar-chandran.md

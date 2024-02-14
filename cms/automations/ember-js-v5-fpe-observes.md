@@ -45,7 +45,7 @@ f_long-description: >-
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/ember/5/fpe-observes
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=r2pmqub8Ca8mvjAu-THl2YNei6k
 f_codemod-studio-link: https://go.intuita.io/U6OywE
-f_cli-command: intuita ember/5/fpe-observes
+f_cli-command: codemod ember/5/fpe-observes
 f_framework: cms/framework/ember-js.md
 f_applicability-criteria: Ember.js version higher or equal to 3.11.
 f_verified-codemod: false

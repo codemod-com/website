@@ -180,7 +180,7 @@ f_long-description: >-
   * [Next Image Experimental](https://nextjs.org/docs/pages/building-your-application/upgrading/codemods#next-image-experimental)
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/new-image-experimental
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=oU68MgnhDvq08nBVNTQK8fouqGI
-f_cli-command: intuita next/13/new-image-experimental
+f_cli-command: codemod next/13/new-image-experimental
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version higher or equal to 13.4
 f_verified-codemod: false

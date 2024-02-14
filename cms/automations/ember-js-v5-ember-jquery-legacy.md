@@ -42,7 +42,7 @@ f_long-description: >-
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/ember-jquery-legacy
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=7ov34iPxeWaG6gKTD3mLR4ksgM0
 f_codemod-studio-link: https://go.intuita.io/86LYcy
-f_cli-command: intuita ember/5/ember-jquery-legacy
+f_cli-command: codemod ember/5/ember-jquery-legacy
 f_framework: cms/framework/ember-js.md
 f_applicability-criteria: Ember.js version higher or equal to 3.3.
 f_verified-codemod: false

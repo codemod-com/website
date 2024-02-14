@@ -57,7 +57,7 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/remove-next-export
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=GucjbUC1bYd_GLBT59TWiTGk2pY
-f_cli-command: intuita next/13/remove-next-export
+f_cli-command: codemod next/13/remove-next-export
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version higher or equal to 13.
 f_verified-codemod: false

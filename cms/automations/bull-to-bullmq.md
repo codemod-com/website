@@ -128,7 +128,7 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/bull/bullmq
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=jc8GspuivcASxKyCLsYZ0WbLRgU
-f_cli-command: intuita bullmq/from-bull
+f_cli-command: codemod bullmq/from-bull
 f_framework: cms/framework/bullmq.md
 f_codemod-engine: cms/codemod-engines/jscodeshift.md
 f_change-mode-2: Assistive

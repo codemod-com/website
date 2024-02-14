@@ -35,7 +35,7 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/netlify-sdk/0.8.1/addBuildEventContext
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=B4dvpPVS0er2UmYuLj_idGSFfng
-f_cli-command: intuita netlify/0.8.1/addBuildEventContext
+f_cli-command: codemod netlify/0.8.1/addBuildEventContext
 f_framework: cms/framework/netlify-sdk.md
 f_applicability-criteria: "Netlify SDK v0.8.1 or higher."
 f_verified-codemod: false

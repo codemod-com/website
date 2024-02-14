@@ -88,7 +88,7 @@ f_long-description: >-
   * [App Router Upgrade - Migrating Next Head](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#step-3-migrating-nexthead)
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/replace-next-head
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=HCouE4WzwvH-jcfOJ3xYLz4YaTA
-f_cli-command: intuita next/13/replace-next-head
+f_cli-command: codemod next/13/replace-next-head
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version higher or equal to 13.
 f_verified-codemod: true

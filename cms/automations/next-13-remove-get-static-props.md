@@ -144,7 +144,7 @@ f_long-description: >-
   * [App Router Upgrade - getStaticProps](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration#static-site-generation-getstaticprops)
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/remove-get-static-props
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=gqDiMZhaiz_RSzyfHeUueiYcGFI
-f_cli-command: intuita next/13/remove-get-static-props
+f_cli-command: codemod next/13/remove-get-static-props
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version higher or equal to 13.4.
 f_verified-codemod: true

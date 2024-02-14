@@ -25,7 +25,7 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/netlify-sdk/0.8.1/disableBuildEventHandlers
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=w6jKvC5ucc2ZSdO5xFabXo_nEYc
-f_cli-command: intuita netlify/0.8.1/disableBuildEventHandlers
+f_cli-command: codemod netlify/0.8.1/disableBuildEventHandlers
 f_framework: cms/framework/netlify-sdk.md
 f_applicability-criteria: "Netlify SDK v0.8.1 or higher."
 f_verified-codemod: false

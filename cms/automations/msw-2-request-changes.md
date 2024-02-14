@@ -73,7 +73,7 @@ f_long-description: >-
   * [msw v1 to v2 migration guide -> request changes](https://mswjs.io/docs/migrations/1.x-to-2.x/#request-changes)
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/msw/2/request-changes
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=wSWbFD-5ULW68QMp4rgGW9G5SNQ
-f_cli-command: intuita msw/2/request-changes
+f_cli-command: codemod msw/2/request-changes
 f_framework: cms/framework/msw.md
 f_applicability-criteria: MSW version >= 1.0.0
 f_verified-codemod: true

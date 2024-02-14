@@ -2,7 +2,7 @@
 created-on: 2023-11-30T16:58:54.698Z
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/next/13/replace-api-routes
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=NqIyIrHZwTXlxQEcQTe-fCeYsQ4
-f_cli-command: intuita next/13/replace-api-routes
+f_cli-command: codemod next/13/replace-api-routes
 f_framework: cms/framework/next-js.md
 f_applicability-criteria: Next.js version higher or equal to 13.
 f_verified-codemod: true

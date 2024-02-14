@@ -43,7 +43,7 @@ f_long-description: >-
 f_github-link: https://github.com/codemod-com/codemod-registry/blob/main/codemods/ember/5/jquery-event
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=8MIYv6K3Szow4WVYdgq1xyxfCT8
 f_codemod-studio-link: https://go.intuita.io/k6EGj4
-f_cli-command: intuita ember/5/jquery-event
+f_cli-command: codemod ember/5/jquery-event
 f_framework: cms/framework/ember-js.md
 f_applicability-criteria: Ember.js version higher or equal to 3.3.
 f_verified-codemod: false

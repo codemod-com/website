@@ -27,7 +27,7 @@ f_long-description: >-
   ```
 f_github-link: https://github.com/codemod-com/codemod-registry/tree/main/codemods/antd/5/removed-component-migration
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=ZG4qJ0pLVV0_4Ei7sfVLt0uOZtQ
-f_cli-command: intuita antd/5/removed-component-migration
+f_cli-command: codemod antd/5/removed-component-migration
 f_framework: cms/framework/antd.md
 f_applicability-criteria: Ant Design >= 5.0.0
 f_verified-codemod: false

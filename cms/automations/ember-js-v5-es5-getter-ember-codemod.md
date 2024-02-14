@@ -81,7 +81,7 @@ f_long-description: >-
 f_github-link: https://github.com/codemod-com/codemod-registry/edit/main/codemods/ember/5/es5-getter-ember-codemod
 f_vs-code-link: vscode://codemod.codemod-vscode-extension/showCodemod?chd=gRfEFfyVMWOpWwejLmCFzbnPK8I
 f_codemod-studio-link: https://go.intuita.io/Ay4HST
-f_cli-command: intuita ember/5/es5-getter-ember-codemod
+f_cli-command: codemod ember/5/es5-getter-ember-codemod
 f_framework: cms/framework/ember-js.md
 f_applicability-criteria: Ember.js version higher or equal to 3.1.
 f_verified-codemod: false
