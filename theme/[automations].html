@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
 
   {% assign clean_title =  title | url_param_escape %}
-  {% assign clean_description =  seo.description |url_param_escape %}
+  {% assign clean_description =  seo.description | url_param_escape %}
   {% assign og_image_url =  'https://codemod-open-graph.vercel.app/api/registry?Title=' | append: clean_title | append: '&Description=' | append: clean_description | append: '&Tag=Codemod Registry' | url_escape | replace: 'amp;', '' %}
   <meta property="og:type" content="website">
   <meta name="og:site_name" content="Codemod.com">
