@@ -6,17 +6,19 @@ slug: ""
 tags: pages
 date: 2024-01-05T14:15:34.042Z
 seo:
+  twitter:creator: codemod
+  twitter:site: Codemod.com
   additional_tags: ""
-  twitter:title: Codemod.com | Automated Code Migrations & Dependency Upgrades
+  twitter:title: Codemod | Automated Code Migrations & Dependency Upgrades
   noindex: false
   twitter:image: /assets/images/codemod-com-og.jpg
-  og:title: Codemod.com | Automated Code Migrations & Dependency Upgrades
-  twitter:card: Codemod.com is a code evolution platform for creating codemods &
-    doing dependency upgrades, mass refactoring, and migration projects for
-    codebases of any size.
-  title: Codemod.com | Automated Code Migrations & Dependency Upgrades
+  og:title: Codemod | Automated Code Migrations & Dependency Upgrades
+  twitter:card: Codemod is a code evolution platform for creating codemods & doing
+    dependency upgrades, mass refactoring, and migration projects for codebases
+    of any size.
+  title: Codemod | Automated Code Migrations & Dependency Upgrades
   og:image: /assets/images/codemod-com-og.jpg
-  description: Codemod.com is a code evolution platform for creating codemods &
-    doing dependency upgrades, mass refactoring, and migration projects for
-    codebases of any size.
+  description: Codemod is a code evolution platform for creating codemods & doing
+    dependency upgrades, mass refactoring, and migration projects for codebases
+    of any size.
 ---
