@@ -6,8 +6,8 @@ slug: ""
 tags: pages
 date: 2024-01-05T14:15:34.042Z
 seo:
-  twitter:creator: Codemod.com
-  twitter:site: Codemod.com
+  twitter:creator: "@codemod"
+  twitter:site: "@codemod"
   additional_tags: ""
   twitter:title: Codemod | Automated Code Migrations & Dependency Upgrades
   noindex: false
