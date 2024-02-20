@@ -13,9 +13,7 @@ seo:
   noindex: false
   twitter:image: /assets/images/codemod-com-og.jpg
   og:title: Codemod | Automated Code Migrations & Dependency Upgrades
-  twitter:card: Codemod is a code evolution platform for creating codemods & doing
-    dependency upgrades, mass refactoring, and migration projects for codebases
-    of any size.
+  twitter:card: summary_large_image
   title: Codemod | Automated Code Migrations & Dependency Upgrades
   og:image: /assets/images/codemod-com-og.jpg
   description: Codemod is a code evolution platform for creating codemods & doing
