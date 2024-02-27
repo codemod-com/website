@@ -2405,7 +2405,7 @@ collections:
             widget: string
           - hint: >-
               Original text:  (referred to as either "the Company", "We", "Us"
-              or "Our" in this Agreement) refers to Caartaa Inc., 480 E Okeefe
+              or "Our" in this Agreement) refers to Codemod, Inc., 480 E Okeefe
               St, Unit 216 East Palo Alto, CA US., key: -f6bbc50
             label: Text
             name: '-f6bbc50'
