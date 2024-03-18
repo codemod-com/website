@@ -11,7 +11,7 @@ updated-on: 2023-11-24T18:39:10.811Z
 published-on: 2023-11-23T12:01:53.253Z
 f_title: Dream Migration
 f_button-cta: Read Article
-f_cta-link: https://docs.codemod.com/blog/dream-migration
+f_cta-link: https://blog.codemod.com/dream-migration
 f_labels: []
 f_featured-in-registry-sidebar: true
 f_order: 3
