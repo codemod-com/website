@@ -3767,7 +3767,7 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://docs.intuita.io/docs/codemod-registry/intro, key: 77e5bfff
+              https://docs.codemod.com/codemod-registry, key: 77e5bfff
             label: Link
             name: 77e5bfff
             widget: string
@@ -3785,7 +3785,7 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://docs.intuita.io/docs/codemod-studio/quickstart, key:
+              https://docs.codemod.com/codemod-studio/quickstart, key:
               -3a123b97
             label: Link
             name: '-3a123b97'
@@ -3807,13 +3807,13 @@ collections:
             widget: string
           - hint: >-
               Original link:
-              https://docs.intuita.io/docs/vs-code-extension/quickstart, key:
+              https://docs.codemod.com/deploying-codemods/vsce, key:
               -402fab7e
             label: Link
             name: '-402fab7e'
             widget: string
           - hint: >-
-              Original link: https://docs.intuita.io/docs/cli/quickstart, key:
+              Original link: https://docs.codemod.com/deploying-codemods/cli, key:
               52ce7af1
             label: Link
             name: 52ce7af1
