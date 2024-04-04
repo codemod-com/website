@@ -1,29 +1,29 @@
-/community  https://join.slack.com/t/intuita-inc/shared_invite/zt-210sghjx3-9_cgKbek~b~6k32XVwFGGA  301!
+/community  https://go.codemod.com/community  301!
 
-/feature    https://github.com/codemod-com/codemod-registry/issues/new?assignees=&labels=codemod+request&projects=&template=request-codemod.md&title=%5Bcodemod+request%5D+example+codemod  301!
+/feature    https://github.com/codemod-com/codemod/issues/new?assignees=&labels=codemod+request&projects=&template=request-codemod.md&title=%5Bcodemod+request%5D+example+codemod  301!
 
 /extension  https://marketplace.visualstudio.com/items?itemName=codemod.codemod-vscode-extension    301!
 
-/anonymous-reports  https://forms.gle/ay3YwnvGFCVp4tik8 301!
+/anonymous-reports  https://go.codemod.com/anonymous-reports 301!
 
-/cli    https://docs.codemod.com/docs/cli/quickstart 301!
-/vsce   https://docs.codemod.com/docs/vs-code-extension/quickstart   301!
+/cli    https://go.codemod.com/cli-docs 301!
+/vsce   https://go.codemod.com/vsce-docs   301!
 
-/migrations/ember-v5    https://www.codemod.com/automations/?migration=Ember.js+V5+Upgrade   301!
-/ember-v5    https://www.codemod.com/automations/?migration=Ember.js+V5+Upgrade   301!
+/migrations/ember-v5    https://go.codemod.com/ember-5-codemods   301!
+/ember-v5    https://go.codemod.com/ember-5-codemods   301!
 
-/migrations/msw-v2 https://www.codemod.com/automations/?migration=MSW+V1+to+V2+Migration    301!
-/msw-v2 https://www.codemod.com/automations/?migration=MSW+V1+to+V2+Migration    301!
-/msw-v2-upgrade https://codemod.com/automations/msw-2-upgrade-recipe/   301!
+/migrations/msw-v2 https://go.codemod.com/msw-2-recipe    301!
+/msw-v2 https://go.codemod.com/msw-2-recipe    301!
+/msw-v2-upgrade https://go.codemod.com/msw-2-recipe   301!
 
-/bullmq https://www.codemod.com/automations/bull-to-bullmq/    301!
+/bullmq https://go.codemod.com/bull-to-bullmq    301!
 
-/next-14    https://www.codemod.com/automations/?migration=Next.js+V13+to+V14+Upgrade    301!
+/next-14    https://go.codemod.com/next-14-codemods    301!
 
-/mocha-to-vitest    https://www.codemod.com/automations/?migration=Mocha+to+Vitest+Migration    301!
+/mocha-to-vitest    https://go.codemod.com/mocha-to-vitest-recipe    301!
 
-/antd-5     https://www.codemod.com/automations/?migration=Ant+Design+V5+Upgrade 301!
+/antd-5     https://go.codemod.com/antd-5-codemods 301!
 
-/next-i18n      https://www.codemod.com/automations/?migration=Next+Internationalization+%28i18n%29  301!
+/next-i18n      https://go.codemod.com/i18next-copy-keys  301!
 
-/i18next        https://www.codemod.com/automations/next-i18next-copy-keys/  301!
+/i18next        https://go.codemod.com/i18next-copy-keys  301!
